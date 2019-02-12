@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ce73-81f1-52bf-8170" name="Monsters" revision="1" battleScribeVersion="2.01" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="359d-f1ed-6ac3-3016" name="Basilisk [158/178/198 pts]" hidden="false" targetId="c7ea-f805-9726-6682" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a95f-fd53-c1f1-9ece" name="Chimera [158/178/198 pts]" hidden="false" targetId="ba39-ac09-15fb-f789" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="147a-2049-7124-7bb9" name="Cockatrice [157/177/197 pts]" hidden="false" targetId="b01e-a8c7-82df-f6d8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0fa2-dce6-3ebc-7f3a" name="Cyclops [150/170/190 pts]" hidden="false" targetId="5b3b-b3f4-bbba-7609" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8b0f-cbcb-a523-9cc7" name="Dragon [380/410/440 pts]" hidden="false" targetId="6617-5ad0-1f45-cbe3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c7ea-f805-9726-6682" name="Basilisk [158/178/198 pts]" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b50b-63c0-d15b-5fae" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="94e4-ce18-68ed-b342" name="Baleful Glare" hidden="false" targetId="9855-31c9-3745-714d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6b20-a4aa-fd9f-8f91" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8aa3-a9d1-fbb3-1524" name="Basilisk" hidden="false" targetId="9f01-a520-920a-bd90" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1bff-1c68-dd0b-e113" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5ceb-ccb3-bf30-8ef0" name="Model" hidden="false" collective="false" defaultSelectionEntryId="c5a7-8e57-be4d-8c80">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f030-a978-95d2-b018" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c9-38f4-e6c0-6a2c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="c5a7-8e57-be4d-8c80" name="Wild Basilisk" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="158.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f3a3-9d1c-83ee-c624" name="Bound Basilisk" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="178.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e81-3fb8-f486-f5a1" name="Allied Basilisk" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="198.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ba39-ac09-15fb-f789" name="Chimera [158/178/198 pts]" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="007f-9486-f0f3-1f73" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2304-6feb-8524-6d85" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cada-7de5-03db-a170" name="Chimera [158/178/198 pts]" hidden="false" targetId="2dbb-4ea1-5f93-dce3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c00-7ceb-91f2-a6fc" name="Flaming Breath" hidden="false" targetId="37e8-d658-01a9-6916" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5f75-c5bf-dd04-b0c8" name="Fire" hidden="false" targetId="b61d-3471-1ce6-6878" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fae9-3dc9-bcea-0221" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c1cd-beae-0714-4d9b" name="Model" hidden="false" collective="false" defaultSelectionEntryId="3a95-41d5-222d-e969">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6c-3e4e-4d7d-2107" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1536-eedf-05a0-f36a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="3a95-41d5-222d-e969" name="Wild Chimera" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="158.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8808-6e3a-105b-97fd" name="Bound Chimera" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="178.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="18bd-1699-eadd-7ec2" name="Allied Chimera" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="198.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="30b7-95e9-ce1a-0fa0" name="Wings" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d222-327c-207d-8c57" name="Wings (Adds Flying Rule)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2abf-8029-5e8b-6f87" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04db-3a96-0978-b10a" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b01e-a8c7-82df-f6d8" name="Cockatrice [157/177/197 pts]" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e451-e901-db8e-53bf" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3268-1191-9ede-35f1" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="65ea-15ae-ae55-9028" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="577f-8759-cca9-87ec" name="Baleful Glare" hidden="false" targetId="9855-31c9-3745-714d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="165c-a94f-a654-9899" name="Cockatrice" hidden="false" targetId="0184-c48d-2234-cbf7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3e0d-83f5-1959-b5bc" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e4e1-ab28-2fae-85f7" name="Model" hidden="false" collective="false" defaultSelectionEntryId="9bd8-50f1-127a-f210">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4884-16b1-763c-9696" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f138-a183-2475-e0bf" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="9bd8-50f1-127a-f210" name="Wild Cockatrice" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="157.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f172-d87b-3cae-700e" name="Bound Cockatrice" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="177.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e24a-ce4c-dde1-1d35" name="Allied Cockatrice" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="197.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5b3b-b3f4-bbba-7609" name="Cyclops [150/170/190 pts]" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="31ea-673a-7d1d-8b0c" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5057-ca34-d221-9d56" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2b76-f1ee-6436-2a1f" name="Cyclops" hidden="false" targetId="fdd9-726d-86fe-ec2d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d2db-df71-a8cc-c750" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b9a-4e8d-a38d-34ac" name="Model" hidden="false" collective="false" defaultSelectionEntryId="547a-d807-5442-8c10">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff93-069f-f26e-5b29" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688d-42de-8aab-f223" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="547a-d807-5442-8c10" name="Wild Cyclops" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e40a-8db7-c5c6-195b" name="Bound Cyclops" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="170.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7ec1-cc0d-fdd1-13cb" name="Allied Cyclops" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="190.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="966f-9c28-2ca5-a4ce" name="Rocks to Hurl" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="fdb9-d89e-1eab-ec25" name="Rocks to Hurl" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a3dc-b2f5-da36-e7d0" name="Rock- Hurled by a Monstrosity" hidden="false" targetId="04da-20b3-5a4a-f90c" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c8-b91c-a896-f128" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6617-5ad0-1f45-cbe3" name="Dragon [380/410/440 pts]" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="43bd-198f-38f9-4937" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5e9d-c84f-74ac-7e57" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7ad3-b6c4-acad-8728" name="Dragon" hidden="false" targetId="51fb-1d59-eff1-b671" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="04cd-a707-3bd3-1053" name="Terror" hidden="false" targetId="583a-fa53-11ff-7b40" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5c01-c415-74ea-61f9" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="98a8-5b1f-27ea-c1af" name="Flaming Breath" hidden="false" targetId="37e8-d658-01a9-6916" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6f4d-fb56-fb2c-b458" name="Fire" hidden="false" targetId="b61d-3471-1ce6-6878" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4c4c-9bb4-d040-080d" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4a92-1c5f-09d6-0769" name="Model" hidden="false" collective="false" defaultSelectionEntryId="3e21-a58d-f9ab-e3b0">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0dd-47e7-f9d2-66e2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc66-a61b-1d6a-3691" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="3e21-a58d-f9ab-e3b0" name="Wild Dragon" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="380.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="39d6-1fc9-414d-1bd6" name="Bound Dragon" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="410.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2f91-1fec-a33b-76e9" name="Allied Dragon" hidden="false" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="440.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6572-7256-e5cb-036d" name="Baleful Glare" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="cbb7-0a88-6e3f-54f2" name="Baleful Glare" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="051b-47f2-c38c-09c2" name="Baleful Glare" hidden="false" targetId="9855-31c9-3745-714d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac82-62c5-8d8d-cc5e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4c72-9b9d-c9e1-7001" name="Substitute Flaming Breath attacks for Beastly Breath" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="1387-82b5-f8a1-e1a2" name="Replace Flaming Breath with Beastly Breath" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="698f-294f-8da8-560f" name="Beastly Breath" hidden="false" targetId="14ff-225a-4ec5-f56d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bdd-ce2d-7256-b17f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d638-877a-84ba-1d50" name="Upgrade Flaming Breath to 6X attacks" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="5835-f6bc-38bc-cb75" name="Upgrade Flaming Breath to 6X Attacks" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd12-1aec-a359-a046" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="18.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="876d-6239-2d0c-0b6e" name="Upgrade Flaming Breath to SV4" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d39b-603b-d6b8-65bd" name="Upgrade Flaming Breath to SV4" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d9-4f39-ccb0-d009" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles>
+    <profile id="9f01-a520-920a-bd90" name="Basilisk" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="4"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="6"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="10"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Large, MOD2, 5xHTH SV4, Baleful Glare, Dread"/>
+      </characteristics>
+    </profile>
+    <profile id="2dbb-4ea1-5f93-dce3" name="Chimera" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="4"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="6"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="9"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Large, MOD 2, 4xHTH SV4, 1xHTH SV10 Venomous, 3xFlaming Breath SV3 Fire, Dread"/>
+      </characteristics>
+    </profile>
+    <profile id="0184-c48d-2234-cbf7" name="Cockatrice" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="4"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="7"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="10"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Large, MOD2, 5xHTH Attacks SV3, Baleful Glare, Dread, Flies"/>
+      </characteristics>
+    </profile>
+    <profile id="fdd9-726d-86fe-ec2d" name="Cyclops" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="6"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="12"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="4"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="8"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Large, MOD2, 5xHTH SV4, Dread"/>
+      </characteristics>
+    </profile>
+    <profile id="04da-20b3-5a4a-f90c" name="Rock- Hurled by a Monstrosity" hidden="false" profileTypeId="2c2c-0dd3-c341-b2ef" profileTypeName="Weapon profile Ranged">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range Short" characteristicTypeId="388b-c232-987e-c292" value="10-20&quot;"/>
+        <characteristic name="Range Long" characteristicTypeId="93c3-2707-51ef-b304" value="-"/>
+        <characteristic name="Range Extreme" characteristicTypeId="49d3-642a-08be-5817" value="-"/>
+        <characteristic name="Strike Value" characteristicTypeId="47c7-dced-6203-6b76" value="6"/>
+        <characteristic name="Special Rules" characteristicTypeId="83b9-69ea-35a1-5148" value="Overhead, Fire Order to Shoot, D6 hits"/>
+      </characteristics>
+    </profile>
+    <profile id="51fb-1d59-eff1-b671" name="Dragon" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="4"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="6"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="15"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="7"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="9"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Large, MOD3, Fast 6, 7xHTH SV6, 3xFlaming Breath SV3 Fire, Dread, Terror, Flies"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
