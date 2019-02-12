@@ -1,5 +1,6 @@
 Warlords of Erehwon
 ===================
+Files created by the3dwargamer@outlook.com  Contact for any issues or bugs you may find.  These files are currently a work in progress with an estimated completion date of Mar 1, 2019.  
 
 #### Contents ####
 
