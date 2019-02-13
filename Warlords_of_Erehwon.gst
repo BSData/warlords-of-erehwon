@@ -7,7 +7,7 @@
     <costType id="points" name="pts" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
-    <profileType id="2f17-7b0c-7f4e-2baf" name="Humanoid model">
+    <profileType id="2f17-7b0c-7f4e-2baf" name="Model">
       <characteristicTypes>
         <characteristicType id="b787-94dd-0cef-abb7" name="Ag"/>
         <characteristicType id="efac-8fd0-5d23-7d69" name="Acc"/>
@@ -130,6 +130,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="c820-d327-811d-1144" name="Swarm Unit" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7ea6-a6ef-2ab9-ec1b" name="Army" hidden="false">
@@ -213,6 +220,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="6a40-5161-bb63-34cd" name="Montrosity Unit" hidden="false" targetId="8efa-298b-b165-ef8b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="35cd-2ccb-f41b-356f" name="Swarm Unit" hidden="false" targetId="c820-d327-811d-1144" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
