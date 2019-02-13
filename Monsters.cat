@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce73-81f1-52bf-8170" name="Monsters" revision="1" battleScribeVersion="2.01" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce73-81f1-52bf-8170" name="Monsters" revision="1" battleScribeVersion="2.01" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3235,7 +3235,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="22d1-b18d-b1a9-e05c" name="Batswarm" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3266,7 +3268,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b3f8-e4f3-9d0f-6baa" name="Spiderswarm" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3285,7 +3289,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5baa-7f1c-6d03-a96e" name="Frogswarm" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3310,7 +3316,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3259-16f8-1a76-b829" name="Beeswarm" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3341,7 +3349,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3291-9eba-d0a4-e5d7" name="Serpentswarm" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3372,7 +3382,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3561,7 +3573,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3595,7 +3609,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d229-e8a7-8781-1915" name="Venomous" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3614,7 +3630,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3622,7 +3640,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="853f-a790-4f4e-0d98" name="Allied Giant Treeman [204 pts]" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -3757,7 +3777,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6491-3e79-cfd5-76db" name="Allied Treemen/Dryads" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -3867,7 +3889,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="45c6-60cf-f892-7efa" name="Trolls [105/115 pts]" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -3962,7 +3986,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b5c2-0b03-6640-007c" name="Bound" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3984,7 +4010,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cfc8-c933-eeab-5e21" name="Cave Bear" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -4079,7 +4107,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="903f-9d10-4831-bf0f" name="Brontosaur [115/135 pts]" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -4168,7 +4198,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4f7e-f547-4d5a-8c7c" name="Tyrannosaur [188/208 pts]" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -4263,7 +4295,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3aff-bbec-a820-725d" name="Horned Dinosaur [122/142 pts]" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -4358,7 +4392,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
