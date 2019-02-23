@@ -2857,27 +2857,6 @@
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a1ee-1edf-c1c7-0105" name="Spears" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="b643-afc0-21a3-bb45" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="8fd3-5df9-dc6c-5595" name="Halberds" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
@@ -2924,7 +2903,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a2b4-9aad-7d80-33b6" name="Huge Swords" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2943,7 +2924,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b67d-f6c9-ad8d-c689" name="Big Axes" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2962,7 +2945,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3056,7 +3041,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4973-5f15-bbfd-cff6" name="Medium Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3135,7 +3122,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3143,7 +3132,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9e88-a067-9011-aaec" name="Orc Boar Riders [85 pts]" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -3341,7 +3332,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="36e1-1c18-bf8b-8422" name="Medium Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3414,7 +3407,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3422,7 +3417,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8409-5df8-64c6-07ee" name="Orc Boar Chariot [101 pts]" hidden="false" collective="false" type="unit">
       <profiles/>
