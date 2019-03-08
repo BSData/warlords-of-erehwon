@@ -3774,67 +3774,174 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1e64-ebf7-5dee-9579" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="1e64-ebf7-5dee-9579" name="Models" hidden="false" collective="false" defaultSelectionEntryId="dff6-69f4-e342-52d7">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6674-947c-6609-e239" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be95-6e5f-478e-8fd8" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="9fa0-7836-2fbf-0bb8" name="Skeleton Guard Leader" hidden="false" collective="false" type="model">
+            <selectionEntry id="dff6-69f4-e342-52d7" name="Skeleton Guard in Light Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="b1e4-7e40-2722-c92b" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="5540-ebc5-f599-a74f" name="Skeleton Guard Leader" hidden="false" targetId="f40c-5c8d-fa27-40ac" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76a5-2b76-f02a-e3d6" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10ea-62ef-1d2e-401c" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="222f-e584-a7f3-e04c" name="Skeleton Guard in Light Armour" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="5542-ee40-431e-56fc" name="Skeleton Guard" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="05cd-426c-b51d-10b6" name="Skeleton Guard" hidden="false" targetId="e438-fdd1-ac8b-a3c0" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc8-1436-e972-f40f" type="min"/>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f0-8f49-18a1-5848" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="9.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="bc98-5f32-1d99-c47b" name="Skeleton Guard Leader" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="e31e-ea3a-397f-6750" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="8c96-656c-7b38-ee9c" name="Skeleton Guard Leader" hidden="false" targetId="f40c-5c8d-fa27-40ac" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d43a-e45a-06c7-2871" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefb-031b-8f51-ad9d" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="23.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="23.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
-            <selectionEntry id="b5f2-b507-4359-8929" name="Skeleton Guard" hidden="false" collective="false" type="model">
+            <selectionEntry id="b094-e9e9-7a19-a405" name="Skeleton Guard in Medium Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="be20-2d85-b449-710b" name="Skeleton Guard" hidden="false" targetId="e438-fdd1-ac8b-a3c0" type="profile">
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="57d9-1123-6db9-b5d0" name="Skeleton Guard in Medium Armour" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d62-ec36-d1fb-e08d" type="min"/>
-                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2137-82d0-216e-0310" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="cf03-abea-6de7-2a1f" name="Skeleton Guard" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="982b-14b9-612e-a04c" name="Skeleton Guard in medium armour" hidden="false" targetId="2f31-e714-fe78-86b6" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c43c-bad7-bd00-cece" type="min"/>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e01b-47f0-b6c1-6137" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="11.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9502-18f2-04ca-e650" name="Skeleton Guard Leader" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="2e83-339d-8472-13ef" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="1563-dd6e-942b-072c" name="Skeleton Guard Leader in medium armour" hidden="false" targetId="1d1d-8a88-0ddd-bb1a" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8af5-ab15-616f-d825" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="218e-851a-ee7a-c4c0" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="25.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="9.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3886,7 +3993,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="b40f-b67e-0346-aea0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="b40f-b67e-0346-aea0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -4010,57 +4117,6 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e189-0d04-7be6-7ea9" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="266d-de02-d842-f339">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d566-3c2a-2d00-5099" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd9d-89ec-85fc-32f1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="266d-de02-d842-f339" name="Light Armour  RES5(6)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0cad-74a9-4822-c34f" name="Medium Armour  RES 5(7)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="points" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="b40f-b67e-0346-aea0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
         <selectionEntryGroup id="f811-7c66-7485-f549" name="Undead type" hidden="false" collective="false" defaultSelectionEntryId="7a72-36b4-03d5-bce3">
           <profiles/>
           <rules/>
@@ -4107,7 +4163,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="b40f-b67e-0346-aea0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="b40f-b67e-0346-aea0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -4396,67 +4452,174 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="622c-4929-b142-079b" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="622c-4929-b142-079b" name="Models" hidden="false" collective="false" defaultSelectionEntryId="b270-7678-584c-da60">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="412a-f035-90ba-2d6d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c49d-da94-c036-e292" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="7a93-bcf3-f564-b476" name="Skeleton Archer Leader" hidden="false" collective="false" type="model">
+            <selectionEntry id="b270-7678-584c-da60" name="Archers (no armour)" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="2c68-9520-f3db-8b43" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="f65c-c242-6de1-b311" name="Skeleton Archer Leader" hidden="false" targetId="2422-4861-2c8d-1d73" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b961-2660-aa29-bf36" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5555-e189-243f-656d" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d8a5-0af3-ce96-dd10" name="Archers (no armour)" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="7134-900a-5fe9-259a" name="Skeleton Archer" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="16b7-36cf-ea75-d342" name="Skeleton Archer" hidden="false" targetId="ed61-0a43-e4b1-9c08" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a80-4a9a-cca7-f08c" type="min"/>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9c-a68c-9ca8-ab54" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="11.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="41c0-95ab-6847-5fa6" name="Skeleton Archer Leader" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="3423-d527-5589-317b" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="9c4a-bd71-ae3b-de5e" name="Skeleton Archer Leader" hidden="false" targetId="2422-4861-2c8d-1d73" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b0-4aeb-d286-e013" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8369-f3f0-b12d-c5bc" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="23.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="23.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
-            <selectionEntry id="a43d-98d3-f074-d653" name="Skeleton Archer" hidden="false" collective="false" type="model">
+            <selectionEntry id="00c5-20fd-2c3c-7b1f" name="Archers in Light Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="654e-6cc1-b32d-6f07" name="Skeleton Archer" hidden="false" targetId="ed61-0a43-e4b1-9c08" type="profile">
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d14d-512b-2897-3a8f" name="Archers in Light Armour" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d4-5ac4-3a05-3930" type="min"/>
-                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e8c-f8dd-a9cc-9096" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="4fad-7a31-d7c3-11b1" name="Skeleton Archer" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="f258-06c4-ba2f-45ea" name="Skeleton Archer in Light Armour" hidden="false" targetId="0921-57ee-85b0-346f" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7cb-22d4-b1e7-2216" type="min"/>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9233-892e-6024-4516" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="13.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="35ff-f223-4db5-7ae8" name="Skeleton Archer Leader" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="65fa-e82a-dc0c-e95f" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="1a41-4276-1d3a-47bb" name="Skeleton Archer Leader in Light Armour" hidden="false" targetId="0b51-4e4d-bf0a-4d00" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f2f-bcf9-2aac-45e2" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bed-591b-e8ae-e5d4" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="25.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="11.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -4508,7 +4671,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="039c-a3c5-412d-a575" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="039c-a3c5-412d-a575" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -4573,43 +4736,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="039c-a3c5-412d-a575" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="2672-3aa4-6969-fb0a" name="Armour Upgrade" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eda-ac33-7ced-37f6" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="ce81-d57e-a93f-0087" name="Light Armour  RES 5(6)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="points" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="039c-a3c5-412d-a575" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="039c-a3c5-412d-a575" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -5021,67 +5148,174 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="325f-9be7-d1a8-328a" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="325f-9be7-d1a8-328a" name="Models" hidden="false" collective="false" defaultSelectionEntryId="2550-120a-e665-6a19">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a7-ac6d-81a5-a1fa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72b1-ca0c-ff86-5c7c" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="26ec-7b2a-8960-375a" name="Skeleton Rider Leader" hidden="false" collective="false" type="model">
+            <selectionEntry id="2550-120a-e665-6a19" name="Skeleton Riders in Light Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="9f20-0dfb-3592-dc66" name="Skeleton Rider Leader" hidden="false" targetId="e705-5605-fc70-8219" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="1154-2eb9-af75-95ab" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61aa-2f8d-b640-7c4a" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc40-7d60-6e18-0b66" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8be2-73a2-fe61-33ca" name="Skeleton Riders in Light Armour" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="0333-bc3f-9adb-1b1e" name="Skeleton Rider" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="5ae9-14bd-5c18-efd9" name="Skeleton Rider" hidden="false" targetId="1408-a6b9-e7f0-7280" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b0-8fc7-7836-c852" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d069-adb6-3a97-aece" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="17.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c990-b202-8ef3-5083" name="Skeleton Rider Leader" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="438b-9ab8-2a63-7cf9" name="Skeleton Rider Leader" hidden="false" targetId="e705-5605-fc70-8219" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="a5ba-54d4-bab5-7a24" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5989-eab8-7c66-b9a5" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9f-739a-da9c-4dcc" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="38.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="38.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
-            <selectionEntry id="d263-6e34-6d4e-f5aa" name="Skeleton Rider" hidden="false" collective="false" type="model">
+            <selectionEntry id="8115-2bde-b0c6-5235" name="Skeleton Riders in Medium Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="d0b2-3a41-19a4-a5a8" name="Skeleton Rider" hidden="false" targetId="1408-a6b9-e7f0-7280" type="profile">
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="916c-35cb-0de6-93ab" name="Skeleton Riders in Medium Armour" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b5-9d49-8812-4641" type="min"/>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ed-f475-a349-00d6" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="a39d-6a7d-0318-1b3a" name="Skeleton Rider" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="5bfa-adf1-36a0-9ae5" name="Skeleton Rider in Medium Armour" hidden="false" targetId="b6ec-cac4-032c-3986" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c177-02b1-7d9c-6fa4" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="806e-63aa-0107-4c8b" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="19.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="31a8-4114-45fe-d577" name="Skeleton Rider Leader" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="afdc-1900-f546-0d0c" name="Skeleton Rider Leader in Medium Armour" hidden="false" targetId="006a-b404-2c43-3262" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="b78b-e909-b59a-3253" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a13a-484f-b7f6-dd83" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a56-a828-bc0c-0ba1" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="40.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="17.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -5154,7 +5388,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="c5cd-75ca-cc12-0ac4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="c5cd-75ca-cc12-0ac4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -5197,58 +5431,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="2">
                   <repeats>
-                    <repeat field="selections" scope="c5cd-75ca-cc12-0ac4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="2809-6e3f-468e-d228" name="Armour " hidden="false" collective="false" defaultSelectionEntryId="0182-9df1-98bf-f5f2">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c083-a83b-da83-297f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8707-cb94-e80d-d9dd" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="0182-9df1-98bf-f5f2" name="Light Armour RES 6(7)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9711-a2ea-ef92-392c" name="Medium Armour  RES 6(8)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="points" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="c5cd-75ca-cc12-0ac4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="c5cd-75ca-cc12-0ac4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -5313,7 +5496,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="c5cd-75ca-cc12-0ac4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="c5cd-75ca-cc12-0ac4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -6223,67 +6406,114 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f363-67d6-c8bb-a7a2" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="f363-67d6-c8bb-a7a2" name="Models" hidden="false" collective="false" defaultSelectionEntryId="1f2a-9121-f1cd-0515">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bad-61d9-089f-eb2c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6887-66dc-4785-c124" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="060b-1218-aa2c-98c9" name="Bolt Thrower" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1f2a-9121-f1cd-0515" name="Skeleton Crew (no armour)" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="842a-189d-05a7-e5c6" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="8282-39f4-a43a-b93c" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02a3-0e61-3ce5-525f" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9e-e6ca-05a7-95b8" type="min"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="2824-f1db-e5ad-ae3f" name="Skeleton Crew (no armour)" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="da43-d5a5-26f0-a559" name="Skeleton Crew" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="d083-4162-d146-270d" name="Skeleton Crew with Bolt-throwing engine" hidden="false" targetId="7f4f-73b5-f8d4-96ab" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38b-c330-afbe-b4e9" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eae-a638-1378-68e6" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="6.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="42.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
-            <selectionEntry id="ed69-fb9b-ab0e-5901" name="Skeleton Crew" hidden="false" collective="false" type="model">
+            <selectionEntry id="038e-7662-b893-60c4" name="Skeleton Crew in Light Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="8a6e-3e4f-304b-35b8" name="Skeleton Crew with Bolt-throwing engine" hidden="false" targetId="7f4f-73b5-f8d4-96ab" type="profile">
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="83b6-7ca3-5675-fec7" name="Skeleton Crew in Light Armour" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e66-2887-80ce-ebd3" type="min"/>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9382-3194-5f74-656c" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="a333-d637-6249-82e6" name="Skeleton Crew" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="3d66-fc00-5b81-38ba" name="Skeleton Crew in Light Armour with Bolt-throwing engine" hidden="false" targetId="19f0-059f-855d-629e" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e58-b6f0-a9fc-b58c" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc68-38e6-08f2-6b42" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="8.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="6.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -6314,7 +6544,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="8d33-9051-6b4e-dfff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="8d33-9051-6b4e-dfff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -6457,7 +6687,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="8d33-9051-6b4e-dfff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="8d33-9051-6b4e-dfff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -6470,6 +6700,48 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5baa-5f91-ec74-47db" name="Bolt Thrower" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="4fd2-21f9-f9df-80f0" name="Bolt Thrower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c9c2-d153-7f74-9f3a" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="d700-99bc-e822-3de6" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74fd-8a11-0f3b-8071" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e6-5575-c4fb-42fd" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="42.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6499,67 +6771,114 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3505-e10e-9640-e3c9" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="3505-e10e-9640-e3c9" name="Models" hidden="false" collective="false" defaultSelectionEntryId="092c-46fa-3d39-7dbe">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcd-07e2-e467-d656" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf4-ff24-b63d-7b36" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="24c3-4c60-216c-962c" name="Stone Thrower" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="092c-46fa-3d39-7dbe" name="Skeleton Crew (no armour)" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="a91c-4a15-69dc-2539" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="1a93-84e7-d08b-f3f7" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2083-8220-8f32-c377" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="675e-a46e-22a2-aa06" type="min"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ba14-0c5a-a357-5a93" name="Skeleton Crew (no armour)" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="c62c-d483-586b-726f" name="Skeleton Crew" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="92c6-7fc0-4620-282c" name="Skeleton Crew with stone-throwing engine" hidden="false" targetId="d5f4-9efc-7153-7b4d" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="621f-5614-f5f5-9097" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0710-534e-212b-4188" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="6.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="54.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
-            <selectionEntry id="5bd6-3d84-b6e3-e303" name="Skeleton Crew" hidden="false" collective="false" type="model">
+            <selectionEntry id="b110-b36f-7517-5d74" name="Skeleton Crew in Light Armour" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="d99b-de4a-53cf-44bd" name="Skeleton Crew with stone-throwing engine" hidden="false" targetId="d5f4-9efc-7153-7b4d" type="profile">
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d062-b398-1e44-33a9" name="Skeleton Crew in Light Armour" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f524-5db2-d0a9-1e64" type="min"/>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf72-15f0-0c39-e94d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="f7c2-704e-dae4-abfa" name="Skeleton Crew" hidden="false" collective="false" type="model">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="f1b9-4373-a4cc-13f2" name="Skeleton Crew in Light Armour with stone-throwing engine" hidden="false" targetId="6831-8d79-6a31-0cde" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ad-4fe5-3ccf-9883" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca2-3c8c-6784-9d3b" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="8.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="6.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -6590,7 +6909,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="302f-44fd-1451-bdb0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="302f-44fd-1451-bdb0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -6733,7 +7052,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="302f-44fd-1451-bdb0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="302f-44fd-1451-bdb0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -6787,36 +7106,42 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8c5f-055b-833b-484f" name="Crew Armour" hidden="false" collective="false">
+        <selectionEntryGroup id="6aa0-c698-47f7-0eef" name="Stone Thrower" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c838-1a14-3925-bb02" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="c5de-dca8-3cdf-a18c" name="Light Armour  RES 5(6)" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="b326-3f60-e6c4-1436" name="Stone Thrower" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="points" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="302f-44fd-1451-bdb0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
+              <infoLinks>
+                <infoLink id="66e6-20ef-930d-3af6" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="39f6-6a3c-6720-6068" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6757-eaa5-0273-bffe" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5157-1938-d473-6095" type="min"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="pts" costTypeId="points" value="54.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7353,6 +7678,126 @@
         <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
         <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
         <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="5"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Undead, Large, Slow 3"/>
+      </characteristics>
+    </profile>
+    <profile id="2f31-e714-fe78-86b6" name="Skeleton Guard in medium armour" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="5(7)"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="6"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Undead"/>
+      </characteristics>
+    </profile>
+    <profile id="1d1d-8a88-0ddd-bb1a" name="Skeleton Guard Leader in medium armour" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="5(7)"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="8"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Tough, Undead"/>
+      </characteristics>
+    </profile>
+    <profile id="0921-57ee-85b0-346f" name="Skeleton Archer in Light Armour" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="5(6)"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="6"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Undead"/>
+      </characteristics>
+    </profile>
+    <profile id="0b51-4e4d-bf0a-4d00" name="Skeleton Archer Leader in Light Armour" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="5(6)"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Tough, Undead"/>
+      </characteristics>
+    </profile>
+    <profile id="b6ec-cac4-032c-3986" name="Skeleton Rider in Medium Armour" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="6(8)"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="6"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Undead, Fast 8"/>
+      </characteristics>
+    </profile>
+    <profile id="006a-b404-2c43-3262" name="Skeleton Rider Leader in Medium Armour" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="6(8)"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Tough, Undead, Fast 8"/>
+      </characteristics>
+    </profile>
+    <profile id="19f0-059f-855d-629e" name="Skeleton Crew in Light Armour with Bolt-throwing engine" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="5(6)"/>
+        <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
+        <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
+        <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Undead, Large, Slow 3"/>
+      </characteristics>
+    </profile>
+    <profile id="6831-8d79-6a31-0cde" name="Skeleton Crew in Light Armour with stone-throwing engine" hidden="false" profileTypeId="2f17-7b0c-7f4e-2baf" profileTypeName="Humanoid model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Ag" characteristicTypeId="b787-94dd-0cef-abb7" value="5"/>
+        <characteristic name="Acc" characteristicTypeId="efac-8fd0-5d23-7d69" value="5"/>
+        <characteristic name="Str" characteristicTypeId="fcb5-8bd5-6767-fa61" value="5"/>
+        <characteristic name="Res" characteristicTypeId="d916-9ec8-dd33-7873" value="5(6)"/>
         <characteristic name="Init" characteristicTypeId="7313-a059-134c-8199" value="5"/>
         <characteristic name="Co" characteristicTypeId="a7e4-65ad-5a57-90bb" value="7"/>
         <characteristic name="Special" characteristicTypeId="68b3-e6ca-5920-ff4e" value="Undead, Large, Slow 3"/>
