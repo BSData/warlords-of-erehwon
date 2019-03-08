@@ -44,6 +44,15 @@
         <characteristicType id="b446-8296-adef-b370" name="Special"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="ec63-2857-95d8-a720" name="Spell">
+      <characteristicTypes>
+        <characteristicType id="0c1b-8aba-291c-6e28" name="Casting Value"/>
+        <characteristicType id="74f4-f123-678d-019c" name="Range"/>
+        <characteristicType id="878a-e6bf-fe34-2254" name="Target"/>
+        <characteristicType id="0bac-89db-b85c-4be1" name="Effect"/>
+        <characteristicType id="c6d1-7fec-d74c-e6ac" name="Duration"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="warlord unit" name="Warlord" book="Warlords of Erehwon" page="200" hidden="false">
@@ -1622,6 +1631,267 @@ Terrifying units and units with the Crazed Psychotic/Undead rules are immune to 
       <characteristics>
         <characteristic name="Strike Value" characteristicTypeId="1b55-d6e6-1944-708a" value="1"/>
         <characteristic name="Special Rules" characteristicTypeId="dad6-5d39-6880-25a5" value="Armour +1 Max Bonus"/>
+      </characteristics>
+    </profile>
+    <profile id="193c-09f8-234d-adab" name="(Magic Weapon) Foe Striker Sword" hidden="false" profileTypeId="4e9d-173a-314b-a7c5" profileTypeName="Weapon Profile HTH">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Strike Value" characteristicTypeId="1b55-d6e6-1944-708a" value="2"/>
+        <characteristic name="Special Rules" characteristicTypeId="dad6-5d39-6880-25a5" value="+1 STR"/>
+      </characteristics>
+    </profile>
+    <profile id="3246-1376-d94d-d544" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" profileTypeId="4e9d-173a-314b-a7c5" profileTypeName="Weapon Profile HTH">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Strike Value" characteristicTypeId="1b55-d6e6-1944-708a" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="dad6-5d39-6880-25a5" value="+1 STR"/>
+      </characteristics>
+    </profile>
+    <profile id="190e-3de5-0e71-c97f" name="(Magic Weapon) War Bringer Sword" hidden="false" profileTypeId="4e9d-173a-314b-a7c5" profileTypeName="Weapon Profile HTH">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Strike Value" characteristicTypeId="1b55-d6e6-1944-708a" value="1"/>
+        <characteristic name="Special Rules" characteristicTypeId="dad6-5d39-6880-25a5" value="+1 STR, HTH Attacks +1"/>
+      </characteristics>
+    </profile>
+    <profile id="454c-1957-36be-2d2b" name="(Magic Weapon) Battle Smiter Sword" hidden="false" profileTypeId="4e9d-173a-314b-a7c5" profileTypeName="Weapon Profile HTH">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Strike Value" characteristicTypeId="1b55-d6e6-1944-708a" value="1"/>
+        <characteristic name="Special Rules" characteristicTypeId="dad6-5d39-6880-25a5" value="+2 STR"/>
+      </characteristics>
+    </profile>
+    <profile id="caa2-6cf1-8c8f-2f66" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" profileTypeId="2c2c-0dd3-c341-b2ef" profileTypeName="Weapon profile Ranged">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range Short" characteristicTypeId="388b-c232-987e-c292" value="0-10&quot;"/>
+        <characteristic name="Range Long" characteristicTypeId="93c3-2707-51ef-b304" value="-"/>
+        <characteristic name="Range Extreme" characteristicTypeId="49d3-642a-08be-5817" value="-"/>
+        <characteristic name="Strike Value" characteristicTypeId="47c7-dced-6203-6b76" value="2"/>
+        <characteristic name="Special Rules" characteristicTypeId="83b9-69ea-35a1-5148" value="+1 STR in HTH only, Magically Returns to hand of user if thrown. Can be used in Exchange of Missiles."/>
+      </characteristics>
+    </profile>
+    <profile id="d305-e931-5819-04bb" name="(Magic Weapon) Lightning Spear" hidden="false" profileTypeId="2c2c-0dd3-c341-b2ef" profileTypeName="Weapon profile Ranged">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range Short" characteristicTypeId="388b-c232-987e-c292" value="(Exchange of Missiles only)"/>
+        <characteristic name="Range Long" characteristicTypeId="93c3-2707-51ef-b304" value="-"/>
+        <characteristic name="Range Extreme" characteristicTypeId="49d3-642a-08be-5817" value="-"/>
+        <characteristic name="Strike Value" characteristicTypeId="47c7-dced-6203-6b76" value="2"/>
+        <characteristic name="Special Rules" characteristicTypeId="83b9-69ea-35a1-5148" value="HTH weapon that can be thrown in Exchange of Missiles."/>
+      </characteristics>
+    </profile>
+    <profile id="9f0d-4729-2ca1-43d8" name="(Magic Weapon) Bow of Burning Gold" hidden="false" profileTypeId="2c2c-0dd3-c341-b2ef" profileTypeName="Weapon profile Ranged">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range Short" characteristicTypeId="388b-c232-987e-c292" value="0-10&quot;"/>
+        <characteristic name="Range Long" characteristicTypeId="93c3-2707-51ef-b304" value="10-30&quot;"/>
+        <characteristic name="Range Extreme" characteristicTypeId="49d3-642a-08be-5817" value="-"/>
+        <characteristic name="Strike Value" characteristicTypeId="47c7-dced-6203-6b76" value="2"/>
+        <characteristic name="Special Rules" characteristicTypeId="83b9-69ea-35a1-5148" value="ACC +1"/>
+      </characteristics>
+    </profile>
+    <profile id="dd49-722d-5180-e75d" name="(Spell) Fiery Balls" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="9"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="20&quot;"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="Enemy unit within range and LOS (same as shooting)"/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="D3 + casters Magic Level hits caused, resolved at Strike Value 1 and Fire Attacks."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="d6c5-70ce-86e8-e635" name="(Spell) Chill Wind" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="8"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="20&quot;"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="Enemy in Range and LOS (same as shooting attack)"/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="D3 + Casters magic level hits, resolved at Strike Value 1 and as a Deathly Chill Ranged Attack.  (cannot affect models with undead or spectral undead rule)"/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="096e-2da4-2cdd-6c4d" name="(Spell) Peculiar Portal" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="8 minus 1 for every 10&quot; of distance between caster and target"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="N/A"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="(any enemy unit on tabletop)"/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Unit is removed from current position and repositioned by the OWNING player at the player&apos;s table edge or if there is no player&apos;s edge then an edge nominated by the caster."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="a1be-15b4-9c73-9b6f" name="(Spell) Endow Strength" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="8"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="Cast upon Wizard and also automatically affects all friendly units in HTH combat within 10&quot; of the wizard."/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="All friendly units within 10&quot; that are fighting HTH combat."/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="All models affected by the spell receive a STR bonus of +1 per Magic Level of caster as long as spell is in effect."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Lasts until the end of turn.  Also immediately ends if the caster moves, attempts to dispel and enemy spell, or is killed. (does NOT end if caster is in HTH fighting)"/>
+      </characteristics>
+    </profile>
+    <profile id="29a5-e36b-7b3f-c197" name="(Spell) Enchanted Shield" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="8"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot; per Magic Level"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="Any Friendly unit in range, LOS is NOT required.  Can be cast on wizards own unit. "/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Any ranged attack upon the unit will automatically miss on any ACC roll other than a 1.  Only affects attacks where an ACC check is made, would not affect things like Fiery balls where no ACC check is made."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Lasts until End of Turn"/>
+      </characteristics>
+    </profile>
+    <profile id="dd16-8e55-111c-118c" name="(Spell) Aura of Courage" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="8"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="All Friendly Units within 10&quot;"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="All Friendly Units within 10&quot;"/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Roll a D6 and add Wizards Magic Level.  You can remove this total number of pins from the target units.  It does not have to be distributed evenly, you get to decide which pins are removed from where."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="dd4e-402d-e03c-f841" name="(Spell) Aura of Timidity" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="8"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot; for Magic Level 1, 20&quot; for Magic Level 2, 30&quot; for Magic Level 3"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="All enemy units within applicable Range"/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Roll a D6 and add casters Magic Level.  You can distribute this total number of pins amongst the units affected.  You can distribute them how you like, it does NOT have to be evenly."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="5cf5-b784-0eca-19aa" name="(Spell) Wake the Dead" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="8"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot; per magic level of caster"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="Friendly Undead Warrior unit of either skeletons or zombies with five models or fewer."/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Roll a D6 and add casters Magic Level.  This is the number of Additional warriors that join the unit."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="ae9d-c50e-6667-48f3" name="(Spell) Sorcerer&apos;s Shield" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="7"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot; per Magic Level"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="All Friendly units within Range, including casters own unit."/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Any shooting attack upon a unit affected by spell will automatically miss on any ACC roll other than a 1."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Lasts until end of the turn.  Also ended immediately if the caster Moves, attempts to dispel an enemy&apos;s spell or is killed."/>
+      </characteristics>
+    </profile>
+    <profile id="0a25-272c-9462-1696" name="(Spell) Surge" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="7"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot; (For undead wizards and necromancers the range is 10&quot; per magic level)"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="Any friendly unit that has one or more order dice played already that turn.  LOS is NOT required.  Cannot be cast on casters own unit."/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="One order dice is removed from the unit and returned to the dice bag."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="4de4-3f21-99b0-3c0d" name="(Spell) Lightning Bolt" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="7"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="30&quot; from caster"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="Any unit in Range, NO LOS necessary.  If cast on unit with multiple models, pick the specific model that is the target."/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Causes 1 hit.  Roll a D3 and add casters Magic Level, this is the SV of the bolt.   Once hit has been resolved and a pin has been added for being hit by a ranged missile, the unit must take a BREAK TEST."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="b2eb-08fa-19f7-0fe1" name="(Spell) Bamboozle Beastie" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="7"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot; per Magic Level of caster."/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="An enemy unit of monsters or a monstrosity within Range and LOS. (same as shooting)"/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="If the unit has any order dice remaining in dice bag, take them all from the bag at once and give them to the unit as DOWN orders.  Any order dice already on the unit are instead changed to DOWN."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
+      </characteristics>
+    </profile>
+    <profile id="b1eb-7ae0-4936-b755" name="(Spell) Enfeeble Foe" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="6"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot;"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="All enemy units in HTH combat within 10&quot; of caster."/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="All models affected by the spell receive a STR penalty of -1 per magic level of caster and no enemy may make more than 1 attack during HTH fighting."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Lasts until end of turn, also ends immediately if the caster moves, attempts to dispel an enemy&apos;s spell or is Killed."/>
+      </characteristics>
+    </profile>
+    <profile id="5528-567d-5eab-533e" name="(Spell) Sorcerous Battle!" hidden="false" profileTypeId="ec63-2857-95d8-a720" profileTypeName="Spell">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Casting Value" characteristicTypeId="0c1b-8aba-291c-6e28" value="6"/>
+        <characteristic name="Range" characteristicTypeId="74f4-f123-678d-019c" value="10&quot; per Magic level of Caster"/>
+        <characteristic name="Target" characteristicTypeId="878a-e6bf-fe34-2254" value="Opposing Wizard Unit.  NO LOS necessary."/>
+        <characteristic name="Effect" characteristicTypeId="0bac-89db-b85c-4be1" value="Each Wizard rolls a D6 and adds their Magic Level.  Highest total wins. The loser suffers a pin.  The winner can then decide whether to continue the duel or end it.  Repeat until a wizards reaches their pin break point or the winner declares an end to the spell.  If the results are a tie at any time then both wizards receive a pin and the duel continues."/>
+        <characteristic name="Duration" characteristicTypeId="c6d1-7fec-d74c-e6ac" value="Instant"/>
       </characteristics>
     </profile>
   </sharedProfiles>
