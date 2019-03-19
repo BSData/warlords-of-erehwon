@@ -2036,7 +2036,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
-                    <repeat field="selections" scope="8405-fc2d-45e0-0c26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="8405-fc2d-45e0-0c26" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
