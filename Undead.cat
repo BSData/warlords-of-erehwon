@@ -2332,7 +2332,7 @@
                 <infoLink id="bc50-ac4c-7565-5fbe" name="Spectral Undead" hidden="false" targetId="3dfb-f407-ff46-9b1f" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="16.0"/>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
