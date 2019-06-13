@@ -273,6 +273,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="60a7-5bc5-7d7b-dd04" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="086d-b924-23aa-d5a7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6e66-6e96-1548-27fa" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="ee32-e749-ea07-2d5b" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0559-294d-3ede-ad4e" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="09ac-7d5f-72ca-af99" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb29-5c3d-379c-68a3" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="6e11-9c0b-de2f-8dad" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9f7d-7a59-f9df-3f82" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="66c5-f8a8-497c-ad45" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -512,6 +551,45 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e05e-0c4e-3e87-2347" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="481f-cfa1-dc69-8ce3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="490c-538f-82fd-790b" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7c3d-fe4b-f015-7915" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="278a-d84a-e56c-957b" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1b51-83d7-594f-8615" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1d80-505b-7aff-1fce" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1b25-500b-9642-da9b" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6136-28bc-9e5c-9c61" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="25bb-95e9-dda4-da10" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -957,6 +1035,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7bc5-fe0d-969d-34ae" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7342-cf7d-d415-a563" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="31d5-7c28-e191-0f91" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="97d7-3f59-fa4d-3b33" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dc64-6fe3-5e05-3225" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="11b4-039c-bd2f-3915" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d780-5171-8d4b-ee9c" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="88d3-bd79-6ef6-e118" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d4fa-3109-2554-5bea" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1d25-6791-570e-8fe7" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1046,6 +1163,52 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e83f-639f-6102-25b9" name="Magic Weapon" hidden="false" collective="false" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e65a-7105-4e48-320a" name="Magic Weapon HTH" hidden="false" collective="false">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c88-8166-ccef-daed" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="918e-aea5-6451-4487" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="f8e8-6e27-305f-2d8e" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d2db-e609-f02f-b480" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="083a-de11-14ff-e14e" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9247-9cbd-5cbe-664e" name="War Bringer" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="bc70-b4f5-7b3e-77b4" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fa62-505a-f2c3-adea" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="0d6a-5bd9-2d2d-5588" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

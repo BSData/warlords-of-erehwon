@@ -607,6 +607,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="eeaf-9e89-8365-9d33" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f0c-d1f7-61af-8492" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a66-3df0-dfd2-27c0" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8b72-9a46-84aa-a995" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9a0a-b409-7028-b98f" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7774-54e2-0866-754c" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f24a-4c13-9d40-f391" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="aa00-8e13-8512-ee12" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cc91-c775-9b89-db6e" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7d6a-1ffe-7306-16c1" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1179,6 +1218,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b426-ac31-68ee-5d5d" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e377-f2b6-309d-e16e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c185-4980-52ee-d987" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="c000-b346-878c-5e47" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="49be-9669-5a58-f3b6" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="32bd-3a48-8754-c8fd" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f6c3-7bd9-99c9-13e0" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="67b2-81f4-abb9-058b" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="70b7-f2f0-d5c3-797a" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1bdc-85e3-aec6-1112" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1658,6 +1736,45 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1d43-c517-08a0-c43d" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1612-6c8b-aa21-f1eb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5985-29ed-085b-e893" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="d4c0-4243-40d0-8752" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="661e-1838-c4f1-a1d2" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="4f25-0398-1c69-f487" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dd41-da3a-d890-c1e5" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="0d10-e3f7-a6f5-4475" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f2c9-5925-64ec-72f8" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8447-94ff-1102-ac4c" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2209,7 +2326,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7864-2e4a-ee94-4908" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="c9ea-eff0-64bb-5c85">
+        <selectionEntryGroup id="7864-2e4a-ee94-4908" name="HtH Weapon" hidden="false" collective="false" defaultSelectionEntryId="c9ea-eff0-64bb-5c85">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b33f-1f2c-5bf6-adb1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f1b-8e22-fa87-5fa3" type="max"/>
@@ -2251,6 +2368,52 @@
               <infoLinks>
                 <infoLink id="42a0-467c-92b9-d707" name="Warhammers" hidden="false" targetId="096c-a0fe-df46-77c4" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="82d0-d69b-2457-52e1" name="Magic Weapon" hidden="false" collective="false" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="1bf5-5ddf-8daf-8613" name="Magic Weapon HTH" hidden="false" collective="false">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cde-6d9f-3b1a-0544" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="8364-48de-be42-8c60" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="d16e-2249-2bca-29fb" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="40ce-ecdd-efa6-3817" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="0cf5-0c6a-7a2c-d7b9" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8a18-c2c4-1b72-7a82" name="War Bringer" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="090c-14a8-0bd6-69e0" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d6d2-5d11-55e1-87bc" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="7f25-3937-7116-a66e" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3858,7 +4021,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="9497-17f5-aec9-3fa4" name="Necromancer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="9497-17f5-aec9-3fa4" name="Necromancer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3869,7 +4032,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Command, 2xHTH, Wound, Magic Level 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="6a6f-393b-f5a6-22ae" name="Skeleton Bodyguard in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="6a6f-393b-f5a6-22ae" name="Skeleton Bodyguard in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3880,7 +4043,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="c777-3c73-6c63-6c1a" name="Cursed Spirits" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="c777-3c73-6c63-6c1a" name="Cursed Spirits" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -3891,7 +4054,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1xHTH SV1, Exchange of missiles SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="9a44-bb44-383a-db33" name="Skeleton Bodyguard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="9a44-bb44-383a-db33" name="Skeleton Bodyguard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3902,7 +4065,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="9527-115d-c679-3a2d" name="Liche (on foot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="9527-115d-c679-3a2d" name="Liche (on foot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3913,7 +4076,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Command, 2xHTH, Undead, Wound, Magic Level 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="8148-887f-6070-e2b6" name="Chariot with Liche and Crew, pulled by Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="8148-887f-6070-e2b6" name="Chariot with Liche and Crew, pulled by Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">3</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -3924,7 +4087,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, Fast 6, Irresistable Charge, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="bec0-28d8-d8ca-5aa5" name="Liche" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="bec0-28d8-d8ca-5aa5" name="Liche" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">[5]</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3935,7 +4098,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough], Command, 2xHTH, Undead, [Wound], Magic Level 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="ea23-a4fc-a287-2fcd" name="Skeleton Crew (Chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="ea23-a4fc-a287-2fcd" name="Skeleton Crew (Chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3946,7 +4109,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="58fe-f4ea-426e-ca44" name="Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="58fe-f4ea-426e-ca44" name="Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -3957,7 +4120,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, 1xHTH SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="2178-4098-7de9-b223" name="Wraith" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="2178-4098-7de9-b223" name="Wraith" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3968,7 +4131,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 2, Command, 3xHTH, Deathly Chill, Spectral Undead, Dread, Wound 2, Magic Level 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="8517-edcf-fb4a-875a" name="Wraith, Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="8517-edcf-fb4a-875a" name="Wraith, Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3979,7 +4142,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 2, Command, Fast 8, 3xHTH Deathly Chill, Spectral undead, Dread, Wound 2, Magic Level 1, Helhorse 1xHTH SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="57b5-f959-5aa5-dc95" name="Undead Champion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="57b5-f959-5aa5-dc95" name="Undead Champion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3990,7 +4153,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Wound, 3xHTH, Undead, Dread, Hero</characteristic>
       </characteristics>
     </profile>
-    <profile id="41d0-c73b-090f-f2b0" name="Undead Champion (Hvy armour)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="41d0-c73b-090f-f2b0" name="Undead Champion (Hvy armour)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4001,7 +4164,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Wound, 3xHTH, Undead Dread, Hero</characteristic>
       </characteristics>
     </profile>
-    <profile id="f40c-5c8d-fa27-40ac" name="Skeleton Guard Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="f40c-5c8d-fa27-40ac" name="Skeleton Guard Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4012,7 +4175,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="e438-fdd1-ac8b-a3c0" name="Skeleton Guard" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="e438-fdd1-ac8b-a3c0" name="Skeleton Guard" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4023,7 +4186,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="1093-ae26-c665-0247" name="Skeleton Warrior Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1093-ae26-c665-0247" name="Skeleton Warrior Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4034,7 +4197,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="d3a0-ccd3-a405-e828" name="Skeleton Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="d3a0-ccd3-a405-e828" name="Skeleton Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4045,7 +4208,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="2422-4861-2c8d-1d73" name="Skeleton Archer Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="2422-4861-2c8d-1d73" name="Skeleton Archer Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4056,7 +4219,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="ed61-0a43-e4b1-9c08" name="Skeleton Archer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="ed61-0a43-e4b1-9c08" name="Skeleton Archer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4067,7 +4230,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="a402-29f0-1085-2302" name="Zombies" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="a402-29f0-1085-2302" name="Zombies" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">2</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">2</characteristic>
@@ -4078,7 +4241,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Zombie, 1xHTH SV0, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="c1ba-bc3d-5cab-0b07" name="Zombies (Upgraded RES)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="c1ba-bc3d-5cab-0b07" name="Zombies (Upgraded RES)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7"/>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69"/>
@@ -4089,7 +4252,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"/>
       </characteristics>
     </profile>
-    <profile id="4f9c-cdfc-9eff-5eb9" name="Wight Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="4f9c-cdfc-9eff-5eb9" name="Wight Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4100,7 +4263,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Spectral Undead, Dread</characteristic>
       </characteristics>
     </profile>
-    <profile id="a4e5-1eda-0284-a26c" name="Wight" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="a4e5-1eda-0284-a26c" name="Wight" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4111,7 +4274,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spectral Undead, Dread</characteristic>
       </characteristics>
     </profile>
-    <profile id="e705-5605-fc70-8219" name="Skeleton Rider Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="e705-5605-fc70-8219" name="Skeleton Rider Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4122,7 +4285,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead, Fast 8</characteristic>
       </characteristics>
     </profile>
-    <profile id="1408-a6b9-e7f0-7280" name="Skeleton Rider" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1408-a6b9-e7f0-7280" name="Skeleton Rider" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4133,7 +4296,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Fast 8</characteristic>
       </characteristics>
     </profile>
-    <profile id="fd4c-8543-b256-8ddc" name="Skeleton Knight Leader, Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="fd4c-8543-b256-8ddc" name="Skeleton Knight Leader, Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4144,7 +4307,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead, Fast 8, Helhorse 1xHTH SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="3568-52bd-9a01-3d17" name="Skeleton Knight, riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="3568-52bd-9a01-3d17" name="Skeleton Knight, riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4155,7 +4318,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Fast 8, Helhorse 1xHTH SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="1f37-f56d-cc75-6515" name="Skeleton Chariot (Crew + 2xUndead Steads)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1f37-f56d-cc75-6515" name="Skeleton Chariot (Crew + 2xUndead Steads)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">3</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -4166,7 +4329,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Undead, Irresistible Charge, Fast 8</characteristic>
       </characteristics>
     </profile>
-    <profile id="6f5d-0af7-73e5-4e3f" name="Skeleton Crew" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="6f5d-0af7-73e5-4e3f" name="Skeleton Crew" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4177,7 +4340,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="6db8-4706-7727-70a0" name="Undead Steeds" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="6db8-4706-7727-70a0" name="Undead Steeds" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -4188,7 +4351,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="61b7-a187-ea30-5207" name="Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="61b7-a187-ea30-5207" name="Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -4199,7 +4362,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, HTH Attack SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="7d0c-a2e7-67fc-544d" name="Carrion Beast with rocks" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="7d0c-a2e7-67fc-544d" name="Carrion Beast with rocks" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">10</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -4210,7 +4373,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Flies, Fast 10, 3xHTH SV3, 3xDrop SV3, Wound, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="122f-323d-895b-9b14" name="Skeleton Rider (carrion beast)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="122f-323d-895b-9b14" name="Skeleton Rider (carrion beast)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4221,7 +4384,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="7f4f-73b5-f8d4-96ab" name="Skeleton Crew with Bolt-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="7f4f-73b5-f8d4-96ab" name="Skeleton Crew with Bolt-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4232,7 +4395,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="d5f4-9efc-7153-7b4d" name="Skeleton Crew with stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="d5f4-9efc-7153-7b4d" name="Skeleton Crew with stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4243,7 +4406,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="2f31-e714-fe78-86b6" name="Skeleton Guard in medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="2f31-e714-fe78-86b6" name="Skeleton Guard in medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4254,7 +4417,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d1d-8a88-0ddd-bb1a" name="Skeleton Guard Leader in medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1d1d-8a88-0ddd-bb1a" name="Skeleton Guard Leader in medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4265,7 +4428,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="0921-57ee-85b0-346f" name="Skeleton Archer in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="0921-57ee-85b0-346f" name="Skeleton Archer in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4276,7 +4439,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="0b51-4e4d-bf0a-4d00" name="Skeleton Archer Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="0b51-4e4d-bf0a-4d00" name="Skeleton Archer Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4287,7 +4450,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="b6ec-cac4-032c-3986" name="Skeleton Rider in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="b6ec-cac4-032c-3986" name="Skeleton Rider in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4298,7 +4461,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Fast 8</characteristic>
       </characteristics>
     </profile>
-    <profile id="006a-b404-2c43-3262" name="Skeleton Rider Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="006a-b404-2c43-3262" name="Skeleton Rider Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4309,7 +4472,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead, Fast 8</characteristic>
       </characteristics>
     </profile>
-    <profile id="19f0-059f-855d-629e" name="Skeleton Crew in Light Armour with Bolt-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="19f0-059f-855d-629e" name="Skeleton Crew in Light Armour with Bolt-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4320,7 +4483,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="6831-8d79-6a31-0cde" name="Skeleton Crew in Light Armour with stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="6831-8d79-6a31-0cde" name="Skeleton Crew in Light Armour with stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4331,7 +4494,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="070e-5a4a-143b-286a" name="Cursed Spirits Mounted" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="070e-5a4a-143b-286a" name="Cursed Spirits Mounted" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>

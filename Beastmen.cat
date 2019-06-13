@@ -79,6 +79,49 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="3932-c6f2-41fd-f17b" name="Magic Weapon" hidden="false" collective="false" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6bf6-14c7-eca6-9a20" name="Magic Weapon HTH" hidden="false" collective="false">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16eb-0ce1-5a7f-0d23" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="267b-adf4-01e9-8843" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="17f5-c91c-93ca-6783" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5852-3cc2-a62b-adea" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="d7bb-d98b-73d3-7883" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ee2e-d91f-3bd7-3a14" name="War Bringer" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="214a-4e76-839f-77a9" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6495-22fd-d852-9aa3" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="bcac-2a19-0be0-3446" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="bcfc-d94c-a36b-90a3" name="Ranged Weapon option" hidden="false" collective="false">
@@ -93,6 +136,41 @@
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="257e-5776-82de-edaf" name="Ranged Magic Weapons" hidden="false" collective="false" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9355-da24-4481-052d" name="Ranged Magic Weapons" hidden="false" collective="false" defaultSelectionEntryId="cd2f-2ee1-9c8d-ae90">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f0e-89f7-196d-9cc5" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="694f-9178-ba80-1c27" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="4c12-23f0-2485-b756" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="cd2f-2ee1-9c8d-ae90" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="928e-7d21-0d8c-1b15" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8b86-33bb-680c-9377" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="de5b-944e-0ef8-d81b" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -249,6 +327,49 @@
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="1987-f299-6bb6-28ad" name="Magic Weapon" hidden="false" collective="false" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c822-e8b9-b43f-7c13" name="Magic Weapon HTH" hidden="false" collective="false" defaultSelectionEntryId="1beb-0304-0b4a-b003">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e096-cc2f-2fa9-3b75" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="1beb-0304-0b4a-b003" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="9b44-af03-554e-ae71" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b09c-2a1e-53ad-c094" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="55ec-4a7a-2643-28d0" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="7e7e-f3d3-091f-a650" name="War Bringer" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="c3ac-6a3b-b94d-c4a2" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3a6e-f084-4931-7552" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="f4d1-0bfe-df0d-31e9" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1665,6 +1786,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b209-fed9-65c0-fe62" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd3b-d55f-3749-7342" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e7f9-912e-1a39-892e" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a22b-fd15-b131-4ff2" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0180-1d4c-9361-f280" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7b5c-1afa-313e-1b87" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7851-c4f6-89ae-cbbf" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="abce-0e35-3ec8-4e01" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="697a-00dc-317f-350c" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="cdad-9231-2610-c47f" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1856,6 +2016,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c178-0f8a-3389-3770" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45c-e2fa-87c5-064c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9362-0933-8264-3e8d" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="4c3c-0ef9-8a7a-8f60" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="17ef-4c99-915d-370c" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="6fc4-1598-ddb4-01b6" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c4c3-9ea7-09f1-b8eb" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="97c8-68b1-5c10-5369" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="01c5-26a1-a23c-e075" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="0dfa-4ec2-e76a-b559" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1951,6 +2150,7 @@
                           </constraints>
                           <infoLinks>
                             <infoLink id="0630-e55f-7cd8-b2eb" name="Beastman Shamanic Cultists" hidden="false" targetId="1596-f4ee-96a9-7aa6" type="profile"/>
+                            <infoLink id="8be7-d994-8457-4d85" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="points" value="13.0"/>
@@ -1969,6 +2169,7 @@
                           </constraints>
                           <infoLinks>
                             <infoLink id="747b-01f8-e2e4-a178" name="Shamanic Cultists in Light Armour" hidden="false" targetId="950c-38fa-a240-7625" type="profile"/>
+                            <infoLink id="eb96-5059-e1a6-fc99" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="points" value="15.0"/>
@@ -2286,6 +2487,50 @@
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="86b5-1748-8fb2-3ddd" name="HtH Weapon" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fe7-75fc-f256-b286" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="07d3-accb-2dc3-0f97" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="e3ba-bfb2-4ea9-5ab6" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4473-fdf6-4ea8-309a" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7ae6-a00c-c19c-b770" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9466-3ced-988a-81aa" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="85f3-437a-6451-7ffb" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e2e-9a83-79b4-a19f" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="e5fe-412a-e3d7-e279" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="265b-afca-a3b7-febf" name="Sword/Axe" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="6a17-e1be-971a-d08b" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2712,6 +2957,45 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="36ea-6ebe-6138-ea52" name="Magic Weapon HTH" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0662-a84c-d529-5be3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ac97-7fda-8e34-6228" name="Foe Striker" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a881-ce3b-2796-07dc" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c26e-acef-49a2-5a9b" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="931e-7867-8163-316d" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b35-7b4c-2fae-e03c" name="War Bringer" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3989-1206-37a0-9c7b" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e008-ccbf-6c89-53fa" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="f196-96b8-498a-d00d" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2719,7 +3003,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="44a2-1e8b-a9a2-8df6" name="Centaur Lord" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="44a2-1e8b-a9a2-8df6" name="Centaur Lord" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">7</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -2730,7 +3014,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, Fast 8, 3xHTH, Wound</characteristic>
       </characteristics>
     </profile>
-    <profile id="f925-b5ec-1c26-1a44" name="Minotaur Lord" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="f925-b5ec-1c26-1a44" name="Minotaur Lord" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">4</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2741,7 +3025,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, 3xHTH, Frenzied Charge, Wound</characteristic>
       </characteristics>
     </profile>
-    <profile id="3816-9908-3b1e-099d" name="Beastman Guard Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="3816-9908-3b1e-099d" name="Beastman Guard Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2752,7 +3036,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
       </characteristics>
     </profile>
-    <profile id="12fe-e30e-e2ab-4863" name="Beastman Guard in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="12fe-e30e-e2ab-4863" name="Beastman Guard in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2763,7 +3047,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f736-da47-48f5-fd54" name="Beastman Warrior Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="f736-da47-48f5-fd54" name="Beastman Warrior Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2774,7 +3058,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
       </characteristics>
     </profile>
-    <profile id="4260-4009-be94-d819" name="Beastman Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="4260-4009-be94-d819" name="Beastman Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2785,7 +3069,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="27f5-4745-6732-8a6f" name="Low Beastman Warrior Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="27f5-4745-6732-8a6f" name="Low Beastman Warrior Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -2796,7 +3080,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
       </characteristics>
     </profile>
-    <profile id="d6bd-0e65-18a5-75d4" name="Low Beastman Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="d6bd-0e65-18a5-75d4" name="Low Beastman Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -2807,7 +3091,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="1666-733e-c86c-f5c3" name="Low Beastman Archer Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1666-733e-c86c-f5c3" name="Low Beastman Archer Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -2818,7 +3102,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
       </characteristics>
     </profile>
-    <profile id="ff39-60ff-61fc-b4af" name="Low Beastman Archer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="ff39-60ff-61fc-b4af" name="Low Beastman Archer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -2829,7 +3113,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="df87-0e9a-4987-59ed" name="Minotaurs (Champion)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="df87-0e9a-4987-59ed" name="Minotaurs (Champion)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">4</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2840,7 +3124,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, 2xHTH, Frenzied Charge</characteristic>
       </characteristics>
     </profile>
-    <profile id="1178-6657-496d-0cbb" name="Minotaurs" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1178-6657-496d-0cbb" name="Minotaurs" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">4</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2851,7 +3135,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, 2xHTH, Frenzied Charge</characteristic>
       </characteristics>
     </profile>
-    <profile id="b590-eb52-39a5-587a" name="Beast Hounds" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="b590-eb52-39a5-587a" name="Beast Hounds" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -2862,7 +3146,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Savage, Rapid Sprint</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d03-5868-0a88-efa4" name="Pack Master in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1d03-5868-0a88-efa4" name="Pack Master in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2873,7 +3157,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Rapid Sprint</characteristic>
       </characteristics>
     </profile>
-    <profile id="4324-5d0a-ec30-7651" name="Centaur Champion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="4324-5d0a-ec30-7651" name="Centaur Champion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">7</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -2884,7 +3168,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
-    <profile id="7eb3-d387-0418-5b77" name="Centaur" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="7eb3-d387-0418-5b77" name="Centaur" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">7</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -2895,7 +3179,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
-    <profile id="4077-f4ee-bc64-edc2" name="Harpies with Rocks" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="4077-f4ee-bc64-edc2" name="Harpies with Rocks" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">10</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -2906,7 +3190,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Flies, Fast 10, 2xHTH SV1, 1xDrops SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="c020-9bee-5d3d-95d8" name="Beastman Crew with bolt throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="c020-9bee-5d3d-95d8" name="Beastman Crew with bolt throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -2917,7 +3201,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="4f79-4003-209e-db8c" name="Beastman Chieftain (on foot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="4f79-4003-209e-db8c" name="Beastman Chieftain (on foot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2928,7 +3212,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Command, 3xHTH, Wound</characteristic>
       </characteristics>
     </profile>
-    <profile id="6a05-94e9-fca8-0453" name="Beastman Bodyguard" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="6a05-94e9-fca8-0453" name="Beastman Bodyguard" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -2939,7 +3223,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="96cd-c5d4-e5aa-5f52" name="Chariot with Chieftain and crew in chariot pulled by wild boars" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="96cd-c5d4-e5aa-5f52" name="Chariot with Chieftain and crew in chariot pulled by wild boars" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -2950,7 +3234,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, Fast 6, Irresistible Charge</characteristic>
       </characteristics>
     </profile>
-    <profile id="c0ba-8436-9fc7-45eb" name="Beastman Chieftain" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="c0ba-8436-9fc7-45eb" name="Beastman Chieftain" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">[5]</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">[4]</characteristic>
@@ -2961,7 +3245,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough], Command, Follow, 3xHTH, [Wound]</characteristic>
       </characteristics>
     </profile>
-    <profile id="d909-19ba-d47c-1b22" name="Beastman Crew (in chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="d909-19ba-d47c-1b22" name="Beastman Crew (in chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -2972,7 +3256,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="dc8c-e7aa-91a4-873e" name="Wild Boars (Chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="dc8c-e7aa-91a4-873e" name="Wild Boars (Chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -2989,7 +3273,7 @@
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">D6 SV1 Impact hits on Charge</characteristic>
       </characteristics>
     </profile>
-    <profile id="4a55-c0e0-6b12-9163" name="Beastman Shaman (on foot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="4a55-c0e0-6b12-9163" name="Beastman Shaman (on foot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3000,7 +3284,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Wound, Magic Level X</characteristic>
       </characteristics>
     </profile>
-    <profile id="1596-f4ee-96a9-7aa6" name="Beastman Shamanic Cultists" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="1596-f4ee-96a9-7aa6" name="Beastman Shamanic Cultists" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3011,7 +3295,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b46d-4b01-1841-cc75" name="Animal Spirit Guide or Familiar" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="b46d-4b01-1841-cc75" name="Animal Spirit Guide or Familiar" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -3022,7 +3306,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1xHTH SV1, Exchange of Missiles SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="8843-47cf-79c0-7804" name="Chariot with Shaman and crew, pulled by wild boars" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="8843-47cf-79c0-7804" name="Chariot with Shaman and crew, pulled by wild boars" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -3033,7 +3317,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, Fast 6, Irrestible Charge</characteristic>
       </characteristics>
     </profile>
-    <profile id="520a-a76e-993a-6cb9" name="Beastman Shaman" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="520a-a76e-993a-6cb9" name="Beastman Shaman" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">[5]</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">[4]</characteristic>
@@ -3044,7 +3328,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough], [Wound], Magic Level X</characteristic>
       </characteristics>
     </profile>
-    <profile id="950c-38fa-a240-7625" name="Shamanic Cultists in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="950c-38fa-a240-7625" name="Shamanic Cultists in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3055,7 +3339,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="4669-1cfd-5f0a-a05f" name="Minotaur Lord in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="4669-1cfd-5f0a-a05f" name="Minotaur Lord in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">4</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3066,7 +3350,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, 3xHTH, Frenzied Charge, Wound</characteristic>
       </characteristics>
     </profile>
-    <profile id="b716-323f-83aa-625b" name="Beastman Guard Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="b716-323f-83aa-625b" name="Beastman Guard Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3077,7 +3361,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
       </characteristics>
     </profile>
-    <profile id="074a-a320-6def-11ae" name="Beastman Guard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="074a-a320-6def-11ae" name="Beastman Guard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3088,7 +3372,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="48f9-27fe-c617-e171" name="Beastman Warrior Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="48f9-27fe-c617-e171" name="Beastman Warrior Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3099,7 +3383,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1de-b513-c301-85f1" name="Beastman Warrior in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="b1de-b513-c301-85f1" name="Beastman Warrior in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3110,7 +3394,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="55b0-758b-824c-d20c" name="Low Beastman Warrior Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="55b0-758b-824c-d20c" name="Low Beastman Warrior Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3121,7 +3405,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
       </characteristics>
     </profile>
-    <profile id="9204-468c-b712-f132" name="Low Beastman Warrior in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="9204-468c-b712-f132" name="Low Beastman Warrior in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3132,7 +3416,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6291-460b-8fd8-be34" name="Pack Master in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="6291-460b-8fd8-be34" name="Pack Master in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
@@ -3143,7 +3427,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Rapid Sprint</characteristic>
       </characteristics>
     </profile>
-    <profile id="8d5a-9948-306c-889c" name="Centaur in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="8d5a-9948-306c-889c" name="Centaur in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">7</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -3154,7 +3438,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
-    <profile id="3e56-4168-7915-9d24" name="Centaur in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="3e56-4168-7915-9d24" name="Centaur in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">7</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -3165,7 +3449,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
-    <profile id="db21-8112-39c9-2559" name="Centaur Champion in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="db21-8112-39c9-2559" name="Centaur Champion in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">7</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -3176,7 +3460,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
-    <profile id="3a20-859a-0d11-147e" name="Centaur Champion in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Humanoid model">
+    <profile id="3a20-859a-0d11-147e" name="Centaur Champion in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">7</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
