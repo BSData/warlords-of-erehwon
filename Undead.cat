@@ -1980,24 +1980,6 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="acc6-0280-c346-b33a" name="Spells" hidden="false" collective="false">
-          <selectionEntries>
-            <selectionEntry id="5d4d-d2c4-3425-3817" name="Free Spell" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f3e-6fcd-a216-d619" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6479-35cb-b6eb-378e" type="min"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="717b-ea16-3b04-a72d" name="Additional Spell" hidden="false" collective="false" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="71da-f27c-9f8f-72f6" name="Wraith Weapon" hidden="false" collective="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59e6-37c6-7f3c-e458" type="max"/>
@@ -2246,6 +2228,284 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="509f-d443-c8be-357a" name="Free Spell Selection" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae9-8e24-a9aa-2150" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a33-b67a-961b-057c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="361e-0da3-96f8-d7b5" name="Aura of Courage" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="68ec-46ae-5328-fd5b" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="74b3-f4e2-03a0-6ac7" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="faaa-ea55-bd99-3663" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4be2-7c60-d34a-5691" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8216-7117-b0ae-3e2e" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="33d0-035d-3761-a0d6" name="Chill Wind" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="b3b4-cb6a-1f5b-5a1e" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cef6-2e74-cb9a-ca10" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="ddca-a3b7-a6ed-c199" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="295d-e544-e761-a369" name="Endow Strength" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="d8f9-729a-433b-bd80" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e241-6fe5-02b8-2d36" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="b2bd-5929-1291-3787" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="39e4-8b30-8672-c1d1" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9e35-c66a-e4d8-2871" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ac9a-6910-c0cf-b8da" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1ae1-af44-86ac-804a" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1b54-386c-00ed-5f30" name="Surge" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="cc43-eaaf-565f-982d" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="813c-fe61-0c92-984b" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3087-15de-b626-f934" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dd28-40d5-3d2f-bd9d" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3f9d-3ea7-5be0-4887" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="44e7-40a3-9244-5940" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="ff79-7475-543d-74c5" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0fc6-47e1-f063-2916" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="454e-4a71-cc39-d530" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b9e4-8240-92e7-1e47" name="Additional Spells" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="a8c0-48d2-9036-b1cb" name="Aura of Courage" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe6-42cf-2f79-928e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7684-e818-7858-dbaf" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="37ef-9217-1bb9-3b06" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc68-ecd1-796f-1d0c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b56e-9ae6-7adb-86a9" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cbec-fd38-2827-d778" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8314-f574-07a8-b08e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0957-444a-2a8b-695a" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd99-23b5-cc31-11f1" name="Chill Wind" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="780a-28c9-340e-c093" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c7f1-aa09-09a0-530f" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e097-9d0e-0063-6cff" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e387-7aab-03c8-1d05" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="cbfe-8226-4271-862c" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2275-148a-6181-4329" name="Endow Strength" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee8b-a6f8-0dfa-0fde" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ecd8-6862-37fb-f683" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a41d-827c-bbe2-a921" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8db8-513f-a491-7a6a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8eef-e642-aa18-3a14" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9f1c-2fc7-0dc8-fd65" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c121-8cc9-8189-04a4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b846-01f4-c17d-adce" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d886-9571-ddbb-f4e0" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7435-2316-ab7d-dde4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1b97-b5fc-4ad9-4da8" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c1dd-ba4a-4cf5-0f3f" name="Surge" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57b-27ed-905e-d6d2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="72b8-bfc2-f281-09db" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="267f-1e40-27a7-8211" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a4-6b78-63d2-b721" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9d81-de3d-8f11-143a" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0f32-d244-ed20-55b3" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="361b-6c6a-e383-c0a5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="63ce-705f-afdd-bed9" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8696-1ce2-cb64-ccdc" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b6f-62c6-9d7b-e2cf" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7ff4-3c85-4779-42c2" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="05b6-1b13-5c1c-5561" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e18c-76d9-6f29-6fea" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="08ab-6bb8-9a86-c080" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2275,24 +2535,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9857-3041-6519-b19b" name="Spells" hidden="false" collective="false">
-          <selectionEntries>
-            <selectionEntry id="2e6d-bb03-a168-4153" name="Free Spell" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ab1-a2c9-e833-e87e" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5df1-76c6-dd31-a330" type="min"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5436-e844-1a3e-8a44" name="Additional Spell" hidden="false" collective="false" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="24d4-f20a-7e1a-64fc" name="Wraith Magic Level" hidden="false" collective="false" defaultSelectionEntryId="3e7a-0c1d-86e2-8bb3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66c-d87b-e6d2-bb65" type="max"/>
@@ -2480,6 +2722,284 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a4ba-df00-958f-7009" name="Free Spell Selection" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f08-47bb-591e-c750" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c014-91cf-84a9-fb33" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5b58-3ce7-8499-7c04" name="Aura of Courage" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="f3bd-4b9c-4b31-68ff" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a0d-7802-d789-112a" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="bc3c-37f5-0d89-309a" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1994-dae3-7b91-c95a" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="c425-83d5-377d-a041" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c9de-e98f-d096-2f5b" name="Chill Wind" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="d6a6-5132-87c3-893e" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="47fd-00e3-00bc-3754" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9147-ad2f-6eb1-98ae" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4938-07d7-b281-fbd3" name="Endow Strength" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1c27-5f88-e168-6c57" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6775-1810-75ff-893a" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="0f3d-f7d8-d41c-4b28" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="841d-cc91-6f92-4626" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3265-93db-8750-092d" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="31fb-1fb0-0f50-ebd7" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="f548-77d9-b51d-0716" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="89a2-03bd-5a17-adc6" name="Surge" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="536a-b8cb-74e2-6d95" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d75a-2bef-6624-23d3" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="57dc-e5e9-5cf5-bd2d" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c4b7-cd81-3274-c6c8" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9b70-d5bc-032d-8b44" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fb42-7b1d-ed60-531b" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="e764-78df-7e67-cd80" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c0e1-9ef7-143e-3226" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9de0-dafe-f454-64d8" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="691b-9288-7714-70d8" name="Additional Spells" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="4772-e4b9-05be-56d8" name="Aura of Courage" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3738-9cc7-a209-4f42" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="81c0-9b46-2815-ec77" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1790-a22e-e5c0-4aac" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65d3-a0d8-f695-301c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3b5a-a1b9-1ded-bae9" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a240-a0b6-b709-9bc0" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7be8-7cf3-a17f-9c54" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3fdc-54ff-3627-1764" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a3e-469b-ef3a-3dd5" name="Chill Wind" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f87-c6a0-fa82-f541" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4823-7733-efea-b903" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="02af-95d7-3e51-e2e1" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8608-3d47-fde3-d4f4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="78c1-db1c-ff33-a6bb" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="88b7-556d-7a92-b490" name="Endow Strength" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ec-8a9f-607f-0660" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="48b9-9438-3c4c-3977" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c2e3-a6bd-f1c1-fd4d" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cb-92ad-87a9-54c8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4484-f7fb-2878-80f2" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dfe8-bbe9-9906-9766" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6597-7385-8138-6a82" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4aae-5117-fc0c-337e" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8200-f338-49bd-c399" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="072f-d6d1-1057-4970" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9e20-64b1-0a97-9ed9" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cd79-c598-2391-ca60" name="Surge" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43d-1eeb-e47e-d9f5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d64c-4503-7a9f-7307" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5d2c-a06b-fa6e-a2dd" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38ec-2fb9-7cba-6196" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="839a-91f7-2f21-5dfb" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="97f1-9c77-f48c-91bb" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14a2-8c62-118c-97b6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="807c-ae98-04af-1a1d" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb9e-c9f2-d160-ffa8" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e50-7ef3-fe21-5edc" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ca59-9e48-79ca-0843" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee95-8402-c091-8ced" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0c-49f9-7df3-a9c2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4a59-fe9a-ad94-9a5d" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
