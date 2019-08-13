@@ -2439,7 +2439,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Magic Level X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Magic Level X, Wound</characteristic>
       </characteristics>
     </profile>
     <profile id="7a3f-4fd9-f4f9-0500" name="Orc Bodyguard (Shaman)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
