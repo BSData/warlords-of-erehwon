@@ -651,6 +651,9 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64bb-c692-2a23-a111" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="305b-1581-722d-0c32" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7bf6-bb56-e738-5bca" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
         <categoryLink id="0cb4-adc2-ab9d-6c1b" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
