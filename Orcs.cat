@@ -651,6 +651,9 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64bb-c692-2a23-a111" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="305b-1581-722d-0c32" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="7bf6-bb56-e738-5bca" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
         <categoryLink id="0cb4-adc2-ab9d-6c1b" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -2436,7 +2439,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Magic Level X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Magic Level X, Wound</characteristic>
       </characteristics>
     </profile>
     <profile id="7a3f-4fd9-f4f9-0500" name="Orc Bodyguard (Shaman)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
