@@ -223,95 +223,98 @@
   <sharedRules>
     <rule id="b9e1-fea5-9095-b1cf" name="Tough" hidden="false">
       <description>
--Re-roll a failed RES test.  (only one failed RES test can be re-rolled at a time from a single shooting/HTH attack). </description>
+Re-roll a failed RES test.  Only one failed RES test can be re-rolled at a time from a single shooting/HTH attack.</description>
     </rule>
     <rule id="8784-9f2f-1a5b-be21" name="Wound" hidden="false">
       <description>
--A model with the Wound Special rule is not removed as a casualty when it fails a RES test and would otherwise fall casualty. The model becomes &apos;wounded&apos; instead. A wounded model can fight on, but if it fails a further RES test it is removed as a casualty just like any other model.
--Once a unit with the special rule sustains a wound, they can never drop below 1 Pin on the unit.  
--Wound rule does not prevent a unit from auto destruction if it takes pins equal to or greater than their Co stat.</description>
+Model can sustain 1 wound instead of dying immediately.
+Each sustained wound counts as a permanent pin that can&apos;t be removed.
+Unit can still be auto-destroyed by pins.
+</description>
     </rule>
     <rule id="90e2-5b2c-1fc8-0e8c" name="Magic Level 1" hidden="false">
-      <description>-Spell Caster/Wizard </description>
+      <description>
+Spell Caster/Wizard Level 1.</description>
     </rule>
     <rule id="487f-dc82-bce1-c0f6" name="Tough 2" hidden="false">
       <description>
--Re-roll a failed RES test.  (only one failed RES test can be re-rolled at a time from a single shooting/HTH attack).  Tough 2 allows 2 re-rolls.</description>
+Re-roll two failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.</description>
     </rule>
     <rule id="45bb-28cf-94fd-f899" name="Zealous" hidden="false">
       <description>
--Ignore Pins when taking a break test. Re-Roll failed order test.</description>
+Ignore Pins when taking a break test. Re-Roll failed order test.</description>
     </rule>
     <rule id="1a97-76e9-e64e-7701" name="Heavily Laden" hidden="false">
-      <description>-Cannot Sprint</description>
+      <description>
+Cannot Sprint.</description>
     </rule>
     <rule id="4a91-87e6-88c5-5e1d" name="Magic Level 2" hidden="false">
-      <description>-Spell Caster/Wizard </description>
+      <description>
+Spell Caster/Wizard Level 2.</description>
     </rule>
     <rule id="2e1b-4169-af1f-71e5" name="Magic Level 3" hidden="false">
-      <description>-Spell Caster/Wizard </description>
+      <description>
+Spell Caster/Wizard Level 3.</description>
     </rule>
     <rule id="78d3-886d-5fc6-bac4" name="Spirit" hidden="false">
-      <description>-Can be sacrificed for a re-roll. Destroyed if wizard is slain.</description>
+      <description>
+Can be sacrificed for a re-roll. Destroyed if wizard is slain.</description>
     </rule>
     <rule id="d055-98ce-6f28-1600" name="Deadeye Shot" hidden="false">
-      <description>-Re-roll one missed shot.</description>
+      <description>
+Re-roll one missed shot.</description>
     </rule>
     <rule id="160b-fca8-adb7-3d5b" name="Pavisse" hidden="false">
       <description>
--Cannot be given Run order.
--3 Agility.
--Counts as cover with +2 Res bonus.</description>
+Cannot be given Run order. -3 Agility. Counts as cover with +2 Res bonus.</description>
     </rule>
     <rule id="8a4d-4dea-f005-ddc5" name="Surly" hidden="false">
       <description>
--Cannot benefit from Command, Hero </description>
+Cannot benefit from Command, Hero abilities.</description>
     </rule>
     <rule id="7f3d-fbf8-9f49-2031" name="Large" hidden="false">
       <description>
-- Can draw LOS to body.
-- (+1) to hit shooting.
--Can draw LOS over non-large models.</description>
+Can draw LOS to body. (+1) to hit shooting. Can draw LOS over non-large models.</description>
     </rule>
     <rule id="e406-ffab-b352-fc9b" name="Insufferably Sactimonious" hidden="false">
       <description>
--Increase from Tough to Tough 2.</description>
+Increase from Tough to Tough 2.</description>
     </rule>
     <rule id="b0ed-8f0b-633c-2f06" name="Command" hidden="false">
       <description>
--Friendly units within 10&quot; can use the model&apos;s CO stat to take command based tests.</description>
+Friendly units within 10&quot; can use the model&apos;s CO stat to take command based tests.</description>
     </rule>
     <rule id="a447-d495-b7ab-1477" name="Divine Intervention" hidden="false">
       <description>
--Can steal an order dice from an enemy unit within 20&quot; with successful Command test. If fail, take 1 pin instead. Max 1 attempt in any turn.</description>
+Can steal an order dice from an enemy unit within 20&quot; with successful Command test. If fail, take 1 pin instead. Max 1 attempt in any turn.</description>
     </rule>
     <rule id="342b-a482-cb16-67e0" name="Wound 2" hidden="false">
       <description>
--A model with the Wound Special rule is not removed as a casualty when it fails a RES test and would otherwise fall casualty. The model becomes &apos;wounded&apos; instead. A wounded model can fight on, but if it fails a further RES test it is removed as a casualty just like any other model.
--Once a unit with the special rule sustains a wound, they can never drop below 1 Pin on the unit. 2 wounds = 2 pins, etc.  
--Wound rule does not prevent a unit from auto destruction if it takes pins equal to or greater than their Co stat.</description>
+Model can sustain 2 wounds instead of dying immediately.
+Each sustained wound counts as a permanent pin that can&apos;t be removed.
+Unit can still be auto-destroyed by pins.</description>
     </rule>
-    <rule id="bb63-e7db-89cf-19e6" name="Challenge" hidden="false">
+    <rule id="bb63-e7db-89cf-19e6" name="Challenge" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
--See page 64, May initiate a &apos;Challenge to the death&apos;</description>
+May initiate a &apos;Challenge to the death&apos;.</description>
     </rule>
     <rule id="3536-db5c-4e89-87d7" name="Tough 3" hidden="false">
       <description>
--Re-roll a failed RES test.  (only one failed RES test can be re-rolled at a time from a single shooting/HTH attack).  Tough 3 allows 3 re-rolls.</description>
+Re-roll three failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.</description>
     </rule>
     <rule id="2724-2057-e745-23a3" name="Wound 3" hidden="false">
       <description>
--A model with the Wound Special rule is not removed as a casualty when it fails a RES test and would otherwise fall casualty. The model becomes &apos;wounded&apos; instead. A wounded model can fight on, but if it fails a further RES test it is removed as a casualty just like any other model.
--Once a unit with the special rule sustains a wound, they can never drop below 1 Pin on the unit. 2 wounds = 2 pins, etc.  
--Wound rule does not prevent a unit from auto destruction if it takes pins equal to or greater than their Co stat.</description>
+Model can sustain 3 wounds instead of dying immediately.
+Each sustained wound counts as a permanent pin that can&apos;t be removed.
+Unit can still be auto-destroyed by pins.</description>
     </rule>
-    <rule id="566e-a1c6-9f62-3218" name="Hero" hidden="false">
+    <rule id="566e-a1c6-9f62-3218" name="Hero" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
--Friendly units within 10&quot; can use the model&apos;s Init stat to take Reaction Tests.</description>
+Friendly units within 10&quot; can use the model&apos;s Init stat to take Reaction Tests.</description>
     </rule>
     <rule id="83d2-f89c-33a4-258d" name="Follow" hidden="false">
       <description>
--Friendly un-pinned units within 5&quot; can follow the unit&apos;s order immediately.</description>
+Friendly un-pinned units within 5&quot; can follow the unit&apos;s order immediately.</description>
     </rule>
     <rule id="1c49-276e-425d-0999" name="Frenzied Charge" hidden="false">
       <description>
@@ -325,44 +328,40 @@ Re-Roll STR to hit in first round of combat in game.</description>
       <description>
 D3 SV bonus when charging.</description>
     </rule>
-    <rule id="e291-560d-f0fb-5572" name="Rapid Sprint" hidden="false">
-      <description>
--Sprint at 4M</description>
-    </rule>
     <rule id="1d07-520b-6918-03fd" name="Flies" hidden="false">
       <description>
--Move over any terrain/obstacle without test or penalty.
--Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, or if flyers are down.</description>
+Move over any terrain/obstacle without test or penalty.
+Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, or if flyers are down.</description>
     </rule>
     <rule id="5e63-c99b-00b4-24eb" name="Vengeful" hidden="false">
       <description>
--If unit wins the first round of close combat then it MUST elect to fight a follow on combat where it can do so.
--In follow-on combat, vengeful troops always fight with double their attacks.</description>
+If unit wins the first round of close combat then it MUST elect to fight a follow on combat where it can do so.
+In follow-on combat, vengeful troops always fight with double their attacks.</description>
     </rule>
     <rule id="e5df-1d6a-1034-7c77" name="Undead" hidden="false">
       <description>
--Cannot be routed.
--Auto Resist choking attacks.
--Immune to Dread
--Immune to Terror</description>
+Cannot be routed.
+Auto-resist choking attacks.
+Immune to Dread
+Immune to Terror</description>
     </rule>
     <rule id="fd2c-3cba-cafa-62aa" name="Zombie Master" hidden="false">
       <description>
--Can use Hero/Follow/Command rules for Zombie units.</description>
+Can use Hero/Follow/Command rules for Zombie units.</description>
     </rule>
     <rule id="3dfb-f407-ff46-9b1f" name="Spectral Undead" hidden="false">
       <description>
--In addition to Undead rule, also hits from flaming attacks are ignored (auto-resisted) and inflict no pins.
--All difficult ground/obstacles count as open terrain for movement.</description>
+In addition to Undead rule, also hits from flaming attacks are ignored (auto-resisted) and inflict no pins.
+All difficult ground/obstacles count as open terrain for movement.</description>
     </rule>
     <rule id="c738-3360-de3b-34a9" name="Deathly Chill" hidden="false">
       <description>
--No armour bonus allowed.</description>
+No armour bonus allowed.</description>
     </rule>
     <rule id="0bf9-a070-b56b-ca4e" name="Dread" hidden="false">
       <description>
 (-1) to hit shooting/close combat.
-(-1) to break test if defeated by Dreraded enemy.</description>
+(-1) to break test if defeated by enemy with Dread.</description>
     </rule>
     <rule id="612a-20b6-14a2-97e4" name="Zombie" hidden="false">
       <description>
@@ -388,7 +387,7 @@ Shot penetrates the unit hit and can strike others beyond so long as the target 
     </rule>
     <rule id="6650-1e8e-9f7d-d242" name="Undead Army Special Rule" hidden="false">
       <description>
-In an UNDEAD army, if your warlord is slain, then no further pins are removed from your units. Orders can still be issued as normal.</description>
+If your warlord is slain, then no further pins are removed from your units. Orders can still be issued as normal.</description>
     </rule>
     <rule id="0056-a41e-408e-1673" name="Disciplined" hidden="false">
       <description>
@@ -396,21 +395,20 @@ Lose all pins when pass a rally test.</description>
     </rule>
     <rule id="93f9-d132-d71b-ab39" name="Shieldwall" hidden="false">
       <description>
-In shieldwall formation cannot sprint and suffer -1 AG and INIT.
+In shieldwall formation cannot sprint and suffer -1 AG and INIT. 
 -1 to hit ranged and HTH.</description>
     </rule>
     <rule id="0b0f-1de6-7017-9097" name="Berserk" hidden="false">
       <description>
-Until defeated or fail a break test, double attacks in HTH,
-Automatically pass orders to charge.</description>
+Until defeated or fail a break test, double attacks in HTH. Automatically pass orders to charge.</description>
     </rule>
-    <rule id="5da1-1bfa-9b8d-6b82" name="MOD2" hidden="false">
+    <rule id="5da1-1bfa-9b8d-6b82" name="MoD2" hidden="false">
       <description>
 Unit has 2 Order Dice.</description>
     </rule>
     <rule id="1e90-54e2-dd77-c4e3" name="Rapid Sprint" hidden="false">
       <description>
-Sprint at 4M</description>
+Sprint at 4M.</description>
     </rule>
     <rule id="45b3-c028-8c8c-43ae" name="Stampede" hidden="false">
       <description>
@@ -431,7 +429,7 @@ Fire attacks add an extra pin to targets they hit.</description>
     </rule>
     <rule id="57f2-e9b1-c3c1-7c74" name="Mechanical Genius" hidden="false">
       <description>
-Add +1 ACC of all artillery in 10&quot;, +/-1 from any Monstrosity (machine) damage chart result within 10&quot;</description>
+Add +1 ACC to all artillery in 10&quot;, +/-1 from any Monstrosity (machine) damage chart result within 10&quot;.</description>
     </rule>
     <rule id="182e-9b37-17f3-5b45" name="Ramshackle Contraption" hidden="false">
       <description>
@@ -451,7 +449,7 @@ Automatically pass first Break Test.</description>
     </rule>
     <rule id="e1f3-7817-0e4e-5cb9" name="Woodsman" hidden="false">
       <description>
-Difficult Terrain counts as open terrain.</description>
+Difficult terrain counts as open terrain.</description>
     </rule>
     <rule id="dcb2-de55-1fca-e0a8" name="Stealthy" hidden="false">
       <description>
@@ -479,11 +477,11 @@ Re-roll failed RES and take pin if successful.</description>
     </rule>
     <rule id="14ff-225a-4ec5-f56d" name="Beastly Breath" hidden="false">
       <description>
-D6 Ranged attacks, 20&quot;. SV3 Choking</description>
+D6 Ranged attacks, 20&quot;, SV3 Choking.</description>
     </rule>
     <rule id="46d2-d008-8225-bcff" name="Chunder" hidden="false">
       <description>
-Ranged Attack 10&quot;, Opponent&apos;s RES 5.  Chunder goes empty on a roll of 6+</description>
+Ranged Attack 10&quot;, Opponent&apos;s RES 5.  Chunder goes empty on a roll of 6+.</description>
     </rule>
     <rule id="583a-fa53-11ff-7b40" name="Terror" hidden="false">
       <description>
@@ -494,7 +492,7 @@ Terrifying units and units with the Crazed Psychotic/Undead rules are immune to 
     </rule>
     <rule id="7ff2-1650-fc0e-5a3a" name="Choking" hidden="false">
       <description>
-No armour bonus or cover bonus allowed</description>
+No armour bonus or cover bonus allowed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
