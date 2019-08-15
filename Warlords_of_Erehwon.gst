@@ -32,7 +32,7 @@
         <characteristicType id="83b9-69ea-35a1-5148" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="4e9d-173a-314b-a7c5" name="Weapon Profile HTH">
+    <profileType id="4e9d-173a-314b-a7c5" name="Weapon Profile HtH">
       <characteristicTypes>
         <characteristicType id="1b55-d6e6-1944-708a" name="Strike Value"/>
         <characteristicType id="dad6-5d39-6880-25a5" name="Special Rules"/>
@@ -221,9 +221,9 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="b9e1-fea5-9095-b1cf" name="Tough" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
+    <rule id="b9e1-fea5-9095-b1cf" name="Tough 1" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
-Re-roll a failed RES test. Only one failed RES test can be re-rolled at a time from a single shooting/HTH attack.</description>
+Re-roll one failed RES test. Only one failed RES test can be re-rolled at a time from a single shooting/HtH attack.</description>
     </rule>
     <rule id="8784-9f2f-1a5b-be21" name="Wound 1" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
@@ -399,7 +399,7 @@ Enemy suffers -1 to hit in ranged and hand-to-hand.</description>
     </rule>
     <rule id="0b0f-1de6-7017-9097" name="Berserk" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
-Until defeated or fail a break test, double attacks in HTH. Automatically pass orders to charge.</description>
+Until defeated or fail a break test, double attacks in HtH. Automatically pass orders to charge.</description>
     </rule>
     <rule id="5da1-1bfa-9b8d-6b82" name="MoD2" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
@@ -552,49 +552,49 @@ When order die is drawn, players dice for control.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="2447-8f38-dd07-d089" name="Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="2447-8f38-dd07-d089" name="Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">STR +1</characteristic>
       </characteristics>
     </profile>
-    <profile id="f47a-0e7b-e210-5d54" name="Stave" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="f47a-0e7b-e210-5d54" name="Stave" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">STR +1</characteristic>
       </characteristics>
     </profile>
-    <profile id="abab-c6f8-5036-1cb4" name="Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="abab-c6f8-5036-1cb4" name="Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="6132-3227-d7f3-41ee" name="Massive Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="6132-3227-d7f3-41ee" name="Massive Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="096c-a0fe-df46-77c4" name="Warhammer" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="096c-a0fe-df46-77c4" name="Warhammer" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="595c-60a6-3a30-b259" name="Halberds" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="595c-60a6-3a30-b259" name="Halberds" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="c79a-48d1-9b48-2c68" name="Spear" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="c79a-48d1-9b48-2c68" name="Spear" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be thrown during exchange of missiles.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8c77-0a0d-0097-c499" name="Long Spear" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="8c77-0a0d-0097-c499" name="Long Spear" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Cancels Charge bonus.</characteristic>
@@ -606,7 +606,7 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Special" typeId="b446-8296-adef-b370"/>
       </characteristics>
     </profile>
-    <profile id="5514-08ba-d190-bf84" name="Dagger" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="5514-08ba-d190-bf84" name="Dagger" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
@@ -657,16 +657,16 @@ When order die is drawn, players dice for control.</description>
     <profile id="f367-10de-49e2-acff" name="Heavy Armour" hidden="false" typeId="726e-70e6-d94e-c9ac" typeName="Armour Profile">
       <characteristics>
         <characteristic name="Res" typeId="f05e-0dc4-2f61-ffb6">5(8)</characteristic>
-        <characteristic name="Special" typeId="b446-8296-adef-b370"></characteristic>
+        <characteristic name="Special" typeId="b446-8296-adef-b370"/>
       </characteristics>
     </profile>
-    <profile id="1f70-2881-7206-2fe9" name="Cudgel" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="1f70-2881-7206-2fe9" name="Cudgel" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="ef46-1d4c-7c9d-d938" name="Pitchfork, Bills, or Glaives" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="ef46-1d4c-7c9d-d938" name="Pitchfork, Bills, or Glaives" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Cancels Charge Bonus</characteristic>
@@ -690,7 +690,7 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Flaming wheel, D6 SV6 Fire hits struck on units in its path. (see special rules page 68)</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f74-469a-cb98-f949" name="Scourge" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="3f74-469a-cb98-f949" name="Scourge" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be &apos;cracked&apos; during the exchange of missiles.</characteristic>
@@ -732,7 +732,7 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Overhead, Fire order to shoot, D6 Hits</characteristic>
       </characteristics>
     </profile>
-    <profile id="e601-dcfc-7485-2164" name="Lance" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="e601-dcfc-7485-2164" name="Lance" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1/3</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">SV3 on Charge</characteristic>
@@ -741,58 +741,58 @@ When order die is drawn, players dice for control.</description>
     <profile id="556d-4839-8be4-b724" name="Hair Shirt" hidden="false" typeId="726e-70e6-d94e-c9ac" typeName="Armour Profile">
       <characteristics>
         <characteristic name="Res" typeId="f05e-0dc4-2f61-ffb6">5(6)</characteristic>
-        <characteristic name="Special" typeId="b446-8296-adef-b370"></characteristic>
+        <characteristic name="Special" typeId="b446-8296-adef-b370"/>
       </characteristics>
     </profile>
-    <profile id="2221-3571-075e-ae84" name="Morning Star" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="2221-3571-075e-ae84" name="Morning Star" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Armour +1 Max Bonus</characteristic>
       </characteristics>
     </profile>
-    <profile id="4f07-5005-3329-5095" name="Chain Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="4f07-5005-3329-5095" name="Chain Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Armour +1 Max  bonus.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a1ad-5715-ceb1-e77e" name="Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="a1ad-5715-ceb1-e77e" name="Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="41c3-e1df-53b7-ed79" name="Huge Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="41c3-e1df-53b7-ed79" name="Huge Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="e977-49ab-1207-d301" name="Big Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="e977-49ab-1207-d301" name="Big Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="8aea-0ac0-030a-5da1" name="Improbably Vast Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="8aea-0ac0-030a-5da1" name="Improbably Vast Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">3</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Heavily Laden</characteristic>
       </characteristics>
     </profile>
-    <profile id="91a1-fed7-8323-b2c8" name="Bloomin&apos; big axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="91a1-fed7-8323-b2c8" name="Bloomin&apos; big axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">3</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Heavily Laden</characteristic>
       </characteristics>
     </profile>
-    <profile id="0b17-24e8-fb18-654e" name="Club" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="0b17-24e8-fb18-654e" name="Club" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="7723-e7c2-30a5-43ee" name="Chariot Scythes" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="7723-e7c2-30a5-43ee" name="Chariot Scythes" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">D6 SV1 Impact hits on charge</characteristic>
@@ -816,7 +816,7 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="88d0-6821-ceff-0382" name="Rocks (HTH)" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="88d0-6821-ceff-0382" name="Rocks (HtH)" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be thrown as ranged weapon.</characteristic>
@@ -905,31 +905,31 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3848-b5eb-4efb-796f" name="Flail" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="3848-b5eb-4efb-796f" name="Flail" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Armour +1 Max Bonus</characteristic>
       </characteristics>
     </profile>
-    <profile id="193c-09f8-234d-adab" name="(Magic Weapon) Foe Striker Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="193c-09f8-234d-adab" name="(Magic Weapon) Foe Striker Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="3246-1376-d94d-d544" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="3246-1376-d94d-d544" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">3</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="190e-3de5-0e71-c97f" name="(Magic Weapon) War Bringer Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="190e-3de5-0e71-c97f" name="(Magic Weapon) War Bringer Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR, HTH Attacks +1</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR, HtH Attacks +1</characteristic>
       </characteristics>
     </profile>
-    <profile id="454c-1957-36be-2d2b" name="(Magic Weapon) Battle Smiter Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="454c-1957-36be-2d2b" name="(Magic Weapon) Battle Smiter Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+2 STR</characteristic>
@@ -941,7 +941,7 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">2</characteristic>
-        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">+1 STR in HTH only, Magically Returns to hand of user if thrown. Can be used in Exchange of Missiles.</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">+1 STR in HtH only, Magically Returns to hand of user if thrown. Can be used in Exchange of Missiles.</characteristic>
       </characteristics>
     </profile>
     <profile id="d305-e931-5819-04bb" name="(Magic Weapon) Lightning Spear" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
@@ -950,7 +950,7 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">2</characteristic>
-        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">HTH weapon that can be thrown in Exchange of Missiles.</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">HtH weapon that can be thrown in Exchange of Missiles.</characteristic>
       </characteristics>
     </profile>
     <profile id="9f0d-4729-2ca1-43d8" name="(Magic Weapon) Bow of Burning Gold" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
@@ -992,10 +992,10 @@ When order die is drawn, players dice for control.</description>
     <profile id="a1be-15b4-9c73-9b6f" name="(Spell) Endow Strength" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">Cast upon Wizard and also automatically affects all friendly units in HTH combat within 10&quot; of the wizard.</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All friendly units within 10&quot; that are fighting HTH combat.</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">Cast upon Wizard and also automatically affects all friendly units in HtH combat within 10&quot; of the wizard.</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All friendly units within 10&quot; that are fighting HtH combat.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">All models affected by the spell receive a STR bonus of +1 per Magic Level of caster as long as spell is in effect.</characteristic>
-        <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until the end of turn.  Also immediately ends if the caster moves, attempts to dispel and enemy spell, or is killed. (does NOT end if caster is in HTH fighting)</characteristic>
+        <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until the end of turn.  Also immediately ends if the caster moves, attempts to dispel and enemy spell, or is killed. (does NOT end if caster is in HtH fighting)</characteristic>
       </characteristics>
     </profile>
     <profile id="29a5-e36b-7b3f-c197" name="(Spell) Enchanted Shield" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
@@ -1074,8 +1074,8 @@ When order die is drawn, players dice for control.</description>
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">6</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot;</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All enemy units in HTH combat within 10&quot; of caster.</characteristic>
-        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">All models affected by the spell receive a STR penalty of -1 per magic level of caster and no enemy may make more than 1 attack during HTH fighting.</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All enemy units in HtH combat within 10&quot; of caster.</characteristic>
+        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">All models affected by the spell receive a STR penalty of -1 per magic level of caster and no enemy may make more than 1 attack during HtH fighting.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until end of turn, also ends immediately if the caster moves, attempts to dispel an enemy&apos;s spell or is Killed.</characteristic>
       </characteristics>
     </profile>
@@ -1088,22 +1088,22 @@ When order die is drawn, players dice for control.</description>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="6f59-6125-456e-38c3" name="Naginata" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="6f59-6125-456e-38c3" name="Naginata" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="c35f-a7c3-0b86-a39f" name="Nunchaku" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="c35f-a7c3-0b86-a39f" name="Nunchaku" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+2 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="7ae9-8e9a-85e9-e68b" name="Hanbo, Cane, Scroll or Tea Service" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="7ae9-8e9a-85e9-e68b" name="Hanbo, Cane, Scroll or Tea Service" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
     <profile id="bdba-151e-81e7-3b45" name="Shuriken" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
