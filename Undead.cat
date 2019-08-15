@@ -3267,6 +3267,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b40f-b67e-0346-aea0" name="Skeleton Guard [59 pts]" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c9f-1b12-88f5-5405" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="38c5-3aba-74ec-e37e" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
       </infoLinks>
@@ -3530,7 +3533,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9661-78d5-6da4-8dea" name="Undead type" hidden="false" collective="false">
+        <selectionEntryGroup id="9661-78d5-6da4-8dea" name="Undead type" hidden="false" collective="false" defaultSelectionEntryId="7553-7309-6942-4deb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b59e-107c-2ee1-8254" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04b-2bd6-1a98-7fb6" type="max"/>
@@ -4331,6 +4334,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ff2a-d62f-8cd7-456d" name="Carrion Beast [153 pts]" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df3b-9e33-acc3-ff39" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="c67a-dac0-08fd-a208" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
       </infoLinks>
