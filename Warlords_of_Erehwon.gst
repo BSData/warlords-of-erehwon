@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="1" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="2" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="cffa-cd51-pubN65537" name="Warlords of Erehwon"/>
+    <publication id="cffa-cd51-pubN65537" name="WoE HC"/>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="-1.0"/>
@@ -221,58 +221,57 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="b9e1-fea5-9095-b1cf" name="Tough" hidden="false">
+    <rule id="b9e1-fea5-9095-b1cf" name="Tough" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
-Re-roll a failed RES test.  Only one failed RES test can be re-rolled at a time from a single shooting/HTH attack.</description>
+Re-roll a failed RES test. Only one failed RES test can be re-rolled at a time from a single shooting/HTH attack.</description>
     </rule>
-    <rule id="8784-9f2f-1a5b-be21" name="Wound" hidden="false">
+    <rule id="8784-9f2f-1a5b-be21" name="Wound 1" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Model can sustain 1 wound instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
-Unit can still be auto-destroyed by pins.
-</description>
+Unit can still be auto-destroyed by pins.</description>
     </rule>
-    <rule id="90e2-5b2c-1fc8-0e8c" name="Magic Level 1" hidden="false">
+    <rule id="90e2-5b2c-1fc8-0e8c" name="Magic Level 1" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
 Spell Caster/Wizard Level 1.</description>
     </rule>
-    <rule id="487f-dc82-bce1-c0f6" name="Tough 2" hidden="false">
+    <rule id="487f-dc82-bce1-c0f6" name="Tough 2" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
 Re-roll two failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.</description>
     </rule>
-    <rule id="45bb-28cf-94fd-f899" name="Zealous" hidden="false">
+    <rule id="45bb-28cf-94fd-f899" name="Zealous" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
 Ignore Pins when taking a break test. Re-Roll failed order test.</description>
     </rule>
-    <rule id="1a97-76e9-e64e-7701" name="Heavily Laden" hidden="false">
+    <rule id="1a97-76e9-e64e-7701" name="Heavily Laden" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
 Cannot Sprint.</description>
     </rule>
-    <rule id="4a91-87e6-88c5-5e1d" name="Magic Level 2" hidden="false">
+    <rule id="4a91-87e6-88c5-5e1d" name="Magic Level 2" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
 Spell Caster/Wizard Level 2.</description>
     </rule>
-    <rule id="2e1b-4169-af1f-71e5" name="Magic Level 3" hidden="false">
+    <rule id="2e1b-4169-af1f-71e5" name="Magic Level 3" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
 Spell Caster/Wizard Level 3.</description>
     </rule>
-    <rule id="78d3-886d-5fc6-bac4" name="Spirit" hidden="false">
+    <rule id="78d3-886d-5fc6-bac4" name="Spirit" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
 Can be sacrificed for a re-roll. Destroyed if wizard is slain.</description>
     </rule>
-    <rule id="d055-98ce-6f28-1600" name="Deadeye Shot" hidden="false">
+    <rule id="d055-98ce-6f28-1600" name="Deadeye Shot" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
 Re-roll one missed shot.</description>
     </rule>
-    <rule id="160b-fca8-adb7-3d5b" name="Pavisse" hidden="false">
+    <rule id="160b-fca8-adb7-3d5b" name="Pavisse" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
-Cannot be given Run order. -3 Agility. Counts as cover with +2 Res bonus.</description>
+Cannot be given Run order. -3 Agility. Counts as in cover with +2 Res bonus.</description>
     </rule>
-    <rule id="8a4d-4dea-f005-ddc5" name="Surly" hidden="false">
+    <rule id="8a4d-4dea-f005-ddc5" name="Surly" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
 Cannot benefit from Command, Hero abilities.</description>
     </rule>
-    <rule id="7f3d-fbf8-9f49-2031" name="Large" hidden="false">
+    <rule id="7f3d-fbf8-9f49-2031" name="Large" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
 Can draw LOS to body. (+1) to hit shooting. Can draw LOS over non-large models.</description>
     </rule>
@@ -280,15 +279,15 @@ Can draw LOS to body. (+1) to hit shooting. Can draw LOS over non-large models.<
       <description>
 Increase from Tough to Tough 2.</description>
     </rule>
-    <rule id="b0ed-8f0b-633c-2f06" name="Command" hidden="false">
+    <rule id="b0ed-8f0b-633c-2f06" name="Command" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
 Friendly units within 10&quot; can use the model&apos;s CO stat to take command based tests.</description>
     </rule>
-    <rule id="a447-d495-b7ab-1477" name="Divine Intervention" hidden="false">
+    <rule id="a447-d495-b7ab-1477" name="Divine Intervention" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
 Can steal an order dice from an enemy unit within 20&quot; with successful Command test. If fail, take 1 pin instead. Max 1 attempt in any turn.</description>
     </rule>
-    <rule id="342b-a482-cb16-67e0" name="Wound 2" hidden="false">
+    <rule id="342b-a482-cb16-67e0" name="Wound 2" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Model can sustain 2 wounds instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
@@ -298,11 +297,11 @@ Unit can still be auto-destroyed by pins.</description>
       <description>
 May initiate a &apos;Challenge to the death&apos;.</description>
     </rule>
-    <rule id="3536-db5c-4e89-87d7" name="Tough 3" hidden="false">
+    <rule id="3536-db5c-4e89-87d7" name="Tough 3" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
 Re-roll three failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.</description>
     </rule>
-    <rule id="2724-2057-e745-23a3" name="Wound 3" hidden="false">
+    <rule id="2724-2057-e745-23a3" name="Wound 3" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Model can sustain 3 wounds instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
@@ -312,206 +311,263 @@ Unit can still be auto-destroyed by pins.</description>
       <description>
 Friendly units within 10&quot; can use the model&apos;s Init stat to take Reaction Tests.</description>
     </rule>
-    <rule id="83d2-f89c-33a4-258d" name="Follow" hidden="false">
+    <rule id="83d2-f89c-33a4-258d" name="Follow" publicationId="cffa-cd51-pubN65537" page="69" hidden="false">
       <description>
 Friendly un-pinned units within 5&quot; can follow the unit&apos;s order immediately.</description>
     </rule>
-    <rule id="1c49-276e-425d-0999" name="Frenzied Charge" hidden="false">
+    <rule id="1c49-276e-425d-0999" name="Frenzied Charge" publicationId="cffa-cd51-pubN65537" page="69" hidden="false">
       <description>
 +1 Extra Attack when charging.</description>
     </rule>
-    <rule id="c3b6-8870-61d6-7aaf" name="Savage" hidden="false">
+    <rule id="c3b6-8870-61d6-7aaf" name="Savage" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
 Re-Roll STR to hit in first round of combat in game.</description>
     </rule>
-    <rule id="86b2-7051-4b5c-d149" name="Irresistible Charge" hidden="false">
+    <rule id="86b2-7051-4b5c-d149" name="Irresistible Charge" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
 D3 SV bonus when charging.</description>
     </rule>
-    <rule id="1d07-520b-6918-03fd" name="Flies" hidden="false">
+    <rule id="1d07-520b-6918-03fd" name="Flies" publicationId="cffa-cd51-pubN65537" page="68" hidden="false">
       <description>
 Move over any terrain/obstacle without test or penalty.
-Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, or if flyers are down.</description>
+Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, unless flyers are down.</description>
     </rule>
-    <rule id="5e63-c99b-00b4-24eb" name="Vengeful" hidden="false">
+    <rule id="5e63-c99b-00b4-24eb" name="Vengeful" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
       <description>
 If unit wins the first round of close combat then it MUST elect to fight a follow on combat where it can do so.
 In follow-on combat, vengeful troops always fight with double their attacks.</description>
     </rule>
-    <rule id="e5df-1d6a-1034-7c77" name="Undead" hidden="false">
+    <rule id="e5df-1d6a-1034-7c77" name="Undead" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
 Cannot be routed.
 Auto-resist choking attacks.
-Immune to Dread
-Immune to Terror</description>
+Immune to Dread.
+Immune to Terror.</description>
     </rule>
-    <rule id="fd2c-3cba-cafa-62aa" name="Zombie Master" hidden="false">
+    <rule id="fd2c-3cba-cafa-62aa" name="Zombie Master" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
 Can use Hero/Follow/Command rules for Zombie units.</description>
     </rule>
-    <rule id="3dfb-f407-ff46-9b1f" name="Spectral Undead" hidden="false">
+    <rule id="3dfb-f407-ff46-9b1f" name="Spectral Undead" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
 In addition to Undead rule, also hits from flaming attacks are ignored (auto-resisted) and inflict no pins.
 All difficult ground/obstacles count as open terrain for movement.</description>
     </rule>
-    <rule id="c738-3360-de3b-34a9" name="Deathly Chill" hidden="false">
+    <rule id="c738-3360-de3b-34a9" name="Deathly Chill" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
 No armour bonus allowed.</description>
     </rule>
-    <rule id="0bf9-a070-b56b-ca4e" name="Dread" hidden="false">
+    <rule id="0bf9-a070-b56b-ca4e" name="Dread" publicationId="cffa-cd51-pubN65537" page="66" hidden="false">
       <description>
-(-1) to hit shooting/close combat.
-(-1) to break test if defeated by enemy with Dread.</description>
+-1 to hit shooting/close combat.
+-1 to break test if defeated by enemy with Dread.</description>
     </rule>
-    <rule id="612a-20b6-14a2-97e4" name="Zombie" hidden="false">
+    <rule id="612a-20b6-14a2-97e4" name="Zombie" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
 A failed order test is an advance order and not down.  
 Cannot sprint.
 Cannot benefit from the Hero/Follow/Command unless character is Zombie Master.</description>
     </rule>
-    <rule id="4d2b-eef9-9776-1480" name="Slow" hidden="false">
+    <rule id="4d2b-eef9-9776-1480" name="Slow" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
 Move at the basic rate indicated.</description>
     </rule>
-    <rule id="c246-93aa-3909-26ee" name="Fast" hidden="false">
+    <rule id="c246-93aa-3909-26ee" name="Fast" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
 Move at the basic rate indicated.</description>
     </rule>
-    <rule id="79ff-cb92-cea8-886f" name="Howling Horror Ammunition" hidden="false">
+    <rule id="79ff-cb92-cea8-886f" name="Howling Horror Ammunition" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
 Target suffers D3 additional pins.</description>
     </rule>
-    <rule id="a8bf-f48c-1b08-58e6" name="Unstoppable" hidden="false">
+    <rule id="a8bf-f48c-1b08-58e6" name="Unstoppable" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
       <description>
 Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time.</description>
     </rule>
-    <rule id="6650-1e8e-9f7d-d242" name="Undead Army Special Rule" hidden="false">
+    <rule id="6650-1e8e-9f7d-d242" name="Undead Army Special Rule" publicationId="cffa-cd51-pubN65537" page="226" hidden="false">
       <description>
 If your warlord is slain, then no further pins are removed from your units. Orders can still be issued as normal.</description>
     </rule>
-    <rule id="0056-a41e-408e-1673" name="Disciplined" hidden="false">
+    <rule id="0056-a41e-408e-1673" name="Disciplined" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
 Lose all pins when pass a rally test.</description>
     </rule>
-    <rule id="93f9-d132-d71b-ab39" name="Shieldwall" hidden="false">
+    <rule id="93f9-d132-d71b-ab39" name="Shieldwall" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
-In shieldwall formation cannot sprint and suffer -1 AG and INIT. 
--1 to hit ranged and HTH.</description>
+In shieldwall formation cannot sprint and suffer -1 Agility and Initiative. 
+Enemy suffers -1 to hit in ranged and hand-to-hand.</description>
     </rule>
-    <rule id="0b0f-1de6-7017-9097" name="Berserk" hidden="false">
+    <rule id="0b0f-1de6-7017-9097" name="Berserk" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
 Until defeated or fail a break test, double attacks in HTH. Automatically pass orders to charge.</description>
     </rule>
-    <rule id="5da1-1bfa-9b8d-6b82" name="MoD2" hidden="false">
+    <rule id="5da1-1bfa-9b8d-6b82" name="MoD2" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
 Unit has 2 Order Dice.</description>
     </rule>
-    <rule id="1e90-54e2-dd77-c4e3" name="Rapid Sprint" hidden="false">
+    <rule id="1e90-54e2-dd77-c4e3" name="Rapid Sprint" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
 Sprint at 4M.</description>
     </rule>
-    <rule id="45b3-c028-8c8c-43ae" name="Stampede" hidden="false">
+    <rule id="45b3-c028-8c8c-43ae" name="Stampede" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
 Stampede on failed order test of 10. D10&quot;+2M in direction shown by dice.
 Each unit in path is attacked as if charged. unit goes down and gains 1 pin per unit trampled.</description>
     </rule>
-    <rule id="2b40-80c8-12cf-8f44" name="Crazed Psychotics" hidden="false">
+    <rule id="2b40-80c8-12cf-8f44" name="Crazed Psychotics" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
 Automatically pass charge orders, cannot be routed, immune to fear and terror.</description>
     </rule>
-    <rule id="8eba-5940-fd9b-254c" name="Drop" hidden="false">
+    <rule id="8eba-5940-fd9b-254c" name="Drop" publicationId="cffa-cd51-pubN65537" page="66" hidden="false">
       <description>
 Drop attacks ignore cover modifiers.</description>
     </rule>
-    <rule id="b61d-3471-1ce6-6878" name="Fire" hidden="false">
+    <rule id="b61d-3471-1ce6-6878" name="Fire" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
 Fire attacks add an extra pin to targets they hit.</description>
     </rule>
-    <rule id="57f2-e9b1-c3c1-7c74" name="Mechanical Genius" hidden="false">
+    <rule id="57f2-e9b1-c3c1-7c74" name="Mechanical Genius" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
 Add +1 ACC to all artillery in 10&quot;, +/-1 from any Monstrosity (machine) damage chart result within 10&quot;.</description>
     </rule>
-    <rule id="182e-9b37-17f3-5b45" name="Ramshackle Contraption" hidden="false">
+    <rule id="182e-9b37-17f3-5b45" name="Ramshackle Contraption" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
 On a failed order result of a 10 roll on the Monstrosity damage chart.</description>
     </rule>
-    <rule id="4440-376a-8093-35b8" name="Stubborn" hidden="false">
+    <rule id="4440-376a-8093-35b8" name="Stubborn" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
 Recover +1 pin each time an order test is taken.</description>
     </rule>
-    <rule id="4808-d708-bb73-97e8" name="Enchanted Steed" hidden="false">
+    <rule id="4808-d708-bb73-97e8" name="Enchanted Steed" publicationId="cffa-cd51-pubN65537" page="66" hidden="false">
       <description>
 All water terrain counts as open terrain and adds +1 RES to mounted units.</description>
     </rule>
-    <rule id="6a8d-ef1b-6f78-e15c" name="Haughty Disdain" hidden="false">
+    <rule id="6a8d-ef1b-6f78-e15c" name="Haughty Disdain" publicationId="cffa-cd51-pubN65537" page="69" hidden="false">
       <description>
 Automatically pass first Break Test.</description>
     </rule>
-    <rule id="e1f3-7817-0e4e-5cb9" name="Woodsman" hidden="false">
+    <rule id="e1f3-7817-0e4e-5cb9" name="Woodsman" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
-Difficult terrain counts as open terrain.</description>
+Wooded terrain counts as open terrain. +1 RES cover bonus in wooden terrain.</description>
     </rule>
-    <rule id="dcb2-de55-1fca-e0a8" name="Stealthy" hidden="false">
+    <rule id="dcb2-de55-1fca-e0a8" name="Stealthy" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
 Re-roll missile hits if in cover.</description>
     </rule>
-    <rule id="9855-31c9-3745-714d" name="Baleful Glare" hidden="false">
+    <rule id="9855-31c9-3745-714d" name="Baleful Glare" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
 Ranged Attack 20&quot;, No damage but inflicts 1+D3 pins and unit takes a Break test.</description>
     </rule>
-    <rule id="53b9-a3e9-0e9f-2d77" name="Venomous" hidden="false">
+    <rule id="53b9-a3e9-0e9f-2d77" name="Venomous" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
       <description>
 Add one hit if any hits are scored.</description>
     </rule>
-    <rule id="37e8-d658-01a9-6916" name="Flaming Breath" hidden="false">
+    <rule id="37e8-d658-01a9-6916" name="Flaming Breath" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
-Ranged Attack 20&quot;. Fire Attack. As Stats.</description>
+Ranged Attack 20&quot;. Fire Attack (+1 pin). As Stats.</description>
     </rule>
-    <rule id="087e-dfda-76c2-09bf" name="Blundering" hidden="false">
+    <rule id="087e-dfda-76c2-09bf" name="Blundering" publicationId="cffa-cd51-pubN65537" page="63" hidden="false">
       <description>
 Cannot Sprint. Must test Agility for a run. Crosses obstacles as chariot/artillery.</description>
     </rule>
-    <rule id="0a0c-ed4c-9647-4398" name="Regenerate" hidden="false">
+    <rule id="0a0c-ed4c-9647-4398" name="Regenerate" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
 Re-roll failed RES and take pin if successful.</description>
     </rule>
-    <rule id="14ff-225a-4ec5-f56d" name="Beastly Breath" hidden="false">
+    <rule id="14ff-225a-4ec5-f56d" name="Beastly Breath" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
 D6 Ranged attacks, 20&quot;, SV3 Choking.</description>
     </rule>
-    <rule id="46d2-d008-8225-bcff" name="Chunder" hidden="false">
+    <rule id="46d2-d008-8225-bcff" name="Chunder" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
 Ranged Attack 10&quot;, Opponent&apos;s RES 5.  Chunder goes empty on a roll of 6+.</description>
     </rule>
-    <rule id="583a-fa53-11ff-7b40" name="Terror" hidden="false">
+    <rule id="583a-fa53-11ff-7b40" name="Terror" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
 A unit within 15&quot; removes NO pins when making an order test. 
 A unit failing a break test within 5&quot; is automatically destroyed.
 A routing unit within 5&quot; is automatically destroyed.
 Terrifying units and units with the Crazed Psychotic/Undead rules are immune to terror.</description>
     </rule>
-    <rule id="7ff2-1650-fc0e-5a3a" name="Choking" hidden="false">
+    <rule id="7ff2-1650-fc0e-5a3a" name="Choking" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
 No armour bonus or cover bonus allowed.</description>
+    </rule>
+    <rule id="ae37-06b2-7f4c-ec52" name="Allied Monster" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
+      <description>
+Cannot benefit from Command, Hero, or Follow special rules.</description>
+    </rule>
+    <rule id="2e98-ee7b-558a-81ef" name="Bound Monster" publicationId="cffa-cd51-pubN65537" page="63" hidden="false">
+      <description>
+Cannot benefit from Command, Hero, or Follow special rules.
+Take D6 pins if a 10 is rolled for its order test. Can be auto-destroyed via pins as a result.</description>
+    </rule>
+    <rule id="3a29-1b97-6c21-75e7" name="Flaming Wheel" publicationId="cffa-cd51-pubN65537" page="68" hidden="false">
+      <description>
+Max move of 1M.
+Difficult terrain and obstacles count as impassable.
+Fire order to shoot (or rather push).</description>
+    </rule>
+    <rule id="a8ca-ba71-db97-bc20" name="MoD3" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
+      <description>
+Unit has 3 Order Dice.</description>
+    </rule>
+    <rule id="9d78-2294-d4fd-9efd" name="Slow 3" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
+      <description>
+Move at a base rate of 3&quot;.</description>
+    </rule>
+    <rule id="ade7-83de-c555-3df3" name="Slow 4" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
+      <description>
+Move at a base rate of 4&quot;.</description>
+    </rule>
+    <rule id="7753-3806-9cf1-0a6c" name="Fast 6" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
+      <description>
+Move at a base rate of 6&quot;.</description>
+    </rule>
+    <rule id="105b-036d-9a8f-edac" name="Fast 8" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
+      <description>
+Move at a base rate of 8&quot;.</description>
+    </rule>
+    <rule id="0034-82ae-f695-d446" name="Fast 10" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
+      <description>
+Move at a base rate of 10&quot;.</description>
+    </rule>
+    <rule id="6016-006f-a999-c64c" name="Whirling Dervishes" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
+      <description>
+Loose unit formation: Stay at least 1&quot; apart, max 2&quot;.
+Can only be given Run order (including Sprint).
+On result of 10 for order test, move randomly. Touching other units counts as charge.
+Re-roll all shooting hits on unit.
+Enemies don&apos;t counter-attack in close combat. Saved hits (successful RES rolls) count as casualties for the dervish unit.
+Unit is automatically destroyed if close combat is not won.
+Consolidation move is random, may initiate immediate combat if touching different unit than that just fought. 
+May make consolidation move through unit it just fought.</description>
+    </rule>
+    <rule id="e2ce-cefd-9949-02fd" name="Wild Monster" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
+      <description>
+Goes wild if 10 is rolled for order test.
+Add D6 pins to check for auto-destruction as normal. If not auto-destroyed, remove all pins.
+Replace all order dice by one die of different color.
+When order die is drawn, players dice for control.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="2447-8f38-dd07-d089" name="Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Str +1</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">STR +1</characteristic>
       </characteristics>
     </profile>
     <profile id="f47a-0e7b-e210-5d54" name="Stave" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Str +1</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">STR +1</characteristic>
       </characteristics>
     </profile>
     <profile id="abab-c6f8-5036-1cb4" name="Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 Str</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
     <profile id="6132-3227-d7f3-41ee" name="Massive Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -529,7 +585,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="595c-60a6-3a30-b259" name="Halberds" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 Str</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
     <profile id="c79a-48d1-9b48-2c68" name="Spear" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -601,13 +657,13 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="f367-10de-49e2-acff" name="Heavy Armour" hidden="false" typeId="726e-70e6-d94e-c9ac" typeName="Armour Profile">
       <characteristics>
         <characteristic name="Res" typeId="f05e-0dc4-2f61-ffb6">5(8)</characteristic>
-        <characteristic name="Special" typeId="b446-8296-adef-b370">-</characteristic>
+        <characteristic name="Special" typeId="b446-8296-adef-b370"></characteristic>
       </characteristics>
     </profile>
     <profile id="1f70-2881-7206-2fe9" name="Cudgel" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
       </characteristics>
     </profile>
     <profile id="ef46-1d4c-7c9d-d938" name="Pitchfork, Bills, or Glaives" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -637,7 +693,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="3f74-469a-cb98-f949" name="Scourge" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-Can also be &apos;cracked&apos; during the exchange of missiles.</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be &apos;cracked&apos; during the exchange of missiles.</characteristic>
       </characteristics>
     </profile>
     <profile id="ba80-a4f2-4c92-7844" name="Small Bolt Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
@@ -685,7 +741,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="556d-4839-8be4-b724" name="Hair Shirt" hidden="false" typeId="726e-70e6-d94e-c9ac" typeName="Armour Profile">
       <characteristics>
         <characteristic name="Res" typeId="f05e-0dc4-2f61-ffb6">5(6)</characteristic>
-        <characteristic name="Special" typeId="b446-8296-adef-b370">-</characteristic>
+        <characteristic name="Special" typeId="b446-8296-adef-b370"></characteristic>
       </characteristics>
     </profile>
     <profile id="2221-3571-075e-ae84" name="Morning Star" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -697,43 +753,43 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="4f07-5005-3329-5095" name="Chain Mace" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Armour +1 Max bonus.</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Armour +1 Max  bonus.</characteristic>
       </characteristics>
     </profile>
     <profile id="a1ad-5715-ceb1-e77e" name="Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 Strength</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
     <profile id="41c3-e1df-53b7-ed79" name="Huge Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
       </characteristics>
     </profile>
     <profile id="e977-49ab-1207-d301" name="Big Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
       </characteristics>
     </profile>
     <profile id="8aea-0ac0-030a-5da1" name="Improbably Vast Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">3</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-Heavily Laden</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Heavily Laden</characteristic>
       </characteristics>
     </profile>
     <profile id="91a1-fed7-8323-b2c8" name="Bloomin&apos; big axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">3</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-Heavily Laden</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Heavily Laden</characteristic>
       </characteristics>
     </profile>
     <profile id="0b17-24e8-fb18-654e" name="Club" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
       </characteristics>
     </profile>
     <profile id="7723-e7c2-30a5-43ee" name="Chariot Scythes" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -763,7 +819,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="88d0-6821-ceff-0382" name="Rocks (HTH)" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be thrown as ranged weapon</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be thrown as ranged weapon.</characteristic>
       </characteristics>
     </profile>
     <profile id="c6ac-d307-29c2-4ef1" name="Handgun" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
@@ -826,7 +882,7 @@ No armour bonus or cover bonus allowed.</description>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">6</characteristic>
-        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">1xDrop SV6 Fire, Unstoppable</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">1xDrop SV6, Fire, Unstoppable</characteristic>
       </characteristics>
     </profile>
     <profile id="c44d-adb8-ec8a-3dd4" name="Rock dropped by Eagle" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
@@ -910,7 +966,7 @@ No armour bonus or cover bonus allowed.</description>
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">9</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">20&quot;</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Enemy unit within range and LOS (same as shooting)</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Enemy unit within range and LOS (same as shooting).</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">D3 + casters Magic Level hits caused, resolved at Strike Value 1 and Fire Attacks.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
@@ -919,16 +975,16 @@ No armour bonus or cover bonus allowed.</description>
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">20&quot;</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Enemy in Range and LOS (same as shooting attack)</characteristic>
-        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">D3 + Casters magic level hits, resolved at Strike Value 1 and as a Deathly Chill Ranged Attack.  (cannot affect models with undead or spectral undead rule)</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Enemy in Range and LOS (same as shooting attack).</characteristic>
+        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">D3 + Casters magic level hits, resolved at Strike Value 1 and as a Deathly Chill Ranged Attack. Cannot affect models with undead or spectral undead rule.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
     <profile id="096e-2da4-2cdd-6c4d" name="(Spell) Peculiar Portal" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
-        <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8 minus 1 for every 10&quot; of distance between caster and target</characteristic>
+        <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8 minus 1 for every 10&quot; of distance between caster and target.</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">N/A</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">(any enemy unit on tabletop)</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Any enemy unit on tabletop.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Unit is removed from current position and repositioned by the OWNING player at the player&apos;s table edge or if there is no player&apos;s edge then an edge nominated by the caster.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
@@ -945,7 +1001,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="29a5-e36b-7b3f-c197" name="(Spell) Enchanted Shield" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level.</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Any Friendly unit in range, LOS is NOT required.  Can be cast on wizards own unit. </characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Any ranged attack upon the unit will automatically miss on any ACC roll other than a 1.  Only affects attacks where an ACC check is made, would not affect things like Fiery balls where no ACC check is made.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until End of Turn</characteristic>
@@ -954,8 +1010,8 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="dd16-8e55-111c-118c" name="(Spell) Aura of Courage" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">All Friendly Units within 10&quot;</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All Friendly Units within 10&quot;</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">All Friendly Units within 10&quot;.</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All Friendly Units within 10&quot;.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add Wizards Magic Level.  You can remove this total number of pins from the target units.  It does not have to be distributed evenly, you get to decide which pins are removed from where.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
@@ -963,8 +1019,8 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="dd4e-402d-e03c-f841" name="(Spell) Aura of Timidity" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; for Magic Level 1, 20&quot; for Magic Level 2, 30&quot; for Magic Level 3</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All enemy units within applicable Range</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; for Magic Level 1, 20&quot; for Magic Level 2, 30&quot; for Magic Level 3.</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All enemy units within applicable Range.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add casters Magic Level.  You can distribute this total number of pins amongst the units affected.  You can distribute them how you like, it does NOT have to be evenly.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
@@ -972,7 +1028,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="5cf5-b784-0eca-19aa" name="(Spell) Wake the Dead" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per magic level of caster</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per magic level of caster.</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Friendly Undead Warrior unit of either skeletons or zombies with five models or fewer.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add casters Magic Level.  This is the number of Additional warriors that join the unit.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
@@ -981,7 +1037,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="ae9d-c50e-6667-48f3" name="(Spell) Sorcerer&apos;s Shield" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level.</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All Friendly units within Range, including casters own unit.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Any shooting attack upon a unit affected by spell will automatically miss on any ACC roll other than a 1.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until end of the turn.  Also ended immediately if the caster Moves, attempts to dispel an enemy&apos;s spell or is killed.</characteristic>
@@ -990,7 +1046,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="0a25-272c-9462-1696" name="(Spell) Surge" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; (For undead wizards and necromancers the range is 10&quot; per magic level)</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; (for undead wizards and necromancers the range is 10&quot; per magic level).</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Any friendly unit that has one or more order dice played already that turn.  LOS is NOT required.  Cannot be cast on casters own unit.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">One order dice is removed from the unit and returned to the dice bag.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
@@ -999,7 +1055,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="4de4-3f21-99b0-3c0d" name="(Spell) Lightning Bolt" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">30&quot; from caster</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">30&quot; from caster.</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Any unit in Range, NO LOS necessary.  If cast on unit with multiple models, pick the specific model that is the target.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Causes 1 hit.  Roll a D3 and add casters Magic Level, this is the SV of the bolt.   Once hit has been resolved and a pin has been added for being hit by a ranged missile, the unit must take a BREAK TEST.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
@@ -1009,7 +1065,7 @@ No armour bonus or cover bonus allowed.</description>
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level of caster.</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">An enemy unit of monsters or a monstrosity within Range and LOS. (same as shooting)</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">An enemy unit of monsters or a monstrosity within Range and LOS (same as shooting attack).</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">If the unit has any order dice remaining in dice bag, take them all from the bag at once and give them to the unit as DOWN orders.  Any order dice already on the unit are instead changed to DOWN.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
@@ -1026,7 +1082,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="5528-567d-5eab-533e" name="(Spell) Sorcerous Battle!" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">6</characteristic>
-        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic level of Caster</characteristic>
+        <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic level of caster.</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Opposing Wizard Unit.  NO LOS necessary.</characteristic>
         <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Each Wizard rolls a D6 and adds their Magic Level.  Highest total wins. The loser suffers a pin.  The winner can then decide whether to continue the duel or end it.  Repeat until a wizards reaches their pin break point or the winner declares an end to the spell.  If the results are a tie at any time then both wizards receive a pin and the duel continues.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
@@ -1035,7 +1091,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="6f59-6125-456e-38c3" name="Naginata" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
       </characteristics>
     </profile>
     <profile id="c35f-a7c3-0b86-a39f" name="Nunchaku" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -1047,7 +1103,7 @@ No armour bonus or cover bonus allowed.</description>
     <profile id="7ae9-8e9a-85e9-e68b" name="Hanbo, Cane, Scroll or Tea Service" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">-</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
       </characteristics>
     </profile>
     <profile id="bdba-151e-81e7-3b45" name="Shuriken" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
