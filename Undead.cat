@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e5b3-ac3f-4947-9875" name="Undead" revision="1" battleScribeVersion="2.02" authorName="The3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="e5b3-ac3f-pubN65537" name="Warlords of Erehwon"/>
-  </publications>
+<catalogue id="e5b3-ac3f-4947-9875" name="Undead" revision="2" battleScribeVersion="2.02" authorName="The3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="be7a-2982-bed2-d5b1" name="Necromancer" hidden="false" collective="false" targetId="837f-5310-663b-e80c" type="selectionEntry"/>
     <entryLink id="7019-c706-1279-e7a8" name="Liche" hidden="false" collective="false" targetId="c169-7c00-8d5e-beb4" type="selectionEntry"/>
@@ -13,12 +10,12 @@
     <entryLink id="deb6-fe4c-11e3-75c9" name="Skeleton Guard" hidden="false" collective="false" targetId="b40f-b67e-0346-aea0" type="selectionEntry"/>
     <entryLink id="263f-fbe0-8885-3f46" name="Skeleton Warriors [57]" hidden="false" collective="false" targetId="165e-1098-6932-7727" type="selectionEntry"/>
     <entryLink id="5a48-d5aa-5c9c-b86c" name="Skeleton Archers [67]" hidden="false" collective="false" targetId="039c-a3c5-412d-a575" type="selectionEntry"/>
-    <entryLink id="78b9-096a-3e1a-9b0e" name="Zombies" hidden="false" collective="false" targetId="72ae-4775-16bd-ddbe" type="selectionEntry"/>
+    <entryLink id="78b9-096a-3e1a-9b0e" name="Zombies [25]" hidden="false" collective="false" targetId="72ae-4775-16bd-ddbe" type="selectionEntry"/>
     <entryLink id="322b-aa6d-2a25-2093" name="Wights [102 pts]" hidden="false" collective="false" targetId="33f0-db6e-95bb-d78e" type="selectionEntry"/>
     <entryLink id="b6b0-60f8-7ee7-6f3d" name="Skeleton Riders [72 pts]" hidden="false" collective="false" targetId="c5cd-75ca-cc12-0ac4" type="selectionEntry"/>
     <entryLink id="4be7-093e-0b6f-b777" name="Skeleton Knights" hidden="false" collective="false" targetId="3876-8378-f299-3c94" type="selectionEntry"/>
     <entryLink id="a680-6b07-139c-c88b" name="Skeleton Chariot" hidden="false" collective="false" targetId="8f1c-6486-2c2b-8e30" type="selectionEntry"/>
-    <entryLink id="281b-8a82-e6fa-4d56" name="Carrion Beast [133 pts]" hidden="false" collective="false" targetId="ff2a-d62f-8cd7-456d" type="selectionEntry"/>
+    <entryLink id="281b-8a82-e6fa-4d56" name="Carrion Beast [153 pts]" hidden="false" collective="false" targetId="ff2a-d62f-8cd7-456d" type="selectionEntry"/>
     <entryLink id="eb10-2645-72fb-7eea" name="Skeleton Bolt Thrower [60 pts]" hidden="false" collective="false" targetId="8d33-9051-6b4e-dfff" type="selectionEntry"/>
     <entryLink id="e68b-8892-3907-5ea5" name="Skeleton Stone Thrower [72 pts]" hidden="false" collective="false" targetId="302f-44fd-1451-bdb0" type="selectionEntry"/>
   </entryLinks>
@@ -692,6 +689,7 @@
                 <infoLink id="9994-dfeb-3b29-1bd5" name="Undead Army Special Rule" hidden="false" targetId="6650-1e8e-9f7d-d242" type="rule"/>
                 <infoLink id="c228-3831-ceb8-3bf2" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
                 <infoLink id="3df3-d159-c9e2-fe2d" name="Liche" hidden="false" targetId="9527-115d-c679-3a2d" type="profile"/>
+                <infoLink id="e940-1c30-acc8-ba99" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="95.0"/>
@@ -1324,7 +1322,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fb2-5cc6-02c6-158d" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="f221-29f3-f331-6152" name="Liche" hidden="false" targetId="bec0-28d8-d8ca-5aa5" type="profile"/>
+                <infoLink id="f221-29f3-f331-6152" name="Liche (riding chariot)" hidden="false" targetId="bec0-28d8-d8ca-5aa5" type="profile"/>
                 <infoLink id="1af4-2193-1201-bd0b" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
                 <infoLink id="4110-76a1-4ba0-bcf9" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
                 <infoLink id="a7b7-45d1-81f3-30a5" name="Undead Army Special Rule" hidden="false" targetId="6650-1e8e-9f7d-d242" type="rule"/>
@@ -1343,7 +1341,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5339-8200-53fc-11db" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="49c1-41c5-57c6-cae5" name="Skeleton Crew" hidden="false" targetId="ea23-a4fc-a287-2fcd" type="profile"/>
+                <infoLink id="49c1-41c5-57c6-cae5" name="Skeleton Crew (Chariot)" hidden="false" targetId="ea23-a4fc-a287-2fcd" type="profile"/>
                 <infoLink id="6f1e-159c-4b80-63e2" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
               </infoLinks>
               <costs>
@@ -1405,7 +1403,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f56-6bed-ef8a-cbb0" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0ef1-6f7c-b27d-60b0" name="Wound" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0ef1-6f7c-b27d-60b0" name="Wound 1" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="a50b-f1da-d6ee-3cf1" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
               </infoLinks>
@@ -1437,7 +1435,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3b5-a0cf-45d3-47f6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ee59-54cb-d8da-ba6a" name="Tough" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ee59-54cb-d8da-ba6a" name="Tough 1" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="7694-b92b-8510-7619" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
               </infoLinks>
@@ -1851,6 +1849,27 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="da68-1b1f-543c-2ef5" name="Chariot Model" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="bd6c-11ae-8b16-a9dc" name="Chariot" hidden="false" collective="false" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dea1-5ab4-bfc0-eb90" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e7d-a05f-6c65-a80c" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6021-a11c-aabe-1958" name="Chariot with Liche and Crew, pulled by Helhorses" hidden="false" targetId="8148-887f-6070-e2b6" type="profile"/>
+                <infoLink id="8228-f0c8-f4ee-2e19" name="Fast 6" hidden="false" targetId="7753-3806-9cf1-0a6c" type="rule"/>
+                <infoLink id="892f-0d83-e48c-7848" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+                <infoLink id="e786-e88c-8134-ce43" name="Irresistible Charge" hidden="false" targetId="86b2-7051-4b5c-d149" type="rule"/>
+                <infoLink id="8d46-8a6c-ab9a-8dda" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+                <infoLink id="814a-46c1-0f7d-a2cf" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="177.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1875,6 +1894,7 @@
                 <infoLink id="c596-80bb-5a7d-7a46" name="Spectral Undead" hidden="false" targetId="3dfb-f407-ff46-9b1f" type="rule"/>
                 <infoLink id="3f14-4cb4-8ddd-8f9a" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
                 <infoLink id="9e16-310d-60f3-2c68" name="Wraith" hidden="false" targetId="2178-4098-7de9-b223" type="profile"/>
+                <infoLink id="7dbf-0580-8d35-81a8" name="Undead Army Special Rule" hidden="false" targetId="6650-1e8e-9f7d-d242" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="154.0"/>
@@ -2528,6 +2548,8 @@
             <infoLink id="589e-f918-b907-9068" name="Deathly Chill" hidden="false" targetId="c738-3360-de3b-34a9" type="rule"/>
             <infoLink id="11c2-da63-9aa2-4e87" name="Spectral Undead" hidden="false" targetId="3dfb-f407-ff46-9b1f" type="rule"/>
             <infoLink id="6745-68dd-5f5c-5f53" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
+            <infoLink id="dfcc-a750-b53f-cf37" name="Undead Army Special Rule" hidden="false" targetId="6650-1e8e-9f7d-d242" type="rule"/>
+            <infoLink id="f1b0-0d9e-7765-13cc" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="166.0"/>
@@ -2656,6 +2678,7 @@
               <infoLinks>
                 <infoLink id="d819-87ed-0c1f-12a4" name="Cursed Spirits Mounted" hidden="false" targetId="070e-5a4a-143b-286a" type="profile"/>
                 <infoLink id="5d32-62a4-fe8d-69f0" name="Spirit" hidden="false" targetId="78d3-886d-5fc6-bac4" type="rule"/>
+                <infoLink id="34a2-1c69-8f3d-489d" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="29.0"/>
@@ -3013,6 +3036,11 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bac-4242-05e0-cfdf" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="559a-98f0-4bf4-24ef" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+        <infoLink id="2546-2905-35dc-988b" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
+        <infoLink id="cd71-edf3-3a69-e233" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9664-75f3-e1b2-1aa0" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -3025,7 +3053,6 @@
           <selectionEntries>
             <selectionEntry id="bbb2-5afb-43d0-3e2f" name="Undead Champion in Medium Armour" hidden="false" collective="false" type="model">
               <infoLinks>
-                <infoLink id="1558-7325-a77b-44e2" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
                 <infoLink id="5b99-e331-c926-4c8a" name="Undead Champion" hidden="false" targetId="57b5-f959-5aa5-dc95" type="profile"/>
               </infoLinks>
               <costs>
@@ -3034,7 +3061,6 @@
             </selectionEntry>
             <selectionEntry id="3866-bc5f-d64e-d32b" name="Undead Champion in Heavy Armour" hidden="false" collective="false" type="model">
               <infoLinks>
-                <infoLink id="fa07-4351-f839-ea4a" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
                 <infoLink id="9039-2c8a-a3c4-edf5" name="Undead Champion (Hvy armour)" hidden="false" targetId="41d0-c73b-090f-f2b0" type="profile"/>
                 <infoLink id="2381-11bc-fc95-d7fd" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
               </infoLinks>
@@ -3241,6 +3267,12 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b40f-b67e-0346-aea0" name="Skeleton Guard [59 pts]" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c9f-1b12-88f5-5405" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="38c5-3aba-74ec-e37e" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f7bf-01f2-feba-0832" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -3433,6 +3465,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="165e-1098-6932-7727" name="Skeleton Warriors [57 pts]" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="71f4-6078-6130-8c07" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f4aa-e683-a32e-8c9c" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -3498,7 +3533,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9661-78d5-6da4-8dea" name="Undead type" hidden="false" collective="false">
+        <selectionEntryGroup id="9661-78d5-6da4-8dea" name="Undead type" hidden="false" collective="false" defaultSelectionEntryId="7553-7309-6942-4deb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b59e-107c-2ee1-8254" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04b-2bd6-1a98-7fb6" type="max"/>
@@ -3537,6 +3572,7 @@
     <selectionEntry id="039c-a3c5-412d-a575" name="Skeleton Archers [57 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="b088-fa94-5701-bcd5" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="d790-9b4d-a574-732f" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0c4d-f797-0524-2c19" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -3690,6 +3726,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="72ae-4775-16bd-ddbe" name="Zombies [25]" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="33cb-f07a-743e-e245" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="660f-a6e3-132d-2818" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -3852,7 +3891,8 @@
     </selectionEntry>
     <selectionEntry id="c5cd-75ca-cc12-0ac4" name="Skeleton Riders [72 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="c848-f1a5-118a-9537" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+        <infoLink id="67fd-480a-2e36-d781" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="7070-6832-01ef-c6b7" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d2ca-f575-ecbf-406e" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
@@ -3938,7 +3978,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d73f-d22e-5d12-4466" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="c19c-3e2c-ccf2-48c9">
+        <selectionEntryGroup id="d73f-d22e-5d12-4466" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="c19c-3e2c-ccf2-48c9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c810-f4f3-f0ac-6d9f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6266-271a-a461-5206" type="max"/>
@@ -4038,7 +4078,8 @@
     <selectionEntry id="3876-8378-f299-3c94" name="Skeleton Knights [102 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="820f-3f8e-fab6-dad8" name="Lance" hidden="false" targetId="e601-dcfc-7485-2164" type="profile"/>
-        <infoLink id="e274-8582-e78b-cce3" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+        <infoLink id="92a8-908e-8165-b7ce" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="7de0-c6f2-1a84-e929" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eb6f-5f5a-c085-854c" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
@@ -4053,13 +4094,13 @@
               </constraints>
               <infoLinks>
                 <infoLink id="4d3f-be42-419b-8ab1" name="Skeleton Knight Leader, Riding Helhorse" hidden="false" targetId="fd4c-8543-b256-8ddc" type="profile"/>
-                <infoLink id="884a-dfb8-edb8-8712" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                <infoLink id="884a-dfb8-edb8-8712" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="42.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="195e-b58e-5923-2b4a" name="Skelton Knights" hidden="false" collective="false" type="model">
+            <selectionEntry id="195e-b58e-5923-2b4a" name="Skeleton Knights" hidden="false" collective="false" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1cd-c333-7ed5-2498" type="min"/>
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ce1-20c0-afcf-4e6d" type="max"/>
@@ -4110,6 +4151,12 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8f1c-6486-2c2b-8e30" name="Skeleton Chariot [117 pts]" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="2bc4-d669-be6a-070e" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="aad5-aed8-b690-ddce" name="Irresistible Charge" hidden="false" targetId="86b2-7051-4b5c-d149" type="rule"/>
+        <infoLink id="1355-24a3-cd88-133a" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="a46b-493c-8f7c-71cd" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0e3e-3d1f-885c-8019" name="New CategoryLink" hidden="false" targetId="239f-4e2f-785f-7869" primary="true"/>
       </categoryLinks>
@@ -4146,9 +4193,9 @@
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="2da7-4f9f-e1a0-03b2" name="2x Helhorses  (HTH Attack SV1)" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="2da7-4f9f-e1a0-03b2" name="2x Helhorses  (HtH Attack SV1)" hidden="false" collective="false" type="upgrade">
                   <infoLinks>
-                    <infoLink id="c6e4-855d-0e4f-c1f0" name="Helhorses" hidden="false" targetId="58fe-f4ea-426e-ca44" type="profile"/>
+                    <infoLink id="c6e4-855d-0e4f-c1f0" name="Helhorses" hidden="false" targetId="61b7-a187-ea30-5207" type="profile"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="26f0-df22-30dc-9c70" name="Upgrade to 4 Helhorses" hidden="false" collective="false">
@@ -4211,7 +4258,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d751-b064-be4f-2855" name="Crew HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="ba43-44cd-c86b-bd82">
+        <selectionEntryGroup id="d751-b064-be4f-2855" name="Crew HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="ba43-44cd-c86b-bd82">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce3-2e3c-3eb9-78fe" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3241-ab78-303d-485b" type="max"/>
@@ -4287,6 +4334,12 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ff2a-d62f-8cd7-456d" name="Carrion Beast [153 pts]" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df3b-9e33-acc3-ff39" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c67a-dac0-08fd-a208" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c0f8-97b3-f6eb-bd30" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
@@ -4302,9 +4355,9 @@
                 <infoLink id="e222-4c47-9284-c2aa" name="Carrion Beast with rocks" hidden="false" targetId="7d0c-a2e7-67fc-544d" type="profile"/>
                 <infoLink id="607e-5a86-e9f9-1851" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
                 <infoLink id="d74e-1ea7-2b02-0aa3" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
-                <infoLink id="3dba-65f8-b49d-05fc" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
-                <infoLink id="8aba-3581-9f6f-776a" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+                <infoLink id="8aba-3581-9f6f-776a" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
                 <infoLink id="c633-8d91-a9a1-0062" name="Rock dropped by Carrion Beast" hidden="false" targetId="f54b-ae0e-9cdc-020e" type="profile"/>
+                <infoLink id="f051-18db-194e-3f3c" name="Fast 10" hidden="false" targetId="0034-82ae-f695-d446" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="153.0"/>
@@ -4337,7 +4390,7 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="03bc-d1e4-da0e-1aa8" name="Skeleton Rider HTH weapon" hidden="false" collective="false" defaultSelectionEntryId="8e26-e336-22b2-9558">
+                <selectionEntryGroup id="03bc-d1e4-da0e-1aa8" name="Skeleton Rider HtH weapon" hidden="false" collective="false" defaultSelectionEntryId="8e26-e336-22b2-9558">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3af-97e0-c89e-244e" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec5-d8b8-fade-41f2" type="max"/>
@@ -4406,6 +4459,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8d33-9051-6b4e-dfff" name="Skeleton Bolt Thrower [60 pts]" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="de6d-62f8-ee52-ad4a" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cd5f-1e30-afea-aff1" name="Artillery Unit" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
@@ -4464,7 +4520,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8ef1-f77a-b0f6-17b4" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="f92c-c6dd-f7df-ecf6">
+        <selectionEntryGroup id="8ef1-f77a-b0f6-17b4" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="f92c-c6dd-f7df-ecf6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c2c-a6a7-8f30-6feb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed67-df07-9ff6-0b8e" type="min"/>
@@ -4559,7 +4615,7 @@
               </constraints>
               <infoLinks>
                 <infoLink id="c9c2-d153-7f74-9f3a" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="d700-99bc-e822-3de6" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
+                <infoLink id="80a1-76ff-c384-185b" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="42.0"/>
@@ -4573,6 +4629,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="302f-44fd-1451-bdb0" name="Skeleton Stone Thrower [72 pts]" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="a53d-ac12-d2cc-06a4" name="Undead" hidden="false" targetId="e5df-1d6a-1034-7c77" type="rule"/>
+        <infoLink id="070c-7b9d-5397-5a0d" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b33b-3ea1-9086-86e7" name="Artillery Unit" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
@@ -4631,7 +4691,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8ea5-402d-53f6-06c3" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="8115-bcf3-7161-84d1">
+        <selectionEntryGroup id="8ea5-402d-53f6-06c3" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="8115-bcf3-7161-84d1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae65-2c2d-3bb0-e3f4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7792-6142-58f0-f258" type="min"/>
@@ -4741,7 +4801,6 @@
               </constraints>
               <infoLinks>
                 <infoLink id="66e6-20ef-930d-3af6" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="39f6-6a3c-6720-6068" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="54.0"/>
@@ -4764,7 +4823,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">10</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Command, 2xHTH, Wound, Magic Level 1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 2xHtH, Wound, Magic Level X</characteristic>
       </characteristics>
     </profile>
     <profile id="6a6f-393b-f5a6-22ae" name="Skeleton Bodyguard in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4786,7 +4845,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">3</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">3</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1xHTH SV1, Exchange of missiles SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1xHtH SV1, Exchange of missiles SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="9a44-bb44-383a-db33" name="Skeleton Bodyguard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4808,7 +4867,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">10</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Command, 2xHTH, Undead, Wound, Magic Level 1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 2xHtH, Undead, Wound X, Magic Level X</characteristic>
       </characteristics>
     </profile>
     <profile id="8148-887f-6070-e2b6" name="Chariot with Liche and Crew, pulled by Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4819,10 +4878,10 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">10</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, Fast 6, Irresistable Charge, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough 1, Fast 6, Irresistable Charge, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="bec0-28d8-d8ca-5aa5" name="Liche" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="bec0-28d8-d8ca-5aa5" name="Liche (riding chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">[5]</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4830,7 +4889,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">[6]</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">10</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough], Command, 2xHTH, Undead, [Wound], Magic Level 1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, 2xHtH, Undead, [Wound X], Magic Level X, [on foot only]</characteristic>
       </characteristics>
     </profile>
     <profile id="ea23-a4fc-a287-2fcd" name="Skeleton Crew (Chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4839,20 +4898,9 @@
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
         <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
-        <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
-        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="58fe-f4ea-426e-ca44" name="Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
-      <characteristics>
-        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
-        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
-        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">-</characteristic>
-        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
-        <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
-        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, 1xHTH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="2178-4098-7de9-b223" name="Wraith" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4863,7 +4911,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">7</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">10</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">10</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 2, Command, 3xHTH, Deathly Chill, Spectral Undead, Dread, Wound 2, Magic Level 1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 3xHtH, Deathly Chill, Spectral Undead, Dread, Wound X, Magic Level X</characteristic>
       </characteristics>
     </profile>
     <profile id="8517-edcf-fb4a-875a" name="Wraith, Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4874,7 +4922,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">7</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">10</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">10</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 2, Command, Fast 8, 3xHTH Deathly Chill, Spectral undead, Dread, Wound 2, Magic Level 1, Helhorse 1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Fast 8, 3xHtH Deathly Chill, Spectral undead, Dread, Wound X, Magic Level X, Helhorse 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="57b5-f959-5aa5-dc95" name="Undead Champion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4885,7 +4933,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Wound, 3xHTH, Undead, Dread, Hero</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Wound X, 3xHtH, Undead, Dread, Hero</characteristic>
       </characteristics>
     </profile>
     <profile id="41d0-c73b-090f-f2b0" name="Undead Champion (Hvy armour)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4896,7 +4944,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Wound, 3xHTH, Undead Dread, Hero</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Wound X, 3xHtH, Undead Dread, Hero</characteristic>
       </characteristics>
     </profile>
     <profile id="f40c-5c8d-fa27-40ac" name="Skeleton Guard Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4907,7 +4955,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="e438-fdd1-ac8b-a3c0" name="Skeleton Guard" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4929,7 +4977,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="d3a0-ccd3-a405-e828" name="Skeleton Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4951,7 +4999,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="ed61-0a43-e4b1-9c08" name="Skeleton Archer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4973,18 +5021,18 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">3</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">2</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">5</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Zombie, 1xHTH SV0, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Zombie, 1xHtH SV0, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="c1ba-bc3d-5cab-0b07" name="Zombies (Upgraded RES)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
-        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7"/>
-        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69"/>
-        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61"/>
-        <characteristic name="Res" typeId="d916-9ec8-dd33-7873"/>
-        <characteristic name="Init" typeId="7313-a059-134c-8199"/>
-        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb"/>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"/>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">2</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">2</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">3</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">2</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">5</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Zombie, 1xHtH SV0, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="4f9c-cdfc-9eff-5eb9" name="Wight Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -4995,7 +5043,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">7</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Spectral Undead, Dread</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Spectral Undead, Dread</characteristic>
       </characteristics>
     </profile>
     <profile id="a4e5-1eda-0284-a26c" name="Wight" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -5039,7 +5087,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead, Fast 8, Helhorse 1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Undead, Fast 8, Helhorse 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="3568-52bd-9a01-3d17" name="Skeleton Knight, riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -5050,7 +5098,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Fast 8, Helhorse 1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Fast 8, Helhorse 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="1f37-f56d-cc75-6515" name="Skeleton Chariot (Crew + 2xUndead Steads)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -5094,7 +5142,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, HTH Attack SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, HtH Attack SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="7d0c-a2e7-67fc-544d" name="Carrion Beast with rocks" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -5105,7 +5153,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">8</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Flies, Fast 10, 3xHTH SV3, 3xDrop SV3, Wound, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Flies, Fast 10, 3xHtH SV3, 3xDrop SV3, Wound, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="122f-323d-895b-9b14" name="Skeleton Rider (carrion beast)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -5160,7 +5208,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="0921-57ee-85b0-346f" name="Skeleton Archer in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -5182,7 +5230,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Undead</characteristic>
       </characteristics>
     </profile>
     <profile id="b6ec-cac4-032c-3986" name="Skeleton Rider in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -5229,7 +5277,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="070e-5a4a-143b-286a" name="Cursed Spirits Mounted" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="070e-5a4a-143b-286a" name="Cursed Spirits (mounted)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -5237,7 +5285,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">3</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">3</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1xHTH SV1, Exchange of missiles SV1, Fast 8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1xHtH SV1, Exchange of missiles SV1, Fast 8</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
