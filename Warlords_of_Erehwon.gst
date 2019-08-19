@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="2" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="3" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="cffa-cd51-pubN65537" name="WoE HC"/>
+    <publication id="cffa-cd51-pubN65537" name="WoE"/>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="-1.0"/>
@@ -223,25 +223,30 @@
   <sharedRules>
     <rule id="b9e1-fea5-9095-b1cf" name="Tough" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
-Re-roll a failed RES test. Only one failed RES test can be re-rolled at a time from a single shooting/HTH attack.</description>
+Re-roll a failed RES test. Only one failed RES test can be re-rolled at a time from a single shooting/HTH attack.
+</description>
     </rule>
     <rule id="8784-9f2f-1a5b-be21" name="Wound 1" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Model can sustain 1 wound instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
-Unit can still be auto-destroyed by pins.</description>
+Unit can still be auto-destroyed by pins.
+</description>
     </rule>
     <rule id="90e2-5b2c-1fc8-0e8c" name="Magic Level 1" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
-Spell Caster/Wizard Level 1.</description>
+Spell Caster/Wizard Level 1.
+</description>
     </rule>
     <rule id="487f-dc82-bce1-c0f6" name="Tough 2" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
-Re-roll two failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.</description>
+Re-roll two failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.
+</description>
     </rule>
     <rule id="45bb-28cf-94fd-f899" name="Zealous" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
-Ignore Pins when taking a break test. Re-Roll failed order test.</description>
+Ignore pins when taking a break test. Re-Roll failed order test.
+</description>
     </rule>
     <rule id="1a97-76e9-e64e-7701" name="Heavily Laden" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
@@ -249,23 +254,28 @@ Cannot Sprint.</description>
     </rule>
     <rule id="4a91-87e6-88c5-5e1d" name="Magic Level 2" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
-Spell Caster/Wizard Level 2.</description>
+Spell Caster/Wizard Level 2.
+</description>
     </rule>
     <rule id="2e1b-4169-af1f-71e5" name="Magic Level 3" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
-Spell Caster/Wizard Level 3.</description>
+Spell Caster/Wizard Level 3.
+</description>
     </rule>
     <rule id="78d3-886d-5fc6-bac4" name="Spirit" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
-Can be sacrificed for a re-roll. Destroyed if wizard is slain.</description>
+Can be sacrificed for a reroll. Destroyed if wizard is slain.
+</description>
     </rule>
     <rule id="d055-98ce-6f28-1600" name="Deadeye Shot" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
-Re-roll one missed shot.</description>
+Re-roll one missed attack.
+</description>
     </rule>
-    <rule id="160b-fca8-adb7-3d5b" name="Pavisse" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
+    <rule id="160b-fca8-adb7-3d5b" name="Pavise" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
-Cannot be given Run order. -3 Agility. Counts as in cover with +2 Res bonus.</description>
+Cannot be given Run order. -3 Agility. Counts as in cover with +2 Res bonus.
+</description>
     </rule>
     <rule id="8a4d-4dea-f005-ddc5" name="Surly" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
@@ -273,137 +283,184 @@ Cannot benefit from Command, Hero abilities.</description>
     </rule>
     <rule id="7f3d-fbf8-9f49-2031" name="Large" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
-Can draw LOS to body. (+1) to hit shooting. Can draw LOS over non-large models.</description>
+Can draw LOS to body. +1 to hit when shooting at model. Can draw LOS over non-large models.
+</description>
     </rule>
     <rule id="e406-ffab-b352-fc9b" name="Insufferably Sactimonious" hidden="false">
       <description>
-Increase from Tough to Tough 2.</description>
+Increase from Tough to Tough 2.
+</description>
     </rule>
     <rule id="b0ed-8f0b-633c-2f06" name="Command" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
-Friendly units within 10&quot; can use the model&apos;s CO stat to take command based tests.</description>
+Friendly units within 10&quot; can use the model&apos;s CO stat to take command based tests.
+</description>
     </rule>
     <rule id="a447-d495-b7ab-1477" name="Divine Intervention" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
-Can steal an order dice from an enemy unit within 20&quot; with successful Command test. If fail, take 1 pin instead. Max 1 attempt in any turn.</description>
+Can steal an order dice from an enemy unit within 20&quot; with a successful Command test and use it itself immediately.
+If it fails, take 1 pin instead. 
+Max 1 attempt per turn per Warband regardless of success.
+If successful, unit that the die was stolen from counts as having received an order.
+</description>
     </rule>
     <rule id="342b-a482-cb16-67e0" name="Wound 2" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Model can sustain 2 wounds instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
-Unit can still be auto-destroyed by pins.</description>
+Unit can still be auto-destroyed by pins.
+</description>
     </rule>
     <rule id="bb63-e7db-89cf-19e6" name="Challenge" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
-May initiate a &apos;Challenge to the death&apos;.</description>
+May initiate a &apos;Challenge to the death&apos;.
+</description>
     </rule>
     <rule id="3536-db5c-4e89-87d7" name="Tough 3" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
-Re-roll three failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.</description>
+Re-roll three failed RES tests from a single attack. A die may only be re-rolled once, you must accept the second result.
+</description>
     </rule>
     <rule id="2724-2057-e745-23a3" name="Wound 3" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Model can sustain 3 wounds instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
-Unit can still be auto-destroyed by pins.</description>
+Unit can still be auto-destroyed by pins.
+</description>
     </rule>
     <rule id="566e-a1c6-9f62-3218" name="Hero" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
-Friendly units within 10&quot; can use the model&apos;s Init stat to take Reaction Tests.</description>
+Friendly units within 10&quot; can use the model&apos;s Init stat to take Reaction tests.
+</description>
     </rule>
     <rule id="83d2-f89c-33a4-258d" name="Follow" publicationId="cffa-cd51-pubN65537" page="69" hidden="false">
       <description>
-Friendly un-pinned units within 5&quot; can follow the unit&apos;s order immediately.</description>
+Friendly un-pinned units within 5&quot; can follow the unit&apos;s order immediately.
+Draw an order die for each unit following.
+Move the initiating unit first and resolve its action, then do the same for each unit following.
+</description>
     </rule>
     <rule id="1c49-276e-425d-0999" name="Frenzied Charge" publicationId="cffa-cd51-pubN65537" page="69" hidden="false">
       <description>
-+1 Extra Attack when charging.</description>
++1 Extra Attack when charging. Bonus attacks are never doubled, e.g. via Berserk.
+</description>
     </rule>
     <rule id="c3b6-8870-61d6-7aaf" name="Savage" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
-Re-Roll STR to hit in first round of combat in game.</description>
+Reroll all misses in first round of combat in game.
+
+</description>
     </rule>
     <rule id="86b2-7051-4b5c-d149" name="Irresistible Charge" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
-D3 SV bonus when charging.</description>
+D3 SV bonus when charging. Does not apply in follow-on combat round.
+</description>
     </rule>
     <rule id="1d07-520b-6918-03fd" name="Flies" publicationId="cffa-cd51-pubN65537" page="68" hidden="false">
       <description>
-Move over any terrain/obstacle without test or penalty.
-Enemy cannot charge/countercharge or follow-on in combat unless they can also fly, unless flyers are down.</description>
+Move over any terrain/obstacle without test or penalty. 
+Can move through friendly or enemy units.
+Enemy cannot charge/countercharge or follow-on in combat unless they can also fly or unless flyers are down.
+Flying machines are auto-destroyed if going Down over impassable terrain.
+Reroll all shooting hits against flyers.
+Cannot be hit by overhead weapons unless they are Down.
+</description>
     </rule>
     <rule id="5e63-c99b-00b4-24eb" name="Vengeful" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
       <description>
 If unit wins the first round of close combat then it MUST elect to fight a follow on combat where it can do so.
-In follow-on combat, vengeful troops always fight with double their attacks.</description>
+In follow-on combat unit fights with double attacks.
+</description>
     </rule>
     <rule id="e5df-1d6a-1034-7c77" name="Undead" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
 Cannot be routed.
 Auto-resist choking attacks.
+Ignore bonus hits from Venomous attacks.
 Immune to Dread.
-Immune to Terror.</description>
+Immune to Terror.
+</description>
     </rule>
     <rule id="fd2c-3cba-cafa-62aa" name="Zombie Master" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
-Can use Hero/Follow/Command rules for Zombie units.</description>
+Can use Hero/Follow/Command rules for Zombie units.
+</description>
     </rule>
     <rule id="3dfb-f407-ff46-9b1f" name="Spectral Undead" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
-In addition to Undead rule, also hits from flaming attacks are ignored (auto-resisted) and inflict no pins.
-All difficult ground/obstacles count as open terrain for movement.</description>
+In addition to Undead rule, hits from flaming attacks are auto-resisted and inflict no extra pins.
+All difficult ground/obstacles count as open terrain for movement.
+</description>
     </rule>
     <rule id="c738-3360-de3b-34a9" name="Deathly Chill" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
-No armour bonus allowed.</description>
+Attacks ignore armour.
+</description>
     </rule>
     <rule id="0bf9-a070-b56b-ca4e" name="Dread" publicationId="cffa-cd51-pubN65537" page="66" hidden="false">
       <description>
--1 to hit shooting/close combat.
--1 to break test if defeated by enemy with Dread.</description>
+-1 to hit shooting and HtH.
+-1 to break test if defeated by enemy with Dread.
+Unaffected by opponents with Dread.
+</description>
     </rule>
     <rule id="612a-20b6-14a2-97e4" name="Zombie" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
 A failed order test is an advance order and not down.  
 Cannot sprint.
-Cannot benefit from the Hero/Follow/Command unless character is Zombie Master.</description>
+Must test Agility after Run order.
+Cannot benefit from the Hero/Follow/Command unless character is Zombie Master.
+</description>
     </rule>
     <rule id="4d2b-eef9-9776-1480" name="Slow" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
-Move at the basic rate indicated.</description>
+Move at the basic rate indicated.
+</description>
     </rule>
     <rule id="c246-93aa-3909-26ee" name="Fast" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
-Move at the basic rate indicated.</description>
+Move at the basic rate indicated.
+Reroll shooting hits against unit if it has a Run order.
+</description>
     </rule>
     <rule id="79ff-cb92-cea8-886f" name="Howling Horror Ammunition" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
-Target suffers D3 additional pins.</description>
+Target suffers D3 additional pins. Affects Undead.
+</description>
     </rule>
     <rule id="a8bf-f48c-1b08-58e6" name="Unstoppable" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
       <description>
-Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time.</description>
+Shot penetrates the unit hit and can strike others beyond so long as the target is hit each time.
+Monstrosities roll twice on the damage chart for each hit from an Unstoppable weapon.
+</description>
     </rule>
     <rule id="6650-1e8e-9f7d-d242" name="Undead Army Special Rule" publicationId="cffa-cd51-pubN65537" page="226" hidden="false">
       <description>
-If your warlord is slain, then no further pins are removed from your units. Orders can still be issued as normal.</description>
+If your warlord is slain, then no further pins are removed from your units. Orders can still be issued as normal.
+</description>
     </rule>
     <rule id="0056-a41e-408e-1673" name="Disciplined" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
-Lose all pins when pass a rally test.</description>
+Lose all pins when passing a Rally test. 
+Routing units lose all pins if passing a Command test due to nearby units making a Rally order.
+</description>
     </rule>
     <rule id="93f9-d132-d71b-ab39" name="Shieldwall" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
-In shieldwall formation cannot sprint and suffer -1 Agility and Initiative. 
-Enemy suffers -1 to hit in ranged and hand-to-hand.</description>
+Can only be used if all models in unit touch base with another model to lock shields.
+Cannot sprint and suffer -1 Agility and Initiative. 
+Enemy suffers -1 to hit in ranged and HtH.
+</description>
     </rule>
     <rule id="0b0f-1de6-7017-9097" name="Berserk" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
-Until defeated or fail a break test, double attacks in HTH. Automatically pass orders to charge.</description>
+Until defeated or fail a break test: double attacks in HtH and automatically pass orders to charge including reactions.
+</description>
     </rule>
     <rule id="5da1-1bfa-9b8d-6b82" name="MoD2" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
-Unit has 2 Order Dice.</description>
+Unit has 2 Order Dice. See page 56 for rules.
+</description>
     </rule>
     <rule id="1e90-54e2-dd77-c4e3" name="Rapid Sprint" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
@@ -412,15 +469,20 @@ Sprint at 4M.</description>
     <rule id="45b3-c028-8c8c-43ae" name="Stampede" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
 Stampede on failed order test of 10. D10&quot;+2M in direction shown by dice.
-Each unit in path is attacked as if charged. unit goes down and gains 1 pin per unit trampled.</description>
+Each unit in path and within 1&quot; of final location is trampled on (counts as being charged).
+Unit goes down and gains 1 pin per unit trampled.
+</description>
     </rule>
     <rule id="2b40-80c8-12cf-8f44" name="Crazed Psychotics" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
-Automatically pass charge orders, cannot be routed, immune to fear and terror.</description>
+Automatically pass charge orders. Cannot be routed. Immune to Dread and Terror.
+
+</description>
     </rule>
     <rule id="8eba-5940-fd9b-254c" name="Drop" publicationId="cffa-cd51-pubN65537" page="66" hidden="false">
       <description>
-Drop attacks ignore cover modifiers.</description>
+Drop attacks ignore cover modifiers.
+</description>
     </rule>
     <rule id="b61d-3471-1ce6-6878" name="Fire" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
@@ -428,39 +490,50 @@ Fire attacks add an extra pin to targets they hit.</description>
     </rule>
     <rule id="57f2-e9b1-c3c1-7c74" name="Mechanical Genius" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
-Add +1 ACC to all artillery in 10&quot;, +/-1 from any Monstrosity (machine) damage chart result within 10&quot;.</description>
+Add +1 ACC to all artillery attacks in 10&quot;. 
++/-1 for any Monstrosity (machine) damage chart result within 10&quot;.
+</description>
     </rule>
     <rule id="182e-9b37-17f3-5b45" name="Ramshackle Contraption" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
-On a failed order result of a 10 roll on the Monstrosity damage chart.</description>
+On a failed order result of a 10 roll on the Monstrosity damage chart.
+</description>
     </rule>
     <rule id="4440-376a-8093-35b8" name="Stubborn" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
-Recover +1 pin each time an order test is taken.</description>
+Remove +1 pin if order test is successful.
+</description>
     </rule>
     <rule id="4808-d708-bb73-97e8" name="Enchanted Steed" publicationId="cffa-cd51-pubN65537" page="66" hidden="false">
       <description>
-All water terrain counts as open terrain and adds +1 RES to mounted units.</description>
+All water terrain counts as open terrain and adds +1 RES to mounted units.
+Reroll failed RES tests against shooting attacks (does not apply to chariots).
+</description>
     </rule>
     <rule id="6a8d-ef1b-6f78-e15c" name="Haughty Disdain" publicationId="cffa-cd51-pubN65537" page="69" hidden="false">
       <description>
-Automatically pass first Break Test.</description>
+Automatically pass first Break Test in the game.
+</description>
     </rule>
     <rule id="e1f3-7817-0e4e-5cb9" name="Woodsman" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
-Wooded terrain counts as open terrain. +1 RES cover bonus in wooden terrain.</description>
+Wooded terrain counts as open terrain. +1 RES cover bonus in wooden terrain.
+</description>
     </rule>
     <rule id="dcb2-de55-1fca-e0a8" name="Stealthy" publicationId="cffa-cd51-pubN65537" page="75" hidden="false">
       <description>
-Re-roll missile hits if in cover.</description>
+Re-roll shooting hits against unit if in cover.
+</description>
     </rule>
     <rule id="9855-31c9-3745-714d" name="Baleful Glare" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
-Ranged Attack 20&quot;, No damage but inflicts 1+D3 pins and unit takes a Break test.</description>
+Ranged Attack 20&quot;. No damage but inflicts 1+D3 pins and unit takes a Break test.
+</description>
     </rule>
     <rule id="53b9-a3e9-0e9f-2d77" name="Venomous" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
       <description>
-Add one hit if any hits are scored.</description>
+Add one hit if any hits are scored.
+</description>
     </rule>
     <rule id="37e8-d658-01a9-6916" name="Flaming Breath" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
@@ -468,39 +541,47 @@ Ranged Attack 20&quot;. Fire Attack (+1 pin). As Stats.</description>
     </rule>
     <rule id="087e-dfda-76c2-09bf" name="Blundering" publicationId="cffa-cd51-pubN65537" page="63" hidden="false">
       <description>
-Cannot Sprint. Must test Agility for a run. Crosses obstacles as chariot/artillery.</description>
+Cannot Sprint. Must test Agility for a Run action. Crosses obstacles as chariot/artillery.
+</description>
     </rule>
     <rule id="0a0c-ed4c-9647-4398" name="Regenerate" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
-Re-roll failed RES and take pin if successful.</description>
+Must re-roll one failed RES test per attack and take pin if successful. Does not work against Fire attacks.
+</description>
     </rule>
     <rule id="14ff-225a-4ec5-f56d" name="Beastly Breath" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
-D6 Ranged attacks, 20&quot;, SV3 Choking.</description>
+D6 Ranged attacks, 20&quot;, SV3 Choking.
+</description>
     </rule>
     <rule id="46d2-d008-8225-bcff" name="Chunder" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
-Ranged Attack 10&quot;, Opponent&apos;s RES 5.  Chunder goes empty on a roll of 6+.</description>
+Ranged Attack 10&quot;. Opponent&apos;s RES is always 5.  Chunder goes empty on a roll of 6+.
+</description>
     </rule>
     <rule id="583a-fa53-11ff-7b40" name="Terror" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
 A unit within 15&quot; removes NO pins when making an order test. 
 A unit failing a break test within 5&quot; is automatically destroyed.
 A routing unit within 5&quot; is automatically destroyed.
-Terrifying units and units with the Crazed Psychotic/Undead rules are immune to terror.</description>
+Terrifying units and units with the Crazed Psychotic/Undead rules are immune to terror.
+</description>
     </rule>
     <rule id="7ff2-1650-fc0e-5a3a" name="Choking" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
-No armour bonus or cover bonus allowed.</description>
+No armour bonus or cover bonus allowed.
+</description>
     </rule>
     <rule id="ae37-06b2-7f4c-ec52" name="Allied Monster" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
-Cannot benefit from Command, Hero, or Follow special rules.</description>
+Cannot benefit from Command, Hero, or Follow special rules.
+</description>
     </rule>
     <rule id="2e98-ee7b-558a-81ef" name="Bound Monster" publicationId="cffa-cd51-pubN65537" page="63" hidden="false">
       <description>
 Cannot benefit from Command, Hero, or Follow special rules.
-Take D6 pins if a 10 is rolled for its order test. Can be auto-destroyed via pins as a result.</description>
+Take D6 pins if a 10 is rolled for its order test. Can be auto-destroyed via pins as a result.
+</description>
     </rule>
     <rule id="3a29-1b97-6c21-75e7" name="Flaming Wheel" publicationId="cffa-cd51-pubN65537" page="68" hidden="false">
       <description>
@@ -510,27 +591,35 @@ Fire order to shoot (or rather push).</description>
     </rule>
     <rule id="a8ca-ba71-db97-bc20" name="MoD3" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
-Unit has 3 Order Dice.</description>
+Unit has 3 Order Dice. See page 56 for rules.
+</description>
     </rule>
     <rule id="9d78-2294-d4fd-9efd" name="Slow 3" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
-Move at a base rate of 3&quot;.</description>
+Move at a base rate of 3&quot;.
+</description>
     </rule>
     <rule id="ade7-83de-c555-3df3" name="Slow 4" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
-Move at a base rate of 4&quot;.</description>
+Move at a base rate of 4&quot;.
+</description>
     </rule>
     <rule id="7753-3806-9cf1-0a6c" name="Fast 6" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
-Move at a base rate of 6&quot;.</description>
+Move at a base rate of 6&quot;.
+Reroll shooting hits against unit if it has a Run order.
+</description>
     </rule>
     <rule id="105b-036d-9a8f-edac" name="Fast 8" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
-Move at a base rate of 8&quot;.</description>
+Move at a base rate of 8&quot;.
+Reroll shooting hits against unit if it has a Run order.
+</description>
     </rule>
     <rule id="0034-82ae-f695-d446" name="Fast 10" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
-Move at a base rate of 10&quot;.</description>
+Move at a base rate of 10&quot;.
+Reroll shooting hits against unit if it has a Run order.</description>
     </rule>
     <rule id="6016-006f-a999-c64c" name="Whirling Dervishes" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
       <description>
@@ -538,17 +627,25 @@ Loose unit formation: Stay at least 1&quot; apart, max 2&quot;.
 Can only be given Run order (including Sprint).
 On result of 10 for order test, move randomly. Touching other units counts as charge.
 Re-roll all shooting hits on unit.
-Enemies don&apos;t counter-attack in close combat. Saved hits (successful RES rolls) count as casualties for the dervish unit.
+Enemies don&apos;t attack in close combat. Saved hits (successful RES rolls) count as casualties for the dervish unit.
 Unit is automatically destroyed if close combat is not won.
 Consolidation move is random, may initiate immediate combat if touching different unit than that just fought. 
-May make consolidation move through unit it just fought.</description>
+May make consolidation move through unit it just fought.
+</description>
     </rule>
     <rule id="e2ce-cefd-9949-02fd" name="Wild Monster" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Goes wild if 10 is rolled for order test.
 Add D6 pins to check for auto-destruction as normal. If not auto-destroyed, remove all pins.
 Replace all order dice by one die of different color.
-When order die is drawn, players dice for control.</description>
+When order die is drawn, players dice for control.
+</description>
+    </rule>
+    <rule id="03c8-e023-d3fe-8b64" name="Warhorse" publicationId="cffa-cd51-pubN65537" page="77" hidden="false">
+      <description>
+Cancels Heavily Laden.
+Restores Agility and Initiative to previous values (usually included in the stat line).
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -657,13 +754,13 @@ When order die is drawn, players dice for control.</description>
     <profile id="f367-10de-49e2-acff" name="Heavy Armour" hidden="false" typeId="726e-70e6-d94e-c9ac" typeName="Armour Profile">
       <characteristics>
         <characteristic name="Res" typeId="f05e-0dc4-2f61-ffb6">5(8)</characteristic>
-        <characteristic name="Special" typeId="b446-8296-adef-b370"></characteristic>
+        <characteristic name="Special" typeId="b446-8296-adef-b370"/>
       </characteristics>
     </profile>
     <profile id="1f70-2881-7206-2fe9" name="Cudgel" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
     <profile id="ef46-1d4c-7c9d-d938" name="Pitchfork, Bills, or Glaives" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -741,7 +838,7 @@ When order die is drawn, players dice for control.</description>
     <profile id="556d-4839-8be4-b724" name="Hair Shirt" hidden="false" typeId="726e-70e6-d94e-c9ac" typeName="Armour Profile">
       <characteristics>
         <characteristic name="Res" typeId="f05e-0dc4-2f61-ffb6">5(6)</characteristic>
-        <characteristic name="Special" typeId="b446-8296-adef-b370"></characteristic>
+        <characteristic name="Special" typeId="b446-8296-adef-b370"/>
       </characteristics>
     </profile>
     <profile id="2221-3571-075e-ae84" name="Morning Star" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -765,13 +862,13 @@ When order die is drawn, players dice for control.</description>
     <profile id="41c3-e1df-53b7-ed79" name="Huge Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
     <profile id="e977-49ab-1207-d301" name="Big Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
     <profile id="8aea-0ac0-030a-5da1" name="Improbably Vast Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -789,7 +886,7 @@ When order die is drawn, players dice for control.</description>
     <profile id="0b17-24e8-fb18-654e" name="Club" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
     <profile id="7723-e7c2-30a5-43ee" name="Chariot Scythes" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -1091,7 +1188,7 @@ When order die is drawn, players dice for control.</description>
     <profile id="6f59-6125-456e-38c3" name="Naginata" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
     <profile id="c35f-a7c3-0b86-a39f" name="Nunchaku" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
@@ -1103,7 +1200,7 @@ When order die is drawn, players dice for control.</description>
     <profile id="7ae9-8e9a-85e9-e68b" name="Hanbo, Cane, Scroll or Tea Service" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
-        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"></characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
     <profile id="bdba-151e-81e7-3b45" name="Shuriken" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
