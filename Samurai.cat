@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cd5c-e29b-080c-a69e" name="Samurai" revision="1" battleScribeVersion="2.02" authorName="The3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cd5c-e29b-080c-a69e" name="Samurai" revision="2" battleScribeVersion="2.02" authorName="The3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="c5fa-527f-fedb-136a" name="Daimyo [122 pts]" hidden="false" collective="false" targetId="7fb8-4fba-65cf-e467" type="selectionEntry"/>
     <entryLink id="b6d4-f3c3-3e38-5d65" name="Mounted Daimyo [148 pts]" hidden="false" collective="false" targetId="0548-5344-d38b-832f" type="selectionEntry"/>
@@ -23,6 +23,9 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="7fb8-4fba-65cf-e467" name="Daimyo [122 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="81f7-207f-45d2-8f06" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
         <categoryLink id="5543-f077-9866-f35e" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -43,6 +46,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="82.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2ffa-dd56-9dbb-9292" name="Hatamoto in Medium Armour" hidden="false" collective="false" type="model">
@@ -56,6 +60,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -72,6 +77,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="64e5-82ab-15c9-27ca" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -80,6 +86,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -102,6 +109,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -118,6 +126,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a68a-d549-1683-96ad" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -126,6 +135,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -142,6 +152,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ed5-24ab-e29a-63d5" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -150,6 +161,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="14.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -165,6 +177,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b130-152b-8d88-540d" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
@@ -173,6 +186,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ca34-f5ca-7900-41ea" name="War Bringer" hidden="false" collective="false" type="upgrade">
@@ -181,6 +195,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2bd8-54ae-2611-ea75" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
@@ -189,6 +204,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a24a-a202-55ae-c619" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
@@ -197,6 +213,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ed19-e0da-7718-3fc9" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
@@ -205,6 +222,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4bfb-5f0f-9fd0-5f1a" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
@@ -213,6 +231,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -220,9 +239,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0548-5344-d38b-832f" name="Mounted Daimyo [148 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="ce0b-f83a-5bf8-64ed" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
         <categoryLink id="924a-1841-50b3-a873" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -244,6 +267,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="92.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e961-aed5-86ff-36f5" name="Hatamoto in Medium Armour" hidden="false" collective="false" type="model">
@@ -257,6 +281,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="28.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -273,6 +298,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6def-f70c-a5b5-ee79" name="Lances" hidden="false" collective="false" type="upgrade">
@@ -288,6 +314,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -310,6 +337,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -326,6 +354,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7569-fd57-75ec-1057" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -334,6 +363,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -350,6 +380,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3e19-a6dd-d4d1-d33b" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -358,6 +389,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -380,6 +412,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -395,6 +428,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="36eb-5f78-dd0a-3d38" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
@@ -403,6 +437,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c3f3-62cb-01c4-9da2" name="War Bringer" hidden="false" collective="false" type="upgrade">
@@ -411,6 +446,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a742-298f-dc07-47f5" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
@@ -419,6 +455,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="899a-194d-daf5-9cf6" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
@@ -427,6 +464,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d75-a72c-373c-49b0" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
@@ -435,6 +473,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3c35-88d0-3079-48b5" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
@@ -443,6 +482,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -450,9 +490,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="546c-46ef-b4dc-cd2b" name="Onmyoji Diviner [55 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="c09c-2897-57eb-57ee" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
       </categoryLinks>
@@ -470,6 +514,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="55.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -493,6 +538,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="8.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -500,6 +546,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="485c-3d06-ba24-6414" name="Shikigami Spirits" hidden="false" collective="false" type="upgrade">
@@ -516,6 +563,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -523,6 +571,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -539,6 +588,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cbc9-109a-63b1-8805" name="Magic Level 2" hidden="false" collective="false" type="upgrade">
@@ -547,6 +597,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0c53-f753-4142-a72d" name="Magic Level 3" hidden="false" collective="false" type="upgrade">
@@ -555,6 +606,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -571,6 +623,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f36e-0a3f-20b4-5adf" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
@@ -579,6 +632,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dbda-bc2e-bb8f-948e" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
@@ -587,6 +641,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ed0-9666-8d85-e1a7" name="Chill Wind" hidden="false" collective="false" type="upgrade">
@@ -595,6 +650,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c0fb-4705-18a8-5d02" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
@@ -603,6 +659,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4bae-cc91-9e78-524e" name="Endow Strength" hidden="false" collective="false" type="upgrade">
@@ -611,6 +668,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3cbf-796e-d8b6-6b92" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
@@ -619,6 +677,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3991-b7a1-3bf5-60a3" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
@@ -627,6 +686,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e466-c37a-c655-3836" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
@@ -635,6 +695,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0340-ff1a-86f4-a7aa" name="Surge" hidden="false" collective="false" type="upgrade">
@@ -643,6 +704,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ffec-13fb-3d10-039f" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
@@ -651,6 +713,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7904-d2de-a7ed-80ee" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
@@ -659,6 +722,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0404-a5d8-62e0-3ab3" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
@@ -667,6 +731,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="70ad-7356-732b-8f5f" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
@@ -675,6 +740,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -690,6 +756,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f566-eb33-32e3-fcd7" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
@@ -701,6 +768,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="726f-992e-1660-87c6" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
@@ -712,6 +780,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="961c-d934-e42b-c125" name="Chill Wind" hidden="false" collective="false" type="upgrade">
@@ -723,6 +792,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7678-30bd-736b-fcf6" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
@@ -734,6 +804,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db5c-e878-75cb-b8ee" name="Endow Strength" hidden="false" collective="false" type="upgrade">
@@ -745,6 +816,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6d9a-53e9-7e75-6284" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
@@ -756,6 +828,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cb1a-d65c-e142-ce14" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
@@ -767,6 +840,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0f91-ea51-050c-1dda" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
@@ -778,6 +852,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dae4-658a-9bf1-706d" name="Surge" hidden="false" collective="false" type="upgrade">
@@ -789,6 +864,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="53f1-4225-e57a-ab5a" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
@@ -800,6 +876,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a33-d1c7-14d1-af87" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
@@ -811,6 +888,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f931-dbf8-e8af-2cd9" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
@@ -822,6 +900,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="97d6-71f6-b81f-b0af" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
@@ -833,6 +912,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -849,6 +929,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7eb0-c108-3e57-1ec2" name="Tough" hidden="false" collective="false" type="upgrade">
@@ -857,6 +938,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -872,6 +954,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e60f-38e7-8369-36f1" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
@@ -880,6 +963,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5b58-9cd4-b8ba-2c2f" name="War Bringer" hidden="false" collective="false" type="upgrade">
@@ -888,6 +972,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8b5a-399d-e4c2-c522" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
@@ -896,6 +981,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="afdc-15fd-a801-954d" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
@@ -904,6 +990,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6283-6f87-8311-69a0" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
@@ -912,6 +999,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b631-45bc-a75d-564e" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
@@ -920,6 +1008,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -927,9 +1016,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1070-fe2d-2e93-c2c1" name="Shugyosha Samurai Hero [86 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="cf0a-92c4-c92a-a65b" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
         <categoryLink id="8297-f0f5-d62d-f2d4" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -948,6 +1041,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="86.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -964,6 +1058,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1794-c6f7-8d3b-5b85" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -972,6 +1067,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -987,6 +1083,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1002,6 +1099,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1017,6 +1115,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1033,6 +1132,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f748-b2f3-0192-a5f4" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -1041,6 +1141,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1057,6 +1158,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8730-23f3-0948-d35a" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -1065,6 +1167,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3571-e988-f78c-7071" name="Wound 3" hidden="false" collective="false" type="upgrade">
@@ -1073,6 +1176,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="32.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1088,6 +1192,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="890d-e762-9ecd-296d" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
@@ -1096,6 +1201,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ccd2-a7d0-ffaf-f26f" name="War Bringer" hidden="false" collective="false" type="upgrade">
@@ -1104,6 +1210,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cc74-40e7-9373-085c" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
@@ -1112,6 +1219,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7ec3-eb61-4594-cb71" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
@@ -1120,6 +1228,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3ad5-9c4a-9d70-ec63" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
@@ -1128,6 +1237,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="93ca-5329-5677-2b61" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
@@ -1136,6 +1246,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1143,9 +1254,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e68b-8444-a4ef-bf6b" name="Mounted Shugyosha Samurai Hero [102 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="8086-28f6-7842-77f2" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
         <categoryLink id="1a9b-1ba3-f600-58cd" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -1164,6 +1279,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="102.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1180,6 +1296,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="351a-6a60-7bc6-ffbe" name="Lance" hidden="false" collective="false" type="upgrade">
@@ -1188,6 +1305,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1203,6 +1321,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1218,6 +1337,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1233,6 +1353,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1249,6 +1370,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="056d-0c5f-5cf7-a315" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -1257,6 +1379,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1273,6 +1396,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7997-bc4e-2b6b-3b98" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -1281,6 +1405,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="18.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b6c2-7b72-5ec5-9a1b" name="Wound 3" hidden="false" collective="false" type="upgrade">
@@ -1289,6 +1414,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="36.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1304,6 +1430,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1319,6 +1446,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="731c-dab1-a71e-7516" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
@@ -1327,6 +1455,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fd43-90d6-290d-ef03" name="War Bringer" hidden="false" collective="false" type="upgrade">
@@ -1335,6 +1464,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cd00-bf56-b285-7e37" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
@@ -1343,6 +1473,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e2f1-0bb4-f6ba-e5d9" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
@@ -1351,6 +1482,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="504f-a7ef-5bce-ac65" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
@@ -1359,6 +1491,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f0fb-4ef8-9e23-4a9e" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
@@ -1367,6 +1500,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1374,9 +1508,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f2c-f65b-b0b8-36b8" name="Ninja Master" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="f7b7-b384-2f4a-c0ba" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
         <categoryLink id="bc02-dba8-0fd3-6e7c" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -1396,6 +1534,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="90.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1412,6 +1551,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a30-5c5e-53b0-9668" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -1420,6 +1560,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4d94-af99-2da8-28da" name="Nunchaku" hidden="false" collective="false" type="upgrade">
@@ -1428,6 +1569,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1444,6 +1586,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4f49-8739-03a2-b998" name="Ranged Magic Weapons" hidden="false" collective="false" type="upgrade">
@@ -1459,6 +1602,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1174-8132-ab16-30dd" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
@@ -1467,6 +1611,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="62bc-c789-1b37-44f1" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
@@ -1475,6 +1620,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1482,6 +1628,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1497,6 +1644,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1513,6 +1661,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e533-f642-dc71-3c81" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -1521,6 +1670,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1537,6 +1687,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a24a-d39a-3f20-6f2e" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -1545,6 +1696,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c4b6-84b4-918e-7492" name="Wound 3" hidden="false" collective="false" type="upgrade">
@@ -1553,6 +1705,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1568,6 +1721,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa11-0d76-32f3-777c" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
@@ -1576,6 +1730,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e346-c654-1d70-3b83" name="War Bringer" hidden="false" collective="false" type="upgrade">
@@ -1584,6 +1739,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ef29-42d1-7185-ffe4" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
@@ -1592,6 +1748,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5f66-cb62-5d3c-238f" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
@@ -1600,6 +1757,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a9a3-5e0b-b50f-e92e" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
@@ -1608,6 +1766,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0af7-48e5-9db1-2a42" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
@@ -1616,6 +1775,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1623,9 +1783,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="31fd-5e25-2ed4-b763" name="Mounted Samurai [84 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="8f03-5707-d029-6d91" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
@@ -1644,6 +1808,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="36.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="901b-c09b-61cc-63ae" name="Samurai in Medium Armour, Riding Horse" hidden="false" collective="false" type="model">
@@ -1657,6 +1822,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="24.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1673,6 +1839,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b70d-c310-b4d5-5e49" name="Lances" hidden="false" collective="false" type="upgrade">
@@ -1688,6 +1855,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba89-49b3-040f-f5a3" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -1696,6 +1864,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1718,6 +1887,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1734,6 +1904,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="18d2-3baf-34d4-a45a" name="Warhorses" hidden="false" collective="false" type="upgrade">
@@ -1749,6 +1920,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9c4b-c038-8f20-9791" name="Komainu Lion Dog" hidden="false" collective="false" type="upgrade">
@@ -1764,6 +1936,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1771,9 +1944,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb3d-9040-9441-5630" name="Samurai [92 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="575f-53f8-d296-0f2e" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -1791,6 +1968,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="28.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8292-905e-eacf-3f11" name="Samurai" hidden="false" collective="false" type="model">
@@ -1803,6 +1981,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1819,6 +1998,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="98ca-9f39-fa47-b428" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -1827,6 +2007,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="16ce-6494-6d8a-d749" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -1835,6 +2016,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1857,6 +2039,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1864,9 +2047,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22be-f604-b5ad-9a31" name="Ashigaru [72 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="c360-b3f6-4678-78c3" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -1891,6 +2078,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="12.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4b63-9ddb-aa8d-d54f" name="Ashigaru leader in Light Armour" hidden="false" collective="false" type="model">
@@ -1904,6 +2092,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="24.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1911,6 +2100,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="15ce-09d4-fe6e-5e5f" name="Ashigaru in Medium Armour" hidden="false" collective="false" type="upgrade">
@@ -1928,6 +2118,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="26.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="aded-c528-a496-f3ee" name="Ashigaru in Medium Armour" hidden="false" collective="false" type="model">
@@ -1940,6 +2131,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="14.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1947,6 +2139,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1963,6 +2156,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dd4b-f302-ca7e-afd5" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -1971,6 +2165,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="10a5-df23-edf6-f695" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -1979,6 +2174,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c3cc-ece7-a0af-5d25" name="Long Spears" hidden="false" collective="false" type="upgrade">
@@ -1987,6 +2183,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="baba-94bb-27e3-7cf4" name="Halberds" hidden="false" collective="false" type="upgrade">
@@ -2002,6 +2199,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2009,9 +2207,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="089f-9e45-d225-bd30" name="Archers [72 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <infoLinks>
         <infoLink id="613e-0dc7-1357-e520" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
       </infoLinks>
@@ -2039,6 +2241,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="12.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5e06-6932-d177-a733" name="Archer Leader" hidden="false" collective="false" type="model">
@@ -2052,6 +2255,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="24.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2059,6 +2263,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0d80-a67d-5432-4ae2" name="Archers in Light Armour" hidden="false" collective="false" type="upgrade">
@@ -2076,6 +2281,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="26.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ab2d-cc42-d12c-26ca" name="Archers in Light Armour" hidden="false" collective="false" type="model">
@@ -2088,6 +2294,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="14.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2095,6 +2302,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2026-4800-3eda-e2bc" name="Archers in Medium Armour" hidden="false" collective="false" type="upgrade">
@@ -2112,6 +2320,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="28.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f180-a9c8-efd8-7cb0" name="Archers in Medium Armour" hidden="false" collective="false" type="model">
@@ -2124,6 +2333,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="16.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2131,6 +2341,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2147,6 +2358,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f22b-285a-e598-51cb" name="Long Bows" hidden="false" collective="false" type="upgrade">
@@ -2162,6 +2374,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2169,9 +2382,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5d4-364a-44f3-cf24" name="Bandits and Brigands [57 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="169b-796b-2654-f929" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -2189,6 +2406,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b4c-b0c8-dada-e057" name="Bandits" hidden="false" collective="false" type="model">
@@ -2201,6 +2419,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="9.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2217,6 +2436,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="905b-f9d4-3c69-ba64" name="Swords" hidden="false" collective="false" type="upgrade">
@@ -2229,6 +2449,7 @@
               </modifiers>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2236,9 +2457,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b6af-603d-a7c3-a000" name="Tanigashima Men [82 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <infoLinks>
         <infoLink id="4471-f073-f2b8-3b50" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
         <infoLink id="65c2-1d0c-f1f2-4588" name="Hand Gun" hidden="false" targetId="4d4a-8ee3-260b-037b" type="profile"/>
@@ -2268,6 +2493,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="26.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="45de-4e3a-f176-f907" name="Tanigashima Men" hidden="false" collective="false" type="model">
@@ -2280,6 +2506,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="14.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2287,6 +2514,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6851-781e-698a-2c66" name="Tanigashima Men in Light Armour" hidden="false" collective="false" type="upgrade">
@@ -2304,6 +2532,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="28.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3782-3b8f-fac6-8ad3" name="Tanigashima Men in Light Armour" hidden="false" collective="false" type="model">
@@ -2316,6 +2545,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="16.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2323,6 +2553,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d09e-f0ab-d4ea-f144" name="Tanigashima Men in Medium Armour" hidden="false" collective="false" type="upgrade">
@@ -2340,6 +2571,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="30.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9ccb-08b0-1c51-6d9a" name="Tanigashima Men in Medium Armour" hidden="false" collective="false" type="model">
@@ -2352,6 +2584,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2359,6 +2592,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2381,6 +2615,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2388,9 +2623,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e1d-4700-e35d-cfd5" name="Onna Bugeisha [62 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="6d9a-27a2-cefa-294e" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -2416,6 +2655,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="22.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1c66-5212-72da-61ad" name="Onna Bugeisha" hidden="false" collective="false" type="model">
@@ -2428,6 +2668,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="10.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2435,6 +2676,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="65a9-2013-ba5b-0544" name="Onna Bugeisha in Light Armour" hidden="false" collective="false" type="upgrade">
@@ -2452,6 +2694,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="24.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a14f-9a1a-0d0f-0c48" name="Onna Bugeisha" hidden="false" collective="false" type="model">
@@ -2464,6 +2707,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="12.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2471,6 +2715,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ceb0-5d4c-cf72-146f" name="Onna Bugeisha in Medium Armour" hidden="false" collective="false" type="upgrade">
@@ -2488,6 +2733,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="26.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b4a3-dd78-e08d-71e0" name="Onna Bugeisha" hidden="false" collective="false" type="model">
@@ -2500,6 +2746,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="14.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2507,6 +2754,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2529,6 +2777,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2545,6 +2794,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2dfe-9d67-dc0c-700c" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -2553,6 +2803,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a65-1140-9a0e-3211" name="Spear" hidden="false" collective="false" type="upgrade">
@@ -2561,6 +2812,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2568,9 +2820,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f70-b03f-149b-186e" name="Sohei Warrior Monks [132 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3836-3c5c-250b-1f2a" type="max"/>
       </constraints>
@@ -2600,6 +2856,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="32.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6242-6196-3635-234a" name="Monk" hidden="false" collective="false" type="model">
@@ -2612,6 +2869,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="25.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2619,6 +2877,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5182-3b4d-5c05-d639" name="Sohei Warrior Monks in Light Armour" hidden="false" collective="false" type="upgrade">
@@ -2637,6 +2896,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="34.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a395-4204-301a-e701" name="Monk in Light Armour" hidden="false" collective="false" type="model">
@@ -2649,6 +2909,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="27.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2656,6 +2917,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2678,6 +2940,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2694,6 +2957,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aecf-1199-89fa-8e81" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -2709,6 +2973,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2724,6 +2989,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2731,9 +2997,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1ed-3a13-14a6-97e1" name="Ninja [205 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="9380-11e5-3228-2fe8" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -2752,6 +3022,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="41.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2768,6 +3039,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b61d-53a5-92f9-e423" name="Naginata" hidden="false" collective="false" type="upgrade">
@@ -2776,6 +3048,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="99ae-9cdf-f1d4-5c86" name="Nunchaku" hidden="false" collective="false" type="upgrade">
@@ -2784,6 +3057,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2796,6 +3070,7 @@
             <selectionEntry id="0256-06e0-6d14-9543" name="Dead Eye Shot" hidden="false" collective="false" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2803,9 +3078,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7909-8c75-a592-8775" name="Oni Ogres [26 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="be43-3d07-54a4-cf38" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
@@ -2824,6 +3103,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="26.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2831,9 +3111,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d8c-7e0b-a8ed-d1f8" name="Tengu Birdmen [144 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd5-05ab-10ff-2d4d" type="max"/>
       </constraints>
@@ -2855,6 +3139,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="48.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2862,9 +3147,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e383-a41b-2f88-a302" name="Cannon [77 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <infoLinks>
         <infoLink id="c2c5-5480-a49b-b56c" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="c8e6-56fc-bd9c-e4a6" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
@@ -2893,6 +3182,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2900,6 +3190,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b739-d5bd-1fee-5dfe" name="Cannon Crew in Light Armour" hidden="false" collective="false" type="upgrade">
@@ -2916,6 +3207,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="11.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2923,6 +3215,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2939,6 +3232,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b326-65e6-9101-d76a" name="Large Cannon" hidden="false" collective="false" type="upgrade">
@@ -2947,6 +3241,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="100.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2963,6 +3258,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="64d7-3af3-84c4-f050" name="Swords" hidden="false" collective="false" type="upgrade">
@@ -2978,6 +3274,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2985,9 +3282,13 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1be0-ddf4-8aab-f6fb" name="Bolt Thrower [69 pts]" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b16-4fe4-4ad1-b2d6" value="1.0"/>
+      </modifiers>
       <infoLinks>
         <infoLink id="7f5c-a1d5-0ec7-97d8" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="010a-8f61-8e05-8247" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
@@ -3016,6 +3317,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3023,6 +3325,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d6ee-ab3a-fc3b-61bb" name="Bolt Thrower Crew in Light Armour" hidden="false" collective="false" type="upgrade">
@@ -3039,6 +3342,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="11.0"/>
+                        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3046,6 +3350,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3062,6 +3367,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="42.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="376f-b959-1f8b-048c" name="Large Bolt Thrower" hidden="false" collective="false" type="upgrade">
@@ -3070,6 +3376,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="63.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3086,6 +3393,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bfb3-da1d-bfeb-29f8" name="Swords" hidden="false" collective="false" type="upgrade">
@@ -3101,6 +3409,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3108,6 +3417,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" Order Dice" typeId="0b16-4fe4-4ad1-b2d6" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -3420,7 +3730,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6dcf-b813-589c-27e8" name="Mixed Arms" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HTH">
+    <profile id="6dcf-b813-589c-27e8" name="Mixed Arms" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
