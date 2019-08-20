@@ -2165,7 +2165,7 @@
     </selectionEntry>
     <selectionEntry id="35b0-f975-d3b5-955f" name="Barbarian Archers [72 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="8839-ebca-bfd9-7ac5" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="8839-ebca-bfd9-7ac5" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="25ab-47d8-7b6b-a68a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>

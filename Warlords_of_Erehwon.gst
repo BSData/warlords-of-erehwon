@@ -73,7 +73,7 @@
     <categoryEntry id="art unit" name="Artillery Unit" hidden="false"/>
     <categoryEntry id="hero unit" name="Hero Unit" hidden="false">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c8-2edc-5461-fe0e" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c8-2edc-5461-fe0e" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="ad3c-fc35-4ea7-7a70" name="Monster Unit" hidden="false"/>
@@ -81,6 +81,11 @@
     <categoryEntry id="239f-4e2f-785f-7869" name="Chariot Unit" hidden="false"/>
     <categoryEntry id="8efa-298b-b165-ef8b" name="Montrosity Unit" hidden="false"/>
     <categoryEntry id="c820-d327-811d-1144" name="Swarm Unit" hidden="false"/>
+    <categoryEntry id="af51-60b9-09ce-ed3f" name="Guard Unit" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9d-80dc-9b92-1b41" type="max"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7ea6-a6ef-2ab9-ec1b" name="Army" hidden="false">
@@ -101,6 +106,11 @@
         <categoryLink id="9eef-ba48-1046-0bf3" name="Chariot Unit" hidden="false" targetId="239f-4e2f-785f-7869" primary="false"/>
         <categoryLink id="6a40-5161-bb63-34cd" name="Montrosity Unit" hidden="false" targetId="8efa-298b-b165-ef8b" primary="false"/>
         <categoryLink id="35cd-2ccb-f41b-356f" name="Swarm Unit" hidden="false" targetId="c820-d327-811d-1144" primary="false"/>
+        <categoryLink id="1785-9dd1-d441-319d" name="Guard Unit" hidden="false" targetId="af51-60b9-09ce-ed3f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7569-f54d-9d55-fe5d" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -237,6 +247,78 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="04c0-42c1-8864-cf22" name="Magic Weapons" hidden="false" collective="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6370-7bdd-f80f-31db" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2662-1897-7b10-499b" name="Battle Smiter Sword" page="" hidden="false" collective="false" type="upgrade">
+          <infoLinks>
+            <infoLink id="1be3-c8b5-d621-5a67" name="Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a389-5084-94b1-68b1" name="Bow of Burning Gold" page="" hidden="false" collective="false" type="upgrade">
+          <infoLinks>
+            <infoLink id="84c9-9338-8d25-ea95" name="Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ec53-4987-7902-6b75" name="War Bringer Sword" hidden="false" collective="false" type="upgrade">
+          <infoLinks>
+            <infoLink id="0f7d-846a-6980-d602" name="War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="27e4-3dd3-a978-6d45" name="Skull Crusher Hammer" hidden="false" collective="false" type="upgrade">
+          <infoLinks>
+            <infoLink id="9fd2-5884-2e2b-3c6e" name="Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="79e3-1afc-6f0e-9442" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
+          <infoLinks>
+            <infoLink id="f1c2-4824-0783-0802" name="Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b51-d887-4003-7bd7" name="Helm Cleaver Sword" hidden="false" collective="false" type="upgrade">
+          <infoLinks>
+            <infoLink id="fc5a-ff93-aff7-04e8" name="Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9272-7674-7d81-e2f1" name="Foe Striker Sword" hidden="false" collective="false" type="upgrade">
+          <infoLinks>
+            <infoLink id="cab4-8461-c499-d690" name="Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="b9e1-fea5-9095-b1cf" name="Tough 1" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
@@ -364,9 +446,7 @@ Move the initiating unit first and resolve its action, then do the same for each
     </rule>
     <rule id="c3b6-8870-61d6-7aaf" name="Savage" publicationId="cffa-cd51-pubN65537" page="73" hidden="false">
       <description>
-Reroll all misses in first round of combat in game.
-
-</description>
+Reroll all misses in first round of combat in game.</description>
     </rule>
     <rule id="86b2-7051-4b5c-d149" name="Irresistible Charge" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
@@ -1025,31 +1105,31 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Armour +1 Max Bonus</characteristic>
       </characteristics>
     </profile>
-    <profile id="193c-09f8-234d-adab" name="(Magic Weapon) Foe Striker Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+    <profile id="193c-09f8-234d-adab" name="Foe Striker Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="3246-1376-d94d-d544" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+    <profile id="3246-1376-d94d-d544" name="Helm Cleaver Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">3</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="190e-3de5-0e71-c97f" name="(Magic Weapon) War Bringer Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+    <profile id="190e-3de5-0e71-c97f" name="War Bringer Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR, HtH Attacks +1</characteristic>
       </characteristics>
     </profile>
-    <profile id="454c-1957-36be-2d2b" name="(Magic Weapon) Battle Smiter Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+    <profile id="454c-1957-36be-2d2b" name="Battle Smiter Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+2 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="caa2-6cf1-8c8f-2f66" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="caa2-6cf1-8c8f-2f66" name="Skull Crusher Hammer" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1058,7 +1138,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">+1 STR in HtH only, Magically Returns to hand of user if thrown. Can be used in Exchange of Missiles.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d305-e931-5819-04bb" name="(Magic Weapon) Lightning Spear" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="d305-e931-5819-04bb" name="Lightning Spear" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">(Exchange of Missiles only)</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1067,7 +1147,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">HtH weapon that can be thrown in Exchange of Missiles.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9f0d-4729-2ca1-43d8" name="(Magic Weapon) Bow of Burning Gold" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="9f0d-4729-2ca1-43d8" name="Bow of Burning Gold" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-30&quot;</characteristic>
@@ -1076,7 +1156,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">ACC +1</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd49-722d-5180-e75d" name="(Spell) Fiery Balls" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="dd49-722d-5180-e75d" name="Fiery Balls" publicationId="cffa-cd51-pubN65537" page="88" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">9</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">20&quot;</characteristic>
@@ -1085,7 +1165,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="d6c5-70ce-86e8-e635" name="(Spell) Chill Wind" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="d6c5-70ce-86e8-e635" name="Chill Wind" publicationId="cffa-cd51-pubN65537" page="89" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">20&quot;</characteristic>
@@ -1094,7 +1174,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="096e-2da4-2cdd-6c4d" name="(Spell) Peculiar Portal" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="096e-2da4-2cdd-6c4d" name="Peculiar Portal" publicationId="cffa-cd51-pubN65537" page="89" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8 minus 1 for every 10&quot; of distance between caster and target.</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">N/A</characteristic>
@@ -1103,7 +1183,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="a1be-15b4-9c73-9b6f" name="(Spell) Endow Strength" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="a1be-15b4-9c73-9b6f" name="Endow Strength" publicationId="cffa-cd51-pubN65537" page="89" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">Cast upon Wizard and also automatically affects all friendly units in HtH combat within 10&quot; of the wizard.</characteristic>
@@ -1112,7 +1192,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until the end of turn.  Also immediately ends if the caster moves, attempts to dispel and enemy spell, or is killed. (does NOT end if caster is in HtH fighting)</characteristic>
       </characteristics>
     </profile>
-    <profile id="29a5-e36b-7b3f-c197" name="(Spell) Enchanted Shield" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="29a5-e36b-7b3f-c197" name="Enchanted Shield" publicationId="cffa-cd51-pubN65537" page="92" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level.</characteristic>
@@ -1121,16 +1201,16 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until End of Turn</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd16-8e55-111c-118c" name="(Spell) Aura of Courage" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="dd16-8e55-111c-118c" name="Aura of Courage" publicationId="cffa-cd51-pubN65537" page="92" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">All Friendly Units within 10&quot;.</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All Friendly Units within 10&quot;.</characteristic>
-        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add Wizards Magic Level.  You can remove this total number of pins from the target units.  It does not have to be distributed evenly, you get to decide which pins are removed from where.</characteristic>
+        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add Magic Level.  You can remove this total number of pins from the target units.  It does not have to be distributed evenly, you get to decide which pins are removed from where.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd4e-402d-e03c-f841" name="(Spell) Aura of Timidity" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="dd4e-402d-e03c-f841" name="Aura of Timidity" publicationId="cffa-cd51-pubN65537" page="92" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; for Magic Level 1, 20&quot; for Magic Level 2, 30&quot; for Magic Level 3.</characteristic>
@@ -1139,7 +1219,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="5cf5-b784-0eca-19aa" name="(Spell) Wake the Dead" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="5cf5-b784-0eca-19aa" name="Wake the Dead" publicationId="cffa-cd51-pubN65537" page="93" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per magic level of caster.</characteristic>
@@ -1148,7 +1228,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="ae9d-c50e-6667-48f3" name="(Spell) Sorcerer&apos;s Shield" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="ae9d-c50e-6667-48f3" name="Sorcerer&apos;s Shield" publicationId="cffa-cd51-pubN65537" page="93" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level.</characteristic>
@@ -1157,7 +1237,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until end of the turn.  Also ended immediately if the caster Moves, attempts to dispel an enemy&apos;s spell or is killed.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0a25-272c-9462-1696" name="(Spell) Surge" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="0a25-272c-9462-1696" name="Surge" publicationId="cffa-cd51-pubN65537" page="93" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; (for undead wizards and necromancers the range is 10&quot; per magic level).</characteristic>
@@ -1166,7 +1246,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="4de4-3f21-99b0-3c0d" name="(Spell) Lightning Bolt" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="4de4-3f21-99b0-3c0d" name="Lightning Bolt" publicationId="cffa-cd51-pubN65537" page="94" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">30&quot; from caster.</characteristic>
@@ -1175,7 +1255,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="b2eb-08fa-19f7-0fe1" name="(Spell) Bamboozle Beastie" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="b2eb-08fa-19f7-0fe1" name="Bamboozle Beastie" publicationId="cffa-cd51-pubN65537" page="94" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">7</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic Level of caster.</characteristic>
@@ -1184,7 +1264,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1eb-7ae0-4936-b755" name="(Spell) Enfeeble Foe" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="b1eb-7ae0-4936-b755" name="Enfeeble Foe" publicationId="cffa-cd51-pubN65537" page="95" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">6</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot;</characteristic>
@@ -1193,7 +1273,7 @@ Restores Agility and Initiative to previous values (usually included in the stat
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Lasts until end of turn, also ends immediately if the caster moves, attempts to dispel an enemy&apos;s spell or is Killed.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5528-567d-5eab-533e" name="(Spell) Sorcerous Battle!" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
+    <profile id="5528-567d-5eab-533e" name="Sorcerous Battle!" publicationId="cffa-cd51-pubN65537" page="95" hidden="false" typeId="ec63-2857-95d8-a720" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">6</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per Magic level of caster.</characteristic>
