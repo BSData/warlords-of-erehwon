@@ -233,77 +233,10 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0ef2-2279-417d-1212" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d42-70f0-34d8-d07d" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="02df-3449-d7bf-649e" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="9945-d7d7-3ff3-a51e" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4c3d-e8d5-ab5d-100c" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ddae-03ed-e253-863d" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="574e-d74e-cd44-886f" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="9ba9-d94e-f5b9-64bb" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4527-eefa-999e-58e0" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="2d0d-4de9-b423-8fb0" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e57c-bc5a-db83-b243" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="64f2-3928-e4e8-4228" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="77a9-85f5-e1b0-25aa" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="680b-f82e-99c1-5bb2" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dafd-fc76-27a9-2707" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="83e4-72f3-b34c-b21a" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1a32-0539-ebe7-9e97" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
@@ -761,77 +694,10 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8d58-6131-0c1f-6186" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2b1-13da-d56f-649d" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0c04-ca53-ff84-48ae" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="cfda-613b-1f6b-04df" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d8af-af6d-34d6-5aff" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1b4d-4094-2d4e-9ed8" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="783f-c219-f28f-a2df" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="87f5-dc52-cd99-12a8" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="041e-fffd-f288-6a39" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="0dcb-5eda-dd94-37cb" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bec5-e879-7936-d0a3" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="c1a4-c1d3-672e-9319" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="37f5-81a7-f3df-0459" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e42f-34b2-53b9-f1c3" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="46a1-2e6f-8f21-70b1" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="4d4f-4cde-9910-6da1" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="97c2-e718-76fc-dd0a" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
@@ -1020,77 +886,10 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="06ae-4512-80e5-122b" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d082-8ddb-12ba-1bd9" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="99f1-5853-05e5-f149" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="a414-3a6f-94bb-ec2c" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="151c-0ab7-5d64-317f" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="64a1-296c-afe3-1ad9" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d4d4-97cc-5deb-c714" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="0fee-974d-d6ff-bb09" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="38a5-33b9-6e86-006d" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e60d-cbf2-8e36-b5c2" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="768d-fa50-7f62-6bee" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ff3d-ad23-77de-f5f2" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7d54-8e25-ed90-c245" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="3a16-32fc-7c51-5508" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="efc0-dd43-2732-bbd8" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="db38-a48f-964e-a092" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="908a-815e-c330-1f33" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
@@ -1508,7 +1307,7 @@
             </selectionEntry>
             <selectionEntry id="69af-eb55-a24d-4267" name="Crossbow" hidden="false" collective="false" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="1">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="0120-dc29-e7a3-7a46" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -1516,6 +1315,7 @@
               </modifiers>
               <infoLinks>
                 <infoLink id="2448-8be6-62e8-991c" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
+                <infoLink id="41f1-20fa-72a3-3c41" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1534,6 +1334,7 @@
       <infoLinks>
         <infoLink id="4201-3261-ac27-eeff" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
         <infoLink id="b68e-0da9-b61a-5dad" name="Handgun" hidden="false" targetId="c6ac-d307-29c2-4ef1" type="profile"/>
+        <infoLink id="d6c8-1f57-4e4a-588d" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a764-2034-aa55-fcd7" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1761,6 +1562,7 @@
       <infoLinks>
         <infoLink id="d842-da47-74cd-3826" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
         <infoLink id="b625-ac56-05f4-ffe3" name="Vengeful" hidden="false" targetId="5e63-c99b-00b4-24eb" type="rule"/>
+        <infoLink id="3935-5ffd-0cd2-f917" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1fc1-99e6-f464-e3e7" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -2000,6 +1802,7 @@
         <infoLink id="fca3-67c3-8e81-c0ba" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="0afa-0253-9bde-5c68" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
         <infoLink id="3981-2f8b-e016-c829" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="0c8b-e96f-8245-fa91" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eeeb-58b8-013b-5b6f" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
@@ -2060,6 +1863,7 @@
         <infoLink id="c94f-05da-fe75-96d8" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
         <infoLink id="50d1-e4a0-e928-8ce4" name="Unstoppable" hidden="false" targetId="a8bf-f48c-1b08-58e6" type="rule"/>
         <infoLink id="9e4a-4214-9919-05a7" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="f564-8aa4-0f99-3615" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cf89-f7fc-cc96-7eeb" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
@@ -2119,28 +1923,27 @@
         <infoLink id="83f7-d5f6-88a3-d5f5" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="8fc5-dce6-1e09-7439" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
         <infoLink id="0fd1-1866-7bb5-2b6b" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="fbe4-ce7f-b8c1-20d8" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="efd0-9619-9b45-7928" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="fb5a-51f0-d5f5-f9cd" name="Bombard" hidden="false" collective="false" defaultSelectionEntryId="a7e2-2202-4473-2d83">
+      <selectionEntries>
+        <selectionEntry id="7044-8cd7-d34c-638d" name="Bombard" hidden="false" collective="false" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c347-0e9a-6abb-fd58" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c2-282f-0833-5af6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9f-eb7b-dbe8-20b0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7619-4ef2-a7e7-df1d" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="a7e2-2202-4473-2d83" name="Bombard" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="c101-b30e-db19-4eb4" name="Bombard" hidden="false" targetId="83bd-49e2-6f9b-a638" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="45.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
+          <infoLinks>
+            <infoLink id="0fda-817b-0048-c199" name="Bombard" hidden="false" targetId="83bd-49e2-6f9b-a638" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="45.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
         <selectionEntryGroup id="8209-b6f4-406c-76c3" name="Crew" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="b874-809b-9ec1-16e8" name="Dwarf Crew" hidden="false" collective="false" type="model">
@@ -2169,10 +1972,26 @@
         <infoLink id="a027-e0e9-2744-51a4" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
         <infoLink id="d6ae-0e7b-7b77-80ec" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
         <infoLink id="a939-17da-f510-5402" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="20b7-2d03-76c0-872c" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4840-1e56-24e2-7c40" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2adf-663d-a5da-49d7" name="Fire Cannon" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e57-e844-4e48-f5ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec4-2f70-77c7-3661" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2954-02f3-a8af-e8cf" name="Fire Cannon" hidden="false" targetId="fc55-3266-2aa3-9d8a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="60.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="33bb-7c09-b5d6-1ffe" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="5867-995a-6d51-9500">
           <selectionEntries>
@@ -2191,25 +2010,6 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f0d4-4a09-ec99-2ba2" name="Fire Cannon" hidden="false" collective="false" defaultSelectionEntryId="845e-be82-554f-c34e">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7f-b090-97af-7d7b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5e4-bfae-5120-f944" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="845e-be82-554f-c34e" name="Fire Cannon" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="c744-f82e-4edd-5dfa" name="Fire Cannon" hidden="false" targetId="fc55-3266-2aa3-9d8a" type="profile"/>
-                <infoLink id="93c0-2c2b-b9e5-a43f" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="7c78-1af7-7cc4-a62d" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2221,6 +2021,7 @@
         <infoLink id="790b-d4a5-4d29-2e02" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="2cce-dacc-7923-4972" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
         <infoLink id="c72b-fce0-cffe-0aab" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="b201-6f86-3fdb-0ca4" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="28df-e7a4-a6aa-2cef" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
@@ -2283,24 +2084,40 @@
       <categoryLinks>
         <categoryLink id="9d5f-5b00-3d76-aa5f" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c749-efaa-ca64-12a5" name="Pilot" hidden="false" collective="false" defaultSelectionEntryId="4cb7-919d-4657-0d48">
+      <selectionEntries>
+        <selectionEntry id="18e7-5b81-d921-034a" name="Flying Machine" hidden="false" collective="false" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c7c-aec1-c8d2-94dd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db1-6ccd-0f45-2f32" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d296-b68f-abe5-ed96" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="696e-2c52-8558-c76e" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4cb7-919d-4657-0d48" name="Pilot" hidden="false" collective="false" type="model">
-              <infoLinks>
-                <infoLink id="f7d3-048a-515e-2228" name="Dwarf Pilot" hidden="false" targetId="46a0-3c62-e534-e7a0" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="94.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
+          <infoLinks>
+            <infoLink id="01ad-a40a-6455-bfc7" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+            <infoLink id="3aa3-aea7-2983-2266" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
+            <infoLink id="6d2f-f529-2de3-68f4" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+            <infoLink id="f391-5f3d-f23b-3d86" name="Ramshackle Contraption" hidden="false" targetId="182e-9b37-17f3-5b45" type="rule"/>
+            <infoLink id="cec7-01a8-0881-85d5" name="Flying Machine With Bombs" hidden="false" targetId="953a-ca2d-befd-cc62" type="profile"/>
+            <infoLink id="3de7-09bf-8a7b-66c7" name="MoD2" hidden="false" targetId="5da1-1bfa-9b8d-6b82" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0771-d48f-2770-9cec" name="Pilot" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c464-2e83-86d8-af01" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247e-462c-6e36-b03e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fd8b-63a5-b13f-990d" name="Dwarf Pilot" hidden="false" targetId="46a0-3c62-e534-e7a0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="94.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
         <selectionEntryGroup id="83b9-fa6f-1780-b376" name="Bouncing Bombs" hidden="false" collective="false" defaultSelectionEntryId="f930-f93d-c612-99b8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ce2-937d-dd2f-4964" type="max"/>
@@ -2319,28 +2136,6 @@
             <selectionEntry id="f930-f93d-c612-99b8" name="Bombs" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="7cff-725a-ee9f-e62e" name="Bomb" hidden="false" targetId="8a33-4972-aa2d-d058" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="e007-b3f9-79aa-dcdb" name="Flying Machine" hidden="false" collective="false" defaultSelectionEntryId="c2f5-3e39-fcc8-a5ee">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a013-74b9-a209-8daa" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0df3-0528-8b48-81fc" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="c2f5-3e39-fcc8-a5ee" name="Flying Machine" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d2d2-73d2-3468-5020" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="8a63-bfa1-cfee-d309" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
-                <infoLink id="561d-640d-a8bc-6230" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
-                <infoLink id="e952-ad5a-9de5-6311" name="Ramshackle Contraption" hidden="false" targetId="182e-9b37-17f3-5b45" type="rule"/>
-                <infoLink id="b908-abb7-21f2-c2ae" name="Flying Machine With Bombs" hidden="false" targetId="953a-ca2d-befd-cc62" type="profile"/>
-                <infoLink id="808e-3e97-b5ae-3c53" name="MoD2" hidden="false" targetId="5da1-1bfa-9b8d-6b82" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2379,27 +2174,23 @@
       <categoryLinks>
         <categoryLink id="1410-35b4-ae4b-b69f" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cc31-9b17-778f-60db" name="Juggernaut" hidden="false" collective="false" defaultSelectionEntryId="4e07-8cb6-0f17-5dc6">
+      <selectionEntries>
+        <selectionEntry id="f978-57f8-6c32-52c0" name="Juggernaut" hidden="false" collective="false" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ada-d6e1-0313-f678" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e2-fe55-9c03-ed0b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="197d-43be-243a-c636" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="374e-bef0-9f20-45c6" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="0bca-5ba0-3040-fe3d" name="MoD3" hidden="false" targetId="a8ca-ba71-db97-bc20" type="rule"/>
+            <infoLink id="da97-1733-0fa3-0ee7" name="Steam Juggernaut with Cannon" hidden="false" targetId="8b88-6b2c-dd1c-751a" type="profile"/>
+            <infoLink id="b6be-43b7-1501-09ca" name="MoD3" hidden="false" targetId="a8ca-ba71-db97-bc20" type="rule"/>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="4e07-8cb6-0f17-5dc6" name="Juggernaut" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="62e2-6534-65a2-0a74" name="Steam Juggernaut with Cannon" hidden="false" targetId="8b88-6b2c-dd1c-751a" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="215.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
+          <costs>
+            <cost name="pts" typeId="points" value="215.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
         <selectionEntryGroup id="397c-26bc-1b2a-a8d3" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="789a-db01-71ca-6b7b">
           <selectionEntries>
             <selectionEntry id="789a-db01-71ca-6b7b" name="Crew" hidden="false" collective="false" type="model">
@@ -2526,30 +2317,29 @@
     <selectionEntry id="d036-c54c-7e19-e1a9" name="Dwarf Organ Gun" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="169d-15b8-ae92-e1ec" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-        <infoLink id="d3f9-4f0e-d07b-497e" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
+        <infoLink id="d3f9-4f0e-d07b-497e" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
         <infoLink id="9c4d-2c02-32c7-9bd2" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="6ddc-0b79-3a34-9d47" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0c4c-abcc-f61d-6091" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ea24-85d6-087b-b449" name="Organ Gun" hidden="false" collective="false" defaultSelectionEntryId="5ce2-813d-737b-0cec">
+      <selectionEntries>
+        <selectionEntry id="a8cb-28aa-e1df-2c9a" name="Organ Gun" hidden="false" collective="false" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3405-c909-9270-4c10" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0198-e0be-de71-020e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df7-ac57-c6b9-2cdf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a589-77d4-0b38-ae36" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="5ce2-813d-737b-0cec" name="Organ Gun" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="b283-f69d-8986-f827" name="Organ Gun" hidden="false" targetId="a0f0-e080-e08b-fd51" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
+          <infoLinks>
+            <infoLink id="60a6-abdb-b93e-a068" name="Organ Gun" hidden="false" targetId="a0f0-e080-e08b-fd51" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="60.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
         <selectionEntryGroup id="7515-071a-3e23-068c" name="Crew" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="6179-596b-077f-b4fe" name="Dwarf Crew" hidden="false" collective="false" type="model">
