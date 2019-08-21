@@ -3313,7 +3313,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, Fast 8, 3xHTH, Wound</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough 1, Fast 8, 3xHTH, Wound 1</characteristic>
       </characteristics>
     </profile>
     <profile id="f925-b5ec-1c26-1a44" name="Minotaur Lord" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3335,7 +3335,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="12fe-e30e-e2ab-4863" name="Beastman Guard in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3467,7 +3467,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Large, Fast 8, 2xHTH</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
     <profile id="7eb3-d387-0418-5b77" name="Centaur" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3492,7 +3492,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Flies, Fast 10, 2xHTH SV1, 1xDrops SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="c020-9bee-5d3d-95d8" name="Beastman Crew with bolt throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="c020-9bee-5d3d-95d8" name="Beastman Crew with Bolt Throwing Engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -3511,7 +3511,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Command, 3xHTH, Wound</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 3xHTH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="6a05-94e9-fca8-0453" name="Beastman Bodyguard" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3536,7 +3536,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough, Fast 6, Irresistible Charge</characteristic>
       </characteristics>
     </profile>
-    <profile id="c0ba-8436-9fc7-45eb" name="Beastman Chieftain" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="c0ba-8436-9fc7-45eb" name="Beastman Chieftain riding chariot" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">[5]</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">[4]</characteristic>
@@ -3544,7 +3544,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">[6(8)]</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough], Command, Follow, 3xHTH, [Wound]</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, Follow, 3xHTH, [Wound X], [on foot]</characteristic>
       </characteristics>
     </profile>
     <profile id="d909-19ba-d47c-1b22" name="Beastman Crew (in chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3660,7 +3660,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="074a-a320-6def-11ae" name="Beastman Guard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3682,7 +3682,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="b1de-b513-c301-85f1" name="Beastman Warrior in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3759,7 +3759,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Large, Fast 8, 2xHTH</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
     <profile id="3a20-859a-0d11-147e" name="Centaur Champion in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3770,7 +3770,7 @@
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Large, Fast 8, 2xHTH</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Large, Fast 8, 2xHTH</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
