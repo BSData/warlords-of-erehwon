@@ -45,7 +45,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="69.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="66e8-ed3b-530e-0911" name="Henchmen" hidden="false" collective="false" type="model">
@@ -58,7 +58,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="8.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -66,7 +66,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6c11-8bf4-3580-e403" name="Light Armour (10pts + 2pts per Henchmen)" hidden="false" collective="false" type="upgrade">
@@ -83,7 +83,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="79.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7adf-df3c-4c6d-b8b4" name="Henchmen" hidden="false" collective="false" type="model">
@@ -96,7 +96,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="10.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -104,12 +104,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bf34-b0e5-ee2b-8f47" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="12b1-9fd7-1c2b-631d">
+        <selectionEntryGroup id="bf34-b0e5-ee2b-8f47" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="12b1-9fd7-1c2b-631d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="854f-2177-c3e8-a5f8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="030b-b57e-0f96-6135" type="max"/>
@@ -121,7 +121,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1095-ef0c-84fa-c09d" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -130,7 +130,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="13d7-55cd-a401-ee1d" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -139,7 +139,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -155,7 +155,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -178,7 +178,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2350-2378-061f-0248" name="Slings" hidden="false" collective="false" type="upgrade">
@@ -194,7 +194,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -217,7 +217,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -234,7 +234,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7385-dfc0-975d-c7f0" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -243,7 +243,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -260,7 +260,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e5c-b2b2-fe84-aec4" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -269,85 +269,18 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="ff99-862e-004c-1d12" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ce-35a3-3baa-3b73" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="a8de-7023-b231-7d37" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d649-a3f7-4d48-0fe8" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="03f7-9a1e-3658-77d1" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d9c3-0f74-f392-6297" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7279-b221-bae1-afda" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="7252-80eb-6a07-22b3" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7c2b-b70c-dc06-1911" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="26b7-99b0-bfcb-0c96" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8bbe-8769-e446-3925" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="33f5-6d28-4957-58f2" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a973-4a7c-756a-11b8" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="568c-37d3-432b-245e" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7e3c-9fd8-e44e-3485" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="4b18-389d-6b8f-aa07" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4351-cb43-45c7-9f9c" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a05-8937-f0c2-efaa" name="Halfling Chief Sheriff in Cart [130 pts]" hidden="false" collective="false" type="unit">
@@ -360,6 +293,37 @@
         <categoryLink id="77c5-e4a0-0b2b-0265" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
         <categoryLink id="456e-2e4b-2e6b-b047" name="Chariot Unit" hidden="false" targetId="239f-4e2f-785f-7869" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4f27-6147-1d92-830a" name="Cart" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f90-8b4a-3999-fc1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e33-738e-b384-41ae" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e0ca-8c3a-a674-539b" name="Cart with Sheriff and driver, pulled by one donkey" hidden="false" targetId="291a-239b-59ae-33b4" type="profile"/>
+            <infoLink id="4c01-cb35-6c0d-616d" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+            <infoLink id="26da-1d3a-9993-6c53" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+            <infoLink id="9dbe-6491-34a8-b17b" name="Fast 6" hidden="false" targetId="7753-3806-9cf1-0a6c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="769e-3f93-798b-0bc4" name="Crew" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5947-6b61-b6ce-6b90" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52fd-e635-c4f6-fdd2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="19f9-c3fa-6080-7e04" name="Halfling Cart Driver" hidden="false" targetId="03eb-955e-9942-2853" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7022-bf4c-1f2f-6ac3" name="Sheriff Tough Selection" hidden="false" collective="false" defaultSelectionEntryId="5a9a-043e-afd6-1f14">
           <constraints>
@@ -373,7 +337,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0d87-0c59-7871-784a" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -382,7 +346,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -399,7 +363,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b6bc-3982-cbe6-426a" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -408,12 +372,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ad88-2272-4527-54c1" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="6a44-018b-9e02-fde9">
+        <selectionEntryGroup id="ad88-2272-4527-54c1" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="6a44-018b-9e02-fde9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c24f-35f0-1b80-a8c7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb97-0037-46f2-3ced" type="max"/>
@@ -425,7 +389,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ed7e-3922-a815-9f0e" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -434,7 +398,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f5c7-7f85-db23-2118" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -443,7 +407,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -459,7 +423,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -482,57 +446,23 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e979-0a9c-bfea-244c" name="Cart Fast Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="e979-0a9c-bfea-244c" name="Judicious Use of Carrots" hidden="false" collective="false">
           <selectionEntries>
-            <selectionEntry id="7dd3-f795-e4b1-7a6b" name="Upgrade Cart to FAST 8" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="7dd3-f795-e4b1-7a6b" name="Upgrade to Fast 8" hidden="false" collective="false" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0098-80a0-008a-198b" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="689c-3899-bb97-8a3e" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9990-876f-38df-72a2" name="cart" hidden="false" collective="false" defaultSelectionEntryId="1ca0-b1f3-5d64-4b69">
-          <selectionEntries>
-            <selectionEntry id="1ca0-b1f3-5d64-4b69" name="Cart" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb5e-89a6-dccc-2847" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6cd-7d3b-15fb-ff4e" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="27d1-5f26-2b11-7306" name="Cart with Sheriff and driver, pulled by one donkey" hidden="false" targetId="291a-239b-59ae-33b4" type="profile"/>
-                <infoLink id="759a-9f5a-2216-0b7e" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="bc01-d293-1d0d-c2e0" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-                <infoLink id="a814-7c01-6983-e895" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d203-8136-8c0e-46d0" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="708f-1a2f-c781-8b13">
-          <selectionEntries>
-            <selectionEntry id="708f-1a2f-c781-8b13" name="Crew" hidden="false" collective="false" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="361c-7a68-cf3f-e64c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a45-4a6b-c968-65a0" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="76de-6573-c5a3-a55f" name="Halfling Cart Driver" hidden="false" targetId="03eb-955e-9942-2853" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -549,7 +479,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9eac-ba4f-c7b9-bd6d" name="Halfling Chief Sheriff in Light Armour (on Foot)" hidden="false" collective="false" type="model">
@@ -558,85 +488,18 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="140.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="ea33-1cd1-2b80-b006" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec3e-007e-5793-2da4" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4172-627e-fb28-1871" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e021-43ba-cde1-1a12" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d29b-0232-16d2-edf2" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1bce-973e-801a-6b23" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b2b0-799a-e3fa-0669" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1f4d-8bf3-11bc-f282" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e9ff-cae1-c686-6e1a" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="b14a-4907-79e0-68c3" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="063a-988e-aa82-6815" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="0d91-1d77-7346-84fc" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c60a-3804-e4d0-d447" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="edc3-8068-dc79-8680" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0ab2-e0c3-669c-4672" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="8ffa-9f18-a003-b594" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5451-1205-b18d-ebae" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a39d-0ad7-0df8-8f0f" name="Halfling Fortune Teller [51 pts]" hidden="false" collective="false" type="unit">
@@ -647,6 +510,22 @@
         <categoryLink id="f21b-e859-f494-7df7" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
         <categoryLink id="23de-2f5d-6192-5552" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0be2-e151-8693-fb5d" name="Halfling Fortune Teller" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1e1-7717-bc7f-1fe4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5a-fd3a-489b-0139" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8c60-60df-b046-3f23" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+            <infoLink id="61c4-1f20-499e-3ec5" name="Halfling Fortune Teller with club" hidden="false" targetId="25a5-fa5c-28f5-cb90" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="45.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9b83-b851-48bd-2c6a" name="Magic Level" hidden="false" collective="false" defaultSelectionEntryId="ac99-118b-bb01-9f93">
           <constraints>
@@ -660,7 +539,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="855d-c917-3b73-2f38" name="Magic Level 2" hidden="false" collective="false" type="upgrade">
@@ -669,7 +548,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="25.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="623e-9e06-264e-c979" name="Magic Level 3" hidden="false" collective="false" type="upgrade">
@@ -678,7 +557,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -695,7 +574,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c0ab-063d-6822-a803" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -704,7 +583,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -727,25 +606,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="b9bf-c19e-25b7-b975" name="Fortune Teller" hidden="false" collective="false" defaultSelectionEntryId="cec9-9b88-6030-d19a">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1347-7ce6-23f7-f5e9" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="590c-f8fa-c18b-eb02" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="cec9-9b88-6030-d19a" name="Halfling Fortune Teller" hidden="false" collective="false" type="model">
-              <infoLinks>
-                <infoLink id="3432-e150-52c3-1028" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
-                <infoLink id="c457-a2ef-7c93-bba7" name="Halfling Fortune Teller with club" hidden="false" targetId="25a5-fa5c-28f5-cb90" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="45.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -769,7 +630,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="6.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -777,7 +638,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2f95-376f-1f4a-b62a" name="Spirit Guides" hidden="false" collective="false" type="upgrade">
@@ -794,7 +655,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="18.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -802,7 +663,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -818,7 +679,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8694-de67-033e-6e89" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
@@ -830,7 +691,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ffd6-088f-3860-a2a7" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
@@ -842,7 +703,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0f81-a6e7-f754-4f5b" name="Chill Wind" hidden="false" collective="false" type="upgrade">
@@ -854,7 +715,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e909-9414-093a-938d" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
@@ -866,7 +727,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bd56-9008-3bf1-7e25" name="Endow Strength" hidden="false" collective="false" type="upgrade">
@@ -878,7 +739,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="78fe-0325-3cd6-0df7" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
@@ -890,7 +751,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f942-2fde-bd85-c35b" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
@@ -902,7 +763,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="42ba-bf6d-ae9c-c0a0" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
@@ -914,7 +775,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a922-cd29-1ab1-fde2" name="Surge" hidden="false" collective="false" type="upgrade">
@@ -926,7 +787,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="85d9-7edb-2684-f909" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
@@ -938,7 +799,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a90a-507f-1346-c7de" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
@@ -950,7 +811,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e20d-b40e-00ab-de80" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
@@ -962,7 +823,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fc99-b403-0ef3-ec6c" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
@@ -974,7 +835,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -991,7 +852,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="98f5-7e62-7e5a-a589" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
@@ -1000,7 +861,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="18a5-27ab-cbb8-9e02" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
@@ -1009,7 +870,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="36a4-b006-6e1a-47b7" name="Chill Wind" hidden="false" collective="false" type="upgrade">
@@ -1018,7 +879,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="44a8-6cdb-a591-c5a7" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
@@ -1027,7 +888,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="82e8-b315-c4ce-5ab1" name="Endow Strength" hidden="false" collective="false" type="upgrade">
@@ -1036,7 +897,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c384-dadd-fadd-4c51" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
@@ -1045,7 +906,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="57e2-6056-2442-9e07" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
@@ -1054,7 +915,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e8fa-1465-1ab9-b874" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
@@ -1063,7 +924,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="47c0-e7c7-e115-9899" name="Surge" hidden="false" collective="false" type="upgrade">
@@ -1072,7 +933,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f711-1a08-7701-94bc" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
@@ -1081,7 +942,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2cf2-7d1b-16b0-1de2" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
@@ -1090,7 +951,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4cec-0dae-1caf-25e7" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
@@ -1099,7 +960,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="69df-5769-e05f-fb98" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
@@ -1108,85 +969,18 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="7990-18fc-7771-b5de" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3949-05d1-9a66-4df3" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="17c5-5ad9-f263-86f4" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="8db2-beb9-4cb8-13f0" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e1b9-4f9f-fa7b-dd8a" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ff57-00cc-f6c8-fae4" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bfd7-d0c1-6fad-b2bd" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="322b-b2d3-3b34-0d49" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6856-4bcc-a81a-a70e" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="11be-9f79-2e0d-358a" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d989-27f2-c683-fcbc" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="8b0a-1e55-131f-d9de" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="54de-cad1-f3b2-6170" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d996-be5a-3a6c-4de7" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cafb-d6ac-dae8-6660" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="8fb2-c48a-36dc-72ee" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9445-b0c6-4044-2026" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8dcb-a098-4ac4-094e" name="Halfling Clan Chief [76 pts]" hidden="false" collective="false" type="unit">
@@ -1210,7 +1004,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="76.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6307-bc33-7de0-0d94" name="Clan Chief in Light Armour" hidden="false" collective="false" type="model">
@@ -1219,7 +1013,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="86.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1235,7 +1029,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1252,7 +1046,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="740f-0f75-2fca-c47f" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -1261,7 +1055,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1278,7 +1072,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="18ea-60fa-6daf-c9dd" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -1287,7 +1081,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="62a7-2b63-ffb1-a6df" name="Wound 3" hidden="false" collective="false" type="upgrade">
@@ -1296,7 +1090,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1312,7 +1106,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1328,12 +1122,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="dbc4-0a94-7a37-8c35" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="2e94-2367-437e-0a6c">
+        <selectionEntryGroup id="dbc4-0a94-7a37-8c35" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="2e94-2367-437e-0a6c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd4-9b8a-36ce-1bb0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf5-c617-86bb-e770" type="max"/>
@@ -1345,7 +1139,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="27db-415b-be75-94aa" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -1354,7 +1148,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bba2-bdd3-8a1f-d0ec" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -1363,91 +1157,24 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="7c9b-f9e8-19c7-8685" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e355-e66b-fb06-6138" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="57c4-8a81-1ea2-0810" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="4e91-ed6b-be9e-c960" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a581-fcb2-8d9b-23cc" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="192e-c532-76f1-363c" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c113-b6c0-51bf-836e" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="5bc7-fa1c-38d2-3657" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="64e2-8887-ab37-3d45" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="8099-813f-3549-9ec2" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a675-8ee6-eb19-925e" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="c962-6471-187e-7189" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="377a-fa27-043d-1f1a" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="040f-3e75-a7c4-4023" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fa66-177b-9ee6-9387" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="93ee-8005-08d4-f8aa" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d4df-c0b2-212c-1cff" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3eed-5ce8-9c18-f10c" name="Mounted Halfling Clan Chief [87 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="ebc6-cb05-9577-16d7" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
-        <infoLink id="54bb-2468-e7df-a5d0" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+        <infoLink id="54bb-2468-e7df-a5d0" name="Fast 6" hidden="false" targetId="7753-3806-9cf1-0a6c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d5ca-fa78-5dba-8127" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
@@ -1466,7 +1193,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="87.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6f12-ab2c-9701-24cc" name="Clan Chief in Light Armour" hidden="false" collective="false" type="model">
@@ -1475,7 +1202,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="97.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1491,7 +1218,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1508,7 +1235,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e42c-a8d2-a6c6-e4fc" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -1517,7 +1244,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1534,7 +1261,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="df88-9573-39dc-8d71" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -1543,7 +1270,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="30e1-e3d1-63c1-8325" name="Wound 3" hidden="false" collective="false" type="upgrade">
@@ -1552,7 +1279,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1568,12 +1295,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="485d-7a7f-a125-7611" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="096b-7ead-8783-c7d6">
+        <selectionEntryGroup id="485d-7a7f-a125-7611" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="096b-7ead-8783-c7d6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a8-ab71-ff01-a277" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8049-6cae-8c6d-9bbe" type="max"/>
@@ -1585,7 +1312,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="963e-e2cb-dd16-a2be" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -1594,7 +1321,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="44a3-6d7b-f763-cbb8" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -1603,101 +1330,34 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b312-5c5e-6283-a2c7" name="Use Carrots to make FAST 8" hidden="false" collective="false">
+        <selectionEntryGroup id="b312-5c5e-6283-a2c7" name="Judicious Use of Carrots (Fast 8)" hidden="false" collective="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae39-b8aa-fe4c-dd47" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a778-9751-20fe-d411" name="Fast 8" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="36c3-ea23-132d-c6bf" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+                <infoLink id="36c3-ea23-132d-c6bf" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="69e9-976d-2342-7389" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ac-20de-696b-60d0" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="8649-172c-02a9-578b" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="a841-f2c1-2147-5aff" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="68f9-fe1e-70bd-534f" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="b2ae-d59c-5fb8-a628" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a2a1-3513-f2c9-a58a" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="3d1b-f541-a4bb-0c61" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6716-3cf0-73c6-27b5" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="2c52-5941-07a6-feed" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1a91-50cf-1dd2-831d" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="7bf1-ed6f-4548-4e01" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ab1a-b3b3-b4d3-e21c" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="9088-8d2c-5b52-6014" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="88a6-fdec-8403-c698" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="bb59-be29-bf03-ab99" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dd8d-ea42-8c0e-2c4a" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19e0-8c7c-366c-d7d0" name="Halfling Sheriffs [47 pts]" hidden="false" collective="false" type="unit">
@@ -1708,7 +1368,7 @@
         <categoryLink id="ad7c-763f-905f-fbf6" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bb3c-cbe5-e886-3ddb" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="c5cb-3200-ac5c-1d1c">
+        <selectionEntryGroup id="bb3c-cbe5-e886-3ddb" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="c5cb-3200-ac5c-1d1c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e1-5adf-b83d-7fa2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6213-8863-9abc-a2f0" type="max"/>
@@ -1727,7 +1387,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="95d3-8149-6187-d6cd" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -1743,7 +1403,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c5cb-3200-ac5c-1d1c" name="Staves" hidden="false" collective="false" type="upgrade">
@@ -1752,7 +1412,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1775,7 +1435,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6bcb-e409-ee0a-e017" name="Slings" hidden="false" collective="false" type="upgrade">
@@ -1791,7 +1451,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1807,7 +1467,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1832,7 +1492,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="19.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="364e-cc5f-1aea-94e5" name="Halfling Sheriffs" hidden="false" collective="false" type="model">
@@ -1845,7 +1505,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="7.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1853,7 +1513,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f11c-4a92-d889-7459" name="Sheriffs in Light Armour" hidden="false" collective="false" type="upgrade">
@@ -1870,7 +1530,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="21.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="95e1-8e9b-f11d-2a5a" name="Halfling Sheriffs" hidden="false" collective="false" type="model">
@@ -1883,7 +1543,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="9.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1891,7 +1551,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1914,7 +1574,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1922,7 +1582,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0545-0a42-e1f7-1b28" name="Halfling Militia [42 pts]" hidden="false" collective="false" type="unit">
@@ -1943,7 +1603,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="18.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7fd4-635d-49df-f7b3" name="Halfling Militia" hidden="false" collective="false" type="model">
@@ -1956,7 +1616,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1972,7 +1632,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1995,7 +1655,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2011,12 +1671,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="17c2-5652-a8e6-e97a" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="361a-0092-7d5d-acbb">
+        <selectionEntryGroup id="17c2-5652-a8e6-e97a" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="361a-0092-7d5d-acbb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="687b-04a9-1d8e-5277" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ff-191c-4614-51c9" type="max"/>
@@ -2035,7 +1695,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5d12-d5be-81f0-dfce" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -2051,7 +1711,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a07f-6229-8a1b-41d6" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -2067,7 +1727,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="361a-0092-7d5d-acbb" name="Club" hidden="false" collective="false" type="upgrade">
@@ -2076,7 +1736,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6415-c6fc-feb6-0717" name="Cudgel" hidden="false" collective="false" type="upgrade">
@@ -2085,7 +1745,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="af91-65c7-6253-67b5" name="Staves" hidden="false" collective="false" type="upgrade">
@@ -2101,7 +1761,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2109,7 +1769,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad9d-9e1b-c214-43c1" name="Halfling Archers [52 pts]" hidden="false" collective="false" type="unit">
@@ -2129,7 +1789,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8c21-9f4e-34bf-5f04" name="Slings" hidden="false" collective="false" type="upgrade">
@@ -2145,7 +1805,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2163,7 +1823,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fcbb-51f2-f96c-c4da" name="Archer" hidden="false" collective="false" type="model">
@@ -2176,77 +1836,10 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="2d6e-1337-0f67-19c0" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="97e3-1af0-2de6-3c95">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ad-2daa-82bd-f0fd" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a33b-7e6c-d34c-30b4" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="3158-931f-b3b2-3294" name="Sword" hidden="false" collective="false" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="ad9d-9e1b-c214-43c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <infoLinks>
-                    <infoLink id="4bba-bd62-8499-6751" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="1335-03d3-3c17-41f9" name="Axe" hidden="false" collective="false" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="ad9d-9e1b-c214-43c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <infoLinks>
-                    <infoLink id="7d0a-578e-cb42-6eef" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="97e3-1af0-2de6-3c95" name="Club" hidden="false" collective="false" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="0689-0995-514c-52ce" name="Club" hidden="false" targetId="0b17-24e8-fb18-654e" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="ad48-1bc6-547c-af95" name="Daggers" hidden="false" collective="false" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1">
-                      <repeats>
-                        <repeat field="selections" scope="ad9d-9e1b-c214-43c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <infoLinks>
-                    <infoLink id="ef32-93a3-7bc6-f4f9" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup id="cc06-c866-5884-efc1" name="Dead Eye Shot Upgrade" hidden="false" collective="false">
           <selectionEntries>
@@ -2259,7 +1852,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2282,7 +1875,72 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="41ef-f296-25d8-cd0e" name="HtH Weapons" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a83-b2b4-e560-89b6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c1-906d-70b7-21c0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7de1-706d-e333-acd5" name="Sword" hidden="false" collective="false" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="ad9d-9e1b-c214-43c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e74f-31f1-0c6c-4330" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="06e4-660b-17a1-0c90" name="Axe" hidden="false" collective="false" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="ad9d-9e1b-c214-43c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="fd87-8b04-3715-6bd5" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1537-3bde-f2ae-906e" name="Club" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8c4b-51db-d0bf-1a80" name="Club" hidden="false" targetId="0b17-24e8-fb18-654e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="daf2-7773-ee0e-db2f" name="Daggers" hidden="false" collective="false" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ad9d-9e1b-c214-43c1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="b370-4a3e-b326-b088" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2290,7 +1948,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="00b9-460a-80f2-affb" name="Halfling Urchin Swarm [141 pts]" hidden="false" collective="false" type="unit">
@@ -2298,7 +1956,7 @@
         <categoryLink id="5702-500b-e79d-d4d7" name="New CategoryLink" hidden="false" targetId="c820-d327-811d-1144" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="55d4-a974-3897-acdd" name="models" hidden="false" collective="false">
+        <selectionEntryGroup id="55d4-a974-3897-acdd" name="Swarms" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="131e-70ae-4689-2a5b" name="Urchin Swarm" hidden="false" collective="false" type="model">
               <constraints>
@@ -2310,7 +1968,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="47.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2326,7 +1984,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2349,7 +2007,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2372,7 +2030,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2380,19 +2038,22 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24b7-8d95-bb2a-1795" name="Mounted Halflings [63 pts]" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe22-cfe5-01a8-fb5a" type="max"/>
+      </constraints>
       <infoLinks>
-        <infoLink id="36c1-a5f8-fe10-ae8b" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+        <infoLink id="36c1-a5f8-fe10-ae8b" name="Fast 6" hidden="false" targetId="7753-3806-9cf1-0a6c" type="rule"/>
         <infoLink id="62ee-792f-bc27-4ee9" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1971-4957-7a2d-ce24" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b333-d93f-dba4-e0a9" name="models" hidden="false" collective="false" defaultSelectionEntryId="c1dc-de7e-f76f-d842">
+        <selectionEntryGroup id="b333-d93f-dba4-e0a9" name="Mounted Halflings" hidden="false" collective="false" defaultSelectionEntryId="c1dc-de7e-f76f-d842">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f7d-86a1-4bce-b578" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a51b-b580-2c30-70be" type="max"/>
@@ -2412,7 +2073,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="29.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="93a1-252a-d1db-d1ee" name="Mounted Halfling" hidden="false" collective="false" type="model">
@@ -2425,7 +2086,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="17.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2433,7 +2094,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="54d6-172a-2723-352e" name="Light Armour" hidden="false" collective="false" type="upgrade">
@@ -2450,7 +2111,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="31.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5ef4-2e25-c462-83e9" name="Mounted Halfling" hidden="false" collective="false" type="model">
@@ -2463,7 +2124,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="19.0"/>
-                        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2471,7 +2132,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2487,12 +2148,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4de0-3bee-0770-72cd" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="1611-e5e9-a46c-fc13">
+        <selectionEntryGroup id="4de0-3bee-0770-72cd" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="1611-e5e9-a46c-fc13">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9246-4a77-db74-82f7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bc8-bf1c-703c-2354" type="max"/>
@@ -2504,7 +2165,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4031-752e-741a-5060" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -2513,7 +2174,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8f83-9b07-33a2-3550" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -2522,7 +2183,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2545,7 +2206,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2553,15 +2214,32 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87d2-b341-dc57-0825" name="Halfling Stone Thrower [72 pts]" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="344e-8498-6d57-e0cb" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c379-3673-4e53-47b6" name="Small Stone Thrower" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cdc-2aeb-437f-e95c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32c4-e76e-f9a1-dc7f" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="de66-d95f-64fe-c258" name="Small Stone Thrower" hidden="false" targetId="fee6-c34d-8a5d-a9e6" type="profile"/>
+            <infoLink id="26d8-b582-f646-c6d0" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
+            <infoLink id="5dcb-7487-b715-48f9" name="Overhead" hidden="false" targetId="7751-622a-b896-4874" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="54.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ce57-a11e-ac45-94e0" name="crew" hidden="false" collective="false" defaultSelectionEntryId="0398-de31-9e78-6110">
+        <selectionEntryGroup id="ce57-a11e-ac45-94e0" name="Halfling Crew" hidden="false" collective="false" defaultSelectionEntryId="0398-de31-9e78-6110">
           <selectionEntries>
             <selectionEntry id="0398-de31-9e78-6110" name="Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -2571,33 +2249,16 @@
               <infoLinks>
                 <infoLink id="1277-f5c0-5aeb-3e1f" name="Halfling Crew with Stone-throwing engine" hidden="false" targetId="dd2b-812d-fa6f-1c8a" type="profile"/>
                 <infoLink id="9b4a-ced5-40a9-eed7" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="3d0b-273e-b187-3052" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
+                <infoLink id="3d0b-273e-b187-3052" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="062f-5eb6-53c6-e791" name="stone thrower" hidden="false" collective="false" defaultSelectionEntryId="0d10-dc81-c045-f1d6">
-          <selectionEntries>
-            <selectionEntry id="0d10-dc81-c045-f1d6" name="Small Stone Thrower" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eca8-e1aa-039d-a940" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5060-23b7-f063-058f" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4880-abc1-1525-6606" name="Small Stone Thrower" hidden="false" targetId="fee6-c34d-8a5d-a9e6" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="54.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="b2da-ff77-3f21-382f" name="Crew HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="4985-ebaa-f7e1-ce89">
+        <selectionEntryGroup id="b2da-ff77-3f21-382f" name="Crew HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="4985-ebaa-f7e1-ce89">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58bd-8525-0e76-8be1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d99-87b1-453e-6699" type="max"/>
@@ -2616,7 +2277,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5de3-ff28-8c06-7e79" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -2632,7 +2293,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4985-ebaa-f7e1-ce89" name="Daggers" hidden="false" collective="false" type="upgrade">
@@ -2641,7 +2302,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2649,15 +2310,30 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bac5-4a06-ae31-2485" name="Halfling Bolt Thrower [60 pts]" hidden="false" collective="false" type="unit">
       <categoryLinks>
         <categoryLink id="5ad0-37c1-0960-3fca" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d4e5-341c-edd6-35b8" name="Small Bolt Thrower" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033d-7b54-0660-9fff" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9838-93d2-513b-7127" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0650-1716-ed80-ab3d" name="Small Bolt Thrower" hidden="false" targetId="ba80-a4f2-4c92-7844" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="42.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a761-cc8e-148d-3f5b" name="crew" hidden="false" collective="false" defaultSelectionEntryId="b7f1-e372-2316-27e2">
+        <selectionEntryGroup id="a761-cc8e-148d-3f5b" name="Halfling Crew" hidden="false" collective="false" defaultSelectionEntryId="b7f1-e372-2316-27e2">
           <selectionEntries>
             <selectionEntry id="b7f1-e372-2316-27e2" name="Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -2666,34 +2342,17 @@
               </constraints>
               <infoLinks>
                 <infoLink id="4e31-86c6-f0b3-b572" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="aeeb-1fd4-671a-1a96" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
+                <infoLink id="aeeb-1fd4-671a-1a96" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
                 <infoLink id="7a93-acfb-c729-91bb" name="Halfling Crew with Bolt-throwing engine" hidden="false" targetId="70e2-57f8-092a-67c3" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="720b-ac8c-f2db-6625" name="Bolt thrower" hidden="false" collective="false" defaultSelectionEntryId="c84a-3297-c1c8-a5a6">
-          <selectionEntries>
-            <selectionEntry id="c84a-3297-c1c8-a5a6" name="Small Bolt Thrower" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="446a-44c2-b8da-235b" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9773-ae13-cb12-73f3" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="3924-b01d-4101-a82b" name="Small Bolt Thrower" hidden="false" targetId="ba80-a4f2-4c92-7844" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="42.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f098-c355-e854-d8fb" name="Crew HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="e261-5f7e-70f0-43b7">
+        <selectionEntryGroup id="f098-c355-e854-d8fb" name="Crew HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="e261-5f7e-70f0-43b7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fb9-608d-697f-904c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d8d-4a97-3e5e-2589" type="max"/>
@@ -2712,7 +2371,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0822-daf3-42c9-e209" name="Axe" hidden="false" collective="false" type="upgrade">
@@ -2728,7 +2387,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e261-5f7e-70f0-43b7" name="Clubs" hidden="false" collective="false" type="upgrade">
@@ -2737,7 +2396,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2753,7 +2412,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2761,7 +2420,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="6354-8c83-d4ad-3053" value="1.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2780,7 +2439,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3xHTH, Wound X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3x HtH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="ad24-8064-8f0c-5cbf" name="Halfling Sheriff in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2791,7 +2450,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3xHTH, Wound X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3x HtH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="bfeb-0136-c7c1-f9d3" name="Halfling Henchmen" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2835,7 +2494,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">[4]</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, Follow, 3xHTH, [Wound X]</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, Follow, 3x HtH, [Wound X]</characteristic>
       </characteristics>
     </profile>
     <profile id="7f36-037e-bd2d-3e1f" name="Halfling Chief Sheriff in light armour (cart-on foot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2846,7 +2505,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">[4(5)]</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, Follow, 3xHTH, [Wound X]</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, Follow, 3x HtH, [Wound X]</characteristic>
       </characteristics>
     </profile>
     <profile id="03eb-955e-9942-2853" name="Halfling Cart Driver" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2868,7 +2527,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">1xHTH SV0</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">1x HtH SV0</characteristic>
       </characteristics>
     </profile>
     <profile id="25a5-fa5c-28f5-cb90" name="Halfling Fortune Teller with club" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2901,7 +2560,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">3</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">3</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Sprit, 1xHTH SV1, Exchange of Missiles SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Sprit, 1x HtH SV1, Exchange of Missiles SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="fc99-b8bb-bec2-2645" name="Halfling Clan Chief" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2912,7 +2571,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHTH, Wound X, 3xRanged (if armed with Bow)</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3x HtH, Wound X, 3x Ranged (if armed with Bow)</characteristic>
       </characteristics>
     </profile>
     <profile id="8ed2-e6a1-7650-0f20" name="Halfling Clan Chief in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2923,7 +2582,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHTH, Wound X, 3xRanged (if armed with Bow)</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3x HtH, Wound X, 3x Ranged (if armed with Bow)</characteristic>
       </characteristics>
     </profile>
     <profile id="f986-03e0-e9d8-4039" name="Halfling Clan Chief Riding Donkey" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2934,7 +2593,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHTH, Wound X, 3xRanged (if armed with bow), Donkey 1xHTH SV0, Fast 6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3x HtH, Wound X, 3x Ranged (if armed with bow), Donkey 1x HtH SV0, Fast 6</characteristic>
       </characteristics>
     </profile>
     <profile id="cb68-2ebe-84cb-9bb5" name="Halfling Clan Chief in Light Armour Riding Donkey" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2945,7 +2604,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHTH, Wound X, 3xRanged (if armed with bow), Donkey 1xHTH SV0, Fast 6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3x HtH, Wound X, 3x Ranged (if armed with bow), Donkey 1x HtH SV0, Fast 6</characteristic>
       </characteristics>
     </profile>
     <profile id="9833-36bc-6eaf-cb33" name="Halfling Sheriff Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3014,13 +2673,13 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="73f5-966d-080a-53a6" name="Rocks(thrown)" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="73f5-966d-080a-53a6" name="Rocks (thrown)" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">0</characteristic>
-        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Can also be used in HTH</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Can also be used in HtH</characteristic>
       </characteristics>
     </profile>
     <profile id="c6c0-9918-f701-79e2" name="Halfling Archer Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3053,7 +2712,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">3xHTH, 3xRanged</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">3x HtH, 3x Ranged</characteristic>
       </characteristics>
     </profile>
     <profile id="bde3-c3c6-26a1-028f" name="Mounted Halfling Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3064,7 +2723,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Donkey 1xHTH SV0</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Donkey 1x HtH SV0</characteristic>
       </characteristics>
     </profile>
     <profile id="0e9b-e07b-8422-77bb" name="Mounted Halfling Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3075,7 +2734,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Donkey 1xHTH SV0</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Donkey 1x HtH SV0</characteristic>
       </characteristics>
     </profile>
     <profile id="4fda-d7f4-ab0b-aa6f" name="Mounted Halfling" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3086,7 +2745,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Donkey 1xHTH SV0</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Donkey 1x HtH SV0</characteristic>
       </characteristics>
     </profile>
     <profile id="6b84-e73a-8bc2-21b0" name="Mounted Halfling in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -3097,7 +2756,7 @@ Re-roll hits on unit if in cover.</description>
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Donkey 1xHTH SV0</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Donkey 1x HtH SV0</characteristic>
       </characteristics>
     </profile>
     <profile id="dd2b-812d-fa6f-1c8a" name="Halfling Crew with Stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">

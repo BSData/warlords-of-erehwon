@@ -333,8 +333,7 @@ Unit can still be auto-destroyed by pins.</description>
     </rule>
     <rule id="90e2-5b2c-1fc8-0e8c" name="Magic Level 1" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
-Spell Caster/Wizard Level 1.
-</description>
+Spell Caster/Wizard Level 1.</description>
     </rule>
     <rule id="487f-dc82-bce1-c0f6" name="Tough 2" publicationId="cffa-cd51-pubN65537" page="76" hidden="false">
       <description>
@@ -351,18 +350,15 @@ Cannot Sprint.</description>
     </rule>
     <rule id="4a91-87e6-88c5-5e1d" name="Magic Level 2" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
-Spell Caster/Wizard Level 2.
-</description>
+Spell Caster/Wizard Level 2.</description>
     </rule>
     <rule id="2e1b-4169-af1f-71e5" name="Magic Level 3" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
-Spell Caster/Wizard Level 3.
-</description>
+Spell Caster/Wizard Level 3.</description>
     </rule>
     <rule id="78d3-886d-5fc6-bac4" name="Spirit" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
-Can be sacrificed for a reroll. Destroyed if wizard is slain.
-</description>
+Can be sacrificed for a reroll. Destroyed if wizard is slain.</description>
     </rule>
     <rule id="d055-98ce-6f28-1600" name="Deadeye Shot" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
@@ -379,8 +375,7 @@ Cannot benefit from Command, Hero abilities.</description>
     </rule>
     <rule id="7f3d-fbf8-9f49-2031" name="Large" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
-Can draw LOS to body. +1 to hit when shooting at model. Can draw LOS over non-large models.
-</description>
+Can draw LOS to body. +1 to hit when shooting at model. Can draw LOS over non-large models.</description>
     </rule>
     <rule id="e406-ffab-b352-fc9b" name="Insufferably Sactimonious" hidden="false">
       <description>
@@ -868,7 +863,7 @@ Requires Fire Order to shoot. Does not gain +1 to hit from Aimed Shot.</descript
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">20-30&quot;</characteristic>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">30-40&quot;</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">3</characteristic>
-        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, 3X Ranged SV3</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, 3x Ranged SV3</characteristic>
       </characteristics>
     </profile>
     <profile id="fbdf-a3cf-f1d1-8d05" name="Large Bolt Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
