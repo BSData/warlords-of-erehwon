@@ -329,8 +329,7 @@ Re-roll a failed RES test. Only one failed RES test can be re-rolled at a time f
       <description>
 Model can sustain 1 wound instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
-Unit can still be auto-destroyed by pins.
-</description>
+Unit can still be auto-destroyed by pins.</description>
     </rule>
     <rule id="90e2-5b2c-1fc8-0e8c" name="Magic Level 1" publicationId="cffa-cd51-pubN65537" page="86" hidden="false">
       <description>
@@ -344,8 +343,7 @@ Re-roll two failed RES tests from a single attack. A die may only be re-rolled o
     </rule>
     <rule id="45bb-28cf-94fd-f899" name="Zealous" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
-Ignore pins when taking a break test. Re-Roll failed order test.
-</description>
+Ignore pins when taking a break test. Re-Roll failed order test.</description>
     </rule>
     <rule id="1a97-76e9-e64e-7701" name="Heavily Laden" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
@@ -405,8 +403,7 @@ If successful, unit that the die was stolen from counts as having received an or
       <description>
 Model can sustain 2 wounds instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
-Unit can still be auto-destroyed by pins.
-</description>
+Unit can still be auto-destroyed by pins.</description>
     </rule>
     <rule id="bb63-e7db-89cf-19e6" name="Challenge" publicationId="cffa-cd51-pubN65537" page="64" hidden="false">
       <description>
@@ -422,8 +419,7 @@ Re-roll three failed RES tests from a single attack. A die may only be re-rolled
       <description>
 Model can sustain 3 wounds instead of dying immediately.
 Each sustained wound counts as a permanent pin that can&apos;t be removed.
-Unit can still be auto-destroyed by pins.
-</description>
+Unit can still be auto-destroyed by pins.</description>
     </rule>
     <rule id="566e-a1c6-9f62-3218" name="Hero" publicationId="cffa-cd51-pubN65537" page="71" hidden="false">
       <description>
@@ -478,8 +474,7 @@ Immune to Terror.
     </rule>
     <rule id="fd2c-3cba-cafa-62aa" name="Zombie Master" publicationId="cffa-cd51-pubN65537" page="81" hidden="false">
       <description>
-Can use Hero/Follow/Command rules for Zombie units.
-</description>
+Can use Hero/Follow/Command rules for Zombie units.</description>
     </rule>
     <rule id="3dfb-f407-ff46-9b1f" name="Spectral Undead" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
@@ -503,8 +498,7 @@ Unaffected by opponents with Dread.
 A failed order test is an advance order and not down.  
 Cannot sprint.
 Must test Agility after Run order.
-Cannot benefit from the Hero/Follow/Command unless character is Zombie Master.
-</description>
+Cannot benefit from the Hero/Follow/Command unless character is Zombie Master.</description>
     </rule>
     <rule id="4d2b-eef9-9776-1480" name="Slow" publicationId="cffa-cd51-pubN65537" page="74" hidden="false">
       <description>
@@ -717,6 +711,10 @@ Restores Agility and Initiative to previous values (usually included in the stat
 Allocate hits first to models under template then to others in unit.
 On miss, roll D10 to deviate: move template as many inches in direction shown by die. 
 When shooting blind (without LOS): Hits on a 1, misses are ignored and have no effect.</description>
+    </rule>
+    <rule id="d2a3-26b0-f825-e454" name="Fire Order to Shoot" publicationId="cffa-cd51-pubN65537" page="28" hidden="false">
+      <description>
+Requires Fire Order to shoot. Does not gain +1 to hit from Aimed Shot.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1059,7 +1057,7 @@ When shooting blind (without LOS): Hits on a 1, misses are ignored and have no e
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">3</characteristic>
-        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Drop SV3</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">3x Drop SV3</characteristic>
       </characteristics>
     </profile>
     <profile id="50ea-80df-79dd-7d1e" name="Horse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
