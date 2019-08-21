@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="4" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="5" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="cffa-cd51-pubN65537" name="WoE"/>
   </publications>
@@ -362,7 +362,7 @@ Can be sacrificed for a reroll. Destroyed if wizard is slain.</description>
     </rule>
     <rule id="d055-98ce-6f28-1600" name="Deadeye Shot" publicationId="cffa-cd51-pubN65537" page="65" hidden="false">
       <description>
-Re-roll one missed attack.</description>
+Re-roll one missed shooting attack.</description>
     </rule>
     <rule id="160b-fca8-adb7-3d5b" name="Pavise" publicationId="cffa-cd51-pubN65537" page="72" hidden="false">
       <description>
@@ -702,7 +702,8 @@ Cancels Heavily Laden.
 Restores Agility and Initiative to previous values (usually included in the stat line).</description>
     </rule>
     <rule id="7751-622a-b896-4874" name="Overhead" publicationId="cffa-cd51-pubN65537" page="32" hidden="false">
-      <description>Uses 3&quot; template. All units under template are hit, divide hits evenly between units. 
+      <description>
+Uses 3&quot; template. All units under template are hit, divide hits evenly between units. 
 Allocate hits first to models under template then to others in unit.
 On miss, roll D10 to deviate: move template as many inches in direction shown by die. 
 When shooting blind (without LOS): Hits on a 1, misses are ignored and have no effect.</description>
@@ -710,6 +711,9 @@ When shooting blind (without LOS): Hits on a 1, misses are ignored and have no e
     <rule id="d2a3-26b0-f825-e454" name="Fire Order to Shoot" publicationId="cffa-cd51-pubN65537" page="28" hidden="false">
       <description>
 Requires Fire Order to shoot. Does not gain +1 to hit from Aimed Shot.</description>
+    </rule>
+    <rule id="c2ce-a18c-2d45-d817" name="Ferocious Charge" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
+      <description>+1 to strength when charging. Does not apply to follow-on combat.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
