@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="5" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="6" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="cffa-cd51-pubN65537" name="WoE"/>
   </publications>
@@ -714,6 +714,11 @@ Requires Fire Order to shoot. Does not gain +1 to hit from Aimed Shot.</descript
     </rule>
     <rule id="c2ce-a18c-2d45-d817" name="Ferocious Charge" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>+1 to strength when charging. Does not apply to follow-on combat.</description>
+    </rule>
+    <rule id="fd29-829f-3cd9-1841" name="Fast 7" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
+      <description>
+Move at a base rate of 7&quot;.
+Reroll shooting hits against unit if it has a Run order.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
