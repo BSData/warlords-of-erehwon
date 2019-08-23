@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="152d-3173-80b2-a764" name="Snakemen" revision="3" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="152d-3173-80b2-a764" name="Snakemen" revision="4" battleScribeVersion="2.02" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9fb1-47aa-24d5-0f85" name="Snakeman Monstrosity" hidden="false">
       <constraints>
@@ -1412,6 +1412,9 @@
                   <infoLinks>
                     <infoLink id="2e76-a1a6-9460-ea11" name="Snakemen Cobra Guard" hidden="false" targetId="e2cd-774e-9678-6a11" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="14.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="a7d6-16d0-c41d-8576" name="Snakeman Cobra Guard Leader" hidden="false" collective="false" type="upgrade">
                   <constraints>
@@ -1421,10 +1424,18 @@
                   <infoLinks>
                     <infoLink id="b819-f7e4-8da8-dcf8" name="Snakemen Cobra Guard Leader" hidden="false" targetId="0de9-1e2e-92bb-de08" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="31.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
