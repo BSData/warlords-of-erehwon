@@ -24,7 +24,7 @@
         <characteristicType id="b594-6d78-20b7-82b5" name="Special"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="2c2c-0dd3-c341-b2ef" name="Weapon profile Ranged">
+    <profileType id="2c2c-0dd3-c341-b2ef" name="Weapon Profile Ranged">
       <characteristicTypes>
         <characteristicType id="388b-c232-987e-c292" name="Range Short"/>
         <characteristicType id="93c3-2707-51ef-b304" name="Range Long"/>
@@ -782,7 +782,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="95e1-d9f2-8182-5835" name="Bow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="95e1-d9f2-8182-5835" name="Bow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-20&quot;</characteristic>
@@ -791,7 +791,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d4c8-3ef2-18de-85c0" name="Longbow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="d4c8-3ef2-18de-85c0" name="Longbow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-30&quot;</characteristic>
@@ -806,7 +806,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special" typeId="b446-8296-adef-b370"/>
       </characteristics>
     </profile>
-    <profile id="d39c-4b92-3b2f-a1dc" name="Crossbow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="d39c-4b92-3b2f-a1dc" name="Crossbow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-30&quot;</characteristic>
@@ -815,7 +815,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire Order to shoot</characteristic>
       </characteristics>
     </profile>
-    <profile id="5690-ead7-6d4a-d2c0" name="Heavy Crossbow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="5690-ead7-6d4a-d2c0" name="Heavy Crossbow" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-30&quot;</characteristic>
@@ -842,7 +842,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Cancels Charge Bonus</characteristic>
       </characteristics>
     </profile>
-    <profile id="aae2-6321-3b33-079d" name="Sling" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="aae2-6321-3b33-079d" name="Sling" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-20&quot;</characteristic>
@@ -851,7 +851,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">2X Ranged SV0 on Fire order</characteristic>
       </characteristics>
     </profile>
-    <profile id="3e6e-06c9-509a-1716" name="Flaming Wheel" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="3e6e-06c9-509a-1716" name="Flaming Wheel" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">Moves 10&quot; at a time.</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -866,7 +866,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be &apos;cracked&apos; during the exchange of missiles.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ba80-a4f2-4c92-7844" name="Small Bolt Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="ba80-a4f2-4c92-7844" name="Small Bolt Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-20&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">20-30&quot;</characteristic>
@@ -875,7 +875,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, 3x Ranged SV3</characteristic>
       </characteristics>
     </profile>
-    <profile id="fbdf-a3cf-f1d1-8d05" name="Large Bolt Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="fbdf-a3cf-f1d1-8d05" name="Large Bolt Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-20&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">20-40&quot;</characteristic>
@@ -884,7 +884,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, Unstoppable</characteristic>
       </characteristics>
     </profile>
-    <profile id="fee6-c34d-8a5d-a9e6" name="Small Stone Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="fee6-c34d-8a5d-a9e6" name="Small Stone Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">10-30&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">30-40&quot;</characteristic>
@@ -893,7 +893,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Overhead, Fire order to shoot, D6 Hits</characteristic>
       </characteristics>
     </profile>
-    <profile id="8df4-8bdf-cae3-c0c9" name="Large Stone Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="8df4-8bdf-cae3-c0c9" name="Large Stone Thrower" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">10-30&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">30-50&quot;</characteristic>
@@ -968,7 +968,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">D6 SV1 Impact hits on charge</characteristic>
       </characteristics>
     </profile>
-    <profile id="f54b-ae0e-9cdc-020e" name="Rock dropped by Carrion Beast" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="f54b-ae0e-9cdc-020e" name="Rock dropped by Carrion Beast" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -977,7 +977,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Drop SV3</characteristic>
       </characteristics>
     </profile>
-    <profile id="d7ff-de60-8b37-fbb7" name="Javelin" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="d7ff-de60-8b37-fbb7" name="Javelin" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -992,7 +992,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can also be thrown as ranged weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c6ac-d307-29c2-4ef1" name="Handgun" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="c6ac-d307-29c2-4ef1" name="Handgun" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-20&quot;</characteristic>
@@ -1001,7 +1001,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot</characteristic>
       </characteristics>
     </profile>
-    <profile id="241a-1266-fce9-2638" name="Small Cannon" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="241a-1266-fce9-2638" name="Small Cannon" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-30&quot;</characteristic>
@@ -1010,7 +1010,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, Unstoppable</characteristic>
       </characteristics>
     </profile>
-    <profile id="a248-4b9b-1f06-2c5f" name="Large Cannon" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="a248-4b9b-1f06-2c5f" name="Large Cannon" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-50&quot;</characteristic>
@@ -1019,7 +1019,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, Unstoppable</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc55-3266-2aa3-9d8a" name="Fire Cannon" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="fc55-3266-2aa3-9d8a" name="Fire Cannon" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-30&quot;</characteristic>
@@ -1028,7 +1028,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, Fire attacks, D6 hits</characteristic>
       </characteristics>
     </profile>
-    <profile id="83bd-49e2-6f9b-a638" name="Bombard" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="83bd-49e2-6f9b-a638" name="Bombard" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">10-20&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">20-30&quot;</characteristic>
@@ -1037,7 +1037,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Overhead, Fire order to shoot, D4 hits</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a33-4972-aa2d-d058" name="Bomb" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="8a33-4972-aa2d-d058" name="Bomb" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1046,7 +1046,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">3x Drop SV4, Fire</characteristic>
       </characteristics>
     </profile>
-    <profile id="fa92-51ea-e2be-fc20" name="Bouncing Bomb" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="fa92-51ea-e2be-fc20" name="Bouncing Bomb" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-20&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1055,7 +1055,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">1xDrop SV6, Fire, Unstoppable</characteristic>
       </characteristics>
     </profile>
-    <profile id="c44d-adb8-ec8a-3dd4" name="Rock dropped by Eagle" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="c44d-adb8-ec8a-3dd4" name="Rock dropped by Eagle" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1105,7 +1105,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+2 STR</characteristic>
       </characteristics>
     </profile>
-    <profile id="caa2-6cf1-8c8f-2f66" name="Skull Crusher Hammer" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="caa2-6cf1-8c8f-2f66" name="Skull Crusher Hammer" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1114,7 +1114,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">+1 STR in HtH only, Magically Returns to hand of user if thrown. Can be used in Exchange of Missiles.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d305-e931-5819-04bb" name="Lightning Spear" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="d305-e931-5819-04bb" name="Lightning Spear" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">(Exchange of Missiles only)</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1123,7 +1123,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">HtH weapon that can be thrown in Exchange of Missiles.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9f0d-4729-2ca1-43d8" name="Bow of Burning Gold" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="9f0d-4729-2ca1-43d8" name="Bow of Burning Gold" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-30&quot;</characteristic>
@@ -1276,7 +1276,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="bdba-151e-81e7-3b45" name="Shuriken" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="bdba-151e-81e7-3b45" name="Shuriken" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -1285,7 +1285,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="4d4a-8ee3-260b-037b" name="Hand Gun" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="4d4a-8ee3-260b-037b" name="Hand Gun" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-20&quot;</characteristic>
