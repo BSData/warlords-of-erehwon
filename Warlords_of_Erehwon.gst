@@ -722,7 +722,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="2447-8f38-dd07-d089" name="Sword" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+    <profile id="2447-8f38-dd07-d089" name="Sword or Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">STR +1</characteristic>
@@ -926,7 +926,7 @@ Reroll shooting hits against unit if it has a Run order.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Armour +1 Max  bonus.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a1ad-5715-ceb1-e77e" name="Axe" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+    <profile id="a1ad-5715-ceb1-e77e" name="Delete" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">1</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
