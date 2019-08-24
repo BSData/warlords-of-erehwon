@@ -18,7 +18,11 @@
     <entryLink id="7251-4d26-5d58-723d" name="Elven Stone Thrower [93 pts]" hidden="false" collective="false" targetId="1f4e-7ddd-0923-cd17" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9a7d-1a27-895a-cd53" name="Elven Lord [108 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="9a7d-1a27-895a-cd53" name="Elven Lord" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="7a4b-235b-44e9-6462" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
+        <infoLink id="dce4-f0a3-1e03-baf6" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="fe12-55e3-e0ff-330f" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
         <categoryLink id="f3cc-6c74-5912-cf0b" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -75,7 +79,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f96b-0673-f3a8-40ef" name="Elven Lord Tough Level" hidden="false" collective="false" defaultSelectionEntryId="17d5-d186-c9fd-71b3">
+        <selectionEntryGroup id="f96b-0673-f3a8-40ef" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="17d5-d186-c9fd-71b3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c01-28d2-5281-a5f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d4-bee1-ff6a-b7b2" type="min"/>
@@ -101,7 +105,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1814-0429-79f7-f269" name="Elven Lord Wound Level" hidden="false" collective="false" defaultSelectionEntryId="e587-65fb-7726-6348">
+        <selectionEntryGroup id="1814-0429-79f7-f269" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="e587-65fb-7726-6348">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc72-cea0-9a39-64f7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9e-f725-99ec-4d7f" type="max"/>
@@ -127,15 +131,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="90fd-9021-7d14-405b" name="Models" hidden="false" collective="false" defaultSelectionEntryId="830e-351d-3f3d-9b8b">
+        <selectionEntryGroup id="90fd-9021-7d14-405b" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="830e-351d-3f3d-9b8b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e519-c12f-3be0-7c63" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29a4-5f23-fa9d-9c9a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="830e-351d-3f3d-9b8b" name="Elven Lord in Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="830e-351d-3f3d-9b8b" name="Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="4b86-5d22-2620-771e" name="Elven Lord in Light Armour" hidden="false" collective="false" defaultSelectionEntryId="e502-1e68-4df8-6f06">
+                <selectionEntryGroup id="4b86-5d22-2620-771e" name="Choose 2 to 4" hidden="false" collective="false" defaultSelectionEntryId="e502-1e68-4df8-6f06">
                   <selectionEntries>
                     <selectionEntry id="e502-1e68-4df8-6f06" name="Elven Lord" hidden="false" collective="false" type="model">
                       <constraints>
@@ -144,8 +148,6 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="9fe9-12b0-300c-21dd" name="Elven Lord in Light Armour" hidden="false" targetId="1cc4-0d0e-ce09-a45d" type="profile"/>
-                        <infoLink id="62c3-df95-4370-cd3d" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
-                        <infoLink id="e839-d022-f54c-a48b" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="74.0"/>
@@ -173,9 +175,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8af0-6cac-e8d4-77e7" name="Elven Lord in Spangly Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8af0-6cac-e8d4-77e7" name="Spangly Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="06fd-40a3-ac78-df8d" name="Elven Lord in Spangly Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="06fd-40a3-ac78-df8d" name="Choose 2 to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="9268-1c58-104c-cfc2" name="Elven Lord" hidden="false" collective="false" type="model">
                       <constraints>
@@ -183,8 +185,6 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b617-7200-8a42-c507" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="b43f-052f-38cc-089a" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
-                        <infoLink id="d53b-e73e-ee0d-bb1e" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
                         <infoLink id="ebda-9236-7104-acbe" name="Elven Lord in Spangly Armour" hidden="false" targetId="be1c-5f56-619b-ce42" type="profile"/>
                       </infoLinks>
                       <costs>
@@ -215,77 +215,10 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="eeca-196d-b507-b565" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e2-52f2-e4e9-35ca" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="b292-37bb-58c7-5919" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="df8f-2c2f-f08b-090a" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fdcd-6dbb-bce5-8672" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="5461-0e09-04b3-76c3" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="eaa6-34e8-00f5-a551" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="842c-30fc-f00f-5431" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="483c-9564-26b4-8a72" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ab31-4489-de32-1427" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="22ad-5cfb-c2cd-dd74" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="36ae-406b-ec61-41fe" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="05a5-8d47-94e8-b6c5" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="b89b-c4a1-cf1e-92f1" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5aa7-4f4b-d873-75c6" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="3cc3-b157-b005-f9cb" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6139-671e-382a-6303" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
@@ -294,6 +227,8 @@
     <selectionEntry id="b9d6-982d-12a3-da4d" name="Mounted Elven Lord [128 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="ad12-724b-5c6c-031d" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="5c5d-85a4-eeb0-9eb9" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
+        <infoLink id="873a-a281-97f3-729c" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c08a-6a09-c86d-df30" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
@@ -306,7 +241,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be8d-1bf3-2f5d-e30d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d33e-ff08-1d88-c302" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d33e-ff08-1d88-c302" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="14a4-a342-0df5-a083" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -358,7 +293,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8c07-9616-1890-37b9" name="Models" hidden="false" collective="false" defaultSelectionEntryId="f689-95ae-efdf-47e5">
+        <selectionEntryGroup id="8c07-9616-1890-37b9" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="f689-95ae-efdf-47e5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f5-5cee-d010-fbe5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c06e-8ff9-48a0-c166" type="min"/>
@@ -366,7 +301,7 @@
           <selectionEntries>
             <selectionEntry id="f689-95ae-efdf-47e5" name="Elven Lord in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="9c5f-9957-4759-efa2" name="Elven Lord in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="9c5f-9957-4759-efa2" name="Choose 2 to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="d543-b182-836d-6bd7" name="Elven Lord" hidden="false" collective="false" type="model">
                       <constraints>
@@ -374,8 +309,6 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ac-171f-6152-f75b" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="81c0-93cd-8dc2-ba3a" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
-                        <infoLink id="f695-4eb3-e782-39e8" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
                         <infoLink id="0768-f44b-c2a5-bf99" name="Mounted Elven Lord in Light Armour" hidden="false" targetId="5851-df8f-b744-e7fb" type="profile"/>
                       </infoLinks>
                       <costs>
@@ -406,7 +339,7 @@
             </selectionEntry>
             <selectionEntry id="90c7-df4d-caca-17e5" name="Elven Lord in Spangly Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="3b20-b9ce-75c2-9c0e" name="Elven Lord in Spangly Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="3b20-b9ce-75c2-9c0e" name="Choose 2 to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="c684-674a-371b-b744" name="Elven Lord" hidden="false" collective="false" type="model">
                       <constraints>
@@ -414,8 +347,6 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a2-7501-478e-008e" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="f6e9-a8a1-d822-c53b" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
-                        <infoLink id="721e-ef43-e9ad-78a4" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
                         <infoLink id="df53-39c8-f28d-cc44" name="Mounted Elven Lord in Spangly Armour" hidden="false" targetId="3279-9bce-ac9a-c354" type="profile"/>
                       </infoLinks>
                       <costs>
@@ -446,7 +377,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f098-c078-0d67-fc2d" name="Elven Lord Wound Level" hidden="false" collective="false" defaultSelectionEntryId="df9a-2a84-3601-6826">
+        <selectionEntryGroup id="f098-c078-0d67-fc2d" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="df9a-2a84-3601-6826">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c5-aca8-2c3d-1ffe" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ba-ea38-a524-c2b8" type="max"/>
@@ -472,7 +403,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a28d-363d-fac5-03d6" name="Elven Lord Tough Level" hidden="false" collective="false" defaultSelectionEntryId="46c4-ca40-d458-2ac2">
+        <selectionEntryGroup id="a28d-363d-fac5-03d6" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="46c4-ca40-d458-2ac2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2442-388e-9a0f-6ba4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="813a-cf16-6d9b-3947" type="min"/>
@@ -525,83 +456,16 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6bdd-423b-bb93-0265" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c26b-fd53-b6b7-cc75" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e116-6a94-cfc7-ee2e" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="fcf7-7e4f-0b3b-cbe0" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d98f-55d4-8de6-7890" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="64c0-f7c3-ddd7-d135" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cc22-3b2a-dabb-a51b" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="deb3-d38f-e626-56e3" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5598-126b-0127-c9c2" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d447-f0a9-3900-af9f" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7055-2bf9-ef34-9f9c" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="3ba7-aef5-d3c0-4f1a" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="44e0-87db-a938-fa18" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="7240-831a-a405-70a8" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6e74-2c59-ce90-66fd" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="0612-cd27-ddaf-e9d7" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="16d3-955e-148a-36cb" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a7d7-31cb-d9da-ee08" name="Elven Hero [77 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a7d7-31cb-d9da-ee08" name="Elven Hero" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e244-973a-aa3a-3a44" type="max"/>
       </constraints>
@@ -629,7 +493,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3394-97d0-79a7-5e5f" name="Elven Hero Tough Level" hidden="false" collective="false" defaultSelectionEntryId="0208-d959-9570-377b">
+        <selectionEntryGroup id="3394-97d0-79a7-5e5f" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="0208-d959-9570-377b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d482-daac-6b76-8dea" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ff-b5cf-327f-b25c" type="min"/>
@@ -655,7 +519,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9351-4ffc-f681-494e" name="Elven Hero Wound Level" hidden="false" collective="false" defaultSelectionEntryId="68c2-4d7d-3e1c-ec6c">
+        <selectionEntryGroup id="9351-4ffc-f681-494e" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="68c2-4d7d-3e1c-ec6c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c0-147e-a884-f5a3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09c7-8ca0-9c3c-253a" type="max"/>
@@ -725,7 +589,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5e95-1d30-1fb8-f658" name="Models" hidden="false" collective="false" defaultSelectionEntryId="d0c6-e076-96b7-0e3b">
+        <selectionEntryGroup id="5e95-1d30-1fb8-f658" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="d0c6-e076-96b7-0e3b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6070-f99b-54ff-cafc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd36-c8ae-d9e2-2c39" type="min"/>
@@ -751,77 +615,10 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7888-7a08-0df7-c0bc" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e8-12be-fdf4-ee37" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="75c9-20da-72ee-7971" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="59b0-184f-8384-4613" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="93c3-ada6-5c63-3293" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1a7e-9218-ba4e-949a" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="24d7-c222-2ee0-5b3e" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="de72-59fe-fb91-004c" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2412-7ac2-bc62-e733" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="5342-222b-e11b-e5d1" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="50fd-b515-6764-b3ad" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="3e9c-5cfd-e39c-6b5c" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8683-aa9b-882f-49d7" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="a33c-562e-05c2-5d3c" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3028-8858-380c-e959" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e2fe-2021-25c0-4997" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a96b-f5da-0c1f-8b34" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
@@ -856,7 +653,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="10a0-ef6c-6249-f44d" name="Elven Hero Tough Level" hidden="false" collective="false" defaultSelectionEntryId="1fed-0de8-ece0-c5dc">
+        <selectionEntryGroup id="10a0-ef6c-6249-f44d" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="1fed-0de8-ece0-c5dc">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1d-7504-4c04-d7d2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc7f-e274-9e35-76db" type="min"/>
@@ -882,7 +679,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6ebc-dbe2-0b7d-4d24" name="Elven Hero Wound Level" hidden="false" collective="false" defaultSelectionEntryId="1db1-91e4-5078-e051">
+        <selectionEntryGroup id="6ebc-dbe2-0b7d-4d24" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="1db1-91e4-5078-e051">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa2f-44a2-9e34-874f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a2e-3ef5-729c-ebf9" type="max"/>
@@ -923,7 +720,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a72-06dc-744a-55d0" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6db6-1f59-7777-2291" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="6db6-1f59-7777-2291" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="8bfe-4da1-6604-466f" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -952,7 +749,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f1f1-db5f-4d71-11d0" name="Models" hidden="false" collective="false" defaultSelectionEntryId="9b7a-e8bd-17a6-a210">
+        <selectionEntryGroup id="f1f1-db5f-4d71-11d0" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="9b7a-e8bd-17a6-a210">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2378-3058-cdfc-75b5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9385-d77e-6347-2d75" type="min"/>
@@ -995,106 +792,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="030d-bbaa-39ab-2abf" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="024d-6056-42de-fc24" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6aae-2f74-7b6a-2619" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="9412-0530-dc28-665a" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="15c0-f02e-301f-32fa" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e461-42dd-8158-cb45" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6ec8-75ab-f29f-701f" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d495-e774-7d69-c0b9" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f7e4-3d5f-0037-c3fb" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e2ed-1a7f-8a95-7f30" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="60c1-2a21-767b-98bd" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="dd08-401a-5d95-3761" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="85f7-506e-7238-7494" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="2e55-965b-f984-88ab" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b704-c98a-3d08-9a90" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="88d1-41e3-0ff6-702b" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8b19-6918-183f-dafc" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2852-dd57-1bd8-8981" name="Elven Mage [62 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2852-dd57-1bd8-8981" name="Elven Mage" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="025d-2608-491b-91cb" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5cfe-635b-7ac6-df25" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="false"/>
         <categoryLink id="2194-6a48-821c-a892" name="Wizard" hidden="false" targetId="wizard unit" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="9c90-69ef-2acd-f2bd" name="Mage" hidden="false" collective="false" defaultSelectionEntryId="ca73-d528-0417-6678">
+      <selectionEntries>
+        <selectionEntry id="c839-905e-f9ab-71fa" name="Mage" hidden="false" collective="false" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b123-eeb0-0572-f704" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d61-945e-3ef4-7337" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bf-0a29-e422-7253" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed35-7ae6-12bd-4eea" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="ca73-d528-0417-6678" name="Mage" hidden="false" collective="false" type="model">
-              <infoLinks>
-                <infoLink id="94ca-0532-93c7-9d56" name="Elven Mage" hidden="false" targetId="f5ee-5ad7-bba8-e818" type="profile"/>
-                <infoLink id="865a-77a6-5ef7-ac2d" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="62.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
+          <infoLinks>
+            <infoLink id="49dd-7ae5-7238-8852" name="Elven Mage" hidden="false" targetId="f5ee-5ad7-bba8-e818" type="profile"/>
+            <infoLink id="00ac-2778-cb84-8193" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="62.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
         <selectionEntryGroup id="fcf0-a6fc-f18d-f707" name="Magic Level" hidden="false" collective="false" defaultSelectionEntryId="c840-fcf6-2779-732c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="885e-9c02-e07e-746b" type="max"/>
@@ -1130,22 +861,26 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="eff1-46c3-0b1a-9a77" name="Apprentice or Daemons" hidden="false" collective="false">
+        <selectionEntryGroup id="eff1-46c3-0b1a-9a77" name="Apprentices or Daemons" hidden="false" collective="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ba-9b24-6a03-8674" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2c65-048f-8b9d-2fd8" name="Apprentices" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="d7df-fa24-fbe8-153d" name="Apprentices" hidden="false" collective="false">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="561d-f095-4177-358a" type="max"/>
-                  </constraints>
+                <selectionEntryGroup id="d7df-fa24-fbe8-153d" name="Choose up to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="b302-9427-951b-f6f2" name="Apprentices" hidden="false" collective="false" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c17b-fd4d-d9a8-6539" type="max"/>
+                      </constraints>
                       <infoLinks>
                         <infoLink id="5d7a-2a89-21f5-0505" name="Apprentice Mages" hidden="false" targetId="8b3f-6ab4-f829-ca12" type="profile"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -1157,16 +892,20 @@
             </selectionEntry>
             <selectionEntry id="5ab3-a080-aba5-cce5" name="Daemons" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="5161-f662-da6e-5d2f" name="Daemons" hidden="false" collective="false">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be64-0584-6670-d598" type="max"/>
-                  </constraints>
+                <selectionEntryGroup id="5161-f662-da6e-5d2f" name="Choose up to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="7938-d90e-9009-0eba" name="Daemons" hidden="false" collective="false" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bdd-1356-e632-571b" type="max"/>
+                      </constraints>
                       <infoLinks>
                         <infoLink id="8752-53b9-f6bc-194b" name="Bound Daemons" hidden="false" targetId="346d-0141-da49-eecd" type="profile"/>
                         <infoLink id="0ed9-8203-2a84-c32c" name="Spirit" hidden="false" targetId="78d3-886d-5fc6-bac4" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -1178,15 +917,19 @@
             </selectionEntry>
             <selectionEntry id="6d71-8895-ddae-7aec" name="Apprentices in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="7912-948c-8cfc-7f08" name="Apprentices in Light Armour" hidden="false" collective="false">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aab-4f56-7c10-909a" type="max"/>
-                  </constraints>
+                <selectionEntryGroup id="7912-948c-8cfc-7f08" name="Choose up to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="c959-b271-1868-5678" name="Apprentices in Light Armour" hidden="false" collective="false" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6710-70cb-f1be-33d7" type="max"/>
+                      </constraints>
                       <infoLinks>
                         <infoLink id="43c8-d5fb-e2cb-6132" name="Apprentice Mages in Light Armour" hidden="false" targetId="034b-d422-ccfe-63ca" type="profile"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="17.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -1198,7 +941,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ba5e-373b-fab6-c2b3" name="Mage Tough Level" hidden="false" collective="false" defaultSelectionEntryId="cbbb-2a42-a2ea-8cf8">
+        <selectionEntryGroup id="ba5e-373b-fab6-c2b3" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="cbbb-2a42-a2ea-8cf8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba26-4cf7-8323-7d28" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b0-1f6e-fe8a-5b24" type="min"/>
@@ -1546,83 +1289,16 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5456-66f8-254b-51af" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eaa-71d4-c330-4dd7" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d313-071d-9285-c8f5" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="2389-5e7d-3aa0-4a01" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7895-db08-6665-d0ab" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="94a7-297f-9bf5-7b04" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="abc5-24c8-c0f9-ca21" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="56f7-1144-257d-a81d" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8ed6-d4b4-cccc-4081" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="12f0-fcfa-58a2-6b96" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="affa-f390-4df4-969c" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d5d8-2179-5db8-c3d8" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0421-f681-4d4d-16c2" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e896-62c0-0c6f-d7ff" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0ad8-f128-5f6d-7b01" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="7c61-20f1-4e90-d20a" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9c3b-1bdc-2216-ac8f" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa6f-d68a-6c78-68f8" name="Elven Guard [95 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="aa6f-d68a-6c78-68f8" name="Elven Guard" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93a3-be59-ab8f-615c" type="max"/>
       </constraints>
@@ -1698,7 +1374,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1a64-3eff-f1ea-2944" name="Models" hidden="false" collective="false" defaultSelectionEntryId="1ab1-bbb8-7e49-3caf">
+        <selectionEntryGroup id="1a64-3eff-f1ea-2944" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="1ab1-bbb8-7e49-3caf">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d5-ec5a-a7de-a3f6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41b0-ce68-a7ea-d96c" type="min"/>
@@ -1706,7 +1382,7 @@
           <selectionEntries>
             <selectionEntry id="1ab1-bbb8-7e49-3caf" name="Elven Guard in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="6b04-320e-befa-0df2" name="Elven Guard in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="6b04-320e-befa-0df2" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="0f03-e521-ad66-f250" name="Elven Guard Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1742,9 +1418,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0cd4-ce20-a380-2188" name="Elven Guard in Spangly Armour [+4 pts per model]" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0cd4-ce20-a380-2188" name="Elven Guard in Spangly Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="312a-03c1-59ff-12c9" name="Elven Guard in Spangly Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="312a-03c1-59ff-12c9" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="775e-3430-c8c5-d95f" name="Elven Guard" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1788,7 +1464,10 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="badc-3155-f998-0995" name="Elven Warriors [95 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="badc-3155-f998-0995" name="Elven Warriors" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="5bc4-9c26-bc22-3761" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="0610-b28c-232c-fdbf" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -1801,7 +1480,7 @@
           <selectionEntries>
             <selectionEntry id="0004-72ab-dcde-9f61" name="Sword" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="e76a-041c-2b96-0382" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="e76a-041c-2b96-0382" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1844,7 +1523,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c73e-9028-1487-b7d5" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="c73e-9028-1487-b7d5" name="Choose 4 to 9" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="e40e-f13a-125f-83ab" name="Elven Warrior Leader" hidden="false" collective="false" type="model">
               <constraints>
@@ -1852,8 +1531,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5137-f88a-e361-1041" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0d80-9d12-0b81-e72d" name="Elven Warrior Leader" hidden="false" targetId="b1f7-05ac-5731-deb0" type="profile"/>
-                <infoLink id="9ef9-26b0-5843-656b" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                <infoLink id="2603-33e3-64ca-f543" name="Elven Warrior Leader" hidden="false" targetId="b1f7-05ac-5731-deb0" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="27.0"/>
@@ -1881,7 +1559,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d269-784b-2037-0b91" name="Elven Archers [105 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d269-784b-2037-0b91" name="Elven Archers" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="2fc8-e344-7e1f-6e56" name="Longbow" hidden="false" targetId="d4c8-3ef2-18de-85c0" type="profile"/>
         <infoLink id="850e-39cc-2c51-d09f" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -1907,15 +1585,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4bff-7136-464a-3286" name="Models" hidden="false" collective="false" defaultSelectionEntryId="529c-68ca-ca82-da56">
+        <selectionEntryGroup id="4bff-7136-464a-3286" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="529c-68ca-ca82-da56">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb2-e4ef-ba2d-4619" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6aa-b30a-fded-a9a4" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="529c-68ca-ca82-da56" name="Elven Archers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="529c-68ca-ca82-da56" name="Elven Archers (no armour)" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="3612-0303-08a4-acf0" name="Elven Archers" hidden="false" collective="false">
+                <selectionEntryGroup id="3612-0303-08a4-acf0" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="2d17-1e4b-0f77-8881" name="Elven Archer Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1951,9 +1629,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a9a4-ecc6-9246-0d6a" name="Elven Archers in Light Armour [+2 pts per model]" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a9a4-ecc6-9246-0d6a" name="Elven Archers in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="41b3-da22-5692-7062" name="Elven Archers in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="41b3-da22-5692-7062" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="b30d-0dda-7d63-2855" name="Elven Archers" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1997,7 +1675,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d83-e361-70c9-499c" name="Elven Rangers [141 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5d83-e361-70c9-499c" name="Elven Rangers" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="7046-634b-20d8-5ebd" name="Woodsman" hidden="false" targetId="e1f3-7817-0e4e-5cb9" type="rule"/>
         <infoLink id="da64-a1cf-d3a1-adc8" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -2024,7 +1702,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="90ee-9740-2aa1-adad" name="Models" hidden="false" collective="false" defaultSelectionEntryId="0e32-0a10-d5bd-571e">
+        <selectionEntryGroup id="90ee-9740-2aa1-adad" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="0e32-0a10-d5bd-571e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78cc-b4d3-c9fc-0d28" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7cf-e017-f7eb-d128" type="min"/>
@@ -2032,7 +1710,7 @@
           <selectionEntries>
             <selectionEntry id="0e32-0a10-d5bd-571e" name="Elven Rangers in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="6a05-be98-0d09-2193" name="Elven Rangers in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="6a05-be98-0d09-2193" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="5e2d-c948-2e98-3c48" name="Elven Ranger Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -2068,9 +1746,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0f8f-189e-a46d-d71d" name="Elven Rangers in Spangly Armour [+4 pts per model]" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0f8f-189e-a46d-d71d" name="Elven Rangers in Spangly Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="26d0-d89e-2da9-a2c5" name="Elven Rangers in Spangly Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="26d0-d89e-2da9-a2c5" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="3658-22f1-2a6c-9f70" name="Elven Rangers" hidden="false" collective="false" type="model">
                       <constraints>
@@ -2114,7 +1792,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39cd-09b5-a58e-b4fa" name="Elven Cavalry [79 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="39cd-09b5-a58e-b4fa" name="Elven Cavalry" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="ffc9-c443-ae86-28bd" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
         <infoLink id="8457-a642-ed5a-18f2" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -2211,7 +1889,7 @@
           <selectionEntries>
             <selectionEntry id="bb28-fde5-671d-b66e" name="Replace Horse with Enchanted Steeds" hidden="false" collective="false" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="8">
+                <modifier type="increment" field="points" value="8.0">
                   <repeats>
                     <repeat field="selections" scope="39cd-09b5-a58e-b4fa" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -2228,13 +1906,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e1a5-f785-cd57-cade" name="models" hidden="false" collective="false" defaultSelectionEntryId="33eb-342b-afe5-1ece">
+        <selectionEntryGroup id="e1a5-f785-cd57-cade" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="33eb-342b-afe5-1ece">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4571-1128-7869-b53a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5135-bbb9-2a01-1e23" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="33eb-342b-afe5-1ece" name="Cavalry in No Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="33eb-342b-afe5-1ece" name="No Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="2a42-58fd-9d98-00f4" name="Elven Cavalry Leader" hidden="false" collective="false" type="model">
                   <constraints>
@@ -2270,7 +1948,7 @@
             </selectionEntry>
             <selectionEntry id="6212-14ad-16ae-6763" name="Cavalry in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="b109-0438-e27d-bb2b" name="Elven Cavalry" hidden="false" collective="false" type="model">
+                <selectionEntry id="b109-0438-e27d-bb2b" name="Elven Cavalry in Light Armour" hidden="false" collective="false" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f593-15da-47c6-e595" type="min"/>
                     <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57f5-a549-9b48-76eb" type="max"/>
@@ -2283,7 +1961,7 @@
                     <cost name=" order dice" typeId="orderDice" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="422e-b0c5-2157-57d3" name="Elven Cavalry Leader" hidden="false" collective="false" type="model">
+                <selectionEntry id="422e-b0c5-2157-57d3" name="Elven Cavalry Leader in Light Armour" hidden="false" collective="false" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="551c-1640-b12c-f239" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca6d-a875-544c-f043" type="max"/>
@@ -2304,7 +1982,7 @@
             </selectionEntry>
             <selectionEntry id="a933-0dce-4e3c-3edd" name="Cavalry in Spangly Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="9d57-b335-b35d-9faf" name="Elven Cavalry" hidden="false" collective="false" type="model">
+                <selectionEntry id="9d57-b335-b35d-9faf" name="Elven Cavalry in Spangly Armour" hidden="false" collective="false" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb4-200b-46a3-1e3d" type="min"/>
                     <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11da-29af-04f4-dc04" type="max"/>
@@ -2317,7 +1995,7 @@
                     <cost name=" order dice" typeId="orderDice" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="cbf4-98eb-637b-9bc5" name="Elven Cavalry Leader" hidden="false" collective="false" type="model">
+                <selectionEntry id="cbf4-98eb-637b-9bc5" name="Elven Cavalry Leader in Spangly Armour" hidden="false" collective="false" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c944-82b1-e974-cd25" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f978-806e-c599-c5e8" type="max"/>
@@ -2344,11 +2022,12 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="52d3-bc0e-f380-0876" name="Elven Knights [104 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="52d3-bc0e-f380-0876" name="Elven Knights" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="e6ac-8a00-4ef4-20c1" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
         <infoLink id="9fd5-3c7c-26b2-c868" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
         <infoLink id="9c26-38d7-76e8-b35d" name="Lance" hidden="false" targetId="e601-dcfc-7485-2164" type="profile"/>
+        <infoLink id="dd71-d06d-d2f2-9b05" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="55fa-e2ff-5e63-a5ea" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
@@ -2378,23 +2057,22 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="de47-eccb-fe2a-be46" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="de47-eccb-fe2a-be46" name="Choose 2 to 4" hidden="false" collective="false">
           <selectionEntries>
-            <selectionEntry id="4d99-ad68-a06b-a7a0" name="Elven Knight Leader" hidden="false" collective="false" type="model">
+            <selectionEntry id="4d99-ad68-a06b-a7a0" name="Elven Knight Leader in Spangly Armour" hidden="false" collective="false" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b0-c9cc-d7b4-73a7" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46b3-7066-2f28-c54e" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="cb18-9c0d-d99f-1f83" name="Elven Knight Leader in Spangly Armour" hidden="false" targetId="3623-40b3-6d75-71aa" type="profile"/>
-                <infoLink id="f6d9-3ed3-8eab-eb67" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="48.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="804c-4773-facd-9fcc" name="Elven Knights" hidden="false" collective="false" type="model">
+            <selectionEntry id="804c-4773-facd-9fcc" name="Elven Knights in Spangly Armour" hidden="false" collective="false" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1af-7258-f69a-1e17" type="min"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb2c-d2e2-e88c-f733" type="max"/>
@@ -2415,28 +2093,28 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d3d2-c832-23e1-9cb7" name="Giant Eagle [143 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d3d2-c832-23e1-9cb7" name="Giant Eagle" hidden="false" collective="false" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb05-afc1-ad4b-09a8" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="8cbc-73e8-57c5-aea5" name="Rock dropped by Eagle" hidden="false" targetId="c44d-adb8-ec8a-3dd4" type="profile"/>
+        <infoLink id="e178-dab9-6764-fac4" name="Fast 10" hidden="false" targetId="0034-82ae-f695-d446" type="rule"/>
+        <infoLink id="6702-d09f-6f54-4253" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+        <infoLink id="9f82-2c9b-d05a-b300" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="e4de-bf19-746c-deed" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bf49-17b0-2e60-7c69" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8136-c92e-85f7-aed7" name="Giant Eagle with rocks" hidden="false" collective="false" type="model">
+        <selectionEntry id="8136-c92e-85f7-aed7" name="Giant Eagle with Rocks" hidden="false" collective="false" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e61-5dcf-7321-5a6e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d066-99d9-fa97-9ebf" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="63e7-ae40-471f-c7b2" name="Giant Eagle" hidden="false" targetId="40ac-4e12-eb5a-b9cb" type="profile"/>
-            <infoLink id="8665-2863-2327-9dac" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-            <infoLink id="9ee1-e93a-af9f-692a" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
-            <infoLink id="b1f7-3c0f-e84d-8ac6" name="Fast 10" hidden="false" targetId="0034-82ae-f695-d446" type="rule"/>
-            <infoLink id="0ee2-652c-3e84-121b" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="143.0"/>
@@ -2449,12 +2127,13 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7a0-4612-9a6d-2215" name="Elven Chariot [116 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d7a0-4612-9a6d-2215" name="Elven Chariot" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="4160-5acc-9299-adcf" name="Longbow" hidden="false" targetId="d4c8-3ef2-18de-85c0" type="profile"/>
         <infoLink id="a314-015c-3b45-ef0e" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="a966-0876-2483-1f63" name="Irresistible Charge" hidden="false" targetId="86b2-7051-4b5c-d149" type="rule"/>
         <infoLink id="32d6-3eb5-6bee-cffc" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="6844-3434-9a15-00d4" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd78-5943-05d3-e559" name="New CategoryLink" hidden="false" targetId="239f-4e2f-785f-7869" primary="true"/>
@@ -2492,7 +2171,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2f7a-c462-7a0a-da14" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="2f88-7d0d-ef0e-d11d">
+        <selectionEntryGroup id="2f7a-c462-7a0a-da14" name="Choose 2 to 4" hidden="false" collective="false" defaultSelectionEntryId="2f88-7d0d-ef0e-d11d">
           <selectionEntries>
             <selectionEntry id="2f88-7d0d-ef0e-d11d" name="Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -2501,7 +2180,6 @@
               </constraints>
               <infoLinks>
                 <infoLink id="d162-3d14-dff1-82eb" name="Elven Chariot Crew" hidden="false" targetId="7ef5-9e8f-90d8-3d74" type="profile"/>
-                <infoLink id="1bbf-f7f1-2ed0-4343" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="9.0"/>
@@ -2567,12 +2245,17 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="555c-7461-6e9a-8467" name="Elven Bolt Thrower [93 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="555c-7461-6e9a-8467" name="Elven Bolt Thrower" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="4962-3aff-2e17-063e" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="5352-26d9-eb7d-8a25" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="3303-a206-80cd-f8f1" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e441-50b4-417c-8922" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4871-68ee-157e-b6ee" name="Crew" hidden="false" collective="false">
+        <selectionEntryGroup id="4871-68ee-157e-b6ee" name="Choose 3 to 5" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="087c-7214-ea58-1922" name="Crew with Swords" hidden="false" collective="false" type="model">
               <constraints>
@@ -2580,10 +2263,7 @@
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47f-e0bd-c9bb-5e4a" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="347e-7ac7-c1eb-3e8d" name="Elven Crew with Bolt-throwing engine" hidden="false" targetId="6672-7f43-13f4-1423" type="profile"/>
-                <infoLink id="13ec-dcc6-6753-72e3" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="7d4d-d1b8-2d2f-160f" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
-                <infoLink id="2e54-ce32-81f0-8b97" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="347e-7ac7-c1eb-3e8d" name="Elven Crew with Bolt-throwing engine and swords" hidden="false" targetId="6672-7f43-13f4-1423" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="17.0"/>
@@ -2625,12 +2305,18 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f4e-7ddd-0923-cd17" name="Elven Stone Thrower [105 pts]" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1f4e-7ddd-0923-cd17" name="Elven Stone Thrower" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="c52f-1dc2-d4c5-139d" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="3a01-a9e9-2053-0a11" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="0e11-62d7-6848-53c4" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="3cc3-ff21-d2c3-3bc3" name="Overhead" hidden="false" targetId="7751-622a-b896-4874" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="baf1-a29c-e2e1-46da" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f25f-055a-0c25-8665" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="a689-5480-723f-dd49">
+        <selectionEntryGroup id="f25f-055a-0c25-8665" name="Choose 3 to 5" hidden="false" collective="false" defaultSelectionEntryId="a689-5480-723f-dd49">
           <selectionEntries>
             <selectionEntry id="a689-5480-723f-dd49" name="Crew with Swords" hidden="false" collective="false" type="model">
               <constraints>
@@ -2638,9 +2324,6 @@
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de5d-7554-10d3-a091" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="93df-72c4-d3b2-e983" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="6382-e186-427f-d74a" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
-                <infoLink id="75f0-f12a-b297-2e5e" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
                 <infoLink id="0d40-3627-ba35-6029" name="Elven Crew with Stone-throwing engine and swords" hidden="false" targetId="ab3d-0678-c0ec-10f0" type="profile"/>
               </infoLinks>
               <costs>
@@ -2655,9 +2338,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1caf-e7d4-cb86-c24d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="684a-8e31-c359-d149" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="7009-3e41-6111-43fa" name="Overhead" hidden="false" targetId="7751-622a-b896-4874" type="rule"/>
-          </infoLinks>
           <selectionEntries>
             <selectionEntry id="4108-2a0e-5434-146b" name="Small Stone Thrower" hidden="false" collective="false" type="upgrade">
               <infoLinks>
