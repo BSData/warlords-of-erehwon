@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3b46-1dfa-75fc-f98f" name="Dwarfs" revision="1" battleScribeVersion="2.02" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3b46-1dfa-75fc-f98f" name="Dwarfs" revision="4" battleScribeVersion="2.02" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="6dbd-0ad3-a92f-c7f6" name="Dwarf Lord" hidden="false" collective="false" targetId="c721-3183-d63d-d213" type="selectionEntry"/>
     <entryLink id="68b2-8587-0f02-6bc9" name="Dwarf Runesmith [81 pts]" hidden="false" collective="false" targetId="c40e-98bb-55a2-ca4c" type="selectionEntry"/>
@@ -39,10 +39,11 @@
           <selectionEntries>
             <selectionEntry id="d0fc-1ddc-dee8-9882" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="bf0b-edd7-863d-125e" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="bf0b-edd7-863d-125e" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="86b3-51c0-74b9-d290" name="Bloomin Big Axes" hidden="false" collective="false" type="upgrade">
@@ -58,6 +59,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9b6c-f559-7abe-9f67" name="Big Axe" hidden="false" collective="false" type="upgrade">
@@ -66,6 +68,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -88,11 +91,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5a01-bd30-08ea-1a3f" name="Dwarf Lord Wounds upgrade" hidden="false" collective="false" defaultSelectionEntryId="209f-8982-4045-7b7f">
+        <selectionEntryGroup id="5a01-bd30-08ea-1a3f" name="Wounds upgrade" hidden="false" collective="false" defaultSelectionEntryId="209f-8982-4045-7b7f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed2-7409-28ee-fb7b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12df-5792-bf4a-60dd" type="min"/>
@@ -104,6 +108,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="da24-0bc6-b820-f473" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -112,11 +117,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="81f7-c51c-5dbf-b737" name="Dwarf Lord Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="0b44-d5d7-1c37-970b">
+        <selectionEntryGroup id="81f7-c51c-5dbf-b737" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="0b44-d5d7-1c37-970b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a6-5234-ab74-04bb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d23-df37-1c10-ef13" type="min"/>
@@ -128,6 +134,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="894d-371e-c5ad-4372" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -136,11 +143,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ae9e-144d-af12-99c4" name="Models" hidden="false" collective="false" defaultSelectionEntryId="506d-8280-00d3-d2e7">
+        <selectionEntryGroup id="ae9e-144d-af12-99c4" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="506d-8280-00d3-d2e7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4615-8a7d-5bbf-e89e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="233a-a0d6-9e1c-b04b" type="min"/>
@@ -148,7 +156,7 @@
           <selectionEntries>
             <selectionEntry id="506d-8280-00d3-d2e7" name="Medium Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="f94c-c68f-a272-c4c2" name="Models" hidden="false" collective="false">
+                <selectionEntryGroup id="f94c-c68f-a272-c4c2" name="Choose 2 to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="d8e5-2ef6-d241-ce87" name="Dwarf Lord in Medium Armour" hidden="false" collective="false" type="model">
                       <constraints>
@@ -160,6 +168,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="82.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5989-181d-8651-3f65" name="Dwarf Bodyguard in Medium Armour" hidden="false" collective="false" type="model">
@@ -172,6 +181,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -179,11 +189,15 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6a71-aabb-c1b4-5401" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="cec2-4c66-f52d-5000" name="Models" hidden="false" collective="false">
+                <selectionEntryGroup id="cec2-4c66-f52d-5000" name="Choose 2 to 4" hidden="false" collective="false">
+                  <infoLinks>
+                    <infoLink id="457e-74e9-3f15-14cf" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="d923-b6e7-659e-19d8" name="Dwarf Lord in Heavy Armour" hidden="false" collective="false" type="model">
                       <constraints>
@@ -192,10 +206,10 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="8e24-b34a-6c17-65ef" name="Dwarf Lord in Heavy Armour" hidden="false" targetId="64dd-c73a-1a36-f51b" type="profile"/>
-                        <infoLink id="02db-1d4e-dd3e-525c" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="91.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0476-19e4-21f0-6208" name="Dwarf Bodyguard in Heavy Armour" hidden="false" collective="false" type="model">
@@ -208,6 +222,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="19.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -215,85 +230,45 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="0ef2-2279-417d-1212" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d42-70f0-34d8-d07d" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="02df-3449-d7bf-649e" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="9945-d7d7-3ff3-a51e" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4c3d-e8d5-ab5d-100c" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ddae-03ed-e253-863d" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="574e-d74e-cd44-886f" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="9ba9-d94e-f5b9-64bb" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4527-eefa-999e-58e0" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="2d0d-4de9-b423-8fb0" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e57c-bc5a-db83-b243" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="64f2-3928-e4e8-4228" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="77a9-85f5-e1b0-25aa" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="680b-f82e-99c1-5bb2" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dafd-fc76-27a9-2707" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="83e4-72f3-b34c-b21a" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1a32-0539-ebe7-9e97" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c40e-98bb-55a2-ca4c" name="Dwarf Runesmith [81 pts]" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="550e-e225-6523-8603" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="35d3-b106-1a67-064f" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="false"/>
         <categoryLink id="5c48-c938-3c5a-408d" name="Wizard" hidden="false" targetId="wizard unit" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="515a-6d3a-3be1-31a7" name="Dwarf Runesmith" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c74f-d4dc-b9ca-18ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6757-72dc-c2cf-87bf" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3066-7b96-c253-e85c" name="Dwarf Runesmith in Medium Armour" hidden="false" targetId="7468-3f90-ccae-52ca" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="81.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0881-94ca-d471-973a" name="Runesmith Magic Level" hidden="false" collective="false" defaultSelectionEntryId="dfa6-d144-4a4b-42bc">
+        <selectionEntryGroup id="0881-94ca-d471-973a" name="Magic Level" hidden="false" collective="false" defaultSelectionEntryId="dfa6-d144-4a4b-42bc">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b6-2a1f-2278-c648" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a29a-3269-5d31-d613" type="min"/>
@@ -305,6 +280,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d113-18d9-f23c-454e" name="Magic Level 2" hidden="false" collective="false" type="upgrade">
@@ -313,6 +289,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3364-d3a7-35f6-d38d" name="Magic Level 3" hidden="false" collective="false" type="upgrade">
@@ -321,11 +298,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="135f-cdd7-66e9-9433" name="Runesmith Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="30a0-084c-fbca-6526">
+        <selectionEntryGroup id="135f-cdd7-66e9-9433" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="30a0-084c-fbca-6526">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d3-fae3-e18f-a4f6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f595-815a-2609-bdd4" type="min"/>
@@ -337,6 +315,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6817-4901-87fc-f085" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -345,11 +324,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="66db-a27b-8a2a-be06" name="Runesmith Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="1e8e-29bd-7699-165d">
+        <selectionEntryGroup id="66db-a27b-8a2a-be06" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="1e8e-29bd-7699-165d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="596f-6a29-1af9-0b40" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cded-873c-6289-01b6" type="min"/>
@@ -361,6 +341,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="99c1-8b8d-ac0a-4af9" name="Tough 2" hidden="false" collective="false" type="upgrade">
@@ -369,25 +350,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="731f-8af9-41c7-6f19" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="731f-8af9-41c7-6f19" name="Choose up to 4" hidden="false" collective="false">
           <selectionEntries>
-            <selectionEntry id="b3fe-e917-cda8-168d" name="Dwarf Runesmith" hidden="false" collective="false" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d3-43ae-da33-dad5" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c98-3181-259f-e17c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c4f5-4ce6-a62a-422e" name="Dwarf Runesmith in Medium Armour" hidden="false" targetId="7468-3f90-ccae-52ca" type="profile"/>
-                <infoLink id="412e-441a-ba28-c60d" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="81.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="a315-0a3e-9a26-e5f1" name="Apprentice Runesmith" hidden="false" collective="false" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6051-e286-dc06-0578" type="max"/>
@@ -397,6 +366,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="18.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -419,6 +389,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -434,6 +405,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9bcf-b631-0b0d-9a5a" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
@@ -445,6 +417,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6e87-2e4b-6418-d573" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
@@ -456,6 +429,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a624-77ca-be20-6432" name="Chill Wind" hidden="false" collective="false" type="upgrade">
@@ -467,6 +441,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="593c-bc90-96fa-23df" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
@@ -478,6 +453,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f393-cade-edf1-a4c8" name="Endow Strength" hidden="false" collective="false" type="upgrade">
@@ -489,6 +465,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0189-f869-65dc-1f2b" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
@@ -500,6 +477,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="57b2-ff8e-b26e-16f1" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
@@ -511,6 +489,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2558-5c4d-c2bf-d8d1" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
@@ -522,6 +501,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cbe7-0c59-a463-f3c2" name="Surge" hidden="false" collective="false" type="upgrade">
@@ -533,6 +513,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3153-e1ca-ffac-5a0c" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
@@ -544,6 +525,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="96a5-5cc4-3ebc-b95e" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
@@ -555,6 +537,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d84e-820e-ea50-bfe5" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
@@ -566,6 +549,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e1bd-a535-d0e0-b121" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
@@ -577,6 +561,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -593,6 +578,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="72c5-67b6-fabc-52d8" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
@@ -601,6 +587,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ccd-a11d-e9c4-2ed1" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
@@ -609,6 +596,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a22d-b502-dd76-78dc" name="Chill Wind" hidden="false" collective="false" type="upgrade">
@@ -617,6 +605,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4265-52e6-b76f-20e2" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
@@ -625,6 +614,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a559-df7d-526f-1a25" name="Endow Strength" hidden="false" collective="false" type="upgrade">
@@ -633,6 +623,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ff05-fa81-4367-6180" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
@@ -641,6 +632,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5aa2-83e5-5e79-1f53" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
@@ -649,6 +641,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d8ac-7bfa-f5b5-d4ac" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
@@ -657,6 +650,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6772-4143-fd80-1c8f" name="Surge" hidden="false" collective="false" type="upgrade">
@@ -665,6 +659,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="122d-7e13-00ff-0b71" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
@@ -673,6 +668,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ceca-8f2b-16f5-a042" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
@@ -681,6 +677,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c6d7-4bfb-d5e0-0ba0" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
@@ -689,6 +686,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="744e-e030-9c59-cb11" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
@@ -697,84 +695,30 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="8d58-6131-0c1f-6186" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2b1-13da-d56f-649d" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0c04-ca53-ff84-48ae" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="cfda-613b-1f6b-04df" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d8af-af6d-34d6-5aff" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1b4d-4094-2d4e-9ed8" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="783f-c219-f28f-a2df" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="87f5-dc52-cd99-12a8" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="041e-fffd-f288-6a39" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="0dcb-5eda-dd94-37cb" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bec5-e879-7936-d0a3" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="c1a4-c1d3-672e-9319" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="37f5-81a7-f3df-0459" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e42f-34b2-53b9-f1c3" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="46a1-2e6f-8f21-70b1" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="4d4f-4cde-9910-6da1" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="97c2-e718-76fc-dd0a" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6db-bd48-1d3e-8292" name="Dwarf Hero [86 pts]" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d9-ac41-bed1-7df2" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="7aa9-16f7-1283-d9cf" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="990b-5f21-0315-a7cd" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+        <categoryLink id="3a8f-6eca-ce88-d29b" name="Hero Unit" hidden="false" targetId="hero unit" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="328e-881e-5c23-9754" name="Stubborn Upgrade" hidden="false" collective="false">
@@ -788,11 +732,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="592f-d6d8-9661-7717" name="Hero Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="63e6-0626-588d-38a6">
+        <selectionEntryGroup id="592f-d6d8-9661-7717" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="63e6-0626-588d-38a6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ef-c9c6-d735-1f98" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c0-ce7a-7c92-5af2" type="min"/>
@@ -804,6 +749,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c138-df81-da8d-a098" name="Tough 3" hidden="false" collective="false" type="upgrade">
@@ -812,6 +758,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -828,6 +775,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3739-8036-7b0e-927a" name="Wound 2" hidden="false" collective="false" type="upgrade">
@@ -836,6 +784,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aaa7-9443-7dae-5b41" name="Wound 3" hidden="false" collective="false" type="upgrade">
@@ -844,6 +793,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="32.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -859,6 +809,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -874,11 +825,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4752-dad0-fab8-f0f9" name="Dwarf Hero" hidden="false" collective="false" defaultSelectionEntryId="1e8f-d965-bd1b-e548">
+        <selectionEntryGroup id="4752-dad0-fab8-f0f9" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="1e8f-d965-bd1b-e548">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ba3-6542-93d7-c141" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da86-7a84-e0b8-2afd" type="min"/>
@@ -890,14 +842,17 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="86.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3f51-bc10-6c09-45fd" name="Dwarf Hero in Heavy Armour" hidden="false" collective="false" type="model">
               <infoLinks>
                 <infoLink id="76fa-853e-df5d-7c56" name="Dwarf Hero in Heavy Armour" hidden="false" targetId="256a-11af-644b-ef00" type="profile"/>
+                <infoLink id="de7b-b5f5-b5aa-1e67" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="95.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3bcb-bb94-69eb-1ecf" name="Dwarf Hero, Crazed Psychotic (No Armour)" hidden="false" collective="false" type="model">
@@ -907,6 +862,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="87.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -923,6 +879,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ecd8-da49-612a-346f" name="Big Axe" hidden="false" collective="false" type="upgrade">
@@ -931,81 +888,27 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="06ae-4512-80e5-122b" name="Magic Weapon " hidden="false" collective="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d082-8ddb-12ba-1bd9" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="99f1-5853-05e5-f149" name="Foe Striker" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="a414-3a6f-94bb-ec2c" name="(Magic Weapon) Foe Striker Sword" hidden="false" targetId="193c-09f8-234d-adab" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="151c-0ab7-5d64-317f" name="Helm Cleaver" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="64a1-296c-afe3-1ad9" name="(Magic Weapon) Helm Cleaver Sword" hidden="false" targetId="3246-1376-d94d-d544" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d4d4-97cc-5deb-c714" name="War Bringer" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="0fee-974d-d6ff-bb09" name="(Magic Weapon) War Bringer Sword" hidden="false" targetId="190e-3de5-0e71-c97f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="38a5-33b9-6e86-006d" name="Battle Smiter" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e60d-cbf2-8e36-b5c2" name="(Magic Weapon) Battle Smiter Sword" hidden="false" targetId="454c-1957-36be-2d2b" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="768d-fa50-7f62-6bee" name="Bow of Burning Gold" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ff3d-ad23-77de-f5f2" name="(Magic Weapon) Bow of Burning Gold" hidden="false" targetId="9f0d-4729-2ca1-43d8" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7d54-8e25-ed90-c245" name="Lightning Spear" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="3a16-32fc-7c51-5508" name="(Magic Weapon) Lightning Spear" hidden="false" targetId="d305-e931-5819-04bb" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="efc0-dd43-2732-bbd8" name="Skull Crusher" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="db38-a48f-964e-a092" name="(Magic Weapon) Skull Crusher Hammer" hidden="false" targetId="caa2-6cf1-8c8f-2f66" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="908a-815e-c330-1f33" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3737-797e-c49a-bd2e" name="Dwarf Guard [115 pts]" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="860f-ada0-f836-2aa0" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="f1ee-3612-a118-2e94" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
+        <infoLink id="cc62-f1b3-50db-1718" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b02e-44af-9433-ef84" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1024,6 +927,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7242-cd1b-74f6-b8b3" name="Halberds" hidden="false" collective="false" type="upgrade">
@@ -1032,11 +936,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ec19-92c5-3edd-433c" name="Models" hidden="false" collective="false" defaultSelectionEntryId="eac7-0b3a-cf5b-613f">
+        <selectionEntryGroup id="ec19-92c5-3edd-433c" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="eac7-0b3a-cf5b-613f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e294-2fb5-e6c0-8c20" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d0-e9aa-ae9d-01cd" type="max"/>
@@ -1044,7 +949,10 @@
           <selectionEntries>
             <selectionEntry id="7c4f-b564-3d0d-ccdb" name="Dwarf Guard in Heavy Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="44ec-8596-1588-3bda" name="Dwarf Guard in Heavy Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="44ec-8596-1588-3bda" name="Choose 4 to 9" hidden="false" collective="false">
+                  <infoLinks>
+                    <infoLink id="694a-8735-f3c1-2d2e" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="f490-ede7-d883-adba" name="Dwarf Guard Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1052,12 +960,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a5-b7cb-0078-9b4c" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="71eb-d806-36dc-739f" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="6a8f-cc94-c85a-9fe3" name="Dwarf Guard Leader in Heavy Armour" hidden="false" targetId="d394-0876-b7d2-77a2" type="profile"/>
-                        <infoLink id="7cd3-375b-3943-6b37" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="32.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4d9c-08b7-f862-57b1" name="Dwarf Guard" hidden="false" collective="false" type="model">
@@ -1070,6 +977,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="22.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1077,11 +985,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eac7-0b3a-cf5b-613f" name="Dwarf Guard in Medium Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="cd95-1f2c-e360-adf4" name="Dwarf Guard in Medium Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="cd95-1f2c-e360-adf4" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="030b-9fc7-2378-10d5" name="Dwarf Guard Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1090,10 +999,10 @@
                       </constraints>
                       <infoLinks>
                         <infoLink id="b7ab-94b8-6bad-0291" name="Dwarf Guard Leader in Medium Armour" hidden="false" targetId="4c60-2ba3-398c-0446" type="profile"/>
-                        <infoLink id="b244-a7a3-1ba9-0146" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="31.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3be7-e411-54a5-9a80" name="Dwarf Guard" hidden="false" collective="false" type="model">
@@ -1106,6 +1015,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="21.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1113,6 +1023,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1120,22 +1031,29 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0af2-4120-b7ef-ed73" name="Dwarf Warriors [100 pts]" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="9e50-3aef-f06a-6b87" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1565-f8fe-ea4f-7b8d" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="07af-30f8-6b74-3929" name="Models" hidden="false" collective="false" defaultSelectionEntryId="683e-3a8b-10c4-b24f">
+        <selectionEntryGroup id="07af-30f8-6b74-3929" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="683e-3a8b-10c4-b24f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8b1-c2b5-0d03-85be" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ea-bdb2-d108-61fe" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="efa2-f5e5-7a84-6cda" name="Dwarf Warriors in Heavy Armour" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7074-edee-38d4-d31d" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+              </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="983b-eacc-931a-75a1" name="Dwarf Warrior in Heavy Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="983b-eacc-931a-75a1" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="c686-5664-ee4d-009a" name="Dwarf Warrior Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1143,12 +1061,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2679-e2c0-dbc9-8b3d" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="434f-3a93-d348-78b8" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="c97b-39b2-0b6b-7fd7" name="Dwarf Warrior Leader in Heavy Armour" hidden="false" targetId="22a3-6219-8bce-3abf" type="profile"/>
-                        <infoLink id="5b67-f259-688b-99ae" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="29.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4b27-6479-27fd-2189" name="Dwarf Warrior" hidden="false" collective="false" type="model">
@@ -1161,6 +1078,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="19.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1168,11 +1086,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="683e-3a8b-10c4-b24f" name="Dwarf Warriors in Medium Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="7901-8767-67f2-28e1" name="Dwarf Warrior in Medium Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="7901-8767-67f2-28e1" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="3615-8968-cf20-2941" name="Dwarf Warrior Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1180,11 +1099,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff0-ed81-7da8-a73b" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="3a85-5277-58b1-c845" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="270b-0b5b-d822-7fb0" name="Dwarf Warrior Leader in Medium Armour" hidden="false" targetId="44cd-0e54-6110-001b" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="28.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1243-0fc6-7980-34af" name="Dwarf Warrior" hidden="false" collective="false" type="model">
@@ -1197,6 +1116,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1204,6 +1124,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1228,6 +1149,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="04c0-2158-168c-2d02" name="Big Axe" hidden="false" collective="false" type="upgrade">
@@ -1236,14 +1158,16 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3faa-e697-9a05-083f" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="c690-01b4-d14d-6721" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="c690-01b4-d14d-6721" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bf3a-d27a-e592-1111" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -1252,6 +1176,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fd7b-549b-3973-848d" name="Halberds" hidden="false" collective="false" type="upgrade">
@@ -1271,6 +1196,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1278,17 +1204,19 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0120-dc29-e7a3-7a46" name="Dwarf Archers [100 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="16ac-b9d5-d590-94a3" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="80a1-8f5c-eabb-4638" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="6b25-9e62-4ed4-c47e" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="770c-abf8-05d4-2263" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="15a0-3ba2-0493-402f" name="Models" hidden="false" collective="false" defaultSelectionEntryId="1a70-2217-86dc-03f0">
+        <selectionEntryGroup id="15a0-3ba2-0493-402f" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="1a70-2217-86dc-03f0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6f5-cd73-e511-e8d8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62dd-0167-5d20-470a" type="max"/>
@@ -1296,7 +1224,7 @@
           <selectionEntries>
             <selectionEntry id="25eb-f01e-7c5c-9567" name="Dwarf Archers in Medium Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="d5de-fca3-f159-a57c" name="Dwarf Archer in Heavy Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="d5de-fca3-f159-a57c" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="30aa-800f-15a1-e1e9" name="Dwarf Archer Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1304,11 +1232,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="387a-cfcd-93c3-55ba" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="3359-be5c-5768-d209" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="b372-97c8-b30a-e29b" name="Dwarf Archer Leader in Medium Armour" hidden="false" targetId="84ec-289b-c957-ca10" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="30.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a89b-cfbb-18f7-dbb8" name="Dwarf Archer" hidden="false" collective="false" type="model">
@@ -1321,6 +1249,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1328,11 +1257,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a70-2217-86dc-03f0" name="Dwarf Archers in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="ed56-6ecc-54d2-68e6" name="Dwarf Archer in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="ed56-6ecc-54d2-68e6" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="9a37-f462-62c3-9346" name="Dwarf Archer Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1340,11 +1270,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1396-3078-51b3-9fef" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="100b-8b8a-ee8d-b6f1" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="e93c-19cf-e52d-334b" name="Dwarf Archer Leader in Light Armour" hidden="false" targetId="d31b-6031-95ac-45ac" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="28.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="159b-b450-bbc9-884e" name="Dwarf Archer" hidden="false" collective="false" type="model">
@@ -1357,6 +1287,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1364,6 +1295,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1380,11 +1312,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="69af-eb55-a24d-4267" name="Crossbow" hidden="false" collective="false" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="1">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="0120-dc29-e7a3-7a46" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -1392,9 +1325,11 @@
               </modifiers>
               <infoLinks>
                 <infoLink id="2448-8be6-62e8-991c" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
+                <infoLink id="41f1-20fa-72a3-3c41" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1402,18 +1337,21 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8600-3664-2ff7-0154" name="Dwarf Handgunners [110 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="4201-3261-ac27-eeff" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="4201-3261-ac27-eeff" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
         <infoLink id="b68e-0da9-b61a-5dad" name="Handgun" hidden="false" targetId="c6ac-d307-29c2-4ef1" type="profile"/>
+        <infoLink id="d6c8-1f57-4e4a-588d" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
+        <infoLink id="69ce-88e4-af12-6624" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a764-2034-aa55-fcd7" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="eff3-8e72-e87e-d9cf" name="Models" hidden="false" collective="false" defaultSelectionEntryId="1660-d9da-eeee-93e1">
+        <selectionEntryGroup id="eff3-8e72-e87e-d9cf" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="1660-d9da-eeee-93e1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a180-516c-402f-5eb1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ab1-3754-be8f-2579" type="max"/>
@@ -1421,7 +1359,7 @@
           <selectionEntries>
             <selectionEntry id="dbc0-2629-ed4f-0b37" name="Dwarf Handgunners in Medium Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="61fe-cea2-b98b-f823" name="Dwarf Handgunner in Heavy Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="61fe-cea2-b98b-f823" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="0485-773f-e692-3db8" name="Dwarf Handgunner Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1429,11 +1367,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a31b-bf10-2d14-6f9a" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="baa1-98b2-a1cc-eb6a" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="59d4-fdbd-c2c9-f34e" name="Dwarf Handgunner Leader in Medium Armour" hidden="false" targetId="a153-e2b0-2268-9941" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="32.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="09c3-0f1d-0c79-6ffb" name="Dwarf Handgunner" hidden="false" collective="false" type="model">
@@ -1446,6 +1384,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="22.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1453,11 +1392,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1660-d9da-eeee-93e1" name="Dwarf Handgunners in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="fe00-4583-2424-9b38" name="Dwarf Handgunner in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="fe00-4583-2424-9b38" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="1d5b-0a4f-db2a-14c3" name="Dwarf Handgunner Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1465,11 +1405,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680a-9019-1fda-697d" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="78db-fff3-87f6-fdf6" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="1628-be35-fc0e-d1ba" name="Dwarf Handgunner Leader in Light Armour" hidden="false" targetId="52d2-00d9-227a-48b2" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="30.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2359-0904-458a-8915" name="Dwarf Handgunner" hidden="false" collective="false" type="model">
@@ -1482,6 +1422,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1489,6 +1430,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1496,17 +1438,19 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3c0-1daa-695f-77ce" name="Dwarf Pony Riders [70 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="034b-4146-4c27-d7fa" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+        <infoLink id="c4e4-7bfb-d29d-14a8" name="Fast 6" hidden="false" targetId="7753-3806-9cf1-0a6c" type="rule"/>
+        <infoLink id="9d9c-8b6d-5fdf-b912" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1484-6f8a-ef0a-bbe8" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="06ea-94ec-38ba-73dc" name="Models" hidden="false" collective="false" defaultSelectionEntryId="9d32-8f9f-1c6e-30e5">
+        <selectionEntryGroup id="06ea-94ec-38ba-73dc" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="9d32-8f9f-1c6e-30e5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d061-e80b-ae1b-23cd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab70-0ba8-9cda-60c4" type="max"/>
@@ -1514,7 +1458,7 @@
           <selectionEntries>
             <selectionEntry id="9d32-8f9f-1c6e-30e5" name="Dwarf Pony Riders in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="fa5d-9c3c-5c78-d840" name="Dwarf Pony Riders in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="fa5d-9c3c-5c78-d840" name="Choose 2 to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="6aba-cf6a-2edd-7309" name="Dwarf Pony Rider Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1522,11 +1466,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a09f-62cc-e2c8-ae74" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="c35c-5415-d2ce-bacd" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="afd6-66a7-61c3-f4b7" name="Dwarf Pony Rider Leader in Light Armour" hidden="false" targetId="d7d3-0dd6-3363-c28c" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="30.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bc3d-f58e-d8f9-5f05" name="Dwarf Pony Rider" hidden="false" collective="false" type="model">
@@ -1539,6 +1483,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1546,11 +1491,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8814-e0ea-0db2-a3bc" name="Dwarf Pony Riders in Medium Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="9057-2770-6355-c5cb" name="Dwarf Pony Rider in Medium Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="9057-2770-6355-c5cb" name="Choose 2 to 4" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="074f-c0f7-01c0-7ec2" name="Dwarf Pony Rider Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1558,11 +1504,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb6-7b67-fc56-932e" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="dbe0-5095-ff1e-0e28" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="92d1-281f-ce26-ff3b" name="Dwarf Pony Rider Leader in Medium Armour" hidden="false" targetId="b6a2-cf61-3f0b-c8d1" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="32.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1641-820c-099b-fe0d" name="Dwarf Pony Rider" hidden="false" collective="false" type="model">
@@ -1575,6 +1521,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="22.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1582,6 +1529,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1594,10 +1542,11 @@
           <selectionEntries>
             <selectionEntry id="e24e-9b99-7d54-e4a8" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="2899-9b8d-c3b7-300b" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="2899-9b8d-c3b7-300b" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a6f-73f6-31c6-02ba" name="Spears" hidden="false" collective="false" type="upgrade">
@@ -1606,6 +1555,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1613,18 +1563,21 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ce6-e262-f72d-7f94" name="Dwarf Rangers [112 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="d842-da47-74cd-3826" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
         <infoLink id="b625-ac56-05f4-ffe3" name="Vengeful" hidden="false" targetId="5e63-c99b-00b4-24eb" type="rule"/>
+        <infoLink id="3935-5ffd-0cd2-f917" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
+        <infoLink id="4e08-db3b-9535-063e" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1fc1-99e6-f464-e3e7" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9514-036d-256f-f4b3" name="Models" hidden="false" collective="false" defaultSelectionEntryId="8e77-d307-2416-a4bf">
+        <selectionEntryGroup id="9514-036d-256f-f4b3" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="8e77-d307-2416-a4bf">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a692-2140-9110-6c27" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f93b-15d2-4965-017b" type="max"/>
@@ -1632,7 +1585,7 @@
           <selectionEntries>
             <selectionEntry id="1cf4-06d1-ccc0-6c1c" name="Dwarf Rangers in Medium Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="a225-685b-18be-94ca" name="Dwarf Ranger in Heavy Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="a225-685b-18be-94ca" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="4d8c-d179-20b5-d943" name="Dwarf Ranger Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1640,11 +1593,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d087-5aa3-5b38-d1ce" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="ff72-e9cb-cb3c-e2f8" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="7495-0b19-d3ec-91f4" name="Dwarf Ranger Leader in Medium Armour" hidden="false" targetId="e512-a6cd-04f8-99cb" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="34.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="479b-2011-1673-9b12" name="Dwarf Ranger" hidden="false" collective="false" type="model">
@@ -1657,6 +1610,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="22.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1664,11 +1618,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e77-d307-2416-a4bf" name="Dwarf Rangers in Light Armour" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="e5af-d35b-79c5-ba84" name="Dwarf Ranger in Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="e5af-d35b-79c5-ba84" name="Choose 4 to 9" hidden="false" collective="false">
                   <selectionEntries>
                     <selectionEntry id="f315-c22b-e80e-e201" name="Dwarf Ranger Leader" hidden="false" collective="false" type="model">
                       <constraints>
@@ -1676,11 +1631,11 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd32-92d9-a419-b9f0" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="e2ba-a114-914f-c0f0" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
                         <infoLink id="6477-cf51-d0f1-add1" name="Dwarf Ranger Leader in Light Armour" hidden="false" targetId="cff9-1410-0464-6da8" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="32.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ae9d-7ca4-16a9-b011" name="Dwarf Ranger" hidden="false" collective="false" type="model">
@@ -1693,6 +1648,7 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1700,11 +1656,12 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="19e1-1a84-7184-7f44" name="HTH Weapon" hidden="false" collective="false" defaultSelectionEntryId="1512-6f75-4f70-33ba">
+        <selectionEntryGroup id="19e1-1a84-7184-7f44" name="HtH Weapon" hidden="false" collective="false" defaultSelectionEntryId="1512-6f75-4f70-33ba">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c950-4ed9-9706-1fe3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c35-b053-e405-037b" type="min"/>
@@ -1716,6 +1673,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="229a-d0b0-45cf-dd7d" name="Bloomin&apos;Big Axe" hidden="false" collective="false" type="upgrade">
@@ -1732,6 +1690,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1754,6 +1713,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1761,12 +1721,14 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d21b-4748-3e74-0e99" name="Dwarf Crazed Psychotic Axe-wielding Maniacs [117 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="dec8-d0f8-7998-f28a" name="Crazed Psychotics" hidden="false" targetId="2b40-80c8-12cf-8f44" type="rule"/>
         <infoLink id="ed08-d328-683a-4395" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
+        <infoLink id="a356-e403-6dee-7813" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dd24-9f6a-fd17-3f5f" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1792,6 +1754,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="29d1-a06a-4baf-d6c5" name="Big Axe" hidden="false" collective="false" type="upgrade">
@@ -1800,11 +1763,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c3f7-1f74-acbe-b2f8" name="Models" hidden="false" collective="false">
+        <selectionEntryGroup id="c3f7-1f74-acbe-b2f8" name="Choose 4 to 9" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="f00c-edb7-88f3-a2d5" name="Maniac Leader" hidden="false" collective="false" type="model">
               <constraints>
@@ -1813,10 +1777,10 @@
               </constraints>
               <infoLinks>
                 <infoLink id="b198-d772-b32d-4ecb" name="Dwarf Maniac Leader" hidden="false" targetId="860c-5fd3-6005-5f42" type="profile"/>
-                <infoLink id="89ec-cff7-7207-da36" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="33.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="276b-6b61-b1b8-d49d" name="Maniac" hidden="false" collective="false" type="model">
@@ -1829,6 +1793,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="21.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1836,13 +1801,16 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5b61-10d0-464f-e4bf" name="Dwarf Stone Thrower [102 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="fca3-67c3-8e81-c0ba" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-        <infoLink id="913d-aef7-9d58-1ef1" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
-        <infoLink id="0afa-0253-9bde-5c68" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="0afa-0253-9bde-5c68" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="3981-2f8b-e016-c829" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="0c8b-e96f-8245-fa91" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
+        <infoLink id="5442-003e-51cc-43e1" name="Overhead" hidden="false" targetId="7751-622a-b896-4874" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eeeb-58b8-013b-5b6f" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
@@ -1860,6 +1828,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="54.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1ccb-6fac-9c0f-24bd" name="Large Stone Thrower" hidden="false" collective="false" type="upgrade">
@@ -1868,11 +1837,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="81.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6c00-0f03-7fbb-d34f" name="Crew" hidden="false" collective="false">
+        <selectionEntryGroup id="6c00-0f03-7fbb-d34f" name="Choose 3 to 5" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="c618-3726-acaf-97ec" name="Dwarf Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -1884,6 +1854,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1891,14 +1862,16 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="caa8-a18a-d2a9-ee72" name="Dwarf Cannon [98 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="9769-b86a-4858-2c28" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-        <infoLink id="b19f-ad64-bf7b-6d7d" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
-        <infoLink id="c94f-05da-fe75-96d8" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="c94f-05da-fe75-96d8" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
         <infoLink id="50d1-e4a0-e928-8ce4" name="Unstoppable" hidden="false" targetId="a8bf-f48c-1b08-58e6" type="rule"/>
+        <infoLink id="9e4a-4214-9919-05a7" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="f564-8aa4-0f99-3615" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cf89-f7fc-cc96-7eeb" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
@@ -1916,6 +1889,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4bf2-d3bd-d61b-f63d" name="Large Cannon" hidden="false" collective="false" type="upgrade">
@@ -1924,11 +1898,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="100.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f12c-420b-cfe7-811c" name="Crew" hidden="false" collective="false">
+        <selectionEntryGroup id="f12c-420b-cfe7-811c" name="Choose 3 to 5" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="8ed9-2f3e-4df7-33ba" name="Dwarf Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -1940,6 +1915,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1947,35 +1923,36 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55f2-2eeb-c566-db0a" name="Dwarf Bombard [93 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="83f7-d5f6-88a3-d5f5" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="8fc5-dce6-1e09-7439" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
-        <infoLink id="0fd1-1866-7bb5-2b6b" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="0fd1-1866-7bb5-2b6b" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="fbe4-ce7f-b8c1-20d8" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="efd0-9619-9b45-7928" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="fb5a-51f0-d5f5-f9cd" name="Bombard" hidden="false" collective="false" defaultSelectionEntryId="a7e2-2202-4473-2d83">
+      <selectionEntries>
+        <selectionEntry id="7044-8cd7-d34c-638d" name="Bombard" hidden="false" collective="false" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c347-0e9a-6abb-fd58" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c2-282f-0833-5af6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9f-eb7b-dbe8-20b0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7619-4ef2-a7e7-df1d" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="a7e2-2202-4473-2d83" name="Bombard" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="c101-b30e-db19-4eb4" name="Bombard" hidden="false" targetId="83bd-49e2-6f9b-a638" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="45.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="8209-b6f4-406c-76c3" name="Crew" hidden="false" collective="false">
+          <infoLinks>
+            <infoLink id="0fda-817b-0048-c199" name="Bombard" hidden="false" targetId="83bd-49e2-6f9b-a638" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="45.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8209-b6f4-406c-76c3" name="Choose 3 to 5" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="b874-809b-9ec1-16e8" name="Dwarf Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -1987,6 +1964,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1994,17 +1972,36 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f26-e1ce-d8ff-b54c" name="Dwarf Fire Cannon [108 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="a027-e0e9-2744-51a4" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="a027-e0e9-2744-51a4" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="d6ae-0e7b-7b77-80ec" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="a939-17da-f510-5402" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="20b7-2d03-76c0-872c" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4840-1e56-24e2-7c40" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2adf-663d-a5da-49d7" name="Fire Cannon" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e57-e844-4e48-f5ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec4-2f70-77c7-3661" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2954-02f3-a8af-e8cf" name="Fire Cannon" hidden="false" targetId="fc55-3266-2aa3-9d8a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="60.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="33bb-7c09-b5d6-1ffe" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="5867-995a-6d51-9500">
+        <selectionEntryGroup id="33bb-7c09-b5d6-1ffe" name="Choose 3 to 5" hidden="false" collective="false" defaultSelectionEntryId="5867-995a-6d51-9500">
           <selectionEntries>
             <selectionEntry id="5867-995a-6d51-9500" name="Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -2016,24 +2013,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f0d4-4a09-ec99-2ba2" name="Fire Cannon" hidden="false" collective="false" defaultSelectionEntryId="845e-be82-554f-c34e">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7f-b090-97af-7d7b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5e4-bfae-5120-f944" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="845e-be82-554f-c34e" name="Fire Cannon" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="c744-f82e-4edd-5dfa" name="Fire Cannon" hidden="false" targetId="fc55-3266-2aa3-9d8a" type="profile"/>
-                <infoLink id="93c0-2c2b-b9e5-a43f" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="7c78-1af7-7cc4-a62d" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2041,13 +2021,15 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5310-7ff4-c260-fc1f" name="Dwarf Bolt Thrower [90 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="790b-d4a5-4d29-2e02" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-        <infoLink id="97ed-e67a-be81-02b3" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
-        <infoLink id="2cce-dacc-7923-4972" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="2cce-dacc-7923-4972" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="c72b-fce0-cffe-0aab" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="b201-6f86-3fdb-0ca4" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="28df-e7a4-a6aa-2cef" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
@@ -2065,6 +2047,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="42.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="83ee-bd8c-e8c7-59c6" name="Large Bolt Thrower" hidden="false" collective="false" type="upgrade">
@@ -2074,11 +2057,12 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="63.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="18ec-07ca-567f-4f2d" name="Crew" hidden="false" collective="false">
+        <selectionEntryGroup id="18ec-07ca-567f-4f2d" name="Choose 3 to 5" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="52fc-0385-7504-2def" name="Dwarf Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -2090,6 +2074,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2097,6 +2082,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a844-a11e-a600-98e7" name="Dwarf Flying Machine" hidden="false" collective="false" type="unit">
@@ -2106,23 +2092,40 @@
       <categoryLinks>
         <categoryLink id="9d5f-5b00-3d76-aa5f" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c749-efaa-ca64-12a5" name="Pilot" hidden="false" collective="false" defaultSelectionEntryId="4cb7-919d-4657-0d48">
+      <selectionEntries>
+        <selectionEntry id="18e7-5b81-d921-034a" name="Flying Machine" hidden="false" collective="false" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c7c-aec1-c8d2-94dd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db1-6ccd-0f45-2f32" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d296-b68f-abe5-ed96" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="696e-2c52-8558-c76e" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4cb7-919d-4657-0d48" name="Pilot" hidden="false" collective="false" type="model">
-              <infoLinks>
-                <infoLink id="f7d3-048a-515e-2228" name="Dwarf Pilot" hidden="false" targetId="46a0-3c62-e534-e7a0" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="94.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
+          <infoLinks>
+            <infoLink id="01ad-a40a-6455-bfc7" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+            <infoLink id="3aa3-aea7-2983-2266" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
+            <infoLink id="6d2f-f529-2de3-68f4" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+            <infoLink id="f391-5f3d-f23b-3d86" name="Ramshackle Contraption" hidden="false" targetId="182e-9b37-17f3-5b45" type="rule"/>
+            <infoLink id="cec7-01a8-0881-85d5" name="Flying Machine With Bombs" hidden="false" targetId="953a-ca2d-befd-cc62" type="profile"/>
+            <infoLink id="3de7-09bf-8a7b-66c7" name="MoD2" hidden="false" targetId="5da1-1bfa-9b8d-6b82" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0771-d48f-2770-9cec" name="Pilot" hidden="false" collective="false" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c464-2e83-86d8-af01" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247e-462c-6e36-b03e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fd8b-63a5-b13f-990d" name="Dwarf Pilot" hidden="false" targetId="46a0-3c62-e534-e7a0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="94.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
         <selectionEntryGroup id="83b9-fa6f-1780-b376" name="Bouncing Bombs" hidden="false" collective="false" defaultSelectionEntryId="f930-f93d-c612-99b8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ce2-937d-dd2f-4964" type="max"/>
@@ -2135,6 +2138,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f930-f93d-c612-99b8" name="Bombs" hidden="false" collective="false" type="upgrade">
@@ -2143,26 +2147,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="e007-b3f9-79aa-dcdb" name="Flying Machine" hidden="false" collective="false" defaultSelectionEntryId="c2f5-3e39-fcc8-a5ee">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a013-74b9-a209-8daa" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0df3-0528-8b48-81fc" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="c2f5-3e39-fcc8-a5ee" name="Flying Machine" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="d2d2-73d2-3468-5020" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-                <infoLink id="8a63-bfa1-cfee-d309" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
-                <infoLink id="561d-640d-a8bc-6230" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
-                <infoLink id="e952-ad5a-9de5-6311" name="Ramshackle Contraption" hidden="false" targetId="182e-9b37-17f3-5b45" type="rule"/>
-                <infoLink id="b908-abb7-21f2-c2ae" name="Flying Machine With Bombs" hidden="false" targetId="953a-ca2d-befd-cc62" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2178,6 +2163,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2185,34 +2171,35 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a75b-c3ef-93c9-ec24" name="Dwarf Steam Juggernaut [245 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="c588-6c81-ab4a-9f61" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="c588-6c81-ab4a-9f61" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
         <infoLink id="83c9-9029-2019-a319" name="Juggernaut" hidden="false" targetId="db5d-a96a-7bfb-66f3" type="rule"/>
+        <infoLink id="e4b2-51cb-7b0a-808b" name="MoD3" hidden="false" targetId="a8ca-ba71-db97-bc20" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1410-35b4-ae4b-b69f" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cc31-9b17-778f-60db" name="Juggernaut" hidden="false" collective="false" defaultSelectionEntryId="4e07-8cb6-0f17-5dc6">
+      <selectionEntries>
+        <selectionEntry id="f978-57f8-6c32-52c0" name="Juggernaut" hidden="false" collective="false" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ada-d6e1-0313-f678" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e2-fe55-9c03-ed0b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="197d-43be-243a-c636" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="374e-bef0-9f20-45c6" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4e07-8cb6-0f17-5dc6" name="Juggernaut" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="62e2-6534-65a2-0a74" name="Steam Juggernaut with Cannon" hidden="false" targetId="8b88-6b2c-dd1c-751a" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="215.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="397c-26bc-1b2a-a8d3" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="789a-db01-71ca-6b7b">
+          <infoLinks>
+            <infoLink id="da97-1733-0fa3-0ee7" name="Steam Juggernaut with Cannon" hidden="false" targetId="8b88-6b2c-dd1c-751a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="215.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="397c-26bc-1b2a-a8d3" name="Choose 6 to 10" hidden="false" collective="false" defaultSelectionEntryId="789a-db01-71ca-6b7b">
           <selectionEntries>
             <selectionEntry id="789a-db01-71ca-6b7b" name="Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -2224,6 +2211,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2246,6 +2234,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e117-43d7-fd7d-34ea" name="Crossbows" hidden="false" collective="false" type="upgrade">
@@ -2258,9 +2247,11 @@
               </modifiers>
               <infoLinks>
                 <infoLink id="cbf2-2ec0-6727-a252" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
+                <infoLink id="1198-fa79-98eb-77b4" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2276,6 +2267,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2289,9 +2281,11 @@
             <selectionEntry id="3b47-9176-c9c9-32aa" name="Small Cannon" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="c69b-d7ca-df8d-bb90" name="Small Cannon" hidden="false" targetId="241a-1266-fce9-2638" type="profile"/>
+                <infoLink id="f82b-e3e6-1c1f-65f0" name="Unstoppable" hidden="false" targetId="a8bf-f48c-1b08-58e6" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1eb2-2c27-84c0-87e3" name="Large Cannon" hidden="false" collective="false" type="upgrade">
@@ -2301,6 +2295,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ccf-e126-235d-2834" name="Fire Cannon" hidden="false" collective="false" type="upgrade">
@@ -2309,6 +2304,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7afc-c651-8c20-1a63" name="Organ Gun" hidden="false" collective="false" type="upgrade">
@@ -2317,6 +2313,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2324,35 +2321,36 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d036-c54c-7e19-e1a9" name="Dwarf Organ Gun" hidden="false" collective="false" type="unit">
       <infoLinks>
         <infoLink id="169d-15b8-ae92-e1ec" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-        <infoLink id="d3f9-4f0e-d07b-497e" name="Slow" hidden="false" targetId="4d2b-eef9-9776-1480" type="rule"/>
-        <infoLink id="9c4d-2c02-32c7-9bd2" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+        <infoLink id="d3f9-4f0e-d07b-497e" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+        <infoLink id="9c4d-2c02-32c7-9bd2" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="6ddc-0b79-3a34-9d47" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0c4c-abcc-f61d-6091" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ea24-85d6-087b-b449" name="Organ Gun" hidden="false" collective="false" defaultSelectionEntryId="5ce2-813d-737b-0cec">
+      <selectionEntries>
+        <selectionEntry id="a8cb-28aa-e1df-2c9a" name="Organ Gun" hidden="false" collective="false" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3405-c909-9270-4c10" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0198-e0be-de71-020e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df7-ac57-c6b9-2cdf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a589-77d4-0b38-ae36" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="5ce2-813d-737b-0cec" name="Organ Gun" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="b283-f69d-8986-f827" name="Organ Gun" hidden="false" targetId="a0f0-e080-e08b-fd51" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="7515-071a-3e23-068c" name="Crew" hidden="false" collective="false">
+          <infoLinks>
+            <infoLink id="60a6-abdb-b93e-a068" name="Organ Gun" hidden="false" targetId="a0f0-e080-e08b-fd51" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="60.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7515-071a-3e23-068c" name="Choose 3 to 5" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="6179-596b-077f-b4fe" name="Dwarf Crew" hidden="false" collective="false" type="model">
               <constraints>
@@ -2364,6 +2362,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2371,6 +2370,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2389,7 +2389,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3xHTH, Wound X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3xHtH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="64dd-c73a-1a36-f51b" name="Dwarf Lord in Heavy Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2400,7 +2400,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3xHTH, Wound X, Heavily Laden</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3xHtH, Wound X, Heavily Laden</characteristic>
       </characteristics>
     </profile>
     <profile id="30e0-c8fa-0417-4639" name="Dwarf Bodyguard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2433,7 +2433,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, 2xHTH, Wound X, Magic Level X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, 2xHtH, Wound X, Magic Level X</characteristic>
       </characteristics>
     </profile>
     <profile id="c6df-b116-8ac3-d17e" name="Apprentice Runesmith in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2455,7 +2455,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">9</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHTH, Wound X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHtH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="256a-11af-644b-ef00" name="Dwarf Hero in Heavy Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2466,7 +2466,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">9</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHTH, Wound X, Heavily Laden</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHtH, Wound X, Heavily Laden</characteristic>
       </characteristics>
     </profile>
     <profile id="5789-afd4-c182-f27e" name="Dwarf Hero, Crazed Psychotic (No Armour)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2477,7 +2477,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">9</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHTH, Wound X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3xHtH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="4c60-2ba3-398c-0446" name="Dwarf Guard Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2488,7 +2488,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Stubborn</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Stubborn</characteristic>
       </characteristics>
     </profile>
     <profile id="d394-0876-b7d2-77a2" name="Dwarf Guard Leader in Heavy Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2499,7 +2499,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Stubborn</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Stubborn</characteristic>
       </characteristics>
     </profile>
     <profile id="9d04-e866-f8a2-f421" name="Dwarf Guard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2532,7 +2532,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="22a3-6219-8bce-3abf" name="Dwarf Warrior Leader in Heavy Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2543,7 +2543,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="1194-9433-8b26-a3bb" name="Dwarf Warrior in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2576,7 +2576,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="84ec-289b-c957-ca10" name="Dwarf Archer Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2587,7 +2587,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="9f10-9fc3-4192-9710" name="Dwarf Archer in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2620,7 +2620,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="a153-e2b0-2268-9941" name="Dwarf Handgunner Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2631,7 +2631,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
       </characteristics>
     </profile>
     <profile id="0873-fe47-1fe0-44fe" name="Dwarf Handgunner in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2664,7 +2664,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">7(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Fast 6</characteristic>
       </characteristics>
     </profile>
     <profile id="b6a2-cf61-3f0b-c8d1" name="Dwarf Pony Rider Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2675,7 +2675,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">7(9)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Fast 6</characteristic>
       </characteristics>
     </profile>
     <profile id="a822-8fdc-6a29-28a5" name="Dwarf Pony Rider in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2708,7 +2708,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Vengeful</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Vengeful</characteristic>
       </characteristics>
     </profile>
     <profile id="e512-a6cd-04f8-99cb" name="Dwarf Ranger Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2719,7 +2719,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Vengeful</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Vengeful</characteristic>
       </characteristics>
     </profile>
     <profile id="2b9b-9704-0eef-8867" name="Dwarf Ranger in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2752,7 +2752,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Crazed Psychotic, Stubborn</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Crazed Psychotic, Stubborn</characteristic>
       </characteristics>
     </profile>
     <profile id="d350-fa44-12c5-7899" name="Dwarf Maniac" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2829,7 +2829,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">10</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Flies, Fast 10, MOD2, 0xHTH, 3xDrop SV4 Fire (bombs), Ramshackle Contraption</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Flies, Fast 10, MOD2, 0xHtH, 3x Drop SV4 Fire (bombs), Ramshackle Contraption</characteristic>
       </characteristics>
     </profile>
     <profile id="46a0-3c62-e534-e7a0" name="Dwarf Pilot" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2851,7 +2851,7 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">15</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, MOD3, 3xHTH SV5, Ramshackle Contraption, Surly</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, MOD3, 3xHtH SV5, Ramshackle Contraption, Surly</characteristic>
       </characteristics>
     </profile>
     <profile id="1019-5d81-b0f4-66a9" name="Dwarf Crew (Juggernaut)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2865,13 +2865,13 @@ Cannon is fixed upon the deck or possibly in a turret and is permitted to fire w
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="a0f0-e080-e08b-fd51" name="Organ Gun" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="a0f0-e080-e08b-fd51" name="Organ Gun" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">10-20&quot;</characteristic>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">20-30&quot;</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">3</characteristic>
-        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, D6 x Ranged SV3</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Fire order to shoot, D6x Ranged SV3</characteristic>
       </characteristics>
     </profile>
     <profile id="8aa4-6f6c-cdab-96a8" name="Dwarf Crew with Organ gun" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
