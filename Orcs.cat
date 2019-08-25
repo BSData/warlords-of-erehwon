@@ -1311,7 +1311,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c9-ed12-562f-801b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2f27-50dc-0ad8-32db" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2f27-50dc-0ad8-32db" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="301f-3671-a754-7c61" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -1610,7 +1610,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a791-9ba6-791e-389c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8172-f549-ae1a-adc3" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8172-f549-ae1a-adc3" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="bcc7-bbd0-daaa-e7a3" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -1772,7 +1772,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7336-356a-cbbe-ad3b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8358-fe8e-b3ed-727d" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8358-fe8e-b3ed-727d" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="d2d9-d5e4-e302-4be5" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -1931,7 +1931,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e7c-7d73-18f0-12a1" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="28a6-f165-16e0-f008" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="28a6-f165-16e0-f008" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="664a-f18e-9cbb-6bc5" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
