@@ -185,9 +185,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="65d0-c55a-45c5-b521" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="65d0-c55a-45c5-b521" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="f081-6f49-2a72-34e4" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="f081-6f49-2a72-34e4" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -473,9 +473,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1232-1b53-c2b6-57f2" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1232-1b53-c2b6-57f2" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="04c6-3103-8d52-d702" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="04c6-3103-8d52-d702" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -659,9 +659,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5e0a-b73d-5608-1121" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5e0a-b73d-5608-1121" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="3e5c-2b06-6cc7-ea6c" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="3e5c-2b06-6cc7-ea6c" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1105,9 +1105,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f1fa-5d20-cc10-8388" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f1fa-5d20-cc10-8388" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="d436-8917-8c5d-34c6" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="d436-8917-8c5d-34c6" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1635,9 +1635,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1509-0615-1264-194b" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1509-0615-1264-194b" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="2bce-18a9-4351-27c9" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="2bce-18a9-4351-27c9" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1790,9 +1790,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c7d6-9071-bac5-02a6" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c7d6-9071-bac5-02a6" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="73b7-d870-9df3-c1dc" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="73b7-d870-9df3-c1dc" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1949,9 +1949,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="122a-8a4e-f9e5-28a4" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="122a-8a4e-f9e5-28a4" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="ffc2-4530-705e-f621" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="ffc2-4530-705e-f621" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2127,9 +2127,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7248-30e2-0a04-189b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c001-9fa9-b678-f8a8" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c001-9fa9-b678-f8a8" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="d7a4-8e0b-24f8-e495" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="d7a4-8e0b-24f8-e495" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2254,9 +2254,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af20-8955-3647-156b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b1a9-52ed-a4bb-ad2e" name="Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="b1a9-52ed-a4bb-ad2e" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="5634-cf44-817f-2648" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="5634-cf44-817f-2648" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
