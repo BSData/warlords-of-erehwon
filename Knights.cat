@@ -570,7 +570,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a97e-5fcc-0531-a2be" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6e0a-053e-f8f1-4568" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="6e0a-053e-f8f1-4568" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="f6d0-437a-5053-75f0" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -990,7 +990,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="78c7-6f21-1de7-1c4d" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="78c7-6f21-1de7-1c4d" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -1162,7 +1162,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d23b-f47c-042c-60af" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d23b-f47c-042c-60af" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
