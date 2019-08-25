@@ -84,18 +84,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="041b-5f59-5c51-6a0e" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3a1d-5ff2-0340-cd6f" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="3a1d-5ff2-0340-cd6f" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="efb5-f0a2-4986-cf3f" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dd12-7d02-fb2b-7c52" name="Axe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="f390-cd03-efa4-7839" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -268,24 +259,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="319f-55c8-c778-997d" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="f8ad-2a61-dc09-3fab">
+        <selectionEntryGroup id="319f-55c8-c778-997d" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="f8ad-2a61-dc09-3fab">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b974-1858-8263-5df2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc7-b764-904d-83cc" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f8ad-2a61-dc09-3fab" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f8ad-2a61-dc09-3fab" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="13f1-7410-b479-b983" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c571-82a5-3ee9-af1d" name="Axe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="7824-b2d3-726c-f460" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -528,6 +510,9 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a01d-10ea-25e9-6527" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="a188-7a75-92b8-0202" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e954-1e32-2e99-7d17" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
         <categoryLink id="6651-2528-d49c-91a4" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -1004,18 +989,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a9f-4ea6-df07-4dec" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="062e-0241-6225-8f4f" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="062e-0241-6225-8f4f" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="1033-44f2-48a4-57cd" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="286a-ea49-46c1-7f63" name="Axe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="b86a-7aaf-332f-8a68" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="1033-44f2-48a4-57cd" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1058,7 +1034,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9036-5662-7d32-5837" name="Models" hidden="false" collective="false" defaultSelectionEntryId="6fc2-b21d-66c8-1024">
+        <selectionEntryGroup id="9036-5662-7d32-5837" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="6fc2-b21d-66c8-1024">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0461-1d20-daba-826b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7521-f3ee-b232-3705" type="min"/>
@@ -1192,18 +1168,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb6e-3f26-61d6-829c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f986-e545-4759-53df" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f986-e545-4759-53df" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="618c-9d47-c8e1-5779" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c194-43f5-df69-277a" name="Axe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1bfd-051a-74a3-9166" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1335,7 +1302,7 @@
         <categoryLink id="5258-48cf-2412-63d5" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a3a2-fa8b-adf4-edc5" name="Models" hidden="false" collective="false" defaultSelectionEntryId="f33b-a347-403d-b1c9">
+        <selectionEntryGroup id="a3a2-fa8b-adf4-edc5" name="Choose 3 to 5" hidden="false" collective="false" defaultSelectionEntryId="f33b-a347-403d-b1c9">
           <selectionEntries>
             <selectionEntry id="f33b-a347-403d-b1c9" name="Whirling Dervishes" hidden="false" collective="false" type="model">
               <constraints>
@@ -1369,12 +1336,12 @@
         <categoryLink id="01d5-4467-aab1-1f84" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b472-dcfa-5096-b0f4" name="Dire Wolves" hidden="false" collective="false">
+        <selectionEntryGroup id="b472-dcfa-5096-b0f4" name="Dire Wolves Upgrade" hidden="false" collective="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c111-faf3-3a51-6679" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="11af-2414-4a94-dc4b" name="Mount unit on Dire Wolves increasing Wolf to 2XHTH SV1" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="11af-2414-4a94-dc4b" name="Mount unit on Dire Wolves increasing Wolf to 2XHtH SV1" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="6.0">
                   <repeats>
@@ -1389,7 +1356,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e862-2ec2-6b7b-1ad9" name="Models" hidden="false" collective="false" defaultSelectionEntryId="4305-93da-2a9f-46be">
+        <selectionEntryGroup id="e862-2ec2-6b7b-1ad9" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="4305-93da-2a9f-46be">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f945-2673-5d1d-d410" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae46-bb56-772f-76cf" type="max"/>
@@ -1496,24 +1463,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3c1c-c668-83c5-6453" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="f217-8b22-ba6f-cdb9">
+        <selectionEntryGroup id="3c1c-c668-83c5-6453" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="f217-8b22-ba6f-cdb9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c36-c8a1-77c2-ad91" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d1-7eb4-2f8d-ca5e" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f217-8b22-ba6f-cdb9" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f217-8b22-ba6f-cdb9" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="1ad0-5ad8-1c6c-28d8" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="aa72-260f-56ae-dfb4" name="Axe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="7f0e-a1a9-47e2-a4bd" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1628,24 +1586,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0d45-1860-1cb8-4067" name="HTH Weapons" hidden="false" collective="false" defaultSelectionEntryId="105b-a354-3bc0-c023">
+        <selectionEntryGroup id="0d45-1860-1cb8-4067" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="105b-a354-3bc0-c023">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3039-0449-f3a0-9660" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d0f-ff4d-7484-3d1c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="105b-a354-3bc0-c023" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="105b-a354-3bc0-c023" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="72a9-f829-9a8f-ecf3" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8f70-262a-31ab-09e0" name="Axe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="a9c4-27ba-b15a-2dfb" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1691,7 +1640,7 @@
         <categoryLink id="973d-e14a-ab21-28ee" name="New CategoryLink" hidden="false" targetId="c820-d327-811d-1144" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b8c3-ad64-cb56-8a21" name="Models" hidden="false" collective="false" defaultSelectionEntryId="80a9-74a6-c1f8-c5ac">
+        <selectionEntryGroup id="b8c3-ad64-cb56-8a21" name="Choose 3 to 5" hidden="false" collective="false" defaultSelectionEntryId="80a9-74a6-c1f8-c5ac">
           <selectionEntries>
             <selectionEntry id="80a9-74a6-c1f8-c5ac" name="Goblin Sprog Swarm" hidden="false" collective="false" type="model">
               <constraints>
@@ -1714,9 +1663,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e0-54ee-1d2d-a25d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="68f4-6d11-6bea-a385" name="Rocks to throw" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="68f4-6d11-6bea-a385" name="Rocks to Throw" hidden="false" collective="false" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="1">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="6116-5bf2-30da-f941" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -1748,7 +1697,7 @@
         <categoryLink id="5f9d-7ac3-1168-4f0a" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c95e-e4a4-7112-3477" name="gobble dogs" hidden="false" collective="false" defaultSelectionEntryId="752d-fe00-387f-95a3">
+        <selectionEntryGroup id="c95e-e4a4-7112-3477" name="Choose 4 to 9" hidden="false" collective="false" defaultSelectionEntryId="752d-fe00-387f-95a3">
           <selectionEntries>
             <selectionEntry id="752d-fe00-387f-95a3" name="Gobble Dogs" hidden="false" collective="false" type="model">
               <constraints>
@@ -1765,7 +1714,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="37d3-0db5-f36f-c872" name="pack master" hidden="false" collective="false" defaultSelectionEntryId="46b6-fc8d-a4e3-a7f2">
+        <selectionEntryGroup id="37d3-0db5-f36f-c872" name="Pack Master" hidden="false" collective="false" defaultSelectionEntryId="46b6-fc8d-a4e3-a7f2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0222-a874-851f-4e1c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eef-ff8a-288a-5342" type="max"/>
@@ -1797,24 +1746,15 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="de5a-ae9d-037e-4878" name="pack master weapon" hidden="false" collective="false" defaultSelectionEntryId="a56d-1202-b62f-b3de">
+        <selectionEntryGroup id="de5a-ae9d-037e-4878" name="Pack Master Weapon" hidden="false" collective="false" defaultSelectionEntryId="a56d-1202-b62f-b3de">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="847b-1b7f-0659-aa41" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee93-f6e2-49b4-767f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a56d-1202-b62f-b3de" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a56d-1202-b62f-b3de" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="ca4c-071a-a507-8bb2" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a7e7-98a3-b32a-fae0" name="Axe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="e5be-b9ec-3f4f-a2f6" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1908,13 +1848,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8503-fcf3-e0cc-2615" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="d69b-4a22-6a5c-e9a7">
+        <selectionEntryGroup id="8503-fcf3-e0cc-2615" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="d69b-4a22-6a5c-e9a7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca2-a85a-a754-96a1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a0-befc-0a65-8bfb" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d69b-4a22-6a5c-e9a7" name="Goblin Crew" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d69b-4a22-6a5c-e9a7" name="Goblin Crew (no armour)" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="e388-f77f-1bb5-53b0" name="Goblin Crew" hidden="false" collective="false">
                   <selectionEntries>
@@ -1981,7 +1921,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="af7f-d914-8f2d-524a" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="af7f-d914-8f2d-524a" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -1991,22 +1931,6 @@
               </modifiers>
               <infoLinks>
                 <infoLink id="f7b7-65b1-fb63-ae59" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="578b-b6a5-e352-748d" name="Axe" hidden="false" collective="false" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="points" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="d779-99c9-c589-31fc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink id="d738-44fd-469b-ee9c" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2031,13 +1955,13 @@
         <categoryLink id="7f88-9dff-4221-3caa" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e9d5-6421-0f43-96ed" name="Crew" hidden="false" collective="false" defaultSelectionEntryId="12d0-d9f2-1dcc-02cb">
+        <selectionEntryGroup id="e9d5-6421-0f43-96ed" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="12d0-d9f2-1dcc-02cb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95de-2049-257b-f056" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d145-d83a-951f-ba44" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="12d0-d9f2-1dcc-02cb" name="Goblin Crew" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="12d0-d9f2-1dcc-02cb" name="Goblin Crew (no armour)" hidden="false" collective="false" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="cebf-5784-7368-c7fb" name="Goblin Crew" hidden="false" collective="false">
                   <selectionEntries>
@@ -2131,7 +2055,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="823a-5d06-2b30-16f8" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="823a-5d06-2b30-16f8" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -2141,22 +2065,6 @@
               </modifiers>
               <infoLinks>
                 <infoLink id="a523-9d65-fa03-a012" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0007-03c6-6849-4199" name="Axe" hidden="false" collective="false" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="9096-65fd-09c1-25cc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink id="8d7e-15c5-812b-6f07" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2187,7 +2095,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 3xHTH, Wound X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 3xHtH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="3e02-e70a-4b54-238e" name="Goblin Chieftain in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2198,7 +2106,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 3xHTH, Wound X</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 3xHtH, Wound X</characteristic>
       </characteristics>
     </profile>
     <profile id="9ee7-e759-f818-fdb9" name="Goblin Bodyguard in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2242,7 +2150,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">[4(5)]</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, 3x HTH, [Wound X]</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, 3x HtH, [Wound X]</characteristic>
       </characteristics>
     </profile>
     <profile id="63ec-8a3a-4484-d669" name="Goblin Chariot Crew" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2264,7 +2172,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="32aa-2002-3522-661e" name="Dire Wolves" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2275,7 +2183,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">2xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">2xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="02a4-bdbd-5235-fb2f" name="Goblin Chieftain in Medium Armour [on foot]" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2286,7 +2194,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">[4(6)]</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, 3xHTH, [Wound X]</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Command, 3xHtH, [Wound X]</characteristic>
       </characteristics>
     </profile>
     <profile id="5db7-3f7a-a45a-1524" name="Goblin Shaman" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2319,7 +2227,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">5</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Frenzied Charge, 2xHTH SV2</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Frenzied Charge, 2xHtH SV2</characteristic>
       </characteristics>
     </profile>
     <profile id="0a3b-cb7c-dd41-1a9a" name="Goblin Guard Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2451,7 +2359,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Rapid Sprint, Wolf 1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Rapid Sprint, Wolf 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="ab98-045b-8108-f4e1" name="Goblin Wolf Rider Leader in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2462,7 +2370,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Rapid Sprint, Wolf 1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Fast 6, Rapid Sprint, Wolf 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="a452-136e-58bc-9ebb" name="Goblin Wolf Rider" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2473,7 +2381,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Rapid Sprint, Wolf 1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Rapid Sprint, Wolf 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="420c-045f-442e-9907" name="Goblin Wolf Rider in Light Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2484,7 +2392,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Rapid Sprint, Wolf 1xHTH SV1</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 6, Rapid Sprint, Wolf 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
     <profile id="0906-f514-4c81-85c3" name="Goblin Chariot: crew, pulled by 2 wolves" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2517,10 +2425,10 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Surly, 3xHTH SV0</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Surly, 3xHtH SV0</characteristic>
       </characteristics>
     </profile>
-    <profile id="bdef-5dfc-393a-c889" name="Rock (thrown)" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon profile Ranged">
+    <profile id="bdef-5dfc-393a-c889" name="Rock (thrown)" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">0-10&quot;</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
@@ -2559,7 +2467,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">5</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Frenzied Charge, 2xHTH SV2</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Frenzied Charge, 2xHtH SV2</characteristic>
       </characteristics>
     </profile>
     <profile id="d912-2e11-e1e0-6a84" name="Troll" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
@@ -2570,7 +2478,7 @@ Must be given run order. On order roll of 10, move randomly.  All shooting hits 
         <characteristic name="Res" typeId="d916-9ec8-dd33-7873">7</characteristic>
         <characteristic name="Init" typeId="7313-a059-134c-8199">4</characteristic>
         <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
-        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, 3xHTH SV2, Chunder, Regenerate</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, 3xHtH SV2, Chunder, Regenerate</characteristic>
       </characteristics>
     </profile>
     <profile id="f6be-a32d-119c-c81a" name="Goblin Crew with Stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
