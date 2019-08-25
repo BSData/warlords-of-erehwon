@@ -95,7 +95,7 @@
             </selectionEntry>
             <selectionEntry id="dd12-7d02-fb2b-7c52" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="f390-cd03-efa4-7839" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="f390-cd03-efa4-7839" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -285,7 +285,7 @@
             </selectionEntry>
             <selectionEntry id="c571-82a5-3ee9-af1d" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="7824-b2d3-726c-f460" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="7824-b2d3-726c-f460" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -628,7 +628,7 @@
                           </constraints>
                           <infoLinks>
                             <infoLink id="d504-abc3-8ca8-53a8" name="Goblin Shamanic Cultist" hidden="false" targetId="ac8a-452e-7c65-a4bd" type="profile"/>
-                            <infoLink id="9807-e1d4-c9aa-4c68" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                            <infoLink id="9807-e1d4-c9aa-4c68" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="points" value="7.0"/>
@@ -1015,7 +1015,7 @@
             </selectionEntry>
             <selectionEntry id="286a-ea49-46c1-7f63" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="b86a-7aaf-332f-8a68" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="b86a-7aaf-332f-8a68" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1203,7 +1203,7 @@
             </selectionEntry>
             <selectionEntry id="c194-43f5-df69-277a" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="1bfd-051a-74a3-9166" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="1bfd-051a-74a3-9166" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1513,7 +1513,7 @@
             </selectionEntry>
             <selectionEntry id="aa72-260f-56ae-dfb4" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="7f0e-a1a9-47e2-a4bd" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="7f0e-a1a9-47e2-a4bd" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1645,7 +1645,7 @@
             </selectionEntry>
             <selectionEntry id="8f70-262a-31ab-09e0" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="a9c4-27ba-b15a-2dfb" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="a9c4-27ba-b15a-2dfb" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1814,7 +1814,7 @@
             </selectionEntry>
             <selectionEntry id="a7e7-98a3-b32a-fae0" name="Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="e5be-b9ec-3f4f-a2f6" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="e5be-b9ec-3f4f-a2f6" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2006,7 +2006,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="d738-44fd-469b-ee9c" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="d738-44fd-469b-ee9c" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2156,7 +2156,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="8d7e-15c5-812b-6f07" name="Axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="8d7e-15c5-812b-6f07" name="Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>

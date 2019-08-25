@@ -784,7 +784,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="b88a-3519-8f20-43d1" name="axe" hidden="false" targetId="a1ad-5715-ceb1-e77e" type="profile"/>
+                <infoLink id="b88a-3519-8f20-43d1" name="axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
