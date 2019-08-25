@@ -4827,7 +4827,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 2xHtH, Undead, Wound X, Magic Level X</characteristic>
       </characteristics>
     </profile>
-    <profile id="8148-887f-6070-e2b6" name="Chariot with Liche and Crew, pulled by Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="8148-887f-6070-e2b6" name="Chariot with Liche and Crew pulled by Helhorses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">3</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -4838,7 +4838,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough 1, Fast 6, Irresistable Charge, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="bec0-28d8-d8ca-5aa5" name="Liche (riding chariot)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="bec0-28d8-d8ca-5aa5" name="Liche riding Chariot" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">[5]</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4871,7 +4871,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, 3xHtH, Deathly Chill, Spectral Undead, Dread, Wound X, Magic Level X</characteristic>
       </characteristics>
     </profile>
-    <profile id="8517-edcf-fb4a-875a" name="Wraith, Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="8517-edcf-fb4a-875a" name="Wraith Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -4893,7 +4893,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Wound X, 3xHtH, Undead, Dread, Hero</characteristic>
       </characteristics>
     </profile>
-    <profile id="41d0-c73b-090f-f2b0" name="Undead Champion (Hvy armour)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="41d0-c73b-090f-f2b0" name="Undead Champion in Heavy Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5036,7 +5036,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Fast 8</characteristic>
       </characteristics>
     </profile>
-    <profile id="fd4c-8543-b256-8ddc" name="Skeleton Knight Leader, Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="fd4c-8543-b256-8ddc" name="Skeleton Knight Leader Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5047,7 +5047,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Undead, Fast 8, Helhorse 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="3568-52bd-9a01-3d17" name="Skeleton Knight, riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="3568-52bd-9a01-3d17" name="Skeleton Knight Riding Helhorse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5058,7 +5058,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Fast 8, Helhorse 1xHtH SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="1f37-f56d-cc75-6515" name="Skeleton Chariot (Crew + 2xUndead Steads)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="1f37-f56d-cc75-6515" name="Skeleton Chariot with Crew pulled by 2 Undead Steeds" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">3</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
@@ -5102,7 +5102,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, HtH Attack SV1</characteristic>
       </characteristics>
     </profile>
-    <profile id="7d0c-a2e7-67fc-544d" name="Carrion Beast with rocks" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="7d0c-a2e7-67fc-544d" name="Carrion Beast with Rocks" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">10</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">6</characteristic>
@@ -5113,7 +5113,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Flies, Fast 10, 3xHtH SV3, 3xDrop SV3, Wound, Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="122f-323d-895b-9b14" name="Skeleton Rider (carrion beast)" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="122f-323d-895b-9b14" name="Skeleton Rider Riding Carrion Beast" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5124,7 +5124,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="7f4f-73b5-f8d4-96ab" name="Skeleton Crew with Bolt-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="7f4f-73b5-f8d4-96ab" name="Skeleton Crew with Bolt-Throwing Engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5135,7 +5135,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="d5f4-9efc-7153-7b4d" name="Skeleton Crew with stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="d5f4-9efc-7153-7b4d" name="Skeleton Crew with Stone-Throwing Engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5146,7 +5146,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="2f31-e714-fe78-86b6" name="Skeleton Guard in medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="2f31-e714-fe78-86b6" name="Skeleton Guard in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5157,7 +5157,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d1d-8a88-0ddd-bb1a" name="Skeleton Guard Leader in medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="1d1d-8a88-0ddd-bb1a" name="Skeleton Guard Leader in Medium Armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5212,7 +5212,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough, Undead, Fast 8</characteristic>
       </characteristics>
     </profile>
-    <profile id="19f0-059f-855d-629e" name="Skeleton Crew in Light Armour with Bolt-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="19f0-059f-855d-629e" name="Skeleton Crew in Light Armour with Bolt-Throwing Engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
@@ -5223,7 +5223,7 @@
         <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Undead, Large, Slow 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="6831-8d79-6a31-0cde" name="Skeleton Crew in Light Armour with stone-throwing engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+    <profile id="6831-8d79-6a31-0cde" name="Skeleton Crew in Light Armour with Stone-Throwing Engine" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
         <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
         <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
