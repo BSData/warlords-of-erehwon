@@ -1624,7 +1624,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2e6-ec01-0e2c-f934" name="Reptilians with Bow" hidden="false" collective="false" import="true" type="unit">
@@ -3366,7 +3366,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="29c1-4d35-ea95-5bd8" name="Eft Pterosaur Riders" hidden="false" collective="false" import="true" type="unit">
@@ -3546,7 +3546,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ded-1000-e558-f67a" name="Great Scaly Monster with Crew" hidden="false" collective="false" import="true" type="unit">
