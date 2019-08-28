@@ -1418,6 +1418,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dede-d0a5-e0cf-3df1" name="Mounted Reptilians" hidden="false" collective="false" import="true" type="unit">
@@ -1548,6 +1549,10 @@
               <infoLinks>
                 <infoLink id="0345-8284-e048-1071" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1588,6 +1593,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1610,11 +1616,16 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d2e6-ec01-0e2c-f934" name="Reptilians with Bow" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1715,6 +1726,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c6c-752c-b923-919c" name="Reptilians with Slings" hidden="false" collective="false" import="true" type="unit">
@@ -1816,6 +1828,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be8f-3a77-2193-ccbc" name="Reptilians with Blowpipes" hidden="false" collective="false" import="true" type="unit">
@@ -1918,6 +1931,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5dee-7ab3-3106-e4ce" name="Reptilians with Javelins" hidden="false" collective="false" import="true" type="unit">
@@ -2019,6 +2033,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51df-7f6b-9e71-1093" name="Eft Warriors" hidden="false" collective="false" import="true" type="unit">
@@ -2207,6 +2222,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2227,12 +2243,17 @@
               <infoLinks>
                 <infoLink id="db79-a15b-cfac-44bd" name="Cold-Eyed" hidden="false" targetId="e0de-c7d9-bcce-ebbf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4130-a252-a47a-60f6" name="Eft with Bows" hidden="false" collective="false" import="true" type="unit">
@@ -2347,12 +2368,17 @@
               <infoLinks>
                 <infoLink id="492d-fcdd-7b63-0437" name="Cold-Eyed" hidden="false" targetId="e0de-c7d9-bcce-ebbf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18e9-28fd-a7a3-4356" name="Eft with Slings" hidden="false" collective="false" import="true" type="unit">
@@ -2467,12 +2493,17 @@
               <infoLinks>
                 <infoLink id="765d-28fe-9318-1e22" name="Cold-Eyed" hidden="false" targetId="e0de-c7d9-bcce-ebbf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fd7-184f-a350-3c9a" name="Eft with Blowpipes" hidden="false" collective="false" import="true" type="unit">
@@ -2588,12 +2619,17 @@
               <infoLinks>
                 <infoLink id="c105-ed77-ab75-dd3e" name="Cold-Eyed" hidden="false" targetId="e0de-c7d9-bcce-ebbf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f8f-207a-98a5-417b" name="Eft with Javelins" hidden="false" collective="false" import="true" type="unit">
@@ -2708,12 +2744,17 @@
               <infoLinks>
                 <infoLink id="ffd4-2f67-c669-2db8" name="Cold-Eyed" hidden="false" targetId="e0de-c7d9-bcce-ebbf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3072-3993-cdee-fcb1" name="Tribal Eft Hunters" hidden="false" collective="false" import="true" type="unit">
@@ -2747,6 +2788,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eadf-9887-0124-a53d" name="Bows" hidden="false" collective="false" import="true" type="upgrade">
@@ -2762,6 +2804,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6be7-15e2-e099-7060" name="Blowpipes" hidden="false" collective="false" import="true" type="upgrade">
@@ -2778,6 +2821,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8607-8eea-d601-d0fa" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
@@ -2791,6 +2835,10 @@
               <infoLinks>
                 <infoLink id="72dc-1bcc-523e-e006" name="Javelin" hidden="false" targetId="d7ff-de60-8b37-fbb7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2810,6 +2858,10 @@
               <infoLinks>
                 <infoLink id="5b0d-bfb5-c2fb-16ef" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2854,6 +2906,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2874,6 +2927,10 @@
               <infoLinks>
                 <infoLink id="099e-94e9-d93a-69c1" name="Stealthy" hidden="false" targetId="dcb2-de55-1fca-e0a8" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2888,6 +2945,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1f16-adc9-8ffb-d764" name="Give HtH Weapons Venomous" hidden="false" collective="false" import="true" type="upgrade">
@@ -2899,6 +2957,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2906,6 +2965,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58bf-cfb2-88ac-8978" name="Mounted Eft" hidden="false" collective="false" import="true" type="unit">
@@ -3058,6 +3118,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e174-1606-d8b1-6647" name="Bows" hidden="false" collective="false" import="true" type="upgrade">
@@ -3073,6 +3134,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3093,6 +3155,10 @@
               <infoLinks>
                 <infoLink id="841b-2b6c-0515-6026" name="Cold-Eyed" hidden="false" targetId="e0de-c7d9-bcce-ebbf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3133,6 +3199,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3155,6 +3222,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3162,6 +3230,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6b4-55ab-ef16-48ae" name="Saurians" hidden="false" collective="false" import="true" type="unit">
@@ -3186,6 +3255,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="28.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3206,6 +3276,10 @@
               <infoLinks>
                 <infoLink id="30ec-28c4-17e7-2973" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3225,6 +3299,10 @@
               <infoLinks>
                 <infoLink id="f673-d17d-3c8a-70d0" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3244,12 +3322,17 @@
               <infoLinks>
                 <infoLink id="6109-18cf-170d-4a7f" name="Woodsman" hidden="false" targetId="e1f3-7817-0e4e-5cb9" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f73a-1318-760b-9783" name="Pterosaurs" hidden="false" collective="false" import="true" type="unit">
@@ -3275,11 +3358,16 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="42.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="29c1-4d35-ea95-5bd8" name="Eft Pterosaur Riders" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3311,6 +3399,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2635-faf1-08b5-2c10" name="Bows" hidden="false" collective="false" import="true" type="upgrade">
@@ -3326,6 +3415,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2ec3-fab5-092f-0c00" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
@@ -3339,6 +3429,10 @@
               <infoLinks>
                 <infoLink id="c05f-e408-e460-d805" name="Javelin" hidden="false" targetId="d7ff-de60-8b37-fbb7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3442,10 +3536,18 @@
               <infoLinks>
                 <infoLink id="b0ca-ae8a-b348-91e2" name="Cold-Eyed" hidden="false" targetId="e0de-c7d9-bcce-ebbf" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6ded-1000-e558-f67a" name="Great Scaly Monster with Crew" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -3473,6 +3575,7 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="89.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3497,11 +3600,16 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="7.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ee6e-7fa6-b877-76d4" name="Eft Crew" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
@@ -3517,11 +3625,16 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="4.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3543,6 +3656,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f74e-c125-7e37-811a" name="Blowpipes" hidden="false" collective="false" import="true" type="upgrade">
@@ -3559,6 +3673,7 @@
               </infoLinks>
               <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3585-284f-f336-909d" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
@@ -3572,12 +3687,17 @@
               <infoLinks>
                 <infoLink id="ad09-c32e-8dc2-3e68" name="Javelin" hidden="false" targetId="d7ff-de60-8b37-fbb7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4b5d-7b95-a8a7-5b3d" name="Slithering Beast Pack" hidden="false" collective="false" import="true" type="unit">
@@ -3605,6 +3725,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="29.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="da62-59c5-12ad-b15b" name="Pack Master (no armour)" hidden="false" collective="false" import="true" type="model">
@@ -3613,6 +3734,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="27.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3629,6 +3751,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="11.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3644,6 +3767,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3658,11 +3782,19 @@
               <infoLinks>
                 <infoLink id="ad25-a535-17c4-c098" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e21f-aeb5-4a20-bbc7" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="7f0b-88b4-a44f-3885" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3677,6 +3809,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3684,6 +3817,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dae-582a-aa0c-b5ec" name="Slimesome Swarm" hidden="false" collective="false" import="true" type="unit">
@@ -3706,6 +3840,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3722,11 +3857,16 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9380-3f52-1c78-6dfd" name="Reptilian Stone Thrower" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -3751,6 +3891,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="54.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9c57-975d-2c37-bd22" name="Large Stone Thrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -3759,6 +3900,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="81.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3783,11 +3925,16 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="14.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9320-b9d9-1bc6-15a5" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
@@ -3803,11 +3950,16 @@
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="12.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3828,17 +3980,26 @@
               <infoLinks>
                 <infoLink id="9f66-c266-eb4b-fd44" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="292f-dd43-f6c1-1acb" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="21be-31e1-0bfe-da6c" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
