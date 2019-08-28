@@ -71,9 +71,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e6-ec9b-1c20-252a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="944d-db09-f0d9-2a38" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="944d-db09-f0d9-2a38" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="b0f3-cc17-df8b-d78b" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="b0f3-cc17-df8b-d78b" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -222,9 +222,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20c2-0c9f-15c2-4b6e" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a2ee-0b1a-e294-a82a" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a2ee-0b1a-e294-a82a" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="df2f-1188-f13f-fe5d" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="df2f-1188-f13f-fe5d" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -370,6 +370,7 @@
           <infoLinks>
             <infoLink id="41e5-0528-b13b-9a4d" name="Onmyoji" hidden="false" targetId="dedf-2494-cb70-cdec" type="profile"/>
             <infoLink id="73a1-d7c2-a7ef-db47" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+            <infoLink id="a894-274f-7574-717d" name="Hanbo, Cane, Scroll or Tea Service" hidden="false" targetId="7ae9-8e9a-85e9-e68b" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
@@ -841,9 +842,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a40-60f2-81a0-14d3" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2956-9bc2-f4ba-7a8e" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2956-9bc2-f4ba-7a8e" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="6933-01af-33c9-a69d" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="6933-01af-33c9-a69d" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1009,9 +1010,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef0-264f-1d0d-0fe2" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9193-93e4-feab-28d5" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="9193-93e4-feab-28d5" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="3921-b553-adfb-f654" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="3921-b553-adfb-f654" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1195,9 +1196,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48bd-2fe4-1fb1-bfa3" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d444-a2b1-e8b6-bf12" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d444-a2b1-e8b6-bf12" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="0102-d4e4-1e40-4e37" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="0102-d4e4-1e40-4e37" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1355,9 +1356,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7286-73d0-6a5b-9249" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a52e-999b-5c62-c77c" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a52e-999b-5c62-c77c" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="5531-d818-a9c6-b806" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="5531-d818-a9c6-b806" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1511,9 +1512,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8f-e901-9cd0-312e" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0159-617b-e652-122c" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0159-617b-e652-122c" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="7b15-d051-7d62-6cb0" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="7b15-d051-7d62-6cb0" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1666,9 +1667,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ae-8374-b9cb-ae39" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="86ee-0ccc-5c46-215e" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="86ee-0ccc-5c46-215e" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="1750-5e3d-4fd6-314a" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="1750-5e3d-4fd6-314a" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1728,7 +1729,7 @@
     </selectionEntry>
     <selectionEntry id="089f-9e45-d225-bd30" name="Archers [72 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="613e-0dc7-1357-e520" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="613e-0dc7-1357-e520" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="92d8-b950-a376-de73" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1903,7 +1904,7 @@
         <categoryLink id="169b-796b-2654-f929" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b054-2efd-bb6e-b3e0" name="Bandits" hidden="false" collective="false">
+        <selectionEntryGroup id="b054-2efd-bb6e-b3e0" name="Choose 4 to 9" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="1457-eaf9-c6f4-670e" name="Bandit Leader" hidden="false" collective="false" type="model">
               <constraints>
@@ -1949,7 +1950,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="905b-f9d4-3c69-ba64" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="905b-f9d4-3c69-ba64" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -1958,7 +1959,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="d871-cc70-7d8e-4234" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="d871-cc70-7d8e-4234" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -1975,7 +1976,7 @@
     </selectionEntry>
     <selectionEntry id="b6af-603d-a7c3-a000" name="Tanigashima Men [82 pts]" hidden="false" collective="false" type="unit">
       <infoLinks>
-        <infoLink id="4471-f073-f2b8-3b50" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="4471-f073-f2b8-3b50" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
         <infoLink id="65c2-1d0c-f1f2-4588" name="Hand Gun" hidden="false" targetId="4d4a-8ee3-260b-037b" type="profile"/>
         <infoLink id="ae9d-4166-c941-55c9" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
       </infoLinks>
@@ -2296,9 +2297,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a6c-ace1-fbda-8cca" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a6fa-36e3-34d7-dc06" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a6fa-36e3-34d7-dc06" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="6ded-82c8-963c-b203" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="6ded-82c8-963c-b203" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2538,9 +2539,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32a-b5aa-0e65-3a85" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="27c7-9478-e387-2053" name="Sword" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="27c7-9478-e387-2053" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="1f30-3771-8495-9e95" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="1f30-3771-8495-9e95" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2591,7 +2592,7 @@
         <categoryLink id="be43-3d07-54a4-cf38" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7afd-4270-0534-12fc" name="Oni Ogres" hidden="false" collective="false" defaultSelectionEntryId="fcb9-f525-8931-dbf4">
+        <selectionEntryGroup id="7afd-4270-0534-12fc" name="Choose 1 to 3" hidden="false" collective="false" defaultSelectionEntryId="fcb9-f525-8931-dbf4">
           <selectionEntries>
             <selectionEntry id="fcb9-f525-8931-dbf4" name="Oni Ogre with Massive Mace" hidden="false" collective="false" type="model">
               <constraints>
@@ -2761,7 +2762,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="64d7-3af3-84c4-f050" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="64d7-3af3-84c4-f050" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -2770,7 +2771,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="0c92-b78c-0dc6-7b73" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="0c92-b78c-0dc6-7b73" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2895,7 +2896,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bfb3-da1d-bfeb-29f8" name="Swords" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="bfb3-da1d-bfeb-29f8" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -2904,7 +2905,7 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="d925-5412-2603-fc9d" name="Sword" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+                <infoLink id="d925-5412-2603-fc9d" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
