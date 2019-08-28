@@ -3868,7 +3868,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9380-3f52-1c78-6dfd" name="Reptilian Stone Thrower" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9380-3f52-1c78-6dfd" name="Reptilian Stone Thrower" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="0464-d5fa-2c14-01c1" name="Overhead" hidden="false" targetId="7751-622a-b896-4874" type="rule"/>
         <infoLink id="819d-b36e-0bff-fbf4" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
