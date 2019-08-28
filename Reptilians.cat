@@ -3588,11 +3588,11 @@
           <selectionEntries>
             <selectionEntry id="d519-4973-d2fe-60ac" name="Reptilian Crew" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="8d23-b38d-fac0-beda" name="Choose 1 to 8" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="8d23-b38d-fac0-beda" name="Choose 4 to 8" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="59cf-6437-f920-8d7a" name="Reptilian Crew" publicationId="982e-6ad0-cc51-7967" hidden="false" collective="false" import="true" type="model">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e27-bbbf-5e09-7dc0" type="min"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e27-bbbf-5e09-7dc0" type="min"/>
                         <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04fe-d1c6-0fcf-bae1" type="max"/>
                       </constraints>
                       <infoLinks>
@@ -3613,12 +3613,12 @@
             </selectionEntry>
             <selectionEntry id="ee6e-7fa6-b877-76d4" name="Eft Crew" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="1012-83ed-18a6-f9ff" name="Choose 1 to 8" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="1012-83ed-18a6-f9ff" name="Choose 4 to 8" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="c18f-0e7b-52db-2fd4" name="Eft Crew" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f233-9d85-850b-4620" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e0-cd2f-1cca-d5ee" type="min"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e0-cd2f-1cca-d5ee" type="min"/>
                       </constraints>
                       <infoLinks>
                         <infoLink id="6a45-545c-a056-7d99" name="Eft Crew riding Scaly Monster" hidden="false" targetId="b0e9-ab67-6b10-8079" type="profile"/>
