@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2855-3dab-f953-6528" name="Knights" revision="4" battleScribeVersion="2.02" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2855-3dab-f953-6528" name="Knights" revision="4" battleScribeVersion="2.03" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="d945-4af9-b188-d23e" name="Court Wizard" hidden="false" collective="false" targetId="4e36-8ca9-21c5-f370" type="selectionEntry"/>
-    <entryLink id="a117-4d48-a7c7-ed6c" name="Foot Knights" hidden="false" collective="false" targetId="2296-e410-da07-d236" type="selectionEntry"/>
-    <entryLink id="d3cc-be19-1a03-ec2e" name="Foot Retainers" hidden="false" collective="false" targetId="f2d3-51c1-7590-f825" type="selectionEntry">
+    <entryLink id="d945-4af9-b188-d23e" name="Court Wizard" hidden="false" collective="false" import="true" targetId="4e36-8ca9-21c5-f370" type="selectionEntry"/>
+    <entryLink id="a117-4d48-a7c7-ed6c" name="Foot Knights" hidden="false" collective="false" import="true" targetId="2296-e410-da07-d236" type="selectionEntry"/>
+    <entryLink id="d3cc-be19-1a03-ec2e" name="Foot Retainers" hidden="false" collective="false" import="true" targetId="f2d3-51c1-7590-f825" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="58f3-7732-689c-905e" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5858-9eca-2d5c-c938" name="Archers" hidden="false" collective="false" targetId="e0e0-025c-09d2-4e02" type="selectionEntry"/>
-    <entryLink id="c003-a44c-09f7-00fa" name="Crossbowmen" hidden="false" collective="false" targetId="8d42-0633-18ea-46a3" type="selectionEntry"/>
-    <entryLink id="479a-4e75-5bc2-cbaa" name="Arbalestiers" hidden="false" collective="false" targetId="8405-fc2d-45e0-0c26" type="selectionEntry">
+    <entryLink id="5858-9eca-2d5c-c938" name="Archers" hidden="false" collective="false" import="true" targetId="e0e0-025c-09d2-4e02" type="selectionEntry"/>
+    <entryLink id="c003-a44c-09f7-00fa" name="Crossbowmen" hidden="false" collective="false" import="true" targetId="8d42-0633-18ea-46a3" type="selectionEntry"/>
+    <entryLink id="479a-4e75-5bc2-cbaa" name="Arbalestiers" hidden="false" collective="false" import="true" targetId="8405-fc2d-45e0-0c26" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0f70-7b58-2295-6a2a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0453-fd3c-0a13-0935" name="Peasants" hidden="false" collective="false" targetId="4255-a125-b8e7-427a" type="selectionEntry">
+    <entryLink id="0453-fd3c-0a13-0935" name="Peasants" hidden="false" collective="false" import="true" targetId="4255-a125-b8e7-427a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="763b-eb13-eb64-0185" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c02c-e45c-f0d8-d291" name="Flagellants " hidden="false" collective="false" targetId="f319-8ba2-6e61-a9fc" type="selectionEntry"/>
-    <entryLink id="cac9-249c-425b-8c65" name="Ballista" hidden="false" collective="false" targetId="7eb6-cd0d-3dbe-5a46" type="selectionEntry"/>
-    <entryLink id="416e-8ea5-7ace-4807" name="Mangonel" hidden="false" collective="false" targetId="f0c0-2cef-09ea-cd94" type="selectionEntry"/>
-    <entryLink id="1143-9c68-9be5-8c57" name="Mounted Retainers" hidden="false" collective="false" targetId="f453-102d-f811-3d2f" type="selectionEntry"/>
-    <entryLink id="f9de-b0b7-57b5-085d" name="Knights on Warhorses" hidden="false" collective="false" targetId="ddfa-279f-4b28-fb6a" type="selectionEntry"/>
-    <entryLink id="c915-e197-4c91-78d4" name="Priest" hidden="false" collective="false" targetId="634f-e1a7-3261-1cb3" type="selectionEntry"/>
-    <entryLink id="9284-e21a-83f5-9132" name="Knightly Chamption" hidden="false" collective="false" targetId="8927-f10c-9b13-777a" type="selectionEntry"/>
-    <entryLink id="e1ce-bbe7-73fb-d8ed" name="Mounted Lord Knight" hidden="false" collective="false" targetId="21a8-e570-5189-b243" type="selectionEntry">
+    <entryLink id="c02c-e45c-f0d8-d291" name="Flagellants " hidden="false" collective="false" import="true" targetId="f319-8ba2-6e61-a9fc" type="selectionEntry"/>
+    <entryLink id="cac9-249c-425b-8c65" name="Ballista" hidden="false" collective="false" import="true" targetId="7eb6-cd0d-3dbe-5a46" type="selectionEntry"/>
+    <entryLink id="416e-8ea5-7ace-4807" name="Mangonel" hidden="false" collective="false" import="true" targetId="f0c0-2cef-09ea-cd94" type="selectionEntry"/>
+    <entryLink id="1143-9c68-9be5-8c57" name="Mounted Retainers" hidden="false" collective="false" import="true" targetId="f453-102d-f811-3d2f" type="selectionEntry"/>
+    <entryLink id="f9de-b0b7-57b5-085d" name="Knights on Warhorses" hidden="false" collective="false" import="true" targetId="ddfa-279f-4b28-fb6a" type="selectionEntry"/>
+    <entryLink id="c915-e197-4c91-78d4" name="Priest" hidden="false" collective="false" import="true" targetId="634f-e1a7-3261-1cb3" type="selectionEntry"/>
+    <entryLink id="9284-e21a-83f5-9132" name="Knightly Chamption" hidden="false" collective="false" import="true" targetId="8927-f10c-9b13-777a" type="selectionEntry"/>
+    <entryLink id="e1ce-bbe7-73fb-d8ed" name="Mounted Lord Knight" hidden="false" collective="false" import="true" targetId="21a8-e570-5189-b243" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e84f-bc35-e660-e328" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
         <categoryLink id="bd03-91d3-91a8-15be" name="Mounted Unit" hidden="false" targetId="mounted unit" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e92d-36d5-86df-be27" name="Lord Knight" hidden="false" collective="false" targetId="671a-408e-2386-3c7e" type="selectionEntry"/>
+    <entryLink id="e92d-36d5-86df-be27" name="Lord Knight" hidden="false" collective="false" import="true" targetId="671a-408e-2386-3c7e" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4e36-8ca9-21c5-f370" name="Court Wizard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="4e36-8ca9-21c5-f370" name="Court Wizard" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="808b-dab8-1c77-d697" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
       </infoLinks>
@@ -45,7 +45,7 @@
         <categoryLink id="4163-864c-f764-d889" name="Wizard" hidden="false" targetId="wizard unit" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4d03-caf7-b983-77a1" name="Court Wizard" hidden="false" collective="false" type="model">
+        <selectionEntry id="4d03-caf7-b983-77a1" name="Court Wizard" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c41-abb1-a0aa-e45b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9329-c0ce-e4ee-3d66" type="min"/>
@@ -60,39 +60,13 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2964-02d8-6d5e-aac5" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="11bb-cb36-4b98-aec3">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df79-64ab-bf98-ecf1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee2b-f74f-558e-b861" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="11bb-cb36-4b98-aec3" name="Tough Lvl 1" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="00a6-c70a-f317-71d3" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9f6c-e715-66f1-7d0c" name="Tough Lvl 2" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="2623-136f-da07-4d60" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="99b0-e15e-41b7-0ea7" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="5b0e-766b-b044-3274">
+        <selectionEntryGroup id="99b0-e15e-41b7-0ea7" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5b0e-766b-b044-3274">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ecc-4c5d-f2ed-dc40" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb2-151d-fb46-de1b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5b0e-766b-b044-3274" name="Staves" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5b0e-766b-b044-3274" name="Staves" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="4ca3-d0fe-4d9e-1636" name="Stave" hidden="false" targetId="f47a-0e7b-e210-5d54" type="profile"/>
               </infoLinks>
@@ -101,9 +75,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="d562-62fa-3b65-f227" name="Sword or Axe" hidden="false" collective="false" targetId="6ce7-b3cb-cc54-c24f" type="selectionEntry">
+            <selectionEntry id="d259-c34a-c90e-5897" name="Swords" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="2.0">
                   <repeats>
@@ -112,56 +84,25 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="acaf-afde-6d3c-dfe5" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-              </infoLinks>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d9f9-912d-b0ff-7131" name="Magic Level" hidden="false" collective="false" defaultSelectionEntryId="e6d2-43ec-2512-98a8">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f285-645b-d791-d2bd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcda-7507-336f-c457" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e6d2-43ec-2512-98a8" name="Magic Level 1" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ae17-d555-c1d1-17a2" name="Magic Level 1" hidden="false" targetId="90e2-5b2c-1fc8-0e8c" type="rule"/>
+                <infoLink id="8549-2ae3-3437-1d6b" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3208-10c7-f7db-ecc0" name="Magic Level 2" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="45f1-d85a-959c-d395" name="Magic Level 2" hidden="false" targetId="4a91-87e6-88c5-5e1d" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="08db-1b7a-ac6c-3e95" name="Magic Level 3" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="9b9d-ef51-9a29-d9ad" name="Magic Level 3" hidden="false" targetId="2e1b-4169-af1f-71e5" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="50.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8311-2dce-084c-602b" name="Familiars or Apprentices" hidden="false" collective="false">
+        <selectionEntryGroup id="8311-2dce-084c-602b" name="Familiars or Apprentices" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e53-9a4f-9bf7-b858" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="fed9-ed90-d2a4-9d64" name="Wizards Apprentices" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="fed9-ed90-d2a4-9d64" name="Wizards Apprentices" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="bc6a-1256-305e-fc7b" name="Wizards Apprentices" hidden="false" collective="false">
+                <selectionEntryGroup id="bc6a-1256-305e-fc7b" name="Choose up to 4" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="901c-be7d-c741-c058" name="Wizards Apprentice" hidden="false" collective="false" type="model">
+                    <selectionEntry id="901c-be7d-c741-c058" name="Wizards Apprentice" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ab4-3468-19e8-0197" type="max"/>
                       </constraints>
@@ -181,11 +122,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0f0e-2c55-63ab-5296" name="Wizards Familiars" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0f0e-2c55-63ab-5296" name="Wizards Familiars" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="71b8-2bfb-856e-0fd4" name="Wizards Familiars" hidden="false" collective="false">
+                <selectionEntryGroup id="71b8-2bfb-856e-0fd4" name="Choose up to 4" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="6517-7ac6-f52a-1105" name="Wizards Familiars" hidden="false" collective="false" type="model">
+                    <selectionEntry id="6517-7ac6-f52a-1105" name="Wizards Familiars" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e189-8e58-0e83-dfdc" type="max"/>
                       </constraints>
@@ -208,322 +149,20 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5c58-7c8d-c4bc-41d7" name="Free Spell Selection" hidden="false" collective="false" defaultSelectionEntryId="4d9c-a064-187b-5c99">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5304-81a8-1771-6b82" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd01-ec83-8e48-a4fb" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="7b40-2ec1-d0a5-ca8d" name="Aura of Courage" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="8c0e-254d-3733-f396" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="440d-72f7-f47d-9715" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="4475-a2c2-73e2-87cc" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4d9c-a064-187b-5c99" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="21c4-9ffe-2456-93d7" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ad45-daa5-dd02-ddec" name="Chill Wind" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="5908-afaf-d057-5c11" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d6f2-3852-2a24-4a1c" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="62f0-42d2-0600-284a" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="87f7-1236-a1a3-ea1e" name="Endow Strength" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="f9a1-86e3-95b3-5753" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9ce9-bc0a-a30a-1c8b" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="564d-62ac-b8d0-3d06" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c07c-9d16-21e5-0feb" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="56ef-3e32-ca21-cb2b" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a7de-f6a3-5498-6a3b" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="64de-201e-226f-f4e7" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6630-5ea8-bf55-4b5c" name="Surge" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="721a-f9a6-c62b-36ef" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ecf9-32b3-d437-cce3" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="2a5a-c2eb-bc37-d0cc" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ff03-207d-b5fa-5595" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="cfad-0661-aa76-e673" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1dea-a210-287f-2705" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1c31-bd8f-abd8-fd82" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8580-b297-4f17-698e" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="3926-64a2-2a73-c1c5" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="c9cb-832e-fead-8601" name="Additional Spells" hidden="false" collective="false">
-          <selectionEntries>
-            <selectionEntry id="7724-06ad-08a7-4322" name="Aura of Courage" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f5-5632-9339-91fb" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="bed2-9ff8-56d2-bb28" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c5ac-60df-2376-b997" name="Aura of Timidity" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8714-40c6-a7be-b38c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="a2a6-e29d-40eb-ff9e" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8bff-e72b-9032-3e03" name="Fiery Balls" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff97-2828-8e56-3d8b" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="a3d4-28ad-5f09-a397" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6ce1-b9ca-4e65-b6ac" name="Chill Wind" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937d-8939-7ae1-db64" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1233-515c-1b4b-6928" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9e33-b72a-d19e-bc45" name="Peculiar Portal" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5839-41fd-fbc1-3f44" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2e3d-8f46-de66-0c5f" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8bd5-8da3-0c1a-c789" name="Endow Strength" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f81b-5b1b-5e85-4cb8" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4c37-767f-b998-c03d" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5e18-79d3-01dd-f1d3" name="Enchanted Shield" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce31-fc67-73b7-5de7" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7cc9-634e-21cc-ab7d" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="538c-ac74-2847-0992" name="Wake the Dead" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3706-7107-f7a0-adaf" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="b3d2-d708-fe0d-19a3" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="620c-21b8-9463-3cb2" name="Sorcerer&apos;s Shield" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d353-3a34-97fe-85b2" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="ee96-eb95-adaf-69f4" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5f38-2b66-4069-0456" name="Surge" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc1-db00-5cf7-92ff" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="2a8e-a9ae-14c2-8375" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="04e0-0e54-7f46-4e78" name="Lightning Bolt" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c7e-48cc-8f61-fa4c" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1670-e0e1-2fc5-ba07" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="81fc-daf9-0b1b-1b51" name="Bamboozle Beastie" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ad-de24-4cd1-881d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="473b-1bdb-29a8-9e3e" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ed3c-182f-f9fd-e59a" name="Enfeeble Foe" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66a5-92e1-e2e7-8dde" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6368-6e8e-718f-2684" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="da40-ee64-4a81-3605" name="Sorcerous Battle!" hidden="false" collective="false" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b5-1a0b-46b1-f2dc" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="267f-272e-d7eb-fdaf" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3e01-e078-692d-8c15" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="9bbf-5e15-ba43-a7cd" name="Free Magic Spell" hidden="false" collective="false" import="true" targetId="adf3-5f05-7784-4f01" type="selectionEntryGroup"/>
+        <entryLink id="568a-a97e-7998-24eb" name="Additional Magic Spells" hidden="false" collective="false" import="true" targetId="213c-8ec7-6715-58aa" type="selectionEntryGroup"/>
+        <entryLink id="611f-5409-336f-10ff" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="6452-1e7e-2986-6c98" name="Upgrade to Tough 2" hidden="false" collective="false" import="true" targetId="9fb8-d4a9-2584-79c0" type="selectionEntryGroup"/>
+        <entryLink id="ef52-a9d0-c5b3-340e" name="Magic Level" hidden="false" collective="false" import="true" targetId="f802-bb86-3500-a89a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2296-e410-da07-d236" name="Foot Knights" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2296-e410-da07-d236" name="Foot Knights" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="2da5-f815-5f05-5d85" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
         <infoLink id="e3ea-1740-0a5e-1795" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -532,7 +171,7 @@
         <categoryLink id="54f5-b82b-aafe-128d" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8ea6-33c7-093d-391d" name="Knight Leader" hidden="false" collective="false" type="model">
+        <selectionEntry id="8ea6-33c7-093d-391d" name="Knight Leader" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb72-9d21-2343-a3c3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4980-05d5-9e9f-8ce2" type="min"/>
@@ -547,9 +186,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5d9c-880a-3a7f-28ce" name="Choose 4 to 9" hidden="false" collective="false">
+        <selectionEntryGroup id="5d9c-880a-3a7f-28ce" name="Choose 4 to 9" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="7945-8dc5-2f0e-02e0" name="Foot Knights" hidden="false" collective="false" type="model">
+            <selectionEntry id="7945-8dc5-2f0e-02e0" name="Foot Knights" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5c3-0eec-ecd1-13f7" type="min"/>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3e8-2844-8eb0-0b62" type="max"/>
@@ -564,13 +203,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9d00-99c6-d180-5029" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="6e0a-053e-f8f1-4568">
+        <selectionEntryGroup id="9d00-99c6-d180-5029" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e0a-053e-f8f1-4568">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c92-d27b-4054-e456" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a97e-5fcc-0531-a2be" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6e0a-053e-f8f1-4568" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="6e0a-053e-f8f1-4568" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="f6d0-437a-5053-75f0" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -579,7 +218,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="83b5-2567-73cc-3512" name="Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="83b5-2567-73cc-3512" name="Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="300f-e00b-1383-e017" name="Mace" hidden="false" targetId="abab-c6f8-5036-1cb4" type="profile"/>
               </infoLinks>
@@ -588,7 +227,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="70fa-100a-9ab9-f3e5" name="Massive Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="70fa-100a-9ab9-f3e5" name="Massive Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="e5b2-e4ed-ae9c-3cf1" name="Massive Mace" hidden="false" targetId="6132-3227-d7f3-41ee" type="profile"/>
               </infoLinks>
@@ -597,7 +236,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e71b-68a6-a5e9-1ac9" name="Warhammers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e71b-68a6-a5e9-1ac9" name="Warhammers" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="2ad5-df72-31cd-9874" name="Warhammers" hidden="false" targetId="096c-a0fe-df46-77c4" type="profile"/>
               </infoLinks>
@@ -608,13 +247,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bf33-c3d7-f94c-351d" name="Zealous Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="bf33-c3d7-f94c-351d" name="Zealous Upgrade" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b2-aeec-3f72-249d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="070c-6a08-c1d9-4858" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="dc75-3c65-d366-2250" name="Zealous" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="dc75-3c65-d366-2250" name="Zealous" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="5.0">
                   <repeats>
@@ -638,7 +277,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2d3-51c1-7590-f825" name="Foot Retainers" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f2d3-51c1-7590-f825" name="Foot Retainers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="84e9-8244-f2f9-1aee" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
@@ -646,17 +285,17 @@
         <categoryLink id="3bfe-a540-57d2-f394" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5ab7-311b-790d-fd58" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="d16e-16a8-0edd-8623">
+        <selectionEntryGroup id="5ab7-311b-790d-fd58" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="d16e-16a8-0edd-8623">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e08-2c3d-e998-64bc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfe-8fa3-81d9-9680" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d16e-16a8-0edd-8623" name="Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d16e-16a8-0edd-8623" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="e70f-4890-7916-6d24" name="Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="e70f-4890-7916-6d24" name="Light Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="533e-359c-7507-d852" name="Foot Retainer Sergeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="533e-359c-7507-d852" name="Foot Retainer Sergeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60c1-db05-8401-16d8" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="585f-e994-d6d0-691e" type="min"/>
@@ -669,7 +308,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="b637-3ab2-6835-69c0" name="Foot Retainer" hidden="false" collective="false" type="model">
+                    <selectionEntry id="b637-3ab2-6835-69c0" name="Foot Retainer" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c97a-7bfe-4bab-a66e" type="max"/>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b222-f03c-18d0-1a78" type="min"/>
@@ -690,11 +329,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c57c-1e1b-9b14-f4c5" name="Medium Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c57c-1e1b-9b14-f4c5" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="aaf4-fbd1-1ce0-d6bf" name="Medium Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="aaf4-fbd1-1ce0-d6bf" name="Medium Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="c185-cece-dc07-4cc0" name="Foot Retainer" hidden="false" collective="false" type="model">
+                    <selectionEntry id="c185-cece-dc07-4cc0" name="Foot Retainer" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="928e-4c21-461e-f50c" type="max"/>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85c9-289a-aeb0-071b" type="min"/>
@@ -707,7 +346,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="c664-0e0a-1dba-763b" name="Foot Retainer Sergeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="c664-0e0a-1dba-763b" name="Foot Retainer Sergeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ab-21c7-7779-2535" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="482f-b402-30de-5f09" type="min"/>
@@ -730,13 +369,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b378-f245-22fe-dae9" name="Weapon Choice" hidden="false" collective="false" defaultSelectionEntryId="2f5f-e9d7-411c-bdd0">
+        <selectionEntryGroup id="b378-f245-22fe-dae9" name="Weapon Choice" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f5f-e9d7-411c-bdd0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d5e-dda4-59bd-3bfe" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e8-52a7-7585-117a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2f5f-e9d7-411c-bdd0" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2f5f-e9d7-411c-bdd0" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="312b-6537-d926-a5eb" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -745,7 +384,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="94f1-d8e2-ff21-47de" name="Spears" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="94f1-d8e2-ff21-47de" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="5491-fdd6-e28a-62cf" name="Spears" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
               </infoLinks>
@@ -754,7 +393,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="423c-9030-53f6-a19b" name="Long Spears" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="423c-9030-53f6-a19b" name="Long Spears" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="3ee1-31b8-a114-a1cd" name="Long Spears" hidden="false" targetId="8c77-0a0d-0097-c499" type="profile"/>
               </infoLinks>
@@ -763,21 +402,23 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="de1b-5bd5-cc6f-b4f6" name="Halberds" hidden="false" collective="false" targetId="83cf-506e-8f65-96e6" type="selectionEntry">
+            <selectionEntry id="6c6a-0bc7-9724-b6b5" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
-                    <repeat field="selections" scope="f2d3-51c1-7590-f825" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="f2d3-51c1-7590-f825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="6ad0-b86e-906e-289d" name="Halberds" hidden="false" targetId="595c-60a6-3a30-b259" type="profile"/>
+                <infoLink id="44a0-e56b-867e-efdd" name="Halberds" hidden="false" targetId="595c-60a6-3a30-b259" type="profile"/>
               </infoLinks>
-            </entryLink>
-          </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -785,7 +426,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e0e0-025c-09d2-4e02" name="Archers" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e0e0-025c-09d2-4e02" name="Archers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b754-f541-4df3-859e" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
@@ -793,17 +434,17 @@
         <categoryLink id="4974-1a8f-32ef-03a6" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0329-295e-cbd8-5d5f" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="306c-5139-16c1-3835">
+        <selectionEntryGroup id="0329-295e-cbd8-5d5f" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="306c-5139-16c1-3835">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="681f-16b5-5e93-1836" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e05d-70ef-5465-a41e" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="306c-5139-16c1-3835" name="No Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="306c-5139-16c1-3835" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="751f-2da2-f07d-8dd8" name="No Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="751f-2da2-f07d-8dd8" name="No Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="4e6d-1145-cf09-14d9" name="Archer Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="4e6d-1145-cf09-14d9" name="Archer Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec5-6c82-d6b9-730d" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8487-81f3-c040-df1a" type="min"/>
@@ -816,7 +457,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="1ae1-6a75-6bed-c849" name="Archer" hidden="false" collective="false" type="model">
+                    <selectionEntry id="1ae1-6a75-6bed-c849" name="Archer" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd26-713f-c135-051e" type="min"/>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a178-731f-562a-9d28" type="max"/>
@@ -837,11 +478,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f718-282b-4899-2bb7" name="Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f718-282b-4899-2bb7" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="eb94-bec9-c184-1636" name="Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="eb94-bec9-c184-1636" name="Light Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="a312-d52c-35bf-b938" name="Archer Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="a312-d52c-35bf-b938" name="Archer Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8066-d5c4-5fdf-04d2" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb2-a8bd-639f-14f8" type="min"/>
@@ -854,7 +495,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="40c9-ade9-0f20-5673" name="Archer" hidden="false" collective="false" type="model">
+                    <selectionEntry id="40c9-ade9-0f20-5673" name="Archer" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82f7-b8c4-5a76-5b66" type="min"/>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3150-beb8-a26f-0c9e" type="max"/>
@@ -877,13 +518,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bb07-8bfe-6d6a-d2e7" name="Ranged Weapons" hidden="false" collective="false" defaultSelectionEntryId="0fb2-1984-62a7-e547">
+        <selectionEntryGroup id="bb07-8bfe-6d6a-d2e7" name="Ranged Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0fb2-1984-62a7-e547">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a399-e252-93d9-aefe" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d4-4da6-f1ad-1a28" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="86d3-9aeb-6bdc-7c50" name="LongBow" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="86d3-9aeb-6bdc-7c50" name="LongBow" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="2">
                   <repeats>
@@ -899,7 +540,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0fb2-1984-62a7-e547" name="Bow" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0fb2-1984-62a7-e547" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="9689-138a-9934-5111" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
               </infoLinks>
@@ -910,13 +551,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0de2-047e-f04f-d101" name="HtH Weapons" hidden="false" collective="false" defaultSelectionEntryId="4297-115f-1e92-90bd">
+        <selectionEntryGroup id="0de2-047e-f04f-d101" name="HtH Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4297-115f-1e92-90bd">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6162-7bc5-e887-6fa7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f76a-5f18-209e-1a71" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="79b1-e8c9-76b1-6eaf" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="79b1-e8c9-76b1-6eaf" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -932,7 +573,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4297-115f-1e92-90bd" name="Dagger" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4297-115f-1e92-90bd" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="0e68-5804-f82f-f598" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
               </infoLinks>
@@ -943,9 +584,9 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4126-4b08-57dd-6a19" name="Deadeye Shot Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="4126-4b08-57dd-6a19" name="Deadeye Shot Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="a397-1135-9d96-aa8d" name="Dead Eye Shot" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a397-1135-9d96-aa8d" name="Dead Eye Shot" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96a6-d4e6-085a-b806" type="max"/>
               </constraints>
@@ -965,7 +606,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d42-0633-18ea-46a3" name="Crossbowmen" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8d42-0633-18ea-46a3" name="Crossbowmen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="4e03-cedc-9173-0f8c" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
         <infoLink id="ff89-5eae-9677-c761" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -975,13 +616,13 @@
         <categoryLink id="3367-091b-c4ec-8f3d" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b1d5-0eee-5927-3a2f" name="HtH Weapon" hidden="false" collective="false" defaultSelectionEntryId="ed4d-36a0-a42c-c85d">
+        <selectionEntryGroup id="b1d5-0eee-5927-3a2f" name="HtH Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed4d-36a0-a42c-c85d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c752-b596-155e-b96c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7888-dabb-d7ab-067c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ed4d-36a0-a42c-c85d" name="Dagger" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ed4d-36a0-a42c-c85d" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="c427-7373-4d18-8fee" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
               </infoLinks>
@@ -990,7 +631,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="78c7-6f21-1de7-1c4d" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="78c7-6f21-1de7-1c4d" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -1008,17 +649,17 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2aeb-b908-dc90-974c" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="a24a-986e-31f4-9569">
+        <selectionEntryGroup id="2aeb-b908-dc90-974c" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="a24a-986e-31f4-9569">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b882-08c1-340c-86dd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e3d-4005-d435-e29d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a24a-986e-31f4-9569" name="No Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a24a-986e-31f4-9569" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="b942-d52d-8509-f0b2" name="No Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="b942-d52d-8509-f0b2" name="No Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="b47f-a79f-4465-55da" name="Crossbowman" hidden="false" collective="false" type="model">
+                    <selectionEntry id="b47f-a79f-4465-55da" name="Crossbowman" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1147-f9d5-b5b4-7fc6" type="min"/>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc87-9f7c-877b-86a1" type="max"/>
@@ -1031,7 +672,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="af26-600e-bb96-14bd" name="Crossbowman Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="af26-600e-bb96-14bd" name="Crossbowman Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d7-9768-43f5-5057" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4698-ac91-e0dc-d139" type="min"/>
@@ -1052,11 +693,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f907-e902-d680-eef5" name="Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f907-e902-d680-eef5" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="5e33-2a21-c6aa-ece6" name="Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="5e33-2a21-c6aa-ece6" name="Light Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="828a-c11a-4c88-a457" name="Crossbowman" hidden="false" collective="false" type="model">
+                    <selectionEntry id="828a-c11a-4c88-a457" name="Crossbowman" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8bb-f0f8-f7d5-322a" type="min"/>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c79-7eb1-3b71-95f9" type="max"/>
@@ -1069,7 +710,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="ba87-8a1d-0f2b-0e9d" name="Crossbowman Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="ba87-8a1d-0f2b-0e9d" name="Crossbowman Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1277-d6c9-91e6-c384" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e14-ba55-a981-0dd5" type="min"/>
@@ -1090,11 +731,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="976e-0393-e70a-e7eb" name="Medium Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="976e-0393-e70a-e7eb" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="4b04-f1e4-75ca-1cfa" name="Medium Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="4b04-f1e4-75ca-1cfa" name="Medium Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="8029-12b8-0a00-4bb7" name="Crossbowman" hidden="false" collective="false" type="model">
+                    <selectionEntry id="8029-12b8-0a00-4bb7" name="Crossbowman" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="386c-5f87-4072-932c" type="min"/>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6352-b99d-aedc-d53b" type="max"/>
@@ -1107,7 +748,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="f44d-41cd-861a-ca35" name="Crossbowman Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="f44d-41cd-861a-ca35" name="Crossbowman Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5489-4bcb-a7a1-4bd0" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ea-1c23-0d52-b64c" type="min"/>
@@ -1136,7 +777,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8405-fc2d-45e0-0c26" name="Arbalestiers" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8405-fc2d-45e0-0c26" name="Arbalestiers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="dc61-2813-ce77-d4a9" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
         <infoLink id="c63e-ae16-0b08-59f1" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -1147,13 +788,13 @@
         <categoryLink id="ef51-6251-ce63-2879" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fd29-df3b-eba7-a9f1" name="HtH Weapon" hidden="false" collective="false" defaultSelectionEntryId="4955-e261-6907-fffa">
+        <selectionEntryGroup id="fd29-df3b-eba7-a9f1" name="HtH Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4955-e261-6907-fffa">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6f-9965-42d2-7ab2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c741-9681-bf52-b3af" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4955-e261-6907-fffa" name="Dagger" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4955-e261-6907-fffa" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="eb1c-e865-62e9-ad64" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
               </infoLinks>
@@ -1162,7 +803,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d23b-f47c-042c-60af" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="d23b-f47c-042c-60af" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -1180,17 +821,17 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="28c4-f323-2890-40ff" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="65fb-a08b-f524-7462">
+        <selectionEntryGroup id="28c4-f323-2890-40ff" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="65fb-a08b-f524-7462">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d79f-b897-32fc-fa8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="023b-c8e0-b129-d09d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="65fb-a08b-f524-7462" name="No Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="65fb-a08b-f524-7462" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="9653-31d6-f51c-9e5a" name="No Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="9653-31d6-f51c-9e5a" name="No Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="8c77-aa16-fcd6-0a49" name="Arbalestiers" hidden="false" collective="false" type="model">
+                    <selectionEntry id="8c77-aa16-fcd6-0a49" name="Arbalestiers" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b43-2a5b-ff5e-3a7f" type="max"/>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2139-35b0-ec4d-e814" type="min"/>
@@ -1203,7 +844,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="c0c9-e5ae-da5c-56ca" name="Arbalestier Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="c0c9-e5ae-da5c-56ca" name="Arbalestier Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6494-3f3f-c451-8480" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae8d-72d4-fcf6-50aa" type="min"/>
@@ -1224,11 +865,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c1be-d060-b37e-f68b" name="Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c1be-d060-b37e-f68b" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="1fef-9dc3-89d5-03e2" name="Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="1fef-9dc3-89d5-03e2" name="Light Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="3f69-98f4-b276-080b" name="Arbalestiers" hidden="false" collective="false" type="model">
+                    <selectionEntry id="3f69-98f4-b276-080b" name="Arbalestiers" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6605-6d70-6afa-9b9a" type="max"/>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-652d-a3a6-de47" type="min"/>
@@ -1241,7 +882,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="89df-5ba8-5989-2ff0" name="Arbalestier Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="89df-5ba8-5989-2ff0" name="Arbalestier Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c3b-49fb-0b4d-d9af" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f23a-eeaa-429a-f9fa" type="min"/>
@@ -1262,11 +903,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="748c-126a-41a9-6e54" name="Medium Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="748c-126a-41a9-6e54" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="c730-39f9-90ec-4240" name="Medium Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="c730-39f9-90ec-4240" name="Medium Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="11a2-7cde-0972-dd00" name="Arbalestiers" hidden="false" collective="false" type="model">
+                    <selectionEntry id="11a2-7cde-0972-dd00" name="Arbalestiers" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0108-d2b2-14cb-4343" type="max"/>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f67-8304-b845-af2c" type="min"/>
@@ -1279,7 +920,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="e429-daa6-3d15-0860" name="Arbalestier Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="e429-daa6-3d15-0860" name="Arbalestier Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4617-240b-2976-8fcd" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d8e-d446-3bc8-b054" type="min"/>
@@ -1300,11 +941,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="79e7-7ddf-a7f2-d721" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="79e7-7ddf-a7f2-d721" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="1b65-b0ab-7a62-e2c4" name="Heavy Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="1b65-b0ab-7a62-e2c4" name="Heavy Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="d51d-5d29-92c4-e838" name="Arbalestiers" hidden="false" collective="false" type="model">
+                    <selectionEntry id="d51d-5d29-92c4-e838" name="Arbalestiers" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43fc-c3c1-e0dd-51da" type="max"/>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c6-77dc-34ce-9a9a" type="min"/>
@@ -1317,7 +958,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="1f64-b27e-78e6-5f00" name="Arbalestier Seargeant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="1f64-b27e-78e6-5f00" name="Arbalestier Seargeant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f5-dfa6-28e6-6ab3" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b384-2332-69fe-6f8d" type="min"/>
@@ -1340,9 +981,9 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e15e-8348-6a4c-e8bc" name="Pavise Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="e15e-8348-6a4c-e8bc" name="Pavise Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="1f0c-165c-5b86-aad7" name="Pavise" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1f0c-165c-5b86-aad7" name="Pavise" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -1369,7 +1010,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4255-a125-b8e7-427a" name="Peasants" hidden="false" collective="false" type="unit">
+    <selectionEntry id="4255-a125-b8e7-427a" name="Peasants" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ed01-e32e-0beb-3ad1" name="Surly" hidden="false" targetId="8a4d-4dea-f005-ddc5" type="rule"/>
         <infoLink id="c956-dfb3-9480-fe61" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -1378,7 +1019,7 @@
         <categoryLink id="27f1-736e-c78c-c79a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4add-2c60-f85d-fe94" name="Peasant Yeoman" hidden="false" collective="false" type="model">
+        <selectionEntry id="4add-2c60-f85d-fe94" name="Peasant Yeoman" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7758-9fb8-8021-a0f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f6b-8a86-4646-5cde" type="min"/>
@@ -1393,9 +1034,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="088c-c9ec-f689-ca3d" name="Choose 4 to 9" hidden="false" collective="false">
+        <selectionEntryGroup id="088c-c9ec-f689-ca3d" name="Choose 4 to 9" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="e707-62ab-c638-62e1" name="Peasant" hidden="false" collective="false" type="model">
+            <selectionEntry id="e707-62ab-c638-62e1" name="Peasant" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaae-c521-4c23-d307" type="max"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901b-8a4f-da82-cba1" type="min"/>
@@ -1410,13 +1051,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9de5-9cb9-7822-ca9a" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="bc30-d403-03a6-0a01">
+        <selectionEntryGroup id="9de5-9cb9-7822-ca9a" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc30-d403-03a6-0a01">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df2-cc2a-35ba-b7d8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9a5-48e8-6ec2-76a6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="bc30-d403-03a6-0a01" name="Cudgel" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="bc30-d403-03a6-0a01" name="Cudgel" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="5a45-2735-3ab4-afb8" name="Cudgel" hidden="false" targetId="1f70-2881-7206-2fe9" type="profile"/>
               </infoLinks>
@@ -1425,7 +1066,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="de67-af2c-c065-a27d" name="Pitchforks, Bills or Glaives" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="de67-af2c-c065-a27d" name="Pitchforks, Bills or Glaives" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -1441,7 +1082,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ba62-b8d8-499b-8026" name="Cudgel &amp; Slings" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ba62-b8d8-499b-8026" name="Cudgel &amp; Slings" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="3.0">
                   <repeats>
@@ -1466,7 +1107,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f319-8ba2-6e61-a9fc" name="Flagellants" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f319-8ba2-6e61-a9fc" name="Flagellants" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90b7-4766-d726-be4c" type="max"/>
       </constraints>
@@ -1479,7 +1120,7 @@
         <categoryLink id="18e8-bb80-0088-2c5d" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d614-3011-a6ad-cd4e" name="Flagellant Leader" hidden="false" collective="false" type="model">
+        <selectionEntry id="d614-3011-a6ad-cd4e" name="Flagellant Leader" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f190-30c2-ae65-6325" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427b-c5ab-a620-256f" type="min"/>
@@ -1494,9 +1135,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4dd8-1c71-5dca-2089" name="Choose 4 to 9" hidden="false" collective="false">
+        <selectionEntryGroup id="4dd8-1c71-5dca-2089" name="Choose 4 to 9" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="0b79-f7e1-d195-a1ea" name="Flagellant" hidden="false" collective="false" type="model">
+            <selectionEntry id="0b79-f7e1-d195-a1ea" name="Flagellant" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b663-d81c-7fe2-5057" type="max"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39a0-6a43-36c1-eabf" type="min"/>
@@ -1511,12 +1152,12 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5fec-6c5a-a5cb-7caa" name="Flaming Wheel Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="5fec-6c5a-a5cb-7caa" name="Flaming Wheel Upgrade" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b191-b27e-1c57-7e2a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="111d-857d-af73-a121" name="Flaming Wheel Upgrade" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="111d-857d-af73-a121" name="Flaming Wheel Upgrade" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="9b3f-af94-d7ec-9a2c" name="Flaming Wheel" hidden="false" targetId="3e6e-06c9-509a-1716" type="profile"/>
                 <infoLink id="64a7-9f14-1a26-7622" name="Flaming Wheel" hidden="false" targetId="3a29-1b97-6c21-75e7" type="rule"/>
@@ -1534,7 +1175,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7eb6-cd0d-3dbe-5a46" name="Ballista" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7eb6-cd0d-3dbe-5a46" name="Ballista" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="f024-ace8-02e5-ce3b" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="d978-1b52-1278-001d" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
@@ -1544,17 +1185,17 @@
         <categoryLink id="54d5-4495-464a-0b6c" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4cf7-20d7-03d5-6609" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="a174-1ef7-e6b3-9b0a">
+        <selectionEntryGroup id="4cf7-20d7-03d5-6609" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="a174-1ef7-e6b3-9b0a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f955-2fc0-73e0-f2a2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ee-3b5f-4013-867f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a174-1ef7-e6b3-9b0a" name="No Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a174-1ef7-e6b3-9b0a" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="97a7-cbee-8205-ca13" name="No Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="97a7-cbee-8205-ca13" name="No Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="efe0-0342-f1d3-e32e" name="Crew" hidden="false" collective="false" type="model">
+                    <selectionEntry id="efe0-0342-f1d3-e32e" name="Crew" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2113-aacb-f30e-e58f" type="min"/>
                         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b0d-2497-e282-511c" type="max"/>
@@ -1575,11 +1216,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2dc5-a742-133a-892e" name="Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2dc5-a742-133a-892e" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="73c0-0899-0eed-0424" name="Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="73c0-0899-0eed-0424" name="Light Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="9ab9-421a-26cb-10cc" name="Crew" hidden="false" collective="false" type="model">
+                    <selectionEntry id="9ab9-421a-26cb-10cc" name="Crew" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce98-bc2c-2972-213c" type="min"/>
                         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b35c-0db1-2ec3-fee5" type="max"/>
@@ -1602,13 +1243,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4edc-d7b6-ec1f-dbee" name="Bolt Thrower" hidden="false" collective="false" defaultSelectionEntryId="0e3c-b092-502a-cdd9">
+        <selectionEntryGroup id="4edc-d7b6-ec1f-dbee" name="Bolt Thrower" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e3c-b092-502a-cdd9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7aa-b026-c167-a349" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff7-0dfe-338b-64e1" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0e3c-b092-502a-cdd9" name="Small Bolt Thrower" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0e3c-b092-502a-cdd9" name="Small Bolt Thrower" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="c377-f9ec-7fe9-f7c3" name="Small Bolt Thrower" hidden="false" targetId="ba80-a4f2-4c92-7844" type="profile"/>
               </infoLinks>
@@ -1617,7 +1258,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ad99-64ce-8898-64d1" name="Large Bolt Thrower" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ad99-64ce-8898-64d1" name="Large Bolt Thrower" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="92de-833c-b803-b00b" name="Large Bolt Thrower" hidden="false" targetId="fbdf-a3cf-f1d1-8d05" type="profile"/>
                 <infoLink id="a2f5-d4f1-c4a3-3d3c" name="Unstoppable" hidden="false" targetId="a8bf-f48c-1b08-58e6" type="rule"/>
@@ -1629,13 +1270,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="51f2-3bc7-537d-2b60" name="HtH Weapon" hidden="false" collective="false" defaultSelectionEntryId="2245-cc60-624c-00ef">
+        <selectionEntryGroup id="51f2-3bc7-537d-2b60" name="HtH Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2245-cc60-624c-00ef">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e118-2b11-5a48-3ac3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa9-1d54-572f-c7d4" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2245-cc60-624c-00ef" name="Daggers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2245-cc60-624c-00ef" name="Daggers" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="df5b-dcb8-2b22-ecf5" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
               </infoLinks>
@@ -1644,7 +1285,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3a5f-e63e-ac56-defd" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="3a5f-e63e-ac56-defd" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -1668,7 +1309,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0c0-2cef-09ea-cd94" name="Mangonel" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f0c0-2cef-09ea-cd94" name="Mangonel" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="c5e5-22a4-b8ec-6bf1" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="2693-e158-7240-eec4" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
@@ -1679,17 +1320,17 @@
         <categoryLink id="cf3f-1742-86a5-a843" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d32d-cea8-6c3a-7b90" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="4565-4030-1dcb-bf8f">
+        <selectionEntryGroup id="d32d-cea8-6c3a-7b90" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="4565-4030-1dcb-bf8f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d2-ff0e-53af-39c4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d682-4fc4-a4d8-8d37" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4565-4030-1dcb-bf8f" name="No Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4565-4030-1dcb-bf8f" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="de16-8968-bb0d-ec46" name="No Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="de16-8968-bb0d-ec46" name="No Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="acac-bfc8-c44c-9acd" name="Crew" hidden="false" collective="false" type="model">
+                    <selectionEntry id="acac-bfc8-c44c-9acd" name="Crew" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb71-b769-c953-d666" type="min"/>
                         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a077-1dda-d24c-a0d4" type="max"/>
@@ -1710,11 +1351,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fa22-06bf-2135-79bf" name="Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="fa22-06bf-2135-79bf" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="0013-a396-b1e4-0665" name="Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="0013-a396-b1e4-0665" name="Light Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="d38c-9abb-c27c-7417" name="Crew" hidden="false" collective="false" type="model">
+                    <selectionEntry id="d38c-9abb-c27c-7417" name="Crew" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6016-bb3d-d8f1-4e32" type="min"/>
                         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac9-32db-0620-7a0b" type="max"/>
@@ -1737,13 +1378,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="169b-3619-e620-2aa0" name="Stone Thrower" hidden="false" collective="false" defaultSelectionEntryId="36f2-2961-b282-8ef7">
+        <selectionEntryGroup id="169b-3619-e620-2aa0" name="Stone Thrower" hidden="false" collective="false" import="true" defaultSelectionEntryId="36f2-2961-b282-8ef7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f585-f6cb-cb7c-881a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9328-14e7-c56b-120d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="36f2-2961-b282-8ef7" name="Small Stone Thrower" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="36f2-2961-b282-8ef7" name="Small Stone Thrower" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="a79a-7de0-e1f0-d0a0" name="Small Stone Thrower" hidden="false" targetId="fee6-c34d-8a5d-a9e6" type="profile"/>
               </infoLinks>
@@ -1752,7 +1393,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7f2d-d797-1367-9eeb" name="Large Stone Thrower" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="7f2d-d797-1367-9eeb" name="Large Stone Thrower" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="63ff-5a0c-f5cb-b1f5" name="Large Stone Thrower" hidden="false" targetId="8df4-8bdf-cae3-c0c9" type="profile"/>
               </infoLinks>
@@ -1763,13 +1404,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="be10-b627-443b-884a" name="HtH Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="be10-b627-443b-884a" name="HtH Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="907e-5d60-9aec-a3ca" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ac-aada-335b-b092" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="401c-8591-8316-fdd3" name="Daggers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="401c-8591-8316-fdd3" name="Daggers" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="9c23-8322-50b2-a1d1" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
               </infoLinks>
@@ -1778,7 +1419,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4f97-a2d2-e312-c471" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4f97-a2d2-e312-c471" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -1802,7 +1443,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f453-102d-f811-3d2f" name="Mounted Retainers" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f453-102d-f811-3d2f" name="Mounted Retainers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="2794-5bf8-26f4-0118" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
       </infoLinks>
@@ -1810,17 +1451,17 @@
         <categoryLink id="c8a7-85e2-dfc2-da0b" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="65c1-11cc-1b6a-1903" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="ef22-bdd3-86b7-0263">
+        <selectionEntryGroup id="65c1-11cc-1b6a-1903" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef22-bdd3-86b7-0263">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="044f-7ad3-9443-9031" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8776-e457-504f-3129" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ef22-bdd3-86b7-0263" name="Light Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ef22-bdd3-86b7-0263" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="1f5a-7ce9-04a1-d244" name="Light Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="1f5a-7ce9-04a1-d244" name="Light Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="4118-0749-84c1-be4c" name="Retainer Leader, Riding Horse" hidden="false" collective="false" type="model">
+                    <selectionEntry id="4118-0749-84c1-be4c" name="Retainer Leader, Riding Horse" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f6-f1fb-82e6-f52b" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="832b-0896-e300-73f7" type="min"/>
@@ -1834,7 +1475,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="fd88-c56c-36a4-bbd2" name="Retainer, Riding Horse" hidden="false" collective="false" type="model">
+                    <selectionEntry id="fd88-c56c-36a4-bbd2" name="Retainer, Riding Horse" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5196-5ca1-0e8b-4388" type="max"/>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dac-21d4-1e82-7157" type="min"/>
@@ -1855,11 +1496,11 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eadb-b8bb-8741-0d60" name="Medium Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="eadb-b8bb-8741-0d60" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="881b-aa2c-93b2-299a" name="Medium Armour" hidden="false" collective="false">
+                <selectionEntryGroup id="881b-aa2c-93b2-299a" name="Medium Armour" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="eddf-9216-ec23-07d9" name="Retainer Leader, Riding Horse" hidden="false" collective="false" type="model">
+                    <selectionEntry id="eddf-9216-ec23-07d9" name="Retainer Leader, Riding Horse" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a6-f579-4805-9bcf" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b7-5087-94cf-084a" type="min"/>
@@ -1873,7 +1514,7 @@
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="69de-a24a-1a97-aaa0" name="Retainer, Riding Horse" hidden="false" collective="false" type="model">
+                    <selectionEntry id="69de-a24a-1a97-aaa0" name="Retainer, Riding Horse" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ed-de68-7de8-fbc4" type="max"/>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92a-bf16-ef34-82a7" type="min"/>
@@ -1896,12 +1537,12 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fac2-c7bf-be49-10a6" name="Ranged Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="fac2-c7bf-be49-10a6" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22de-2dbb-59bd-ecdc" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="94de-40ce-bb26-868d" name="Bows" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="94de-40ce-bb26-868d" name="Bows" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="2">
                   <repeats>
@@ -1917,7 +1558,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1b18-b397-ded2-1804" name="Crossbows" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1b18-b397-ded2-1804" name="Crossbows" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="3.0">
                   <repeats>
@@ -1936,13 +1577,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c998-ba2b-0ed1-0c8a" name="HtH Weapon" hidden="false" collective="false" defaultSelectionEntryId="babf-6e69-56b5-fceb">
+        <selectionEntryGroup id="c998-ba2b-0ed1-0c8a" name="HtH Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="babf-6e69-56b5-fceb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6d9-c142-2323-4d5b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1703-d04c-592a-d2ef" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="babf-6e69-56b5-fceb" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="babf-6e69-56b5-fceb" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="da79-5982-f828-2dec" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -1951,7 +1592,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="afc0-544a-8a60-8fc3" name="Spears" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="afc0-544a-8a60-8fc3" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="bfc3-89c7-8194-7da6" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
               </infoLinks>
@@ -1960,7 +1601,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fba9-9109-7b43-803d" name="Lances" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="fba9-9109-7b43-803d" name="Lances" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -1984,7 +1625,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ddfa-279f-4b28-fb6a" name="Knights on Warhorses" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ddfa-279f-4b28-fb6a" name="Knights on Warhorses" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="97b8-a305-e7d0-7794" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
       </infoLinks>
@@ -1992,9 +1633,9 @@
         <categoryLink id="175c-f898-d9ca-a375" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7ace-a5ff-9e6b-91d1" name="Choose 2 to 4" hidden="false" collective="false">
+        <selectionEntryGroup id="7ace-a5ff-9e6b-91d1" name="Choose 2 to 4" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="d48b-ab17-f497-00e7" name="Knight Leader, Riding Warhorse" hidden="false" collective="false" type="model">
+            <selectionEntry id="d48b-ab17-f497-00e7" name="Knight Leader, Riding Warhorse" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bee-a2b5-b916-170f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5cd-9c17-fa5d-1d48" type="min"/>
@@ -2008,7 +1649,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f8ad-f5f3-c04b-89bb" name="Knight, Riding Warhorse" hidden="false" collective="false" type="model">
+            <selectionEntry id="f8ad-f5f3-c04b-89bb" name="Knight, Riding Warhorse" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c04-a02c-8fd8-662e" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4a-cd5d-b6af-9ba1" type="min"/>
@@ -2023,12 +1664,12 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="34f9-81f7-1bc6-f2f9" name="Zealous Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="34f9-81f7-1bc6-f2f9" name="Zealous Upgrade" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d40b-94f3-97c4-d930" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="19f5-d318-7f28-45fa" name="Zealous" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="19f5-d318-7f28-45fa" name="Zealous" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="5.0">
                   <repeats>
@@ -2046,13 +1687,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e0d3-80c5-3187-3851" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="5258-8162-38f2-03ea">
+        <selectionEntryGroup id="e0d3-80c5-3187-3851" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5258-8162-38f2-03ea">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3bf-35fe-f222-06d2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dfa-5365-c9b4-73c3" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1506-87e4-2bf7-e743" name="Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1506-87e4-2bf7-e743" name="Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="de96-dfab-7acd-a65a" name="Mace" hidden="false" targetId="abab-c6f8-5036-1cb4" type="profile"/>
               </infoLinks>
@@ -2061,7 +1702,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5258-8162-38f2-03ea" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5258-8162-38f2-03ea" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="a1ce-fb66-c2a2-3ae0" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -2070,7 +1711,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="525e-a9b5-dd1d-95f8" name="Massive Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="525e-a9b5-dd1d-95f8" name="Massive Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="be9d-951d-df0e-e4c4" name="Massive Mace" hidden="false" targetId="6132-3227-d7f3-41ee" type="profile"/>
               </infoLinks>
@@ -2079,7 +1720,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8b99-92cf-8f8c-a176" name="Warhammer" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8b99-92cf-8f8c-a176" name="Warhammer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="41c7-a1ec-e094-67f7" name="Warhammer" hidden="false" targetId="096c-a0fe-df46-77c4" type="profile"/>
               </infoLinks>
@@ -2088,7 +1729,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="13bc-a627-29f3-7dd0" name="Lances" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="13bc-a627-29f3-7dd0" name="Lances" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -2112,7 +1753,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="634f-e1a7-3261-1cb3" name="Priest" hidden="false" collective="false" type="unit">
+    <selectionEntry id="634f-e1a7-3261-1cb3" name="Priest" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2259-e30c-15f2-5d27" type="max"/>
       </constraints>
@@ -2126,15 +1767,15 @@
         <categoryLink id="76d4-c070-9e66-38aa" name="New CategoryLink" hidden="false" targetId="warrior command unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e66d-0b0b-ccd8-aa5e" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="3a76-c90d-7408-88e0">
+        <selectionEntryGroup id="e66d-0b0b-ccd8-aa5e" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a76-c90d-7408-88e0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfee-5101-651e-7d12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba5-0c61-f5fd-b4e6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3a76-c90d-7408-88e0" name="No Armour" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="3a76-c90d-7408-88e0" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="b7cf-4973-03cd-6fa0" name="Priest" hidden="false" collective="false" type="model">
+                <selectionEntry id="b7cf-4973-03cd-6fa0" name="Priest" hidden="false" collective="false" import="true" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a769-5a88-7d2d-aacf" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccfe-d784-1ce7-fffa" type="min"/>
@@ -2149,9 +1790,9 @@
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="4ca6-e2a6-51cc-82cf" name="Choose up to 2" hidden="false" collective="false">
+                <selectionEntryGroup id="4ca6-e2a6-51cc-82cf" name="Choose up to 2" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="ad0c-8963-dd95-1834" name="Supplicant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="ad0c-8963-dd95-1834" name="Supplicant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abf3-a2f1-2d7f-14b0" type="max"/>
                       </constraints>
@@ -2171,9 +1812,9 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8381-b890-cfbf-5149" name="Hair Shirt" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8381-b890-cfbf-5149" name="Hair Shirt" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="ebc6-915d-890d-5dcc" name="Priest" hidden="false" collective="false" type="model">
+                <selectionEntry id="ebc6-915d-890d-5dcc" name="Priest" hidden="false" collective="false" import="true" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50ee-8c5b-7d6d-90e1" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a9-1845-ac4f-827d" type="min"/>
@@ -2188,9 +1829,9 @@
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="b0d1-0d0b-8e30-7357" name="Choose up to 2" hidden="false" collective="false">
+                <selectionEntryGroup id="b0d1-0d0b-8e30-7357" name="Choose up to 2" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="1ff2-5e03-69dc-e75c" name="Supplicant" hidden="false" collective="false" type="model">
+                    <selectionEntry id="1ff2-5e03-69dc-e75c" name="Supplicant" hidden="false" collective="false" import="true" type="model">
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b3-4163-b3ae-c245" type="max"/>
                       </constraints>
@@ -2212,13 +1853,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="44b9-526d-2c05-252c" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="1b0b-4aae-b3cc-0229">
+        <selectionEntryGroup id="44b9-526d-2c05-252c" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b0b-4aae-b3cc-0229">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a55-3224-2e63-b7b7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba13-d9bc-1e0f-fecb" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1b0b-4aae-b3cc-0229" name="Tough" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1b0b-4aae-b3cc-0229" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="c1ff-c2b3-f683-b249" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
               </infoLinks>
@@ -2227,7 +1868,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0e6e-07f5-507a-a342" name="Tough 2" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0e6e-07f5-507a-a342" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="2ffd-99a4-cbfd-c0f0" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
               </infoLinks>
@@ -2244,7 +1885,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8927-f10c-9b13-777a" name="Knightly Champion" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8927-f10c-9b13-777a" name="Knightly Champion" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c16-c59b-9330-4278" type="max"/>
       </constraints>
@@ -2259,9 +1900,9 @@
         <categoryLink id="850a-2aaf-700a-f4a4" name="Hero Unit" hidden="false" targetId="hero unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5631-7484-cf4c-d1a0" name="Challenge Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="5631-7484-cf4c-d1a0" name="Challenge Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="ec76-4a1b-5c31-f13d" name="Challenge" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ec76-4a1b-5c31-f13d" name="Challenge" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de12-bbfa-cb4a-3c23" type="max"/>
               </constraints>
@@ -2275,9 +1916,9 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3fa0-9980-fbf3-4f75" name="Zealous Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="3fa0-9980-fbf3-4f75" name="Zealous Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="e822-5d90-5892-297f" name="Zealous" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e822-5d90-5892-297f" name="Zealous" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8825-3e80-d3b4-68a4" type="max"/>
               </constraints>
@@ -2291,39 +1932,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6f1b-a35f-d346-3838" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="7142-85d5-6100-3b00">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dcc-fcb6-c268-e0f7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e638-a8b5-83c9-a9a3" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="2895-4685-1480-6745" name="Tough 3" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="ac2d-0484-3915-8371" name="Tough 3" hidden="false" targetId="3536-db5c-4e89-87d7" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7142-85d5-6100-3b00" name="Tough 2" hidden="false" collective="false" type="upgrade">
-              <infoLinks>
-                <infoLink id="1921-f136-deae-7166" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="cfa2-c776-3c32-eea4" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="4ac9-b8b0-e85a-dcaf">
+        <selectionEntryGroup id="cfa2-c776-3c32-eea4" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ac9-b8b0-e85a-dcaf">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9af-3ada-acd8-6700" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d506-e187-5d67-72bd" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="dcb4-f8cf-4b56-1951" name="Wound 2" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="dcb4-f8cf-4b56-1951" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="ee85-ff15-1e72-058f" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
               </infoLinks>
@@ -2332,7 +1947,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="02b6-e293-1eaa-aa89" name="Wound 3" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="02b6-e293-1eaa-aa89" name="Wound 3" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="07d0-56ff-255c-d5ef" name="Wound 3" hidden="false" targetId="2724-2057-e745-23a3" type="rule"/>
               </infoLinks>
@@ -2341,7 +1956,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4ac9-b8b0-e85a-dcaf" name="Wound" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4ac9-b8b0-e85a-dcaf" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="f849-752b-100c-904d" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
               </infoLinks>
@@ -2354,14 +1969,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2696-82ec-cb24-f172" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="2696-82ec-cb24-f172" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="7540-f0f6-1776-d6e6" name="Upgrade Hero to Tough 3" hidden="false" collective="false" import="true" targetId="67b1-4cac-d495-3ef7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="96.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21a8-e570-5189-b243" name="Mounted Lord Knight" hidden="false" collective="false" type="unit">
+    <selectionEntry id="21a8-e570-5189-b243" name="Mounted Lord Knight" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e3a0-21d8-f120-35b9" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
         <infoLink id="4c41-c8a5-f2e0-1895" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
@@ -2371,7 +1987,7 @@
         <categoryLink id="921e-59fc-b679-c149" name="Mounted Unit" hidden="false" targetId="mounted unit" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4b54-93f0-f0e8-f583" name="Lord Knight, Riding Horse" hidden="false" collective="false" type="model">
+        <selectionEntry id="4b54-93f0-f0e8-f583" name="Mounted Lord Knight" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf9-40e1-81c6-ea65" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9b-666e-fb99-563b" type="min"/>
@@ -2386,9 +2002,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3787-653f-d829-e051" name="Bodyguard" hidden="false" collective="false">
+        <selectionEntryGroup id="3787-653f-d829-e051" name="Choose 2 to 4 Bodyguards" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="2e7d-6a10-5f2d-6186" name="Mounted Knights" hidden="false" collective="false" type="model">
+            <selectionEntry id="2e7d-6a10-5f2d-6186" name="Mounted Knights" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda1-6ca4-bc66-e26f" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e88a-b5d5-fd21-10f8" type="min"/>
@@ -2404,13 +2020,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="db70-37cf-6a02-1c36" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="ad2a-cd99-78eb-2e2e">
+        <selectionEntryGroup id="db70-37cf-6a02-1c36" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ad2a-cd99-78eb-2e2e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f2f-6c64-1070-2b95" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="112d-9993-fc3a-dc1d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="73b0-c7e4-aecd-a991" name="Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="73b0-c7e4-aecd-a991" name="Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="534a-ce8e-8415-6e92" name="Mace" hidden="false" targetId="abab-c6f8-5036-1cb4" type="profile"/>
               </infoLinks>
@@ -2419,7 +2035,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ad2a-cd99-78eb-2e2e" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ad2a-cd99-78eb-2e2e" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="33b5-29fb-b9c7-50f4" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -2428,7 +2044,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1605-9eb3-ff1b-cf99" name="Lance" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1605-9eb3-ff1b-cf99" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -2446,12 +2062,12 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="96d3-77c0-e9b5-4cd8" name="Zealous Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="96d3-77c0-e9b5-4cd8" name="Zealous Upgrade" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e49-474f-625f-40ce" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="31d6-273f-966c-4cd9" name="Zealous" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="31d6-273f-966c-4cd9" name="Zealous" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="5">
                   <repeats>
@@ -2469,13 +2085,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7e11-bd46-ebb8-27d2" name="Tough" hidden="false" collective="false" defaultSelectionEntryId="f72f-1dfe-ac9c-bdbe">
+        <selectionEntryGroup id="7e11-bd46-ebb8-27d2" name="Tough" hidden="false" collective="false" import="true" defaultSelectionEntryId="f72f-1dfe-ac9c-bdbe">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="482d-bf2a-7447-11a5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f62e-d8e2-6ffd-165f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f72f-1dfe-ac9c-bdbe" name="Tough" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="f72f-1dfe-ac9c-bdbe" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="8050-928d-f3b4-86ef" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
               </infoLinks>
@@ -2484,7 +2100,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="134a-2a30-4126-b981" name="Tough 2" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="134a-2a30-4126-b981" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="fb3b-3395-ffb5-e62b" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
               </infoLinks>
@@ -2495,13 +2111,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4471-02d4-7298-bf74" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="186a-19d1-55fe-2af2">
+        <selectionEntryGroup id="4471-02d4-7298-bf74" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="186a-19d1-55fe-2af2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec9-1a4f-5173-2ad1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f93-50ad-cfa5-eff6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="186a-19d1-55fe-2af2" name="Wound" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="186a-19d1-55fe-2af2" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="3ffd-1b51-90d4-7262" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
               </infoLinks>
@@ -2510,7 +2126,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5763-1cd3-5807-b782" name="Wound 2" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="5763-1cd3-5807-b782" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="301b-2429-77ba-d033" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
               </infoLinks>
@@ -2521,17 +2137,17 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d208-92b9-f1df-6903" name="Mounts" hidden="false" collective="false" defaultSelectionEntryId="fc56-e07d-912e-4ec7">
+        <selectionEntryGroup id="d208-92b9-f1df-6903" name="Mounts" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc56-e07d-912e-4ec7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4cb-c035-64ac-2de4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5275-9b8c-04d5-9037" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="dce3-d6b2-a5c6-a92e" name="Upgrade Unit to Warhorses (Cancels out Heavily Laden &apos;no sprint&apos; rule)" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="dce3-d6b2-a5c6-a92e" name="Upgrade Unit to Warhorses (Cancels out Heavily Laden &apos;no sprint&apos; rule)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="7">
+                <modifier type="increment" field="points" value="7.0">
                   <repeats>
-                    <repeat field="selections" scope="21a8-e570-5189-b243" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="21a8-e570-5189-b243" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -2543,7 +2159,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fc56-e07d-912e-4ec7" name="Regular Horses" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="fc56-e07d-912e-4ec7" name="Regular Horses" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="f050-657a-6c9c-5838" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
               </infoLinks>
@@ -2556,14 +2172,14 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4e34-f31a-bed2-7cf7" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="4e34-f31a-bed2-7cf7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="671a-408e-2386-3c7e" name="Lord Knight" hidden="false" collective="false" type="unit">
+    <selectionEntry id="671a-408e-2386-3c7e" name="Lord Knight" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="7a53-abc7-b8d2-3c24" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
         <infoLink id="a569-cbe1-88a8-a44f" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
@@ -2574,7 +2190,7 @@
         <categoryLink id="b56d-7e7c-a77c-557c" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d144-d085-765a-6362" name="Lord Knight" hidden="false" collective="false" type="model">
+        <selectionEntry id="d144-d085-765a-6362" name="Lord Knight" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d7-3b58-0987-8568" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e93-4440-c044-ae4d" type="min"/>
@@ -2589,9 +2205,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="214d-b589-31b8-cfe5" name="2 to 4 Bodyguard" hidden="false" collective="false">
+        <selectionEntryGroup id="214d-b589-31b8-cfe5" name="Choose 2 to 4 Bodyguards" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="ac70-dd1d-aa51-2021" name="Knights" hidden="false" collective="false" type="model">
+            <selectionEntry id="ac70-dd1d-aa51-2021" name="Knights" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a663-b36b-61b3-5c7a" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07e2-7bd9-559b-58a2" type="min"/>
@@ -2606,13 +2222,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="750d-0ddd-9e9b-8bd1" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="2cc5-0e7a-0c1e-5053">
+        <selectionEntryGroup id="750d-0ddd-9e9b-8bd1" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="2cc5-0e7a-0c1e-5053">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e77-ca69-e921-b733" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a34e-6ac1-7737-fc29" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c3c1-ac30-4d30-8c70" name="Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c3c1-ac30-4d30-8c70" name="Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="1995-5d35-0a94-d2f5" name="Mace" hidden="false" targetId="abab-c6f8-5036-1cb4" type="profile"/>
               </infoLinks>
@@ -2621,7 +2237,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2cc5-0e7a-0c1e-5053" name="Sword or Axe" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="2cc5-0e7a-0c1e-5053" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="a70c-7ae8-5a8a-330e" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
               </infoLinks>
@@ -2630,7 +2246,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="66b0-aaf8-4e03-e8f6" name="Chain Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="66b0-aaf8-4e03-e8f6" name="Chain Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="aca4-2dfe-7d87-66f2" name="Chain Mace" hidden="false" targetId="4f07-5005-3329-5095" type="profile"/>
               </infoLinks>
@@ -2639,7 +2255,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4703-1bb9-d4cc-e959" name="Morning Star" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4703-1bb9-d4cc-e959" name="Morning Star" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="bf97-cca0-0a4b-321a" name="Morning Star" hidden="false" targetId="2221-3571-075e-ae84" type="profile"/>
               </infoLinks>
@@ -2648,7 +2264,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0b9a-a7d1-e934-6569" name="Massive Mace" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0b9a-a7d1-e934-6569" name="Massive Mace" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="b3ee-45c4-52a4-682a" name="Massive Mace" hidden="false" targetId="6132-3227-d7f3-41ee" type="profile"/>
               </infoLinks>
@@ -2657,7 +2273,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="848d-5c98-7dbb-3651" name="Warhammers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="848d-5c98-7dbb-3651" name="Warhammers" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="d70a-9ff8-d2c6-0380" name="Warhammers" hidden="false" targetId="096c-a0fe-df46-77c4" type="profile"/>
               </infoLinks>
@@ -2668,12 +2284,12 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a371-eec6-74fe-1232" name="Zealous Upgrade" hidden="false" collective="false">
+        <selectionEntryGroup id="a371-eec6-74fe-1232" name="Zealous Upgrade" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc7-635d-5c35-8a0e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c9d2-6c40-8c61-dc32" name="Zealous" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c9d2-6c40-8c61-dc32" name="Zealous" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="5.0">
                   <repeats>
@@ -2691,13 +2307,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="432a-0ebe-0f4a-4bd0" name="Tough Upgrade" hidden="false" collective="false" defaultSelectionEntryId="8322-8332-b0ed-8623">
+        <selectionEntryGroup id="432a-0ebe-0f4a-4bd0" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="8322-8332-b0ed-8623">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc0d-8119-ee7f-7cf9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e74-cb82-bf0d-fba9" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8322-8332-b0ed-8623" name="Tough" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8322-8332-b0ed-8623" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="8095-c500-fd73-8f30" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
               </infoLinks>
@@ -2706,7 +2322,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a74e-66c0-e86b-e60c" name="Tough 2" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a74e-66c0-e86b-e60c" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="7126-2df0-48cc-783c" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
               </infoLinks>
@@ -2717,13 +2333,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="69ca-883a-778d-625e" name="Wound Upgrade" hidden="false" collective="false" defaultSelectionEntryId="316e-159d-ea3e-b9c6">
+        <selectionEntryGroup id="69ca-883a-778d-625e" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="316e-159d-ea3e-b9c6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b79-9c92-39b2-7c30" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bca-1323-5532-e280" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="316e-159d-ea3e-b9c6" name="Wound" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="316e-159d-ea3e-b9c6" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="b4a0-075b-5a96-b678" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
               </infoLinks>
@@ -2732,7 +2348,7 @@
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="df6b-4c99-d4a9-bc16" name="Wound 2" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="df6b-4c99-d4a9-bc16" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="f3e8-946c-d952-c589" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
               </infoLinks>
@@ -2745,7 +2361,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4daa-eb7d-c7bb-049a" name="Magic Weapons" hidden="false" collective="false" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="4daa-eb7d-c7bb-049a" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
