@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="7" battleScribeVersion="2.03" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="8" battleScribeVersion="2.03" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="cffa-cd51-pubN65537" name="WoE"/>
     <publication id="982e-6ad0-cc51-7967" name="Reptilian List"/>
@@ -1063,7 +1063,7 @@ Re-roll all shooting hits against unit if in water terrain.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5"/>
       </characteristics>
     </profile>
-    <profile id="595c-60a6-3a30-b259" name="Halberds" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+    <profile id="595c-60a6-3a30-b259" name="Halberd" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">2</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">+1 STR</characteristic>
@@ -1621,6 +1621,12 @@ Re-roll all shooting hits against unit if in water terrain.</description>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">0</characteristic>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="236a-7395-cfd4-b7c5" name="Lash" hidden="false" typeId="4e9d-173a-314b-a7c5" typeName="Weapon Profile HtH">
+      <characteristics>
+        <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
+        <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can be used for exchange of missiles</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

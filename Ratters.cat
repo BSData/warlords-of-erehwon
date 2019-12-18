@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4077-a882-0550-62c4" name="Ratters" revision="1" battleScribeVersion="2.03" authorName="LeadAddict" authorContact="Please use our Github repository to report bugs!" authorUrl="https://github.com/BSData/warlords-of-erehwon" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="712c-ef38-7af5-e3d9" name="Ratter Broodmaster" hidden="true">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1258-2ff8-7f84-bf31" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="2d9c-d8ab-824d-b829" name="Ratter Broodlord" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="c40d-83bc-1d13-80eb" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
+        <categoryLink id="e8d6-52aa-1d60-2046" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c47b-a1c9-8d68-e6ee" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="9c7f-4de3-3d9a-8d24">
+          <selectionEntries>
+            <selectionEntry id="cea0-0f93-eddb-89e7" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="913f-8e74-6c2f-e2f4" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="0624-f975-8a71-946a" name="Ratter Bodyguard, medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34fc-65ef-c3e8-e7a5" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0005-2b7c-730e-3a01" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="979a-e112-9891-ba87" name="Ratter Bodyguard, medium armour" hidden="false" targetId="bdf7-c535-6bc5-7a3f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="11.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6c40-13c6-8f06-f50d" name="Ratter Broodlord, medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b9f-21c4-196a-f496" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae8-f7d9-cb2c-f350" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="31e3-f209-b7fb-79e7" name="Ratter Broodlord, medium armour" hidden="false" targetId="fc83-456d-d9b8-b6a1" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="90.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9c7f-4de3-3d9a-8d24" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="7ce7-9f92-675c-2fc5" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="722e-b736-9476-d2ce" name="Ratter Bodyguard, light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="104b-4b04-a1f4-b525" type="min"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02df-a9ea-f744-4635" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="dcf7-a49a-9a8e-5ca5" name="Ratter Bodyguard, light armour" hidden="false" targetId="889d-d1ce-ea51-d4e8" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5a95-0f79-4fb9-24c0" name="Ratter Broodlord, light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f426-5f1b-52a6-4773" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="501e-be02-5e69-2cc2" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="928f-f817-cc7d-ed9d" name="Ratter Bodyguard, light armour" hidden="false" targetId="889d-d1ce-ea51-d4e8" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="80.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5b70-3905-e7de-6376" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a57c-a36c-dfc7-6230">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ce-ed8f-9862-2012" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c37e-66d4-f8f2-a448" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3d68-25b0-f516-6de8" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7bee-94a3-4c8b-5f5f" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ae45-f515-6020-f5ef" name="Huge Swords or Big Axes" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ac77-cd31-758e-2929" name="Huge Sword" hidden="false" targetId="41c3-e1df-53b7-ed79" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a57c-a36c-dfc7-6230" name="Swords or Axes" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2eca-cc52-df7f-e2a6" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e1e5-d735-d125-bd32" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="2d9c-d8ab-824d-b829" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="dbf8-35fb-b2ab-6560" name="Halberds" hidden="false" targetId="595c-60a6-3a30-b259" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a9b7-259b-ead7-3641" name="Venomous Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63b1-7933-4f8d-7dc5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0a38-8866-6ed3-01d3" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11dc-ddb3-d303-52ea" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c851-512a-e575-6dce" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="845b-cd35-2005-d1ee" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="43c9-d4e4-b6d0-873a" name="Wounds Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="51b4-9e12-af55-613b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce80-28f8-3f3d-e444" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a2c-c7f4-e378-6572" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="51b4-9e12-af55-613b" name="Wounds 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c6d5-1067-27a7-e9d1" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a15-448d-2b60-cf64" name="Wounds 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a646-7c90-a965-9b3f" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="553c-7b1e-b65e-9ebb" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="6857-523a-a5a1-b396" name="Upgrade to Tough 2" hidden="false" collective="false" import="true" targetId="9fb8-d4a9-2584-79c0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d2d6-0422-ccc0-2d20" name="Ratter Warlock" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="7d67-2e72-4816-33d6" name="Ratter Broodmaster" hidden="false" targetId="712c-ef38-7af5-e3d9" primary="false"/>
+        <categoryLink id="eac5-d4c3-ab5a-0a23" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
+        <categoryLink id="0c32-95db-bcf2-1cfb" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cc17-02c0-bf25-f730" name="Bodyguards" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d0a-4963-bcb3-e3e8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2dbd-c0ba-20c8-3610" name="Spirits of Contagion" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="7aad-c489-1208-b7db" name="Choose up to 4" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="3345-06fb-eaeb-f40d" name="Spirits of Contagion" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c232-1a0c-dc97-f27a" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="61d7-b651-bc3e-b92b" name="Spirits of Contagion" hidden="false" targetId="eef7-1d58-87be-bcfd" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="58e7-0a75-0949-2c44" name="Rat Slaves" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="abd6-bf30-bde6-68f7" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="8d12-43b5-27c5-e7ba">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31fd-9dc0-69a6-2e87" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7894-e0c5-c7f6-d355" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="8d12-43b5-27c5-e7ba" name="Rat Slaves in light armour" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="3b45-618e-cfae-4d67" name="Choose up to 4" hidden="false" collective="false" import="true">
+                          <selectionEntries>
+                            <selectionEntry id="c541-02b2-27fd-bc12" name="Rat Slaves in light armour" hidden="false" collective="false" import="true" type="model">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d281-a1e2-02b9-7bca" type="max"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="b49a-db8c-574c-5ec5" name="Rat Slave, light armour" hidden="false" targetId="77c3-93eb-f671-a4ea" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="6.0"/>
+                                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="08d7-373f-4429-8fdb" name="Rat Slaves (no armour)" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="c321-fb60-0aa5-bc93" name="Choose up to 4" hidden="false" collective="false" import="true">
+                          <selectionEntries>
+                            <selectionEntry id="5644-954d-f8dd-19ba" name="Rat Slaves" hidden="false" collective="false" import="true" type="model">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3db-ce81-20b0-24ac" type="max"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="718a-27e8-329c-3929" name="Rat Slave" hidden="false" targetId="6f1e-4a25-a290-a7be" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="4.0"/>
+                                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1418-31af-9ff0-a2b9" name="Weapons for Rat Slaves" hidden="false" collective="false" import="true" defaultSelectionEntryId="50cb-b0be-3611-7be6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abfb-35d9-1bf5-b15a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9335-a29b-09df-c898" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0561-367c-eec9-9df2" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="d2d6-0422-ccc0-2d20" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5a69-9bf9-0627-1afe" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="50cb-b0be-3611-7be6" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d19f-ad3b-8bf3-71b3" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9b67-296e-d1f2-bd86" name="Ratter Warlock" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b4c-9b38-c8fd-1634" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35d-ccaf-6e88-34ca" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="189f-de76-79ad-5cee" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="01f3-30f9-e64e-3330" name="Ratter Warlock with CO 8" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4631-4797-6de8-bc7b" name="Ratter Warlock CO 8" hidden="false" targetId="3954-8274-3d70-1bdc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="78.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9744-16d0-df46-fea2" name="Ratter Warlock with CO 7" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8dce-18ee-4584-9fe1" name="Ratter Warlock" hidden="false" targetId="3c02-f92f-2017-b1b0" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="76.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b41d-192d-7e0c-5743" name="Upgrade Warlock Attacks" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="218a-f354-55a9-b50c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7c0b-696b-e910-622d" name="Give Warlock 2x HtH Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7169-9157-aec9-7ca3" name="Upgraded Warlock Attacks" hidden="false" targetId="f5fc-02a7-2971-c2fd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6f5e-d0f0-73f3-329d" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="4b1d-6137-0c51-5e89" name="Free Magic Spell" hidden="false" collective="false" import="true" targetId="adf3-5f05-7784-4f01" type="selectionEntryGroup"/>
+        <entryLink id="656d-89df-8ca2-c906" name="Magic Level" hidden="false" collective="false" import="true" targetId="f802-bb86-3500-a89a" type="selectionEntryGroup"/>
+        <entryLink id="57c6-27ae-5219-67a0" name="Upgrade to Tough 2" hidden="false" collective="false" import="true" targetId="9fb8-d4a9-2584-79c0" type="selectionEntryGroup"/>
+        <entryLink id="96d8-e5b7-1a64-1c8a" name="Additional Magic Spells" hidden="false" collective="false" import="true" targetId="213c-8ec7-6715-58aa" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab56-1bac-bc9d-2a19" name="Ratter Broodmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="bd8f-4bd4-1baa-5930" name="Hero Unit" hidden="false" targetId="hero unit" primary="true"/>
+        <categoryLink id="9ede-bb1d-c42f-472c" name="Ratter Broodmaster" hidden="false" targetId="712c-ef38-7af5-e3d9" primary="false"/>
+        <categoryLink id="5bd8-573a-27f8-f623" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b6b6-c305-fd7f-7cb4" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="1350-0835-4a68-cc67">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad7f-c46b-d717-973e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab08-0355-00c5-1058" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d543-651c-30e4-8fc0" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ad0b-e825-074d-c6a6" name="Ratter Bodyguard, medium armour" hidden="false" targetId="bdf7-c535-6bc5-7a3f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="97.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1350-0835-4a68-cc67" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b9d4-9578-70fb-e584" name="Ratter Broodmaster" hidden="false" targetId="157f-8d51-6c2b-7b2c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="87.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b300-58b9-246a-b7f6" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="abfc-9997-aa89-1d8b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d6f-4c2e-941d-6253" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea3-ff9f-0620-eb88" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4afb-17a6-74d1-726f" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6eda-1444-e9a7-cdde" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="12.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="abfc-9997-aa89-1d8b" name="Wound 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="33cb-6752-a745-c3b0" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ec39-1ecb-5e82-e5d9" name="Wound 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6fbe-25c5-5c71-d9ec" name="Wound 3" hidden="false" targetId="2724-2057-e745-23a3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="24.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5baf-6d38-591b-44cf" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="05df-f27e-be8e-5dfb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15e7-2047-4e0b-28c4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5093-c080-02da-7311" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8864-0622-265a-6b4a" name="Huge Sword or Big Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="75db-e759-c87e-ee88" name="Huge Sword" hidden="false" targetId="41c3-e1df-53b7-ed79" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="05df-f27e-be8e-5dfb" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8591-f775-a350-48fd" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9384-c5d3-5051-16cb" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e0fd-7f40-ff42-e30c" name="Halberds" hidden="false" targetId="595c-60a6-3a30-b259" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="73c8-5c74-b6a7-787f" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="ed77-fbc6-3e46-dd06" name="Upgrade Hero to Tough 3" hidden="false" collective="false" import="true" targetId="67b1-4cac-d495-3ef7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f293-6be6-ca9c-387f" name="Ratter Guard" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fc2-f3d1-f1a0-8699" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1b2d-ecd8-515a-2eb6" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="10af-6964-9d38-f99f" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6e82-663a-8778-30b3" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="277a-dbd5-b5d9-e1b0" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="06a3-d19d-fc2a-7fa7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac49-3194-4c9a-6c22" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66d0-109f-b24e-6666" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e78f-258e-7305-b023" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="bd82-7b3c-10a0-e995" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="ade2-f0b0-5953-abf8" name="Ratter Guard Leader in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4f0-b489-dda7-2d72" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b62a-2434-1f87-1d01" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a32b-79ff-9808-7e9c" name="Ratter Guard Leader, medium armour" hidden="false" targetId="af0e-898b-4406-e811" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="23.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="96e7-cad8-9aff-8593" name="Ratter Guard in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0d9-3a51-b0e8-1006" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00b5-8429-ea7f-b140" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0210-0b20-ec9f-0e25" name="Ratter Guard, medium armour" hidden="false" targetId="8433-ade9-cea8-881d" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="11.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="06a3-d19d-fc2a-7fa7" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d5aa-360e-3354-cafa" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="ce1a-3465-4b8d-d711" name="Ratter Guard Leader in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50ac-f040-1490-c2df" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1d-58e7-4c55-ef06" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="39ab-09ca-182d-d78a" name="Ratter Guard Leader" hidden="false" targetId="4c80-67bb-ee85-dfdd" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="21.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4390-3cca-cb94-b483" name="Ratter Guard in light  armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c990-a286-086d-9231" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c41c-61f2-ac4d-6c85" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="8357-4ce4-30e8-5fb7" name="Ratter Guard" hidden="false" targetId="167a-17d2-424c-2c7b" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a837-6a8c-1cf1-e32f" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="487f-9fc3-0917-2521">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88cd-ac60-77b9-0f62" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2532-b627-4941-2d41" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c8ab-2bf3-8df3-ea0e" name="Huge Swords or Big Axes" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="94b9-0d54-d748-1bb5" name="Huge Sword" hidden="false" targetId="41c3-e1df-53b7-ed79" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bb96-b025-07ba-0c8c" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="f293-6be6-ca9c-387f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="bb18-26ec-ddc4-c6df" name="Halberds" hidden="false" targetId="595c-60a6-3a30-b259" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="487f-9fc3-0917-2521" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e249-d203-8ec6-a5b0" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="261e-7a88-01b8-f36d" name="Venomous Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd30-af30-6425-a4da" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8316-3fbf-e1b4-15db" name="Upgrade to Venomous attacks" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d273-e4e5-aa74-f649" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0361-ad9e-d586-5551" name="Ratter Warriors" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f8f1-20e5-0da6-9fa8" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="23f1-139e-840a-dc8d" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9f0a-4061-99e1-72dc" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b756-c8d5-68ab-1df1" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="e79f-18f5-7a03-b14d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="601b-9354-4f4e-36ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f12-7d41-e791-355e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1359-99dd-72c6-2939" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3ec9-f434-803e-bd57" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="b7d1-7a35-1ce0-ff25" name="Ratter Warrior Leader in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7166-e579-fd47-3561" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4eb-ffdb-edfb-6433" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="5376-8887-4dfa-3e37" name="Ratter Warrior Leader, medium armour" hidden="false" targetId="a697-acf5-985f-5b25" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="21.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f53d-601e-fdc0-f59e" name="Ratter Warrior in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf5-7ebb-2e1a-d595" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75e6-40d2-a916-c7f0" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0cd5-76b5-41fc-0716" name="Ratter Warrior, medium armour" hidden="false" targetId="3ca0-ba6c-ec36-579f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d5a4-31c2-ea5b-a544" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e237-d8ec-b74e-4a31" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="f29f-9f8c-ce3c-63b4" name="Ratter Warrior Leader in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b8d-04b8-810b-eeb6" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3659-b1e2-c1d2-30f1" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="240f-8462-d35a-0a68" name="Ratter Warrior Leader, light armour" hidden="false" targetId="2aec-f215-fc4a-4578" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="19.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4735-1a3d-a8e2-9532" name="Ratter Warrior in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4434-2604-9a57-5386" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f784-9387-e568-3cff" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="062c-163e-4518-3563" name="Ratter Warrior, light armour" hidden="false" targetId="4cc4-2e8b-1f43-8b85" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="7.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e79f-18f5-7a03-b14d" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="da87-c6d7-7ea2-70dc" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="29a9-459a-3974-a24e" name="Ratter Warrior Leader (no armour)" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d795-fb6b-db7c-83f6" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd0a-70e6-8355-0998" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0430-b20c-541c-efb9" name="Ratter Warrior Leader" hidden="false" targetId="a255-ee4b-54dd-dbce" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="17.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fe05-f612-7236-db74" name="Ratter Warrior (no armour)" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="129b-41f4-2f4f-288a" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222f-ae64-b676-717e" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0b02-eb1c-7c3f-9028" name="Ratter Warrior" hidden="false" targetId="6ce8-600b-d718-9f9c" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a215-b656-bbc9-4e8e" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="2713-36c0-2894-18dd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b83-f117-6457-3569" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a7-d0a8-c952-2caa" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f762-3c7e-4a99-7015" name="Huge Swords or Big Axes" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="20c4-a34b-94e4-0e65" name="Huge Sword" hidden="false" targetId="41c3-e1df-53b7-ed79" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0d20-e74b-11ca-8ed6" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="0361-ad9e-d586-5551" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="abe7-4251-9bee-c007" name="Halberds" hidden="false" targetId="595c-60a6-3a30-b259" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2713-36c0-2894-18dd" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9fe9-d94d-a01d-36f6" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b5dd-03ce-cfe7-6a40" name="Venomous Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6da-e735-e08d-abb3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ed1e-bf2e-645b-5f93" name="Upgrade to Venomous attacks" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0c93-48bb-bf8a-ee00" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d87-fbfb-e73b-5a4b" name="Ratter Blunderbusters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d0c0-678e-388f-0361" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="ec3c-473f-e08b-84cb" name="Hand Gun" hidden="false" targetId="4d4a-8ee3-260b-037b" type="profile"/>
+        <infoLink id="6005-e1aa-f20e-7470" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="c0a4-dd8a-045b-0708" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7d7a-68fd-2a76-e7ed" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c584-5b1d-2eb1-996d" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="04e9-8471-bffd-f415">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6015-b72b-511e-d1fd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0141-5ac7-ebb6-7087" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="04e9-8471-bffd-f415" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ecc9-05b8-be7f-8912" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="968f-6bb3-3b44-4027" name="Ratter Blunderbuster Leader" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c59-a116-ff78-3a0e" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="624c-5241-a18c-bc68" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="ee40-9cb1-8dd1-9514" name="Ratter Blunderbuster Leader" hidden="false" targetId="8d0f-5ddc-ffc7-5593" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="21.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6626-0a5d-5b1d-4c02" name="Ratter Blunderbuster" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d8-71ae-13c5-6444" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640b-6b74-1156-e57d" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="22d7-bca9-9b3c-fc0d" name="Ratter Blunderbuster" hidden="false" targetId="ce22-e32e-f07e-bcc0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="9.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fa3-591a-3c2a-2997" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3dc6-c1a9-71df-0e30" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="9fd1-23cc-150c-a590" name="Ratter Blunderbuster Leader in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2b9-2ba7-5e0c-20d3" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3911-45ca-64ac-9550" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="ed8b-a474-303f-2982" name="Ratter Blunderbuster Leader, light armour" hidden="false" targetId="b894-f98e-056a-407e" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="23.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="da22-bd84-0f66-6b04" name="Ratter Blunderbuster in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b45-d54c-cedc-1175" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50b0-2e79-3a55-bafe" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="186a-7b5b-f47b-957a" name="Ratter Blunderbuster, light armour" hidden="false" targetId="0068-d730-2cd6-0fd0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="11.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7ff2-8081-6148-6bff" name="Venomous Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df1c-fd4b-56d7-0a41" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a44e-7efd-fb0d-094e" name="Upgrade ALL attacks to Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8f6a-eccf-bc28-353e" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7da2-d18c-abeb-707e" name="Rat Slaves" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ee5f-6e7e-56cf-d6db" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="87d7-4617-85d0-4bb1" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e84-3e0c-b5d4-8a4d" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e7e9-9431-6f97-340d" name="Choose Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa4-4ed0-4ed6-caba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7961-e5fa-6ebb-972c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3848-c921-2b98-72ae" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e1eb-7445-e3f1-e727" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="76e8-b4ee-6cc7-33a6" name="Ratter Slavedriver" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dc-cae9-2d91-55c6" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed92-1807-d5b1-d77a" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a6ed-2d98-a3da-1ff9" name="Ratter Slavedriver" hidden="false" targetId="5007-8399-b48b-31a0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="16.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1952-5ce4-621a-89dd" name="Rat Slave" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2020-0a11-9d6a-82aa" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19ce-98af-77d8-c4c0" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a674-0ec5-5f3b-36b5" name="Rat Slave" hidden="false" targetId="3d99-1900-a41d-db2a" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2b39-616f-3170-d652" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="5394-9c24-11a5-1c50" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="47f6-c545-b148-949a" name="Ratter Slavedriver in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ee-0633-c220-af8d" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b47b-66e2-ff5d-97f0" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="bdf3-831f-efca-b8bf" name="Ratter Slavedriver, light armour" hidden="false" targetId="829a-566b-d569-c219" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3843-5ea1-8d92-82bd" name="Rat Slave in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc62-b2e7-1f02-6cea" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee0-42ee-2105-724c" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="35dc-635c-767c-db8e" name="Rat Slave, light armour" hidden="false" targetId="f3cc-d9ae-a26d-e225" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2c8d-a5e8-8905-b19b" name="Venomous Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d9f-b913-c0b8-926b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f02b-930c-76b1-1871" name="Upgrade attacks to Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c9b6-695f-3e92-2c6c" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c9f0-bcd5-7295-0936" name="Choose Weapons for Slaves" hidden="false" collective="false" import="true" defaultSelectionEntryId="76b5-42ce-4a96-2c9c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="496c-85a5-c17c-ee0e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89b1-2533-8ee0-1fe4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="76b5-42ce-4a96-2c9c" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ed6c-3997-b369-94b7" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b92b-d247-4f4f-de63" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="474b-c670-4f2a-6497" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="dd3e-f264-2c20-8b5d" name="Choose Weapon for Slavedriver" hidden="false" collective="false" import="true" defaultSelectionEntryId="1145-14c8-65d3-d649">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="855f-ae0b-a5cf-ee0e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3067-4edf-52c8-af7d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ccee-6acd-086b-2c2e" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cc15-51a2-3a68-eb46" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="956f-78c4-3462-622a" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1667-9646-d2ee-90f8" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1145-14c8-65d3-d649" name="Lash" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="36eb-9c28-663e-644a" name="Lash" hidden="false" targetId="236a-7395-cfd4-b7c5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f9f-52f3-c6af-e17f" name="Rat Slaves with Bows" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d66e-c915-83fd-f0ab" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="5fa8-2c0b-2ae9-4229" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="abd1-9d44-9a74-2959" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f179-ce74-4cea-1e20" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca29-4332-efb0-24dc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdf0-0eb9-68e4-aae0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9327-9c3d-339e-a341" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ca29-4332-efb0-24dc" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0822-1155-310b-93a5" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="16f8-c28a-1e2a-ae29" name="Ratter Slavedriver" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb08-7cdb-09c2-8850" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b54d-2d61-5e4b-50c4" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="8ffb-2d0b-277f-881c" name="Ratter Slavedriver" hidden="false" targetId="5007-8399-b48b-31a0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="16.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9bf8-ee8a-87f7-fdb1" name="Rat Slave" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe0-f5bd-6865-4ee1" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8539-8f78-9ce0-6ec4" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="9f1a-f63b-71b7-a014" name="Rat Slave" hidden="false" targetId="3d99-1900-a41d-db2a" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="4.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f64d-4019-0635-55bb" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b6c9-8b6a-6f35-41f9" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="c106-05c5-4f79-ed74" name="Ratter Slavedriver in light armour" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3af-329f-4eb0-07ac" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fbd-1030-a423-1f25" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="7a37-a091-3596-01c0" name="Ratter Slavedriver, light armour" hidden="false" targetId="829a-566b-d569-c219" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0437-e681-a7f2-f2e4" name="Rat Slave in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b47-7754-2470-862b" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3247-7a04-9c0a-efe4" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="49dc-d548-7a9b-41a7" name="Rat Slave, light armour" hidden="false" targetId="f3cc-d9ae-a26d-e225" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="6.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c746-af0f-2543-663a" name="Venomous Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5943-8b6f-2d64-0c8c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3d8f-6e58-52b7-edf1" name="Upgrade attacks to Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3fae-981a-7255-590b" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="068e-000c-7e9b-995d" name="Choose Weapons for Slaves" hidden="false" collective="false" import="true" defaultSelectionEntryId="b1cd-6be0-a7af-d401">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a46f-7221-f2a8-e56b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="539e-b83b-3fc1-a5bc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a9cc-6cc9-490f-8f6c" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="4f9f-52f3-c6af-e17f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="4f35-9567-b774-c59d" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1cd-6be0-a7af-d401" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b4c5-df06-7040-483c" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c4aa-3b3a-4cc6-bbce" name="Choose Weapon for Slavedriver" hidden="false" collective="false" import="true" defaultSelectionEntryId="f81b-8ca5-ec2f-3da7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ba-9352-506a-f5d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9aa-20fe-6a30-effd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="81db-0f55-bb69-96fc" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4b59-55d7-5bcc-ffb3" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="42f8-454c-a6ae-0384" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="da21-adbe-b320-19c4" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f81b-8ca5-ec2f-3da7" name="Lash" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8db7-716e-82e2-09c4" name="Lash" hidden="false" targetId="236a-7395-cfd4-b7c5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fcb8-761e-3388-b0af" name="Rat Slaves with Slings" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9d26-f44c-01af-9895" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="646f-c49d-6ff9-f32a" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="94fe-29f8-374c-3c2a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3476-15d8-609f-2294" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="18e0-4702-b4fb-8187">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="141a-7a40-5a49-e46e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0a7-e45c-9525-49d0" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="18e0-4702-b4fb-8187" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c074-aeea-785f-41b2" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="95e1-475f-e628-730e" name="Ratter Slavedriver" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="935c-0e91-a70a-48de" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca5-8c9b-a76f-42ea" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="5195-84dc-e353-4ebf" name="Ratter Slavedriver" hidden="false" targetId="5007-8399-b48b-31a0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="16.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="fff5-8a5b-2d70-3e61" name="Rat Slave" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1256-ac25-db28-d610" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e612-d9c0-214a-5e55" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6435-e0d0-2164-9bda" name="Rat Slave" hidden="false" targetId="3d99-1900-a41d-db2a" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="002f-e740-d608-4981" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b007-67f7-4498-4371" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="d4c9-0e7e-4ee0-e117" name="Ratter Slavedriver in light armour" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9afb-5f5e-c46f-0162" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa2-2277-a572-d518" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="70de-b1a6-04f8-e050" name="Ratter Slavedriver, light armour" hidden="false" targetId="829a-566b-d569-c219" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0a7a-03b1-615c-3336" name="Rat Slave in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bbe-e11a-4550-c433" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dd5-b165-5cc9-c030" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6256-ba95-0d6d-c181" name="Rat Slave, light armour" hidden="false" targetId="f3cc-d9ae-a26d-e225" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="7.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="195c-35b8-e3dd-30e8" name="Venomous Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8e7-0bb9-bdf8-88a6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e2fe-e94e-7d1a-b729" name="Upgrade attacks to Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="61ba-e87c-d726-05a0" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="050c-f39b-644c-5b6e" name="Choose Weapons for Slaves" hidden="false" collective="false" import="true" defaultSelectionEntryId="48e6-c041-52bf-a869">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61eb-c720-bb67-df2c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d6-5fe7-136f-1505" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5a71-0bb7-cb6b-a301" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="fcb8-761e-3388-b0af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="a2d3-a071-605d-0b06" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="48e6-c041-52bf-a869" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a278-eb99-72fb-cf9c" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="67c8-c69b-d26d-7644" name="Choose Weapon for Slavedriver" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99d5-55c7-8ad2-ea75" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e96-b0cf-b32b-4e2c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c325-5934-1512-5162" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ca81-d09a-9288-ded3" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e5ac-771c-18d1-8eb7" name="Sling" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0055-1860-8b15-fcf5" name="Sling" hidden="false" targetId="aae2-6321-3b33-079d" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6fb6-c530-3579-ee40" name="Lash" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b78f-344f-fba5-fe0e" name="Lash" hidden="false" targetId="236a-7395-cfd4-b7c5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d5e-3ae6-6393-2f17" name="Plague Ratters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ee7a-1326-47b8-378c" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="a36e-292a-0548-5d6b" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="d917-0fcc-9752-4c3d" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+        <infoLink id="6dfd-6d85-5b6d-306c" name="Choking" hidden="false" targetId="7ff2-1650-fc0e-5a3a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b500-585c-ce56-42c4" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="03df-17a0-a288-ac88" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9b3f-b854-36a8-37b1" name="Plague Ratter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05cf-2adf-487e-2faf" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a1-f7df-4dbf-d08a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="302a-d649-8356-b653" name="Plague Ratter" hidden="false" targetId="e39c-7c69-3f48-80c6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5b09-4783-2605-a51c" name="Plague Ratter Leader" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63d4-6a67-88c4-2921" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20d2-af5d-575d-1127" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a918-ae69-898d-d7a4" name="Plague Ratter Leader" hidden="false" targetId="47ef-6517-6e36-3cb5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="122e-d855-06db-2b5a" name="Dread Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cdc-1312-9c1b-2aa1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cc70-806d-816d-d9af" name="Dread" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ef1b-e098-20d5-7d58" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="67f5-ffa1-cdd5-93a9" name="Berserk Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc8-09d9-7bb8-f207" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0bbf-4e29-7078-e8a1" name="Berserk" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="48c2-d251-351b-99a8" name="Berserk" hidden="false" targetId="0b0f-1de6-7017-9097" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d890-e098-6d32-f97e" name="Super Ratters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="67cf-98a5-f2a1-331e" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="4149-6535-22c0-cdb0" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="3fda-06d4-1494-def7" name="Frenzied Charge" hidden="false" targetId="1c49-276e-425d-0999" type="rule"/>
+        <infoLink id="e5d0-46e8-bbf7-fbe5" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9317-47f0-ff89-502b" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6fda-e5df-38ed-7266" name="Choose 1 to 3" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="293a-a92c-0b2c-2116" name="Super Ratter" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ace0-6231-6349-452c" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03e-6f78-95bf-b239" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="db2d-4b8f-8ab5-3453" name="Super Ratter" hidden="false" targetId="f84f-303b-0d71-da1c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="32.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="afe9-434f-2df0-619c" name="Give unit Choking attacks" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d3-cf1f-ee9b-6aeb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e556-dfad-83bf-dcea" name="Choking" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="d890-e098-6d32-f97e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="e15b-e19b-416e-176a" name="Choking" hidden="false" targetId="7ff2-1650-fc0e-5a3a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d2ea-72a7-5178-fd88" name="Giant Rats" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b6d6-7602-616a-a77a" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="8b0b-3a64-0780-3a20" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="9ee7-37f5-666e-050a" name="Rapid Sprint" hidden="false" targetId="1e90-54e2-dd77-c4e3" type="rule"/>
+        <infoLink id="1e9a-9553-81bf-3182" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8d88-be93-19bb-de60" name="New CategoryLink" hidden="false" targetId="c061-a0f2-e7d4-a23b" primary="true"/>
+        <categoryLink id="b2ad-9170-7ff6-21ab" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="be39-739d-f6b3-eb4e" name="Choose 3 to 5 Giant Rats" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3587-9734-05d0-9000" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cba-af0f-542c-2e04" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6fa0-54dd-088d-bbc1" name="Giant Rats" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="a4bf-aca3-bcd7-c8af" name="Giant Rat" hidden="false" targetId="ade9-2490-5bc3-79b5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c969-1e24-81ed-979c" name="Choose Weapons for Rat Master" hidden="false" collective="false" import="true" defaultSelectionEntryId="73ce-9678-2b1d-0cdd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79be-d832-e6f5-4116" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b05f-81f6-9f81-84a6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b31b-db25-a265-6f63" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="fa39-ade9-36e5-db4b" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e4d8-8999-7dae-ed9d" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7c9b-78c4-4113-5dd3" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="73ce-9678-2b1d-0cdd" name="Lash" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a252-8b45-96a2-4b02" name="Lash" hidden="false" targetId="236a-7395-cfd4-b7c5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b897-d5d2-8d75-2fa1" name="Choose Armour for Rat Master" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="351f-fcd8-41d7-4161" name="Light armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d6-7333-8a8c-02ea" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7756-eae6-5832-dc8e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="52f9-ba14-75fd-aacc" name="Giant Rat Master, light armour" hidden="false" targetId="5971-0b14-ed07-7578" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1b2-c913-4bbe-0b20" name="No armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6518-edaa-fab4-e03a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="677c-7cf9-b878-4d89" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d6c7-b596-313e-c455" name="Giant Rat Master" hidden="false" targetId="8219-bdaf-cd5b-9c40" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="23.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f308-73ae-45e3-7a04" name="Rat Swarm" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="16a8-f233-fa50-df85" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d34d-e110-b5b0-513a" name="New CategoryLink" hidden="false" targetId="c820-d327-811d-1144" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="60ec-136b-e75e-81c2" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="680e-1cc8-9dc3-82d4" name="Rat Swarm" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0125-4d17-6f54-0da9" type="min"/>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c437-06a7-f2f8-c7f1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="fb6d-a837-d5dd-fab8" name="Rat Swarm" hidden="false" targetId="2076-5683-1436-676c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6cdb-daf0-2e1f-c159" name="Ratter Splatter Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f686-b5b0-3eb6-d0b9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2dd2-30d7-b30f-7aed" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
+        <infoLink id="ff12-7939-10d9-e6a2" name="Unstoppable" hidden="false" targetId="a8bf-f48c-1b08-58e6" type="rule"/>
+        <infoLink id="fad1-6908-61f5-bad7" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="f09a-0ac8-eecb-0d00" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+        <infoLink id="d525-311f-096a-d465" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5770-80ba-c359-7943" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="48f5-5a0b-faf5-89b3" name="Choose crew weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1603-a8f9-9d01-e2e6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad78-3ccc-bced-4789" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d625-acd4-5ebe-d65d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1603-a8f9-9d01-e2e6" name="Dagger" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="db29-7f58-2d16-526c" name="Dagger" hidden="false" targetId="5514-08ba-d190-bf84" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f0ca-f5cf-c469-93c3" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="6cdb-daf0-2e1f-c159" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="7d7a-69e4-c1a4-d2fb" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5207-bd28-3781-0806" name="Choose Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8587-884f-2543-fe71">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5679-c3be-62b0-5beb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="892f-43ec-bbfc-4926" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6707-a6b0-fb5e-e3ab" name="Large Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9dde-9d3b-c4f8-1d68" name="Large Cannon" hidden="false" targetId="a248-4b9b-1f06-2c5f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8587-884f-2543-fe71" name="Small Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1e35-5e68-4dca-cfc9" name="Small Cannon" hidden="false" targetId="241a-1266-fce9-2638" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9660-c692-8ed9-024f" name="Choose crew armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="257a-6b09-753b-d024">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b57d-5741-cb68-2ac5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa57-1f2f-d096-6df4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a207-ebbf-e043-e080" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b533-037c-c4ce-b878" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="8e9b-7955-88d7-be32" name="Ratter Crew in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6830-a573-8821-6672" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a13b-fe88-dbc0-078f" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="7adc-74a7-686f-9ae7" name="Ratter Crew, light armour" hidden="false" targetId="a2cf-acea-0728-4ac2" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="6.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="257a-6b09-753b-d024" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="1253-e285-6c64-15df" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="bc08-ab72-e722-ec2f" name="Ratter Crew" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3048-1547-30bf-f749" type="min"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07c0-8cd4-34d5-0b2b" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a073-a1bb-2136-d346" name="Ratter Crew" hidden="false" targetId="4b10-9b64-38dd-1839" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="4.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="19c4-4c66-3d31-8e43" name="Choking Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c2a-7341-3887-e48c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="283c-34b7-8411-8154" name="Choking" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="71be-7eba-1861-12cb" name="Choking" hidden="false" targetId="7ff2-1650-fc0e-5a3a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0b09-4729-49b7-68ca" name="Fire Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf66-fda4-a808-851c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7033-05a2-1cbd-71e9" name="Fire" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9d0a-4c96-e761-23c3" name="Fire" hidden="false" targetId="b61d-3471-1ce6-6878" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bccb-10f8-3bc4-f82f" name="Ratattack Cart" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntries>
+        <selectionEntry id="6fca-5ac4-ad81-d553" name="Ratattack Cart" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98ab-adf8-c121-454f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a42-f7f9-f79f-1875" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e134-9dec-0a79-b49b" name="Ratattack Cart with crew who also propel it... somehow" hidden="false" targetId="7436-9fe6-56fd-9a13" type="profile"/>
+            <infoLink id="584a-2c78-e8ea-20bf" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+            <infoLink id="73c9-6dd9-3d73-4c44" name="Fast 6" hidden="false" targetId="7753-3806-9cf1-0a6c" type="rule"/>
+            <infoLink id="42ed-c331-ed95-3765" name="Irresistible Charge" hidden="false" targetId="86b2-7051-4b5c-d149" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="96.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e174-0189-ef38-9a2c" name="Choose 4 to 6 Crew" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7e23-ba14-36b3-9823" name="Crew for Ratattack Cart" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc8-0e7a-9402-1179" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c64-6934-6e0f-02e4" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ee57-a333-c687-877c" name="Ratter Crew for cart" hidden="false" targetId="e07e-0b67-e9f9-7322" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5571-1953-5538-b9dc" name="Choose Crew weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4c2f-ff50-6df0-4ed3">
+          <selectionEntries>
+            <selectionEntry id="4c2f-ff50-6df0-4ed3" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="17f6-8111-a349-ba7d" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="993d-72c7-eedf-a2be" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="31e2-dff7-8aa5-5228" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c1cc-93b3-d932-141b" name="Upgrade Cart with Tough 1 rule" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc6-db74-2d23-9dac" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="91ac-2878-9101-91b0" name="Tough 1 (re-roll damage chart results)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c0aa-0d73-f634-f578" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="cee3-1ba7-af55-fd39" name="Pack" hidden="false">
+      <description>Use highest CO stat of any Pack Master within 10&quot;.
+If Pack Master moves out of range while unit has pins equal to or higher than original CO and it already has taken an action, it is auto-broken.
+Same if unit hasn&apos;t taken action but receives additional pins before activation.
+Otherwise allowed to take an action as normal.</description>
+    </rule>
+    <rule id="77a0-7dae-4282-8756" name="Pack Master" hidden="false">
+      <description>Units with Pack rule can use this model&apos;s CO stat while model is within 10&quot;.</description>
+    </rule>
+    <rule id="f5fc-02a7-2971-c2fd" name="Upgraded Warlock Attacks" hidden="false">
+      <description>Give Warlock 2x HtH SV1 Venomous attacks</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="1216-0f07-28ed-cece" name="Ratter Broodlord, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Pack Master, Follow, 3x HtH, Wound X</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc83-456d-d9b8-b6a1" name="Ratter Broodlord, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Pack Master, Follow, 3x HtH, Wound X</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="889d-d1ce-ea51-d4e8" name="Ratter Bodyguard, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bdf7-c535-6bc5-7a3f" name="Ratter Bodyguard, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f1e-4a25-a290-a7be" name="Ratter Slave for Warlock" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack, Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="77c3-93eb-f671-a4ea" name="Ratter Slave for Warlock, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack, Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eef7-1d58-87be-bcfd" name="Spirits of Contagion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">3</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">3</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1x HtH SV1 Venomous, Exchange of Missiles SV1 Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c02-f92f-2017-b1b0" name="Ratter Warlock" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Pack Master, Wound, Magic Level X, 1 x HtH SV1 Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3954-8274-3d70-1bdc" name="Ratter Warlock CO 8" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Pack Master, Wound, Magic Level X, 1 x HtH SV1 Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="157f-8d51-6c2b-7b2c" name="Ratter Broodmaster" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">6</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Pack Master, 3x HtH, Wound X, Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bbd4-14a3-a191-2c3b" name="Ratter Broodmaster, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">6</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Pack Master, 3x HtH, Wound X, Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="167a-17d2-424c-2c7b" name="Ratter Guard" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c80-67bb-ee85-dfdd" name="Ratter Guard Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8433-ade9-cea8-881d" name="Ratter Guard, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af0e-898b-4406-e811" name="Ratter Guard Leader, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6ce8-600b-d718-9f9c" name="Ratter Warrior" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a255-ee4b-54dd-dbce" name="Ratter Warrior Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4cc4-2e8b-1f43-8b85" name="Ratter Warrior, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3ca0-ba6c-ec36-579f" name="Ratter Warrior, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2aec-f215-fc4a-4578" name="Ratter Warrior Leader, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a697-acf5-985f-5b25" name="Ratter Warrior Leader, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ce22-e32e-f07e-bcc0" name="Ratter Blunderbuster" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0068-d730-2cd6-0fd0" name="Ratter Blunderbuster, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d0f-5ddc-ffc7-5593" name="Ratter Blunderbuster Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b894-f98e-056a-407e" name="Ratter Blunderbuster Leader, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d99-1900-a41d-db2a" name="Rat Slave" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">4</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"/>
+      </characteristics>
+    </profile>
+    <profile id="f3cc-d9ae-a26d-e225" name="Rat Slave, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">4</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"/>
+      </characteristics>
+    </profile>
+    <profile id="5007-8399-b48b-31a0" name="Ratter Slavedriver" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="829a-566b-d569-c219" name="Ratter Slavedriver, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e39c-7c69-3f48-80c6" name="Plague Ratter" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">4</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">1 x HtH SV2 Venomous and Choking, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="47ef-6517-6e36-3cb5" name="Plague Ratter Leader" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">4</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">1 x HtH SV2 Venomous and Choking, Tough 1, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f84f-303b-0d71-da1c" name="Super Ratter" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">8</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, 2 x HtH SV2 Venomous, Frenzied Charge, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ade9-2490-5bc3-79b5" name="Giant Rat" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">4</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">5</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">5</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Rapid Sprint, 2x HtH SV1Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8219-bdaf-cd5b-9c40" name="Giant Rat Master" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Rapid Sprint, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5971-0b14-ed07-7578" name="Giant Rat Master, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Rapid Sprint, Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2076-5683-1436-676c" name="Rat Swarm" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">4</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">3</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">3x HtH SV1Venomous</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b10-9b64-38dd-1839" name="Ratter Crew" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack, Large, Slow 3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a2cf-acea-0728-4ac2" name="Ratter Crew, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">6</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">4(5)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack, Large, Slow 3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e07e-0b67-e9f9-7322" name="Ratter Crew for cart" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">4</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">6</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">6</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7436-9fe6-56fd-9a13" name="Ratattack Cart with crew who also propel it... somehow" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">3</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">-</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">10</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Fast 6, Irresistable Charge, D6 SV1 Impact hits on charge</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
