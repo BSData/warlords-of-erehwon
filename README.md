@@ -1,8 +1,11 @@
 Warlords of Erehwon
 ===================
-Files originally created by the3dwargamer@outlook.com.  Please report any issues here: https://github.com/BSData/warlords-of-erehwon/issues
+Files originally created by the3dwargamer@outlook.com.  
+
+Please report any issues here: https://github.com/BSData/warlords-of-erehwon/issues
 
 12/18/20 - First version of Ratters added.
+
 8/19/19 - Order dice have been added.
 
 8/15/19 - Skill descriptions updated to be complete.
