@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="8" battleScribeVersion="2.03" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="cffa-cd51-33d5-b2c6" name="Warlords of Erehwon" revision="9" battleScribeVersion="2.03" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="cffa-cd51-pubN65537" name="WoE"/>
     <publication id="982e-6ad0-cc51-7967" name="Reptilian List"/>
+    <publication id="4ff2-3a97-5ae7-5b02" name="Roman Army List"/>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="-1.0"/>
@@ -1020,7 +1021,8 @@ Reroll shooting hits against unit if it has a Run order.</description>
     <rule id="a5cc-2c1f-2df7-a9fd" name="Bolas" publicationId="982e-6ad0-cc51-7967" page="2" hidden="false">
       <description>
 Bola attacks do not cause damage but do cause a pin.
-If used against a Warrior unit, test against sum of hits. If successful one enemy model of shooters choice does not fight back.</description>
+If used against a Warrior unit, test against sum of hits. 
+If successful one enemy model of shooters choice does not fight back including follow-on combat.</description>
     </rule>
     <rule id="e0de-c7d9-bcce-ebbf" name="Cold-Eyed" publicationId="982e-6ad0-cc51-7967" page="2" hidden="false">
       <description>
@@ -1031,6 +1033,28 @@ Order tests still require a successful test even if unit only has one pin.</desc
       <description>
 Water terrain counts as open terrain.
 Re-roll all shooting hits against unit if in water terrain.</description>
+    </rule>
+    <rule id="c3ff-6afa-c4b5-b28c" name="Rete" publicationId="4ff2-3a97-5ae7-5b02" page="2" hidden="false">
+      <description>
+Can only be used during exchange of missiles.
+Rete attacks do not cause damage, but do cause a pin.
+If used against a Warrior or Mounted unit, test against sum of hits. 
+If successful one enemy model of shooters choice does not fight back including follow-on combat.</description>
+    </rule>
+    <rule id="ef49-9860-1403-240c" name="Pack" hidden="false">
+      <description>
+Use highest CO stat of any Pack Master within 10&quot;.
+If Pack Master moves out of range while unit has pins equal to or higher than original CO and it already has taken an action, it is auto-broken.
+Same if unit hasn&apos;t taken action but receives additional pins before activation.
+Otherwise allowed to take an action as normal.</description>
+    </rule>
+    <rule id="c2e1-40c3-26d5-9f31" name="Pack Master" hidden="false">
+      <description>
+Units with Pack rule can use this model&apos;s CO stat while model is within 10&quot;.</description>
+    </rule>
+    <rule id="9a04-0d8f-5e1a-39d6" name="Upgraded Warlock Attacks" hidden="false">
+      <description>
+Give Warlock 2x HtH SV1 Venomous attacks.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1628,6 +1652,15 @@ Re-roll all shooting hits against unit if in water terrain.</description>
       <characteristics>
         <characteristic name="Strike Value" typeId="1b55-d6e6-1944-708a">0</characteristic>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can be used for exchange of missiles</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3a5-ac46-539b-bfe1" name="New Profile" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
+      <characteristics>
+        <characteristic name="Range Short" typeId="388b-c232-987e-c292">-</characteristic>
+        <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
+        <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
+        <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">1/2</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Exchange of missiles only. SV2 on first use in a game.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

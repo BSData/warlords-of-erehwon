@@ -389,7 +389,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72bd-29ff-f495-65ff" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7169-9157-aec9-7ca3" name="Upgraded Warlock Attacks" hidden="false" targetId="f5fc-02a7-2971-c2fd" type="rule"/>
+                <infoLink id="7169-9157-aec9-7ca3" name="Upgraded Warlock Attacks" hidden="false" targetId="9a04-0d8f-5e1a-39d6" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
@@ -529,7 +529,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="1b2d-ecd8-515a-2eb6" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-        <infoLink id="10af-6964-9d38-f99f" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="10af-6964-9d38-f99f" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6e82-663a-8778-30b3" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -686,7 +686,7 @@
     <selectionEntry id="0361-ad9e-d586-5551" name="Ratter Warriors" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f8f1-20e5-0da6-9fa8" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-        <infoLink id="23f1-139e-840a-dc8d" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="23f1-139e-840a-dc8d" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9f0a-4061-99e1-72dc" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -883,7 +883,7 @@
         <infoLink id="d0c0-678e-388f-0361" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
         <infoLink id="ec3c-473f-e08b-84cb" name="Hand Gun" hidden="false" targetId="4d4a-8ee3-260b-037b" type="profile"/>
         <infoLink id="6005-e1aa-f20e-7470" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-        <infoLink id="c0a4-dd8a-045b-0708" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="c0a4-dd8a-045b-0708" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7d7a-68fd-2a76-e7ed" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -998,7 +998,7 @@
     <selectionEntry id="7da2-d18c-abeb-707e" name="Rat Slaves" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ee5f-6e7e-56cf-d6db" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-        <infoLink id="87d7-4617-85d0-4bb1" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="87d7-4617-85d0-4bb1" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4e84-3e0c-b5d4-8a4d" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1174,7 +1174,7 @@
     <selectionEntry id="4f9f-52f3-c6af-e17f" name="Rat Slaves with Bows" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d66e-c915-83fd-f0ab" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-        <infoLink id="5fa8-2c0b-2ae9-4229" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="5fa8-2c0b-2ae9-4229" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="abd1-9d44-9a74-2959" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1357,7 +1357,7 @@
     <selectionEntry id="fcb8-761e-3388-b0af" name="Rat Slaves with Slings" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9d26-f44c-01af-9895" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-        <infoLink id="646f-c49d-6ff9-f32a" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="646f-c49d-6ff9-f32a" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="94fe-29f8-374c-3c2a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1539,7 +1539,7 @@
     </selectionEntry>
     <selectionEntry id="7d5e-3ae6-6393-2f17" name="Plague Ratters" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ee7a-1326-47b8-378c" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="ee7a-1326-47b8-378c" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
         <infoLink id="a36e-292a-0548-5d6b" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
         <infoLink id="d917-0fcc-9752-4c3d" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
         <infoLink id="6dfd-6d85-5b6d-306c" name="Choking" hidden="false" targetId="7ff2-1650-fc0e-5a3a" type="rule"/>
@@ -1618,7 +1618,7 @@
     </selectionEntry>
     <selectionEntry id="d890-e098-6d32-f97e" name="Super Ratters" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="67cf-98a5-f2a1-331e" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="67cf-98a5-f2a1-331e" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
         <infoLink id="4149-6535-22c0-cdb0" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="3fda-06d4-1494-def7" name="Frenzied Charge" hidden="false" targetId="1c49-276e-425d-0999" type="rule"/>
         <infoLink id="e5d0-46e8-bbf7-fbe5" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
@@ -1675,7 +1675,7 @@
     </selectionEntry>
     <selectionEntry id="d2ea-72a7-5178-fd88" name="Giant Rats" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b6d6-7602-616a-a77a" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="b6d6-7602-616a-a77a" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
         <infoLink id="8b0b-3a64-0780-3a20" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
         <infoLink id="9ee7-37f5-666e-050a" name="Rapid Sprint" hidden="false" targetId="1e90-54e2-dd77-c4e3" type="rule"/>
         <infoLink id="1e9a-9553-81bf-3182" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
@@ -1807,7 +1807,7 @@
       <infoLinks>
         <infoLink id="2dd2-30d7-b30f-7aed" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
         <infoLink id="ff12-7939-10d9-e6a2" name="Unstoppable" hidden="false" targetId="a8bf-f48c-1b08-58e6" type="rule"/>
-        <infoLink id="fad1-6908-61f5-bad7" name="Pack" hidden="false" targetId="cee3-1ba7-af55-fd39" type="rule"/>
+        <infoLink id="fad1-6908-61f5-bad7" name="Pack" hidden="false" targetId="ef49-9860-1403-240c" type="rule"/>
         <infoLink id="f09a-0ac8-eecb-0d00" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="d525-311f-096a-d465" name="Slow 3" hidden="false" targetId="9d78-2294-d4fd-9efd" type="rule"/>
       </infoLinks>
@@ -2059,23 +2059,6 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedRules>
-    <rule id="cee3-1ba7-af55-fd39" name="Pack" hidden="false">
-      <description>
-Use highest CO stat of any Pack Master within 10&quot;.
-If Pack Master moves out of range while unit has pins equal to or higher than original CO and it already has taken an action, it is auto-broken.
-Same if unit hasn&apos;t taken action but receives additional pins before activation.
-Otherwise allowed to take an action as normal.</description>
-    </rule>
-    <rule id="77a0-7dae-4282-8756" name="Pack Master" hidden="false">
-      <description>
-Units with Pack rule can use this model&apos;s CO stat while model is within 10&quot;.</description>
-    </rule>
-    <rule id="f5fc-02a7-2971-c2fd" name="Upgraded Warlock Attacks" hidden="false">
-      <description>
-Give Warlock 2x HtH SV1 Venomous attacks.</description>
-    </rule>
-  </sharedRules>
   <sharedProfiles>
     <profile id="1216-0f07-28ed-cece" name="Ratter Broodlord, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
       <characteristics>
