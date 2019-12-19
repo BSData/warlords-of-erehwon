@@ -2061,16 +2061,19 @@
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="cee3-1ba7-af55-fd39" name="Pack" hidden="false">
-      <description>Use highest CO stat of any Pack Master within 10&quot;.
+      <description>
+Use highest CO stat of any Pack Master within 10&quot;.
 If Pack Master moves out of range while unit has pins equal to or higher than original CO and it already has taken an action, it is auto-broken.
 Same if unit hasn&apos;t taken action but receives additional pins before activation.
 Otherwise allowed to take an action as normal.</description>
     </rule>
     <rule id="77a0-7dae-4282-8756" name="Pack Master" hidden="false">
-      <description>Units with Pack rule can use this model&apos;s CO stat while model is within 10&quot;.</description>
+      <description>
+Units with Pack rule can use this model&apos;s CO stat while model is within 10&quot;.</description>
     </rule>
     <rule id="f5fc-02a7-2971-c2fd" name="Upgraded Warlock Attacks" hidden="false">
-      <description>Give Warlock 2x HtH SV1 Venomous attacks</description>
+      <description>
+Give Warlock 2x HtH SV1 Venomous attacks.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1009,7 +1009,8 @@ When shooting blind (without LOS): Hits on a 1, misses are ignored and have no e
 Requires Fire Order to shoot. Does not gain +1 to hit from Aimed Shot.</description>
     </rule>
     <rule id="c2ce-a18c-2d45-d817" name="Ferocious Charge" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
-      <description>+1 to strength when charging. Does not apply to follow-on combat.</description>
+      <description>
++1 to strength when charging. Does not apply to follow-on combat.</description>
     </rule>
     <rule id="fd29-829f-3cd9-1841" name="Fast 7" publicationId="cffa-cd51-pubN65537" page="67" hidden="false">
       <description>
