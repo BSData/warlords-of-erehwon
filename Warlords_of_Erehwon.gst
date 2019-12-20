@@ -1654,7 +1654,7 @@ Give Warlock 2x HtH SV1 Venomous attacks.</description>
         <characteristic name="Special Rules" typeId="dad6-5d39-6880-25a5">Can be used for exchange of missiles</characteristic>
       </characteristics>
     </profile>
-    <profile id="b3a5-ac46-539b-bfe1" name="New Profile" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
+    <profile id="b3a5-ac46-539b-bfe1" name="Pilum" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
       <characteristics>
         <characteristic name="Range Short" typeId="388b-c232-987e-c292">-</characteristic>
         <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>

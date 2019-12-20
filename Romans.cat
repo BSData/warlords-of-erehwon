@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e7a1-5868-164c-1ab7" name="Romans" revision="1" battleScribeVersion="2.03" authorName="LeadAddict" authorContact="Please report any issues via our issues page on Github!" authorUrl="https://github.com/BSData/warlords-of-erehwon/issues" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="495e-abbe-23ec-1ba7" name="Centurion" hidden="false" collective="false" import="true" targetId="f480-dcf5-f397-83b9" type="selectionEntry"/>
+    <entryLink id="1ffe-a5d3-8e75-89de" name="Mounted Centurion" hidden="false" collective="false" import="true" targetId="24d6-04a1-3ba7-d9a3" type="selectionEntry"/>
+    <entryLink id="c0b1-b2e7-8bd6-f37a" name="Haruspex" hidden="false" collective="false" import="true" targetId="fd27-5e5d-b526-ed5d" type="selectionEntry"/>
+    <entryLink id="3f75-5fa8-6add-2129" name="Roman Hero" hidden="false" collective="false" import="true" targetId="f1d5-e87f-b191-1f8e" type="selectionEntry"/>
+    <entryLink id="2434-ffa9-4ea1-39b1" name="Mounted Roman Hero" hidden="false" collective="false" import="true" targetId="62bb-0c22-a244-3263" type="selectionEntry"/>
+    <entryLink id="801d-144b-2e1f-5fdd" name="Legionary Working Party" hidden="false" collective="false" import="true" targetId="d252-d5c0-bd4a-37d4" type="selectionEntry"/>
+    <entryLink id="29a4-f2d8-045a-49f1" name="Roman Legionaries" hidden="false" collective="false" import="true" targetId="0a1c-f4af-b8a1-4d51" type="selectionEntry"/>
+    <entryLink id="707d-a396-6df1-1070" name="Legionaries in Heavy Armour" hidden="false" collective="false" import="true" targetId="d5be-55be-4e33-986a" type="selectionEntry"/>
+    <entryLink id="854b-e4ec-07c2-b0f3" name="Roman Legionaries" hidden="false" collective="false" import="true" targetId="edf9-f4fd-4fc8-1e67" type="selectionEntry"/>
+    <entryLink id="92a8-04f2-655d-279e" name="Auxiliary Infantry with Slings" hidden="false" collective="false" import="true" targetId="3c61-8aa7-ff1a-7913" type="selectionEntry"/>
+    <entryLink id="b0c7-ae45-a01d-94fb" name="Auxiliary Infantry with Javelins" hidden="false" collective="false" import="true" targetId="598d-4ab7-7479-b061" type="selectionEntry"/>
+    <entryLink id="dcbb-d048-a859-a9dd" name="Auxiliary Infantry with Bows" hidden="false" collective="false" import="true" targetId="79d5-46a4-6ed5-5291" type="selectionEntry"/>
+    <entryLink id="898a-58ac-b71b-8a3c" name="Roman Auxiliaries" hidden="false" collective="false" import="true" targetId="a330-d8c9-a7f8-ffff" type="selectionEntry"/>
+    <entryLink id="ad82-9243-de02-dc2a" name="Equites - Roman Auxiliary Cavalry" hidden="false" collective="false" import="true" targetId="7482-1fce-195b-c234" type="selectionEntry"/>
+    <entryLink id="4ccf-e0d4-ef34-658a" name="Cataphractarii - Roman Cataphract Cavalry" hidden="false" collective="false" import="true" targetId="c0dd-ad63-bfed-4fc8" type="selectionEntry"/>
+    <entryLink id="df63-65f0-a976-f493" name="Roman Hero in Chariot" hidden="false" collective="false" import="true" targetId="d146-f72f-e3e8-dbea" type="selectionEntry"/>
+    <entryLink id="ce38-0608-44c3-1828" name="Sagitarii - Roman Horse Archers" hidden="false" collective="false" import="true" targetId="3d8d-9e23-ca43-d783" type="selectionEntry"/>
+    <entryLink id="5c83-119b-1a93-a8ea" name="Light Cavalry" hidden="false" collective="false" import="true" targetId="d224-08ca-2089-ff45" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="f480-dcf5-f397-83b9" name="Centurion" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="f03e-66eb-0e35-d829" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
+        <categoryLink id="ee7e-2c00-88f5-054f" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d36d-3c7e-f160-9e4a" name="Centurion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f0b-8882-1994-2b8a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a7f-dcf8-2d93-605e" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8349-8e6e-294c-576a" name="Centurion, medium armour" hidden="false" targetId="3da4-7266-92c3-f648" type="profile"/>
+            <infoLink id="f1ca-82bd-5501-b716" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
+            <infoLink id="7a00-17dc-d52a-7ecb" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="76.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b9fa-7cdc-53bd-43ad" name="Choose Ranged Weapons" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d127-a1b0-4b23-36db" name="Pila" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="f480-dcf5-f397-83b9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb88-99e2-7b67-8b8d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2f5f-6df7-2e3c-504d" name="Pila" hidden="false" targetId="b3a5-ac46-539b-bfe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6ef7-941f-301c-3dd8" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="af85-c578-5203-4703" name="Bodyguard in medium armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74a4-ebec-753e-67e5" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddf8-8e8a-e6ed-22e5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6354-47c1-e448-45a5" name="Bodyguard, medium armour" hidden="false" targetId="4236-651f-fc4d-4ef9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9f0c-a624-5775-7ee2" name="Centurion Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="be23-2ab5-5495-831f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1425-eb5f-bfa3-797a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7832-91ee-ac22-0514" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="26d0-1fb8-9fb6-b04e" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="fd18-b1c8-e80e-7c02" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="14.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="be23-2ab5-5495-831f" name="Wound 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="47b2-86b8-b43b-5125" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="47c2-a39b-03de-507e" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="13ed-cbed-4757-f020" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c763-bffa-3796-d119" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2b8d-37f6-f0e9-1b98" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a984-31ce-87ab-8e8b" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="b0b3-1264-d8a9-3b6e" name="Upgrade to Tough 2" hidden="false" collective="false" import="true" targetId="9fb8-d4a9-2584-79c0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24d6-04a1-3ba7-d9a3" name="Mounted Centurion" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d85b-d1e5-ca30-621b" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9933-fc1c-62aa-920b" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
+        <categoryLink id="291a-c8a9-4baf-5aed" name="Mounted Unit" hidden="false" targetId="mounted unit" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="71b7-b63c-7cec-09fe" name="Mounted Centurion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0305-1ff9-445c-81db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308d-f886-63f6-e439" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e4e7-9965-fac1-b29f" name="Mounted Centurion, medium armour" hidden="false" targetId="4a03-b0ec-b541-49b4" type="profile"/>
+            <infoLink id="27e2-5c2c-2d97-eed2" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
+            <infoLink id="79d1-450a-5cf7-d568" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="86.0"/>
+            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd24-d3a8-ae20-f5e3" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="af86-6008-35ec-c6ad">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6229-14a8-e3f6-c808" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a21-4c62-24d4-286b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="babe-0625-6766-14ce" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e980-f549-44e7-ac16" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="af86-6008-35ec-c6ad" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d409-31e3-bbf3-ff14" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c0ef-2817-0318-4b7a" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7e7d-03ad-6f95-2352" name="Mounted Bodyguards" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f80c-4f6f-58b0-b139" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b91b-b692-58df-80ca" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="40ce-28e8-353f-4c8a" name="Mounted Bodyguard, medium armour" hidden="false" targetId="7214-da76-5f82-d530" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="24.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="db5c-ecd4-dd33-098e" name="Centurion Wound Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d2-44c7-4f52-a401" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c38-cad7-fae5-d6fc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="38de-3bd5-be0d-083a" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7183-bca7-5fba-1cb6" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ae0-7e4e-a132-10ca" name="Wound 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cc68-769b-daa0-2163" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6da0-e12f-34b0-e950" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="e3b0-4855-75df-0c66" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0041-cde9-480d-4ace" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="595c-12a6-9fb9-69ed" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="61ac-0ef4-82c6-34b3" name="Upgrade to Tough 2" hidden="false" collective="false" import="true" targetId="9fb8-d4a9-2584-79c0" type="selectionEntryGroup"/>
+        <entryLink id="7fd6-2115-fa53-1436" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd27-5e5d-b526-ed5d" name="Haruspex" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="ed42-35c9-9adf-48d5" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
+        <categoryLink id="e381-8b34-f6ef-279e" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6f4c-e3b5-b713-9187" name="Choose Haruspex Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="75b7-ad53-f0ea-7b06">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7294-b3ca-0269-769c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a612-6aeb-7db4-55fd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="33f9-75f4-a6cb-e410" name="Dolabra (Big Axe)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8cee-ccb7-8859-db30" name="Big Axe" hidden="false" targetId="e977-49ab-1207-d301" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="75b7-ad53-f0ea-7b06" name="Sword or Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="efcc-f0b3-a4cb-57b4" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="85c4-49e8-432e-2c07" name="Divine Intervention Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="708b-e053-0669-02b5" name="Divine Intervention" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78f5-9c1f-1f9e-a227" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7b5c-f4a7-c43f-a8ea" name="Divine Intervention" hidden="false" targetId="a447-d495-b7ab-1477" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c014-cbc2-d2ce-5edb" name="Choose Bodyguards" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1627-c6ca-ac85-9785" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf34-b3b8-c1d6-19dc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="02a1-0a17-65af-8ed5" name="Acolytes" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0d87-936b-304a-c54c" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a0b-162d-9200-ea2b">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d0c-973a-5154-cff5" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78dd-2ba8-576b-e706" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="7a0b-162d-9200-ea2b" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="b64b-b236-56ee-6450" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                          <selectionEntries>
+                            <selectionEntry id="be8f-7431-4fd5-5a09" name="Acolyte" hidden="false" collective="false" import="true" type="model">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef3a-7929-9346-c194" type="max"/>
+                                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a6-e4a3-239a-8a0a" type="min"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="fe45-734b-58a8-45ac" name="Acolyte" hidden="false" targetId="f51b-4cfa-cfd5-e76b" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="10.0"/>
+                                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry id="2cc8-8336-3dd4-23ec" name="Haruspex" hidden="false" collective="false" import="true" type="model">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="035d-0f49-15f5-1c06" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84aa-2051-fe2c-b8d6" type="max"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="37db-6dfe-ff44-48fc" name="Haruspex" hidden="false" targetId="308a-8ae9-f041-b3d5" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="57.0"/>
+                                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="89e5-d7b3-7d69-9f95" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="661a-8cbb-b574-37cc" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                          <selectionEntries>
+                            <selectionEntry id="6259-d0a4-7902-9ae0" name="Acolyte in Light Armour" hidden="false" collective="false" import="true" type="model">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb6-49db-487d-1f09" type="max"/>
+                                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9db0-3cb5-e64e-9fc3" type="min"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="3afe-e8ec-1a7e-5275" name="Acolyte, light armour" hidden="false" targetId="1c55-4f70-d030-de48" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="12.0"/>
+                                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry id="cdcb-de73-48c6-0052" name="Haruspex in Light Armour" hidden="false" collective="false" import="true" type="model">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe27-71e6-eea9-a256" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3d6-1153-6da4-8467" type="max"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="fb95-06c0-144d-63cd" name="Haruspex, light armour" hidden="false" targetId="de30-bc63-15b7-ad01" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="59.0"/>
+                                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="62a8-5e44-9e0a-e8a8" name="Genii Spirits" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6069-4099-7941-9ea3" name="Choose Haruspex Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="2811-d305-67f8-3e27">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e80-53bd-8258-16eb" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4255-7d0c-a672-4fd9" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="2811-d305-67f8-3e27" name="Haruspex with No Armour" hidden="false" collective="false" import="true" type="model">
+                      <infoLinks>
+                        <infoLink id="dd87-52e5-7688-3e0d" name="Haruspex" hidden="false" targetId="308a-8ae9-f041-b3d5" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="57.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6ba3-cd70-d27d-7b12" name="Haruspex in Light Armour" hidden="false" collective="false" import="true" type="model">
+                      <infoLinks>
+                        <infoLink id="4e1c-1ee9-d4f6-eb98" name="Haruspex, light armour" hidden="false" targetId="de30-bc63-15b7-ad01" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="59.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="abeb-467a-5bbb-e724" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="c713-32fb-87f8-a075" name="Genii Spirits" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0369-144b-13b7-6c2b" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b25f-4970-3c2e-4aa4" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="cfae-bf62-9a45-c507" name="Genii Spirits" hidden="false" targetId="c659-460c-cf86-7c0a" type="profile"/>
+                        <infoLink id="7369-2fa7-6862-da48" name="Spirit" hidden="false" targetId="78d3-886d-5fc6-bac4" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="18.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0e48-32d5-b5f8-81e7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="2019-b455-7796-2a2d" name="Free Magic Spell" hidden="false" collective="false" import="true" targetId="adf3-5f05-7784-4f01" type="selectionEntryGroup"/>
+        <entryLink id="fb8a-bb04-fa69-392e" name="Additional Magic Spells" hidden="false" collective="false" import="true" targetId="213c-8ec7-6715-58aa" type="selectionEntryGroup"/>
+        <entryLink id="8da3-4fae-81da-668e" name="Upgrade to Tough 2" hidden="false" collective="false" import="true" targetId="9fb8-d4a9-2584-79c0" type="selectionEntryGroup"/>
+        <entryLink id="338e-89b7-71e9-8832" name="Magic Level" hidden="false" collective="false" import="true" targetId="f802-bb86-3500-a89a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1d5-e87f-b191-1f8e" name="Roman Hero" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="ecec-195a-d63e-ad1c" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
+        <categoryLink id="fad4-565e-38a9-0c84" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="17c0-fedf-a907-dbed" name="Roman Hero" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b0-ebd6-d32f-ba6b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5617-63de-a270-f26b" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9024-a158-17e6-566d" name="Roman Hero, medium armour" hidden="false" targetId="9980-2b7a-6bb7-f329" type="profile"/>
+            <infoLink id="4fe3-3f1c-058a-618c" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
+            <infoLink id="d3e0-b77f-409f-ae25" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="85.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3e02-ab6a-90b7-e4c6" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="870c-c4fe-870e-76c8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b998-fa94-9b77-3c98" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69dc-ec89-a73d-ce06" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f418-5f9f-7780-ce56" name="Tough 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="80ff-39c7-c019-e6e3" name="Tough 3" hidden="false" targetId="3536-db5c-4e89-87d7" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="870c-c4fe-870e-76c8" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6a73-0881-1eff-a3a1" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d144-1f57-8c6f-65b5" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="e3b1-815e-4523-6e7e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="397d-0cf5-8b56-e0e7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1905-140d-fe47-88e1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="edbb-e07f-8172-aaaf" name="Wound 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1d5c-17ee-b7cb-8018" name="Wound 3" hidden="false" targetId="2724-2057-e745-23a3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="32.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d249-cb1d-f1e2-f57b" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="eecb-463b-c0ed-ad52" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e3b1-815e-4523-6e7e" name="Wound 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c8d8-efe6-a185-9bfa" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6165-d2b8-1681-448e" name="Give Hero Pilum" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="3bba-ab83-6ffd-1483" name="Pilum" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="252e-ef46-846a-cfaf" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="feef-e89e-116c-4c86" name="Pila" hidden="false" targetId="b3a5-ac46-539b-bfe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7522-5d26-cb9a-9e55" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="dd06-c52f-8848-e026" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4739-f426-1662-0433" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f936-c8a8-9d31-6ed8" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7882-d3d5-44e9-b51e" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62bb-0c22-a244-3263" name="Mounted Roman Hero" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="e09a-bd00-bbed-2d3a" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
+        <categoryLink id="9dc4-b90a-2038-0a13" name="Mounted Unit" hidden="false" targetId="mounted unit" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="87b1-2f21-77da-3ed0" name="Mounted Roman Hero" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c7-d7f2-b092-0639" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae3-7f25-18ac-fae0" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b1de-77c5-e48a-1ad9" name="Mounted Roman Hero, medium armour" hidden="false" targetId="ae1e-2315-68d5-d203" type="profile"/>
+            <infoLink id="07f7-489c-21c5-2e17" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
+            <infoLink id="a7fd-28d6-e0a9-866a" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="95.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0c39-c847-0804-52e3" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="9015-397f-dd2f-f52e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb0-71fb-e563-4778" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c7-5618-06dd-23e5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3f5a-b882-3811-5c42" name="Tough 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="572d-0200-c94d-de05" name="Tough 3" hidden="false" targetId="3536-db5c-4e89-87d7" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9015-397f-dd2f-f52e" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2e09-107e-9af4-bc19" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0417-6b1b-b54f-1c93" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="8d5d-0243-ab14-5b1e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0b-a2e9-1274-9f68" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a2-fb7f-be73-4a3b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="409f-7380-47b1-c784" name="Wound 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4f96-5c5e-3453-cb17" name="Wound 3" hidden="false" targetId="2724-2057-e745-23a3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="36.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f859-b114-092d-ac07" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="83e1-b81f-e54f-2c20" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d5d-0243-ab14-5b1e" name="Wound 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a82d-ad4b-1eae-00fc" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c863-0b60-fcdd-6524" name="Give Hero Javelins" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="6b87-73eb-694a-184e" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe21-4d72-eca2-6ac7" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="cbf2-fff8-add0-d0be" name="Javelin" hidden="false" targetId="d7ff-de60-8b37-fbb7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d534-d801-6190-d870" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5717-4b1b-3e28-cb19" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cd-1291-e11b-36e0" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e583-2f4d-afc5-a726" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1be1-ef10-9985-865e" name="Give Hero Spear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0f88-8064-b062-faca" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e41-6432-e97d-ce76" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4e58-e2f7-9636-08a0" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d6cc-d5f1-a4c5-be4d" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d146-f72f-e3e8-dbea" name="Roman Hero in Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="512c-1417-862a-c142" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
+        <categoryLink id="51e7-19b3-b974-8602" name="Chariot Unit" hidden="false" targetId="239f-4e2f-785f-7869" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f4b4-c9b0-c664-632e" name="Chariot with Roman Hero and Crew pulled by 2 horses" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f0-6142-cc63-f717" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3641-28ab-5064-640b" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0b29-2f6f-40f6-2661" name="Roman Hero, medium armour" hidden="false" targetId="9980-2b7a-6bb7-f329" type="profile"/>
+            <infoLink id="51df-181f-5eb9-d98e" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
+            <infoLink id="03fb-bb10-a1b9-4790" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+            <infoLink id="1cc2-6d0d-a0ca-7228" name="Roman crew" hidden="false" targetId="b390-cae7-929d-ee7d" type="profile"/>
+            <infoLink id="89c7-e387-d87e-1f12" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+            <infoLink id="f202-b3a4-52f5-cc8c" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+            <infoLink id="b0dd-86ec-fd29-f336" name="Irresistible Charge" hidden="false" targetId="86b2-7051-4b5c-d149" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="160.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34ae-3ff9-e8e6-6e6c" name="Horses" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ff-fe74-37ce-5227" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b14-5ad7-68b4-cdce" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f7ce-0d46-f57e-b46a" name="Horse" hidden="false" targetId="d500-cf8d-409e-0d0f" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="56ba-82f8-161a-11da" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="53a7-7f1e-b0a2-bec9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1723-079b-d723-3285" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cae-413a-1118-b0c9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="46f2-a2d5-bf72-6833" name="Tough 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="eb31-d524-90b5-9bd0" name="Tough 3" hidden="false" targetId="3536-db5c-4e89-87d7" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="53a7-7f1e-b0a2-bec9" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c492-06e0-9839-b822" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ae59-f566-ae2b-5876" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b68-7827-8fbe-e04c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d900-54b1-e4e9-7c20" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fd1-1936-6b50-bb6b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bcc4-40b9-6488-ba41" name="Wound 3" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6607-90b6-c8f4-5af2" name="Wound 3" hidden="false" targetId="2724-2057-e745-23a3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="32.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1da4-c0d5-87bb-d8f9" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6f42-d1a2-9c49-42a9" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1b68-7827-8fbe-e04c" name="Wound 1" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="05fe-fb88-31cc-de51" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="17e0-ed42-c0f8-6310" name="Give Hero and Crew Pilum" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f514-86d0-2e57-09b1" name="Pilum" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf8-a327-366a-4f16" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="67d1-a75b-264a-ad84" name="Pila" hidden="false" targetId="b3a5-ac46-539b-bfe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a7ac-d669-ec05-1cb2" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="cde8-90c5-810b-2f69" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26f2-a335-7854-ab5e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d789-c18c-0563-e455" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="308f-f2d7-49aa-25dc" name="Chariot Scythes Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="536a-44c0-3bd7-6a9c" name="Chariot Scythes" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e9c-4d21-fb2b-3362" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e9a5-87a6-4240-c7bb" name="Chariot Scythes" hidden="false" targetId="7723-e7c2-30a5-43ee" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5de2-8428-d81c-5672" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a1c-f4af-b8a1-4d51" name="Veteran Roman Legionaries" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d068-16c0-9c30-63dd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7ed7-96fa-8d32-539c" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0aeb-62d0-8305-e26a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4529-44c8-8ce6-3d45" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f91a-43bc-aadd-b675" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa3-c6d8-3913-f5b4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="fbf8-0d61-b75a-8074" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="739a-cf95-680a-0f66" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="03c1-0789-c3a4-bcb7" name="Veteran Legionary in medium armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c9-e7d0-98d3-60cd" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b3a-0a0b-e106-4a5d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="64a4-cec5-cfe2-c4fb" name="Veteran Roman Legionary, medium armour" hidden="false" targetId="8a12-5297-3c5f-ceab" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="18.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9824-a92c-7154-8dff" name="Veteran Optio in medium armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7895-0c39-125e-b47a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d6-bc01-e645-532e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="43ae-1bf0-eb0a-eb87" name="Veteran Roman Legionary, medium armour" hidden="false" targetId="8a12-5297-3c5f-ceab" type="profile"/>
+                <infoLink id="7db0-2e66-9165-4937" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="28.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7bb2-b0ae-66fc-580d" name="Pilum Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d7dd-ce36-552e-f6ef" name="Pilum" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="0a1c-f4af-b8a1-4d51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e40f-5337-f2fc-a36f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="15a6-cee3-e76d-abb9" name="Pila" hidden="false" targetId="b3a5-ac46-539b-bfe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d252-d5c0-bd4a-37d4" name="Legionary Working Party" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="fd7c-2ef1-315c-16bd" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3edb-04ff-9b55-de33" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c541-f491-4ea0-f92a" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e1e-111e-c4e6-ee2c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d104-355f-0ff3-1df8" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b0df-b843-5e88-3479" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="039f-e18a-1cc1-fe93">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c4b-b2ea-c6a0-28be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="608d-3237-825d-9613" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9eef-cf77-9ab5-984f" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b54d-0b1f-2be3-58f6" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="d72f-ac2a-58d1-6c85" name="Legionary in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f6b-9c9c-40b4-3686" type="min"/>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1114-d355-d726-5478" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="9ace-741d-1381-b1da" name="Roman Legionary, medium armour" hidden="false" targetId="c919-0456-2a82-6ffd" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="14.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1328-a73c-b800-ff11" name="Optio in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a5-5c74-29bb-91bf" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1733-7be0-bb8b-0642" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6a85-624f-7b5f-df5a" name="Roman Optio, medium armour" hidden="false" targetId="438a-43a8-a440-f7e1" type="profile"/>
+                        <infoLink id="fd68-0ecf-ff8c-a45f" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="26.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="039f-e18a-1cc1-fe93" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="dbf4-1c02-5721-a3af" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="f1c9-556f-3d6b-a6f0" name="Legionary in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49da-c16f-5867-499a" type="min"/>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ceb-4700-f1d9-4299" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a95e-1aa5-19fd-7141" name="Roman Legionary, light armour" hidden="false" targetId="d0d6-562a-e84d-c721" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="12.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c7a1-ab98-0a91-d917" name="Optio in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b50c-9bba-4896-f18a" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b1-0fe4-b0b8-fc5e" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="bafe-d123-0932-5d82" name="Roman Optio, light armour" hidden="false" targetId="2694-1c21-bbe6-d1d0" type="profile"/>
+                        <infoLink id="2ad1-52b3-a0c6-4429" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="24.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="658c-c774-8bff-f688" name="Choose Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e765-d7df-f6e5-3551">
+          <selectionEntries>
+            <selectionEntry id="4f90-70a6-d709-9c33" name="Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6783-5f3c-b4e9-d515" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="e765-d7df-f6e5-3551" name="Dolabra (Big Axe)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a561-46d8-4cc8-51bd" name="Big Axe" hidden="false" targetId="e977-49ab-1207-d301" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5be-55be-4e33-986a" name="Legionaries in Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad06-a7eb-3d22-0217" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="aa6d-afd2-5f96-c771" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6586-3be6-b06f-eee0" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f630-312c-0a6c-6386" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="8ff2-46e9-daec-4c1d" name="Legionary in heavy armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92e2-468e-4419-92aa" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe8-4617-ecfa-4def" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3ff1-0d71-0892-3179" name="Roman Legionary, medium armour" hidden="false" targetId="e4fc-ccb8-10c4-eac1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d1e8-8cd7-8626-61a2" name="Optio in heavy armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffec-e6d2-c7af-996e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da8-f716-40ea-bcea" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2b63-7d0e-b0e2-d127" name="Roman Optio, heavy armour" hidden="false" targetId="a8dd-8e71-2657-d6e4" type="profile"/>
+                <infoLink id="bbb9-6676-fd23-269d" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a90d-f3a2-cf96-cd22" name="Pilum Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1bca-16b4-588f-7eb2" name="Pilum" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="d5be-55be-4e33-986a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ec-f910-43cb-7999" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bf32-a906-73a9-ffff" name="Pila" hidden="false" targetId="b3a5-ac46-539b-bfe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="51ef-b565-3fce-b415" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1330-bf9a-35cb-f1fa" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b5-972a-09ef-d498" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="06d2-3da3-fdb8-4df1" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edf9-f4fd-4fc8-1e67" name="Roman Legionaries" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ec29-8f26-7192-82eb" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="08b9-05f9-557d-fef8" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4a9e-76c3-ed61-38c7" name="Disciplined Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="68c3-b40a-d076-e198" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d3-cb97-d00d-87da" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="dd32-3724-9bac-2b83" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0a8d-3ddb-28d4-9073" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5a3b-4524-c046-4bfd" name="Legionary in medium armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a05-62ae-b269-61fe" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4359-ab19-8028-c078" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e0a0-27aa-dbd0-67f0" name="Roman Legionary, medium armour" hidden="false" targetId="c919-0456-2a82-6ffd" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="14.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cebc-7524-085a-c7b6" name="Optio in medium armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef82-2599-731c-117e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a842-a1bc-b6ee-a3e8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4972-73bc-b5d1-59d6" name="Roman Optio, medium armour" hidden="false" targetId="438a-43a8-a440-f7e1" type="profile"/>
+                <infoLink id="b291-508c-f23f-9108" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="26.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1bbc-847f-80eb-2f95" name="Pilum Upgrade" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="451c-785e-a9b4-41de" name="Pilum" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="edf9-f4fd-4fc8-1e67" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5807-2399-d8d6-fba9" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8e34-72a9-ba61-cb71" name="Pila" hidden="false" targetId="b3a5-ac46-539b-bfe1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a330-d8c9-a7f8-ffff" name="Roman Auxiliaries" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="d13f-9498-3bfb-b5ed" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d7f9-4cf6-5878-e981" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="38e4-0538-caa0-a54c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d1-1967-ed1f-6e86" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe35-3470-69ae-398e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d4e3-908c-b30c-1a14" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6884-c9aa-20b5-d25a" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="d44e-284c-54b2-1852" name="Auxiliary Decurion in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f18a-eeda-9529-54bf" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a6c-dae2-877a-9d03" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="7db8-f9a6-9036-791a" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="20e2-029f-3e9b-4faa" name="Auxiliary Decurion, medium armour" hidden="false" targetId="0ace-b1b9-ee68-3ec9" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="26.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="329e-cefc-a7ac-b933" name="Roman Auxiliary in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4fc-e129-40b7-a050" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71a2-ba20-ef9b-e597" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="d2a7-bc6a-01df-5515" name="Auxiliary, medium armour" hidden="false" targetId="3c02-e38b-b4c7-1ef0" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="14.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="38e4-0538-caa0-a54c" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c949-ecb2-9b0b-38f2" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="c733-8c8e-0cb1-e26e" name="Auxiliary Decurion in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e71-bae3-55d8-a0a6" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="562a-abec-cb58-d8ac" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="eeed-feff-3f6d-8e44" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="ed04-a4f0-4089-3972" name="Auxiliary Decurion, light armour" hidden="false" targetId="7265-32a6-1f32-df3f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="24.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="79b1-f474-1a13-088a" name="Roman Auxiliary in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df4-e66b-71ab-e7e8" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a047-5905-6484-3a12" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="b256-96fc-1789-809a" name="Auxiliary, light armour" hidden="false" targetId="80e7-b074-bfb1-3d71" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="12.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9020-b330-0dcf-d9d9" name="Choose Weapon" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="28e4-3b25-daa6-2526" name="Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3bb5-743e-9eb4-442b" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="cac0-17c2-01e3-a054" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="540c-93dc-f7e3-98be" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79d5-46a4-6ed5-5291" name="Auxiliary Infantry with Bows" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fcfe-f394-ced7-6be8" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="1720-d0c6-3af2-474f" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="517a-8cd1-1037-2e91" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="62c1-4b9a-0fe9-7b2f" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="874b-e03d-743c-2407">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6318-57c4-9f1d-7ae9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cb1-779a-383d-ec49" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="874b-e03d-743c-2407" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="41b7-a22a-2270-6a49" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="48c3-61cc-ff84-b032" name="Auxiliary Decurion" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1fd-bc9d-6f19-6720" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc49-eb66-3073-d03a" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6e18-bf63-651d-f943" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="6d4a-5082-a120-1fed" name="Auxiliary Decurion" hidden="false" targetId="1d23-6aaa-9640-a840" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="24.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6f7f-d17a-d952-2c6b" name="Roman Auxiliary" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ee-b271-fb43-c04c" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0078-e79f-8e38-2cac" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="1f50-2605-936b-cbd0" name="Auxiliary" hidden="false" targetId="f302-7d7b-5423-60ca" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="12.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="81d3-c02b-bf6f-53be" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d644-7f17-4612-f266" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="4506-13d5-9ec9-65b8" name="Auxiliary Decurion in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="755d-32b2-9893-e3f4" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1177-eeaa-a31e-f7c8" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a31e-cff0-9e52-7186" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="b409-6801-ab44-108b" name="Auxiliary Decurion, light armour" hidden="false" targetId="7265-32a6-1f32-df3f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="26.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c79b-c6d1-288a-7675" name="Roman Auxiliary in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d845-5b38-21c1-8f0c" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14e6-1399-5587-ac2d" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="429f-5681-802e-caa5" name="Auxiliary, light armour" hidden="false" targetId="80e7-b074-bfb1-3d71" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="14.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="598d-4ab7-7479-b061" name="Auxiliary Infantry with Javelins" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="23b3-3268-6495-4081" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="9fa6-d9f0-9cd4-3260" name="Javelin" hidden="false" targetId="d7ff-de60-8b37-fbb7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6eb5-b62d-0ebb-d05a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a73d-1fe3-6bde-b5d5" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="784a-fd26-e1a6-6254">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad5-14b1-690b-3c70" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7566-e7ad-233d-7abb" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="784a-fd26-e1a6-6254" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3968-fb3f-68bc-1112" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="88e9-d2ef-ace2-7dfb" name="Auxiliary Decurion" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a44d-d59d-5d66-87a1" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23d7-809c-77df-3dab" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6141-fe8a-3b6e-b1eb" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="2bb1-558b-2001-01f7" name="Auxiliary Decurion" hidden="false" targetId="1d23-6aaa-9640-a840" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="24.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2110-a8ae-0c96-69c0" name="Roman Auxiliary" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a3-e514-342f-27ab" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4265-2834-709b-7c1c" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="2205-5735-f7d0-9eba" name="Auxiliary" hidden="false" targetId="f302-7d7b-5423-60ca" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="12.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="185a-e6b7-19b0-bc2e" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6249-121b-aba7-dcc4" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="9561-8879-a332-78af" name="Auxiliary Decurion in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1847-673e-82f1-ceeb" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cb1-ae3b-ed35-38ca" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="5947-d9ef-5565-6be5" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="10a8-1e30-3594-3748" name="Auxiliary Decurion, light armour" hidden="false" targetId="7265-32a6-1f32-df3f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="26.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5f46-a890-d0fb-ec8d" name="Roman Auxiliary in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90d3-25ec-bd98-8bcc" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff61-7cd2-a89d-7e72" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="3e93-b642-e965-533c" name="Auxiliary, light armour" hidden="false" targetId="80e7-b074-bfb1-3d71" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="14.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c61-8aa7-ff1a-7913" name="Auxiliary Infantry with Slings" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ab8d-1165-6cc4-71b0" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="89c8-f0db-180d-bbc7" name="Sling" hidden="false" targetId="aae2-6321-3b33-079d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a62e-e7c4-8c9e-4cfb" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="095a-e2df-46fb-b986" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="6202-f330-0bd3-554b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbef-e170-2a8f-df90" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae22-4010-05bd-5c6d" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6202-f330-0bd3-554b" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="861e-5f5f-0575-8c8b" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="8ef0-0122-4a1c-5dfa" name="Auxiliary Decurion" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c62e-cb45-2b69-1d09" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="669e-27bc-3aa1-0823" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="c7ee-75dc-e477-c2b2" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="fcf7-c312-6f4a-027e" name="Auxiliary Decurion" hidden="false" targetId="1d23-6aaa-9640-a840" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="25.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d40f-589f-097a-4e73" name="Roman Auxiliary" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f49f-cc57-0360-216c" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3cf-3b7d-a884-dcd2" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="b364-986d-309c-e9eb" name="Auxiliary" hidden="false" targetId="f302-7d7b-5423-60ca" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="13.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="ced5-d57e-9882-7ec3" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="72bb-c45e-a82e-5210" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="8ed4-b879-2b04-5170" name="Auxiliary Decurion in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1adb-0ff2-3da1-2c2f" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb3-60c5-4625-53c0" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="574d-01c6-8bc4-5f33" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="7f27-50c7-aee7-89d7" name="Auxiliary Decurion, light armour" hidden="false" targetId="7265-32a6-1f32-df3f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="27.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9bfc-7397-5dea-23e9" name="Roman Auxiliary in light armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f1-57c8-526f-27c0" type="max"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e21a-909e-d23d-fc26" type="min"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="f92b-028a-eaf3-8e01" name="Auxiliary, light armour" hidden="false" targetId="80e7-b074-bfb1-3d71" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7482-1fce-195b-c234" name="Equites - Roman Auxiliary Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dd23-7364-432c-60af" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="34da-0e3c-cd11-c10a" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ac0b-1808-149e-b6dd" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="3531-ce3a-274b-816e" name="Cavalryman in light armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fde5-8dde-b27a-699a" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1c9-9b93-edc1-7de2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="466d-2260-98eb-a681" name="Cavalryman, light armour" hidden="false" targetId="f18f-4f2c-7aac-bc51" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e139-2433-e925-9811" name="Mounted Decurion in light armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ef-fc10-113d-23da" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b09a-e53e-0997-ce98" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b617-b38c-ece0-28a1" name="Mounted Decurion, light armour" hidden="false" targetId="bc6c-632d-5be5-fe10" type="profile"/>
+                <infoLink id="a836-1ec3-f5ee-56e5" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="32.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8b7e-6521-8eb8-433d" name="Choose Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4cdd-c23b-ac4d-a48c">
+          <selectionEntries>
+            <selectionEntry id="ab48-dc83-ce21-b588" name="Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5a4a-5b59-7cab-473a" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="4cdd-c23b-ac4d-a48c" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="63ea-acc7-2d98-46b3" name="Spear" hidden="false" targetId="c79a-48d1-9b48-2c68" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="4cda-e8ee-41cd-4001" name="Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="0.0">
+                  <repeats>
+                    <repeat field="selections" scope="7482-1fce-195b-c234" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="bab5-7ad4-e256-249b" name="Lance" hidden="false" targetId="e601-dcfc-7485-2164" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0dd-ad63-bfed-4fc8" name="Cataphractarii - Roman Cataphract Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895e-12b4-4b08-9b5f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ba92-03c9-4b9c-20e2" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="aaec-c306-c09a-ea24" name="Lance" hidden="false" targetId="e601-dcfc-7485-2164" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d907-1cce-36ee-a521" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b691-843c-af17-f68b" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="693c-76f0-cdee-4cb5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af92-686e-aab8-8550" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1636-9476-3218-2acb" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8eac-03b8-0231-eedd" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="4e29-7771-4104-afbb" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="7913-a12b-5f42-8c3c" name="Cavalryman in heavy armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3812-1328-702b-e44d" type="min"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c46a-080a-a9c4-f247" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="1a3e-3974-9233-88aa" name="Cavalryman, heavy armour" hidden="false" targetId="a589-6281-8f4d-dc6c" type="profile"/>
+                        <infoLink id="1c96-c13b-f46f-2998" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="24.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5d46-42b0-bfef-3bbf" name="Mounted Decurion in heavy armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5477-33ae-aae0-e984" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e15d-c0bf-2570-9ba7" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="72bc-666d-dd2c-f0d8" name="Mounted Decurion, heavy armour" hidden="false" targetId="02d2-ca04-0646-5afd" type="profile"/>
+                        <infoLink id="72c1-b040-f03c-eff2" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                        <infoLink id="49bf-73cd-20f9-782b" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="36.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="7a88-6313-e9fb-e3f8" name="Convert to eastern Clibanarii (Bow Upgrade)" hidden="false" collective="false" import="true">
+                      <selectionEntries>
+                        <selectionEntry id="6294-d266-4316-a61b" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+                          <modifiers>
+                            <modifier type="increment" field="points" value="2.0">
+                              <repeats>
+                                <repeat field="selections" scope="c0dd-ad63-bfed-4fc8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                              </repeats>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ef-bb91-2804-0e71" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="53a6-3090-959e-5b29" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry id="693c-76f0-cdee-4cb5" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ddb9-cdc1-c41c-5fb4" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="b0c0-630a-bf19-f165" name="Cavalryman in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa70-58b9-c6a5-6a18" type="min"/>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba3-d31e-17aa-af66" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="fc3f-d795-0291-f4bb" name="Cavalryman, medium armour" hidden="false" targetId="bd14-90ea-9c9d-beaa" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="23.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="7f9d-e78e-f6fb-eb29" name="Mounted Decurion in medium armour" hidden="false" collective="false" import="true" type="model">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e50d-f3e8-faeb-eddc" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ea9-252f-b530-d534" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="cf68-166d-610e-b91e" name="Mounted Decurion, medium armour" hidden="false" targetId="786a-bb6d-7354-dbda" type="profile"/>
+                        <infoLink id="57cd-5963-9a8d-e4c4" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="35.0"/>
+                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d8d-9e23-ca43-d783" name="Sagitarii - Roman Horse Archers" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fa2-6cfe-441b-d417" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b465-7c30-2d45-3bbb" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="ee84-a2de-9eb6-db7c" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="1788-ba2c-aef8-87be" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="24ce-0af2-0f00-ac00" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d621-db73-cc8b-c7d9" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d94f-0ce0-1c77-9a2f" name="Horse Archer in light armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b403-aa2a-f6f7-eb82" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca80-406f-872f-7763" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1c9e-8ed6-8f3f-5b6b" name="Horse Archer" hidden="false" targetId="6d73-e42e-a6ee-2a25" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="22.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ac2-b38c-c2d1-c91f" name="Mounted Decurion in light armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6326-a541-82d5-313c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da83-7420-beae-0efd" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="fd6d-4431-560f-ca51" name="Mounted Decurion, light armour" hidden="false" targetId="bc6c-632d-5be5-fe10" type="profile"/>
+                <infoLink id="8dac-3446-58e6-0a07" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="34.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d224-08ca-2089-ff45" name="Light Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="76f4-8caf-ca88-12e6" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+        <infoLink id="6f7f-ad8f-1f14-124c" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
+        <infoLink id="adcc-11e2-7d1e-9a33" name="Javelin" hidden="false" targetId="d7ff-de60-8b37-fbb7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2a4d-2f2f-af54-1d94" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7f97-891a-200a-0002" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1174-d7a5-cf8f-4d21" name="Cavalryman" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab75-f3bd-6229-267e" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b67a-d3a0-1cf5-e559" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="036e-0c38-823a-8dc2" name="Cavalryman" hidden="false" targetId="2553-7395-a3ad-40b3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="35ae-d60f-4fc7-e160" name="Mounted Decurion" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="210f-e736-172d-9f9c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cafb-6eb4-0e4e-5faa" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0378-b4e6-40eb-d4c6" name="Mounted Decurion" hidden="false" targetId="08b8-c4c9-24bb-f505" type="profile"/>
+                <infoLink id="d68a-de1d-101b-2e99" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="32.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" order dice" typeId="orderDice" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="3da4-7266-92c3-f648" name="Centurion, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, 3x HtH, Wound X</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4236-651f-fc4d-4ef9" name="Bodyguard, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"/>
+      </characteristics>
+    </profile>
+    <profile id="4a03-b0ec-b541-49b4" name="Mounted Centurion, medium armour" publicationId="4ff2-3a97-5ae7-5b02" page="3" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">8</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Command, Follow, Fast 8, 3x HtH, Wound X</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7214-da76-5f82-d530" name="Mounted Bodyguard, medium armour" publicationId="4ff2-3a97-5ae7-5b02" page="3" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="308a-8ae9-f041-b3d5" name="Haruspex" page="" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Wound X, Magic Level X</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="de30-bc63-15b7-ad01" name="Haruspex, light armour" page="" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Wound X, Magic Level X</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f51b-4cfa-cfd5-e76b" name="Acolyte" page="" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"/>
+      </characteristics>
+    </profile>
+    <profile id="1c55-4f70-d030-de48" name="Acolyte, light armour" page="" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"/>
+      </characteristics>
+    </profile>
+    <profile id="c659-460c-cf86-7c0a" name="Genii Spirits" page="" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">3</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">3</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Spirit, 1x HtH SV1, Exchange of Missiles SV1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9980-2b7a-6bb7-f329" name="Roman Hero, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">6</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">9</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3x HtH, Wound X</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ae1e-2315-68d5-d203" name="Mounted Roman Hero, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">6</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">7(9)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">9</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough X, Hero, 3x HtH, Wound X, Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="601f-cbc8-12cb-41b8" name="Chariot with Roman Hero and crew pulled by two horses" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">3</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">-</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">10</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Large, Tough X, Fast 8, Irresistible Charge</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3574-6b4c-d0ea-60d9" name="Roman Hero with sword, [medium armour]" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">[5]</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">6</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">[6(8)]</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">9</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">9</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">[Tough X], Hero, 3x HtH, [Wound X]</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b390-cae7-929d-ee7d" name="Roman crew" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d500-cf8d-409e-0d0f" name="Horse" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">-</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">-</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">-</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">-</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">-</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">-</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c919-0456-2a82-6ffd" name="Roman Legionary, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="438a-43a8-a440-f7e1" name="Roman Optio, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2694-1c21-bbe6-d1d0" name="Roman Optio, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d0d6-562a-e84d-c721" name="Roman Legionary, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a8dd-8e71-2657-d6e4" name="Roman Optio, heavy armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(8)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Heavily Laden</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e4fc-ccb8-10c4-eac1" name="Roman Legionary, heavy armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(8)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Heavily Laden</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0775-8a90-ce74-8cdb" name="Veteran Roman Optio, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">6</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8a12-5297-3c5f-ceab" name="Veteran Roman Legionary, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">6</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7265-32a6-1f32-df3f" name="Auxiliary Decurion, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0ace-b1b9-ee68-3ec9" name="Auxiliary Decurion, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="80e7-b074-bfb1-3d71" name="Auxiliary, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(6)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c02-e38b-b4c7-1ef0" name="Auxiliary, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f302-7d7b-5423-60ca" name="Auxiliary" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e"></characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1d23-6aaa-9640-a840" name="Auxiliary Decurion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">5</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc6c-632d-5be5-fe10" name="Mounted Decurion, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="786a-bb6d-7354-dbda" name="Mounted Decurion, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="02d2-ca04-0646-5afd" name="Mounted Decurion, heavy armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Fast 8, Heavily Laden</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f18f-4f2c-7aac-bc51" name="Cavalryman, light armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bd14-90ea-9c9d-beaa" name="Cavalryman, medium armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(8)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a589-6281-8f4d-dc6c" name="Cavalryman, heavy armour" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(9)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 8, Heavily Laden</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2553-7395-a3ad-40b3" name="Cavalryman" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d73-e42e-a6ee-2a25" name="Horse Archer" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6(7)</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">7</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Fast 8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="08b8-c4c9-24bb-f505" name="Mounted Decurion" hidden="false" typeId="2f17-7b0c-7f4e-2baf" typeName="Model">
+      <characteristics>
+        <characteristic name="Ag" typeId="b787-94dd-0cef-abb7">5</characteristic>
+        <characteristic name="Acc" typeId="efac-8fd0-5d23-7d69">5</characteristic>
+        <characteristic name="Str" typeId="fcb5-8bd5-6767-fa61">5</characteristic>
+        <characteristic name="Res" typeId="d916-9ec8-dd33-7873">6</characteristic>
+        <characteristic name="Init" typeId="7313-a059-134c-8199">7</characteristic>
+        <characteristic name="Co" typeId="a7e4-65ad-5a57-90bb">8</characteristic>
+        <characteristic name="Special" typeId="68b3-e6ca-5920-ff4e">Tough 1, Fast 8</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
