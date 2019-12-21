@@ -1034,7 +1034,7 @@ Order tests still require a successful test even if unit only has one pin.</desc
 Water terrain counts as open terrain.
 Re-roll all shooting hits against unit if in water terrain.</description>
     </rule>
-    <rule id="c3ff-6afa-c4b5-b28c" name="Rete" publicationId="4ff2-3a97-5ae7-5b02" page="2" hidden="false">
+    <rule id="c3ff-6afa-c4b5-b28c" name="Net" publicationId="4ff2-3a97-5ae7-5b02" page="2" hidden="false">
       <description>
 Can only be used during exchange of missiles.
 Rete attacks do not cause damage, but do cause a pin.
@@ -1661,6 +1661,15 @@ Give Warlock 2x HtH SV1 Venomous attacks.</description>
         <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
         <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">1/2</characteristic>
         <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Exchange of missiles only. SV2 on first use in a game.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea51-ffda-5cf8-3bce" name="Net" publicationId="4ff2-3a97-5ae7-5b02" page="2" hidden="false" typeId="2c2c-0dd3-c341-b2ef" typeName="Weapon Profile Ranged">
+      <characteristics>
+        <characteristic name="Range Short" typeId="388b-c232-987e-c292">-</characteristic>
+        <characteristic name="Range Long" typeId="93c3-2707-51ef-b304">-</characteristic>
+        <characteristic name="Range Extreme" typeId="49d3-642a-08be-5817">-</characteristic>
+        <characteristic name="Strike Value" typeId="47c7-dced-6203-6b76">-</characteristic>
+        <characteristic name="Special Rules" typeId="83b9-69ea-35a1-5148">Exchange of missiles only. No Damage - see Net special rule.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
