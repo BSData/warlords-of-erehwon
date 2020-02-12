@@ -2101,7 +2101,7 @@
           <infoLinks>
             <infoLink id="01ad-a40a-6455-bfc7" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
             <infoLink id="3aa3-aea7-2983-2266" name="Flies" hidden="false" targetId="1d07-520b-6918-03fd" type="rule"/>
-            <infoLink id="6d2f-f529-2de3-68f4" name="Fast" hidden="false" targetId="c246-93aa-3909-26ee" type="rule"/>
+            <infoLink id="6d2f-f529-2de3-68f4" name="Fast 10" hidden="false" targetId="0034-82ae-f695-d446" type="rule"/>
             <infoLink id="f391-5f3d-f23b-3d86" name="Ramshackle Contraption" hidden="false" targetId="182e-9b37-17f3-5b45" type="rule"/>
             <infoLink id="cec7-01a8-0881-85d5" name="Flying Machine With Bombs" hidden="false" targetId="953a-ca2d-befd-cc62" type="profile"/>
             <infoLink id="3de7-09bf-8a7b-66c7" name="MoD2" hidden="false" targetId="5da1-1bfa-9b8d-6b82" type="rule"/>
