@@ -933,11 +933,11 @@ Terrifying units and units with the Crazed Psychotic/Undead rules are immune to 
       <description>
 No armour bonus or cover bonus allowed.</description>
     </rule>
-    <rule id="ae37-06b2-7f4c-ec52" name="Allied Monster" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
+    <rule id="ae37-06b2-7f4c-ec52" name="Allied" publicationId="cffa-cd51-pubN65537" page="62" hidden="false">
       <description>
 Cannot benefit from Command, Hero, or Follow special rules.</description>
     </rule>
-    <rule id="2e98-ee7b-558a-81ef" name="Bound Monster" publicationId="cffa-cd51-pubN65537" page="63" hidden="false">
+    <rule id="2e98-ee7b-558a-81ef" name="Bound" publicationId="cffa-cd51-pubN65537" page="63" hidden="false">
       <description>
 Cannot benefit from Command, Hero, or Follow special rules.
 Take D6 pins if a 10 is rolled for its order test. Can be auto-destroyed via pins as a result.</description>
@@ -986,7 +986,7 @@ Unit is automatically destroyed if close combat is not won.
 Consolidation move is random, may initiate immediate combat if touching different unit than that just fought. 
 May make consolidation move through unit it just fought.</description>
     </rule>
-    <rule id="e2ce-cefd-9949-02fd" name="Wild Monster" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
+    <rule id="e2ce-cefd-9949-02fd" name="Wild" publicationId="cffa-cd51-pubN65537" page="80" hidden="false">
       <description>
 Goes wild if 10 is rolled for order test.
 Add D6 pins to check for auto-destruction as normal. If not auto-destroyed, remove all pins.
