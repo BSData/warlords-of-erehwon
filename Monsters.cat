@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce73-81f1-52bf-8170" name="Monsters" revision="3" battleScribeVersion="2.03" authorName="the3dwargamer" authorContact="the3dwargamer@outlook.com" authorUrl="https://www.facebook.com/3dwargamer/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce73-81f1-52bf-8170" name="Monsters" revision="4" battleScribeVersion="2.03" authorName="3dwargamer &amp; LeadAddict" authorContact="https://github.com/BSData/warlords-of-erehwon/issues" authorUrl="https://github.com/BSData/warlords-of-erehwon/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="359d-f1ed-6ac3-3016" name="Basilisk [158/178/198 pts]" hidden="false" collective="false" import="true" targetId="c7ea-f805-9726-6682" type="selectionEntry"/>
     <entryLink id="a95f-fd53-c1f1-9ece" name="Chimera [158/178/198 pts]" hidden="false" collective="false" import="true" targetId="ba39-ac09-15fb-f789" type="selectionEntry"/>
@@ -29,7 +29,7 @@
     <entryLink id="36af-b9c1-6ef3-4c97" name="Horned Dinosaur [122/142 pts]" hidden="false" collective="false" import="true" targetId="3aff-bbec-a820-725d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="c7ea-f805-9726-6682" name="Basilisk [158/178/198 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c7ea-f805-9726-6682" name="Basilisk" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b50b-63c0-d15b-5fae" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="94e4-ce18-68ed-b342" name="Baleful Glare" hidden="false" targetId="9855-31c9-3745-714d" type="rule"/>
@@ -41,19 +41,25 @@
         <categoryLink id="1bff-1c68-dd0b-e113" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5ceb-ccb3-bf30-8ef0" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="c5a7-8e57-be4d-8c80">
+        <selectionEntryGroup id="5ceb-ccb3-bf30-8ef0" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="c5a7-8e57-be4d-8c80">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f030-a978-95d2-b018" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c9-38f4-e6c0-6a2c" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="c5a7-8e57-be4d-8c80" name="Wild Basilisk" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="9419-f85d-5d64-cf38" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="158.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f3a3-9d1c-83ee-c624" name="Bound Basilisk" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5ffe-1283-5ebc-4a45" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="178.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -76,7 +82,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba39-ac09-15fb-f789" name="Chimera [158/178/198 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ba39-ac09-15fb-f789" name="Chimera" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="007f-9486-f0f3-1f73" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="2304-6feb-8524-6d85" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
@@ -90,19 +96,25 @@
         <categoryLink id="fae9-3dc9-bcea-0221" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c1cd-beae-0714-4d9b" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a95-41d5-222d-e969">
+        <selectionEntryGroup id="c1cd-beae-0714-4d9b" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a95-41d5-222d-e969">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6c-3e4e-4d7d-2107" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1536-eedf-05a0-f36a" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3a95-41d5-222d-e969" name="Wild Chimera" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="af33-51b6-0e01-2eb8" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="158.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8808-6e3a-105b-97fd" name="Bound Chimera" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="7f7b-6155-d6eb-6e3b" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="178.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -141,7 +153,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b01e-a8c7-82df-f6d8" name="Cockatrice [157/177/197 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b01e-a8c7-82df-f6d8" name="Cockatrice" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e451-e901-db8e-53bf" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="3268-1191-9ede-35f1" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
@@ -154,19 +166,25 @@
         <categoryLink id="3e0d-83f5-1959-b5bc" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e4e1-ab28-2fae-85f7" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9bd8-50f1-127a-f210">
+        <selectionEntryGroup id="e4e1-ab28-2fae-85f7" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9bd8-50f1-127a-f210">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4884-16b1-763c-9696" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f138-a183-2475-e0bf" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9bd8-50f1-127a-f210" name="Wild Cockatrice" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="a89c-343d-119e-8cff" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="157.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f172-d87b-3cae-700e" name="Bound Cockatrice" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="777d-8f44-edef-b5b3" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="177.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -189,7 +207,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b3b-b3f4-bbba-7609" name="Cyclops [150/170/190 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5b3b-b3f4-bbba-7609" name="Cyclops" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="31ea-673a-7d1d-8b0c" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="5057-ca34-d221-9d56" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
@@ -200,19 +218,25 @@
         <categoryLink id="d2db-df71-a8cc-c750" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b9a-4e8d-a38d-34ac" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="547a-d807-5442-8c10">
+        <selectionEntryGroup id="4b9a-4e8d-a38d-34ac" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="547a-d807-5442-8c10">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff93-069f-f26e-5b29" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688d-42de-8aab-f223" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="547a-d807-5442-8c10" name="Wild Cyclops" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="f345-a1f2-ad04-1902" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="150.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e40a-8db7-c5c6-195b" name="Bound Cyclops" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="778b-015f-b1ae-0e0c" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="170.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -251,7 +275,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6617-5ad0-1f45-cbe3" name="Dragon [380/410/440 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6617-5ad0-1f45-cbe3" name="Dragon" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="43bd-198f-38f9-4937" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="5e9d-c84f-74ac-7e57" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
@@ -267,19 +291,25 @@
         <categoryLink id="4c4c-9bb4-d040-080d" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4a92-1c5f-09d6-0769" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e21-a58d-f9ab-e3b0">
+        <selectionEntryGroup id="4a92-1c5f-09d6-0769" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e21-a58d-f9ab-e3b0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0dd-47e7-f9d2-66e2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc66-a61b-1d6a-3691" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3e21-a58d-f9ab-e3b0" name="Wild Dragon" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="9c39-4b72-92df-13f3" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="380.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="39d6-1fc9-414d-1bd6" name="Bound Dragon" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="6078-b0ed-e818-3fda" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="410.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -360,10 +390,7 @@
         <cost name=" order dice" typeId="orderDice" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ff4-044a-e595-a1b7" name="Ghouls [85/95/105 pts]" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="26c9-5596-ea23-5088" name="Ghouls" hidden="false" targetId="7b72-6afa-c85b-64c1" type="profile"/>
-      </infoLinks>
+    <selectionEntry id="3ff4-044a-e595-a1b7" name="Ghouls" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="2915-9b0a-3086-11ab" name="New CategoryLink" hidden="false" targetId="c061-a0f2-e7d4-a23b" primary="true"/>
       </categoryLinks>
@@ -371,13 +398,6 @@
         <selectionEntryGroup id="1c7b-9a18-17f0-c44d" name="Venomous Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="1d9e-ac0b-5f65-3aed" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="3ff4-044a-e595-a1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765d-dfca-4949-b4e7" type="max"/>
               </constraints>
@@ -385,84 +405,61 @@
                 <infoLink id="0ce7-a1fa-4f96-e650" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="77c8-d2ca-16b1-1153" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="96c2-fc17-f664-3f4a">
+        <selectionEntryGroup id="77c8-d2ca-16b1-1153" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="96c2-fc17-f664-3f4a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee2-d06b-cc04-ece0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13a6-383b-066b-bb52" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="96c2-fc17-f664-3f4a" name="Wild Ghouls" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="dfaf-0c70-3f5b-d6bf" name="Choose between 5 and 10" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="313d-4b89-d9ec-81ae" name="Wild Ghouls" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62af-0628-f2af-dd77" type="max"/>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c8-8283-3d02-c68b" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="c8a1-6610-82c1-54e1" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="85.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ae9e-2739-5689-b484" name="Bound Ghouls" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9fae-0469-e2ef-4c96" name="Choose between 5 and 10" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="5ebb-d5ec-92b1-859c" name="Bound Ghouls" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d628-649c-7e30-a3ce" type="min"/>
-                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e94-5a13-cada-5fee" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="fee3-3d3e-4c2c-3e31" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="95.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="58b1-de83-d5ce-5f03" name="Allied Ghouls" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="ab02-4a0c-cdc8-9976" name="Choose between 5 and 10" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="8eb4-9aee-4516-86b5" name="Allied Ghouls" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc5-f10d-29ec-ee21" type="min"/>
-                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2563-95ac-9d4d-52a6" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="a7b2-cf67-928f-c01a" name="Allied" hidden="false" targetId="ae37-06b2-7f4c-ec52" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="db9d-4b7b-4cdc-c08b" name="Allied" hidden="false" targetId="ae37-06b2-7f4c-ec52" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="105.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f550-a9ff-631d-141d" name="Choose between 5 and 10 Ghouls" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0b4-3b35-7e4a-25a6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="aa10-4a6d-ea71-ec72" name="Ghouls" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5a-51b0-4519-2f98" type="max"/>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff5-5058-dd3f-bd8a" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ee31-9b66-0bcd-ada7" name="Ghouls" hidden="false" targetId="7b72-6afa-c85b-64c1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="17.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -474,7 +471,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fea-a33c-4fc3-b70b" name="Giant [253/283/313 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4fea-a33c-4fc3-b70b" name="Giant" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="67ff-6c49-1de3-34e7" name="Giant" hidden="false" targetId="e5bb-3c2b-9a60-9c05" type="profile"/>
         <infoLink id="cb89-14df-4900-c743" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
@@ -487,19 +484,25 @@
         <categoryLink id="99cb-c539-e076-f008" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ecf1-7c06-19fd-5ce2" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="69bc-e6b8-ecbd-ab78">
+        <selectionEntryGroup id="ecf1-7c06-19fd-5ce2" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="69bc-e6b8-ecbd-ab78">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1646-4f8c-c7bd-77b7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d2-b1fe-1796-a59a" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="69bc-e6b8-ecbd-ab78" name="Wild Giant" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="06a2-c3f4-07db-28b7" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="253.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="735b-b165-3df7-5fe6" name="Bound Giant" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="18ea-10bf-bd29-26d9" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="283.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -516,7 +519,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3e88-690e-3813-20bc" name="Rock to Hurl" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3e88-690e-3813-20bc" name="Hurled Rock Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="abb4-fdd8-c4ab-0f78" name="Give Giant Rock to Hurl" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -554,87 +557,64 @@
         <cost name=" order dice" typeId="orderDice" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d456-6e73-d1fc-5db4" name="Giant Rats [46/56/66 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d456-6e73-d1fc-5db4" name="Giant Rats" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="fcb1-715e-dd6d-1648" name="Giant Rats" hidden="false" targetId="cd05-6e8f-63cf-f6ad" type="profile"/>
         <infoLink id="2af1-c96c-56d5-a957" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6fbc-4c28-ad71-ce4c" name="New CategoryLink" hidden="false" targetId="c061-a0f2-e7d4-a23b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c7ce-d81d-7be5-980d" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a11-9c74-f3a7-6798">
+        <selectionEntryGroup id="c7ce-d81d-7be5-980d" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a11-9c74-f3a7-6798">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a012-cf19-3c7b-a324" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee2e-af8b-e522-4ac1" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5a11-9c74-f3a7-6798" name="Wild Giant Rats" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="7467-a8ce-82c4-fe54" name="Choose between 3 and 5" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="1c40-f54e-2084-b848" name="Wild Giant Rats" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66e9-3023-6d04-601a" type="max"/>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f56e-231e-b87c-5d1e" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="9716-2394-c7a3-8d88" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="46.0"/>
+                <cost name="pts" typeId="points" value="4.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a9ff-9571-4ea4-40e6" name="Bound Giant Rats" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0c9a-cd51-38b6-ce88" name="Choose between 3 and 5" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="c640-a235-9d26-53fd" name="Bound Giant Rats" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d50e-35ab-c650-7058" type="max"/>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25c3-e5e5-66c0-3f41" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="6f4a-edbc-daa9-29b9" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="56.0"/>
+                <cost name="pts" typeId="points" value="14.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="48e8-ed6c-33e2-7806" name="Allied Giant Rats" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="f785-e64d-15d3-0e29" name="Choose between 3 and 5" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="049e-3f7b-4649-cf79" name="Allied Giant Rats" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa7-c8b7-ffed-f26b" type="max"/>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e5b-26e6-2cd1-72ed" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="5f6e-c21f-f44c-f790" name="Allied" hidden="false" targetId="ae37-06b2-7f4c-ec52" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="6f0a-7cbf-c752-1c3f" name="Allied" hidden="false" targetId="ae37-06b2-7f4c-ec52" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="66.0"/>
+                <cost name="pts" typeId="points" value="24.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4f07-7239-3aed-8536" name="Choose between 3 and 5" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3989-4ee5-3c82-0006" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="236a-bd90-70f1-2f16" name="Giant Rats" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ac0-00ca-15e0-54cc" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5df8-8f1c-ff2a-f5f4" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c782-669d-eb01-c88f" name="Giant Rats" hidden="false" targetId="cd05-6e8f-63cf-f6ad" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="14.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -646,88 +626,65 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="452a-2a19-4531-92b8" name="Giant Scorpions [57/67/77 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="452a-2a19-4531-92b8" name="Giant Scorpions" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="41f0-23ba-bb43-390b" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
         <infoLink id="a718-0d20-0e0d-3d45" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
-        <infoLink id="c6fa-f692-e046-66a2" name="Giant Scorpions" hidden="false" targetId="9cd1-3fa7-9244-5170" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c0b2-9c2f-f7be-7d67" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1b46-f26a-fe11-a0e7" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9cec-7929-0e33-855b">
+        <selectionEntryGroup id="1b46-f26a-fe11-a0e7" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="9cec-7929-0e33-855b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68b6-3d28-03ad-4f1b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3189-fc49-12ae-ae77" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9cec-7929-0e33-855b" name="Wild Giant Scorpions" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="50bc-233d-7fb7-401d" name="Choose between 1 and 3" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="f156-ca66-68b6-fce0" name="Wild Giant Scorpions" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c32-38d9-d1a6-90b6" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2185-6c64-997b-2bc9" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="1ed8-ae43-b81b-7f0f" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="57.0"/>
+                <cost name="pts" typeId="points" value="-2.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f4d0-49aa-8e85-20c3" name="Bound Giant Scorpions" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="f555-a06e-7a42-1876" name="Choose between 1 and 3" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="c254-1479-93b6-3725" name="Bound Giant Scorpions" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e3-0f37-71d2-d213" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6450-4954-aee2-c331" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="7bee-1846-0a20-c039" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="67.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="27b3-fd62-b1f5-fb6a" name="Allied Giant Scorpions" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="13d7-1b53-a13f-0b4d" name="Choose between 1 and 3" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="3a05-4482-1b51-2ab7" name="Allied Giant Scorpions" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaff-4778-a2c5-1c5e" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc6-cd99-72be-be76" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="1967-b330-9eb8-4853" name="Allied" hidden="false" targetId="ae37-06b2-7f4c-ec52" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="997b-ed6b-268a-be9f" name="Allied" hidden="false" targetId="ae37-06b2-7f4c-ec52" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="77.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="bb74-d0ec-135b-23ae" name="Choose between 1 and 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="8dc0-f66c-7b64-7b33">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="115c-0cdf-2e36-4679" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8dc0-f66c-7b64-7b33" name="Giant Scorpions" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f782-6fdb-2aa2-639c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="266f-25b0-5d39-bcfb" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f369-25be-5cb5-391d" name="Giant Scorpions" hidden="false" targetId="9cd1-3fa7-9244-5170" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="59.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -739,7 +696,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="051b-44ef-ec3d-a1c1" name="Giant Spiders [50/60/70 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="051b-44ef-ec3d-a1c1" name="Giant Spiders" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="bcb1-41fa-2bc3-7fe0" name="Wound 1" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
         <infoLink id="d2e8-3189-34b5-3822" name="Giant Spiders" hidden="false" targetId="70ab-0608-068e-a498" type="profile"/>
@@ -748,53 +705,27 @@
         <categoryLink id="2c23-10cd-7182-7576" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5109-a1af-1cb3-58f7" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b1bc-3d7e-70f8-a492">
+        <selectionEntryGroup id="5109-a1af-1cb3-58f7" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="b1bc-3d7e-70f8-a492">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe5-d736-bfa0-8de6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa5-2334-59d7-2bf1" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b1bc-3d7e-70f8-a492" name="Wild Giant Spiders" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="8de6-6fde-aa49-1f2c" name="Choose between 1 and 3" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="bfa1-98e9-1117-c70e" name="Wild Giant Spiders" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c3a-baab-25ee-fb12" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1c-b2f6-ed24-6a7c" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="4c73-fbb6-e910-92b9" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="50.0"/>
+                <cost name="pts" typeId="points" value="-2.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="44f6-eaa3-c092-6ede" name="Bound Giant Spiders" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="0e50-96b0-ae4b-8785" name="Choose between 1 and 3" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="17df-fcdd-d75d-3e6a" name="Bound Giant Spiders" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="643b-ec8a-1c62-0170" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b41c-d790-a3c4-826c" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink id="5a5b-9f5e-b034-0c45" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -802,24 +733,25 @@
               <infoLinks>
                 <infoLink id="9d53-062b-2398-9158" name="Allied" hidden="false" targetId="ae37-06b2-7f4c-ec52" type="rule"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="1281-d0a3-1712-5ca1" name="Choose between 1 and 3" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="277e-9e5c-e7eb-b70f" name="Allied Giant Spiders" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a22-4d5d-23e9-7691" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb0-53dd-3963-307d" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="70.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8e95-2ae6-858c-e177" name="Choose between 1 and 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="eae5-a892-59ac-640b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d6-2cfd-6b5d-8cb1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eae5-a892-59ac-640b" name="Giant Spiders" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac7-8e46-395c-5015" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b78f-e23f-e1cd-bb91" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="52.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -831,7 +763,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2846-5918-fd84-7e29" name="Gigantic Spider [218/238/258 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2846-5918-fd84-7e29" name="Gigantic Spider" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8ffb-7b41-1748-a62a" name="Gigantic Spider" hidden="false" targetId="ca3a-b6cb-8358-d7d9" type="profile"/>
         <infoLink id="0d8b-3229-a256-b8c6" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
@@ -843,19 +775,25 @@
         <categoryLink id="08c7-f0bc-c16a-2304" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4fd6-045d-43c7-39c4" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="89a1-e66a-a003-4cd8">
+        <selectionEntryGroup id="4fd6-045d-43c7-39c4" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="89a1-e66a-a003-4cd8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5762-04d8-c133-471a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e80-f477-f907-e19a" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="89a1-e66a-a003-4cd8" name="Wild Gigantic Spider" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1a8c-f426-4fe1-a4f8" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="218.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c54e-49dc-5a0c-3fbc" name="Bound Gigantic Spider" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2250-1eb8-a32e-aa92" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="238.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -894,7 +832,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7835-8a79-e484-397e" name="Golem [64 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7835-8a79-e484-397e" name="Golem" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9df5-9e0f-f770-8a7c" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
         <infoLink id="1912-83de-49d8-38e3" name="Golem" hidden="false" targetId="ec10-cee9-9e3f-9783" type="profile"/>
@@ -905,13 +843,16 @@
         <categoryLink id="2bc8-02d7-6109-2e47" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="925d-1fa8-9bec-26a8" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="1897-fb06-b190-6c50">
+        <selectionEntryGroup id="925d-1fa8-9bec-26a8" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="1897-fb06-b190-6c50">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="534e-046c-8888-aa46" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab8-215c-e5c7-7851" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="1897-fb06-b190-6c50" name="Bound Golem" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2c98-541a-2beb-da04" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="64.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -941,7 +882,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b90a-e799-9047-9183" name="Griffin [144/164/184 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b90a-e799-9047-9183" name="Griffin" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ba6c-b5a4-87d6-9244" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
         <infoLink id="b17f-aa01-9b6f-27b9" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -955,19 +896,25 @@
         <categoryLink id="15a4-7846-cdb3-efbb" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="90b8-f4b3-f1d7-1885" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3bf-db9b-f57b-6e62">
+        <selectionEntryGroup id="90b8-f4b3-f1d7-1885" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3bf-db9b-f57b-6e62">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70dd-c203-32f6-533d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ec-1e63-bffd-5608" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a3bf-db9b-f57b-6e62" name="Wild Griffin" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="a4bd-f0af-77e9-75e4" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="144.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b370-b36b-43ca-a71c" name="Bound Griffon" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1f71-8fa5-ec62-2923" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="164.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -990,7 +937,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="30d1-8869-3361-d27b" name="Hippogriff [138/159/179 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="30d1-8869-3361-d27b" name="Hippogriff" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="1fae-240f-11ae-1659" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
         <infoLink id="794e-15ba-aeff-8c62" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1003,19 +950,25 @@
         <categoryLink id="f08c-6d2d-7dcf-a2ee" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6e98-7ce2-66ae-e058" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="70a7-aa27-b130-ad73">
+        <selectionEntryGroup id="6e98-7ce2-66ae-e058" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="70a7-aa27-b130-ad73">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d5-b72d-cd1b-38ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d6-0002-e9bb-41e9" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="70a7-aa27-b130-ad73" name="Wild Hippogriff" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="a252-1ec4-6a0b-2592" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="138.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c8c8-e773-51c3-6cee" name="Bound Hippogriff" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="7c1c-08ed-52ed-52ab" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="159.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1038,7 +991,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1826-be4d-e802-d903" name="Hydra [182/202/222 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1826-be4d-e802-d903" name="Hydra" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="50a9-c5bc-9431-4e0a" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
         <infoLink id="bd23-8ea6-af19-6925" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1051,19 +1004,25 @@
         <categoryLink id="cdfc-9e57-7aeb-562e" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dde7-979d-fbff-bd7d" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="cb50-75bc-b388-29f5">
+        <selectionEntryGroup id="dde7-979d-fbff-bd7d" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="cb50-75bc-b388-29f5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72fc-ba9c-e496-2a0e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65d7-f445-4d7d-e4fb" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="cb50-75bc-b388-29f5" name="Wild Hydra" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="6833-2a94-ed72-9052" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="182.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a1ee-e6d1-d095-f330" name="Bound Hydra" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="df20-fe2b-7115-7a4d" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="202.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1119,7 +1078,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c5b-7264-8586-c81c" name="Manticore [158/178/198 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3c5b-7264-8586-c81c" name="Manticore" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="82a1-b369-5dad-45a8" name="Dread" hidden="false" targetId="0bf9-a070-b56b-ca4e" type="rule"/>
         <infoLink id="c30c-22bf-14f9-b0a7" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1130,19 +1089,25 @@
         <categoryLink id="8e2d-8d48-a0bd-06b9" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="105c-b572-2e3c-0709" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="944c-8f6d-0c3c-2775">
+        <selectionEntryGroup id="105c-b572-2e3c-0709" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="944c-8f6d-0c3c-2775">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f76-8562-1a43-06c0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4eb-6c8f-c57a-530f" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="944c-8f6d-0c3c-2775" name="Wild Manticore" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="8214-8f28-70bd-7dd1" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="158.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b02e-ae6c-1e3f-9414" name="Bound Manticore" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="e365-31b3-16e7-2de4" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="178.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1213,7 +1178,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bdbd-2e9c-63ce-9620" name="Ogres [28/38/48 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bdbd-2e9c-63ce-9620" name="Ogres" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="a08d-bc50-05c7-48a5" name="Frenzied Charge" hidden="false" targetId="1c49-276e-425d-0999" type="rule"/>
         <infoLink id="dbec-2695-bc32-575e" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1222,19 +1187,25 @@
         <categoryLink id="f1be-ad19-d193-72ea" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e4bc-0e18-3bdf-e847" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="10fd-618a-e4ea-206c">
+        <selectionEntryGroup id="e4bc-0e18-3bdf-e847" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="10fd-618a-e4ea-206c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3fd-5172-3d06-24dd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c152-30ad-3f0f-1668" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="10fd-618a-e4ea-206c" name="Wild" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2c65-c77f-1a73-5d8e" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="95ed-5dcf-9a9f-723c" name="Bound" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="939a-5c7e-0315-a48f" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1251,7 +1222,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="efe5-5384-c1a2-e0aa" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="691a-b83b-08b9-20b4">
+        <selectionEntryGroup id="efe5-5384-c1a2-e0aa" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="691a-b83b-08b9-20b4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="179c-9a04-ca1c-0d12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3636-cdff-bad9-6615" type="min"/>
@@ -1260,6 +1231,9 @@
             <selectionEntry id="691a-b83b-08b9-20b4" name="Ogres (no armour)" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="2309-c48e-3e4b-b73a" name="Choose between 1 and 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="b67a-b7a4-da47-2cc8">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3275-3669-7fc5-2fe4" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="b67a-b7a4-da47-2cc8" name="Ogres" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1309,6 +1283,9 @@
             <selectionEntry id="49d4-9052-fe2a-c388" name="Ogres in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="3f66-db48-7401-3b97" name="Choose between 1 and 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="c27a-073b-e87b-e932">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7298-1f03-fa41-44d2" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="c27a-073b-e87b-e932" name="Ogres in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1357,7 +1334,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d993-1c56-15a0-2f8b" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd8a-fc82-2b64-b5a4">
+        <selectionEntryGroup id="d993-1c56-15a0-2f8b" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd8a-fc82-2b64-b5a4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e541-e080-f807-cf9a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9dd-e765-955e-250f" type="min"/>
@@ -1427,12 +1404,15 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71af-c82c-450e-2b37" name="Wild Swarms [75 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="71af-c82c-450e-2b37" name="Wild Swarms" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="73ff-6d48-29bf-011c" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d22a-534c-0358-514b" name="New CategoryLink" hidden="false" targetId="c820-d327-811d-1144" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="be55-2e48-bc08-19dd" name="Type of Swarm" hidden="false" collective="false" import="true" defaultSelectionEntryId="22d1-b18d-b1a9-e05c">
+        <selectionEntryGroup id="be55-2e48-bc08-19dd" name="Choose Type of Swarm" hidden="false" collective="false" import="true" defaultSelectionEntryId="22d1-b18d-b1a9-e05c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34a4-f163-19df-464b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce96-53c2-2786-2d69" type="min"/>
@@ -1503,6 +1483,9 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a983-1da1-f11f-77d1" name="Choose between 3 and 5" hidden="false" collective="false" import="true" defaultSelectionEntryId="f480-9523-63fa-f20b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff0-2194-1f8e-9843" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="f480-9523-63fa-f20b" name="Swarms" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1522,7 +1505,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5943-a398-3d77-7af7" name="Wyvern [160/180/200 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5943-a398-3d77-7af7" name="Wyvern" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8047-0ae2-5fde-30a9" name="Wyvern " hidden="false" targetId="c844-35e2-768e-50f8" type="profile"/>
         <infoLink id="e741-a542-0958-f574" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1534,19 +1517,25 @@
         <categoryLink id="ee8b-b103-dc3d-bc4e" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5108-2ad0-b948-1697" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="3692-feb9-6467-959f">
+        <selectionEntryGroup id="5108-2ad0-b948-1697" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="3692-feb9-6467-959f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2773-2d17-3997-1b8a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="491d-55ee-c4f5-2572" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3692-feb9-6467-959f" name="Wild Wyvern" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2531-bdb6-0d2c-3df0" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="160.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dfe9-9eec-b034-aa25" name="Bound Wyvern" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1c0c-ea0f-0248-fd5b" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="180.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1621,7 +1610,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="853f-a790-4f4e-0d98" name="Allied Giant Treeman [204 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="853f-a790-4f4e-0d98" name="Allied Giant Treeman" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ca7a-c26f-0c79-0909" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="d13a-f5db-2a1a-6350" name="Blundering" hidden="false" targetId="087e-dfda-76c2-09bf" type="rule"/>
@@ -1643,7 +1632,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf36-baa2-fcfd-a694" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="f81b-0f10-7007-c9c5" name="Giant Treeman" hidden="false" targetId="8131-c371-7d0a-189b" type="profile"/>
+            <infoLink id="bffb-734f-de4e-2467" name="Giant Treeman" hidden="false" targetId="8131-c371-7d0a-189b" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="204.0"/>
@@ -1670,7 +1659,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
@@ -1689,6 +1677,9 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9cbd-c835-1d32-e337" name="Chose between 1 and 3" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5944-e099-94bd-0f16" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="b86d-bf3e-e0b6-7008" name="Treemen/Dryad" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1711,7 +1702,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="45c6-60cf-f892-7efa" name="Trolls [105/115 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="45c6-60cf-f892-7efa" name="Trolls" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9a36-64d4-76ed-3e08" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
         <infoLink id="5d10-c992-7ceb-8196" name="Regenerate" hidden="false" targetId="0a0c-ed4c-9647-4398" type="rule"/>
@@ -1722,6 +1713,9 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cfb8-daa5-aeff-3a51" name="Choose between 3 and 5" hidden="false" collective="false" import="true" defaultSelectionEntryId="20df-0d9b-69c5-6e8e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf08-4846-ff39-db3c" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="20df-0d9b-69c5-6e8e" name="Trolls" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1738,19 +1732,25 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="18c6-1678-7be7-fff7" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2270-2d2f-e43a-4d4f">
+        <selectionEntryGroup id="18c6-1678-7be7-fff7" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2270-2d2f-e43a-4d4f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ff-ced3-621c-7bd8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd79-25f1-70b6-c87d" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2270-2d2f-e43a-4d4f" name="Wild" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f032-55fd-eb87-6228" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b5c2-0b03-6640-007c" name="Bound" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8937-8fee-3e9e-1490" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1776,13 +1776,16 @@
         <categoryLink id="470e-6966-9ba9-ed81" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ea09-eb2c-4f79-d024" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="8466-565c-872e-39ef">
+        <selectionEntryGroup id="ea09-eb2c-4f79-d024" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="8466-565c-872e-39ef">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23e8-0f65-f81e-97b4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="501f-d709-5a73-7129" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8466-565c-872e-39ef" name="Wild Cave Bear" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="6f35-2c5d-b02a-cabd" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="62.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1805,7 +1808,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="903f-9d10-4831-bf0f" name="Brontosaur [115/135 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="903f-9d10-4831-bf0f" name="Brontosaur" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="2fcb-45a2-d98b-188f" name="Brontosaur" hidden="false" targetId="5ca4-7d22-6678-4dc5" type="profile"/>
         <infoLink id="eeea-e415-ab59-aba9" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1817,19 +1820,25 @@
         <categoryLink id="47e9-8217-b4db-86ec" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ff84-1867-6415-542c" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ee4-fa2e-f18a-e585">
+        <selectionEntryGroup id="ff84-1867-6415-542c" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ee4-fa2e-f18a-e585">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3e7-1e13-ec81-0987" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a0-fb21-e440-b4c4" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="6ee4-fa2e-f18a-e585" name="Wild Brontosaur" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="ca46-51c4-a614-cff5" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="115.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="93f4-cb20-966f-0aeb" name="Bound Brontosaur" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="ae67-b8c4-9816-3132" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="135.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1843,7 +1852,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f7e-f547-4d5a-8c7c" name="Tyrannosaur [188/208 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4f7e-f547-4d5a-8c7c" name="Tyrannosaur" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="0a43-75c0-306c-dc81" name="Tyrannosaur" hidden="false" targetId="c74b-e0c7-6a3d-bc2a" type="profile"/>
         <infoLink id="ee39-5489-a196-f333" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1856,19 +1865,25 @@
         <categoryLink id="1a38-d44e-2431-d417" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0726-c986-4790-8062" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2346-0528-6126-5d9f">
+        <selectionEntryGroup id="0726-c986-4790-8062" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="2346-0528-6126-5d9f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ae6-a498-a770-fa6b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc06-c039-8d87-a347" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2346-0528-6126-5d9f" name="Wild Tyrannosaur" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b76e-29c9-e349-fb9f" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="188.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3c57-a04b-6fb8-7f01" name="Bound Tyrannosaur" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="3d41-1754-233d-9e6f" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="208.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1882,7 +1897,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3aff-bbec-a820-725d" name="Horned Dinosaur [122/142 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3aff-bbec-a820-725d" name="Horned Dinosaur" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fe58-085f-9e71-bc8e" name="Horned Dinosaur" hidden="false" targetId="68aa-6640-b9da-6ee0" type="profile"/>
         <infoLink id="307f-3fd4-9ab7-6ece" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1895,19 +1910,25 @@
         <categoryLink id="ad60-59c4-e79f-ac04" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="549b-a9e6-10a9-45ee" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="09d1-5c85-75f4-4881">
+        <selectionEntryGroup id="549b-a9e6-10a9-45ee" name="Choose Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="09d1-5c85-75f4-4881">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31ba-4653-6608-364e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb7d-c34d-f3d1-cfed" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="09d1-5c85-75f4-4881" name="Wild Horned Dinosaur" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="0bb1-1e57-a0b6-56a1" name="Wild" hidden="false" targetId="e2ce-cefd-9949-02fd" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="122.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="12dd-9ea6-8083-cb4a" name="Bound Horned Dinosaur" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="6b5b-ba7b-fd6c-4596" name="Bound" hidden="false" targetId="2e98-ee7b-558a-81ef" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="142.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
