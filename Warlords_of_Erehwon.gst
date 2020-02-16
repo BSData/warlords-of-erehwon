@@ -1482,7 +1482,7 @@ Give Warlock 2x HtH SV1 Venomous attacks.</description>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">20&quot;</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Enemy in Range and LOS (same as shooting attack).</characteristic>
-        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">D3 + Casters magic level hits, resolved at Strike Value 1 and as a Deathly Chill Ranged Attack. Cannot affect models with undead or spectral undead rule.</characteristic>
+        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">D3 + Casters magic level hits, resolved at Strike Value 1 and as a Deathly Chill Ranged Attack. Cannot affect models with Undead or Spectral Undead rule.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
@@ -1527,7 +1527,7 @@ Give Warlock 2x HtH SV1 Venomous attacks.</description>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; for Magic Level 1, 20&quot; for Magic Level 2, 30&quot; for Magic Level 3.</characteristic>
         <characteristic name="Target" typeId="878a-e6bf-fe34-2254">All enemy units within applicable Range.</characteristic>
-        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add casters Magic Level.  You can distribute this total number of pins amongst the units affected.  You can distribute them how you like, it does NOT have to be evenly.</characteristic>
+        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add Magic Level.  You can distribute this total number of pins amongst the units affected.  You can distribute them however you like, it does NOT have to be evenly.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
@@ -1535,8 +1535,8 @@ Give Warlock 2x HtH SV1 Venomous attacks.</description>
       <characteristics>
         <characteristic name="Casting Value" typeId="0c1b-8aba-291c-6e28">8</characteristic>
         <characteristic name="Range" typeId="74f4-f123-678d-019c">10&quot; per magic level of caster.</characteristic>
-        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Friendly Undead Warrior unit of either skeletons or zombies with five models or fewer.</characteristic>
-        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add casters Magic Level.  This is the number of Additional warriors that join the unit.</characteristic>
+        <characteristic name="Target" typeId="878a-e6bf-fe34-2254">Friendly Undead warrior unit of either skeletons or zombies with five models or fewer (this includes Skeleton units armed with bows or crossbows).</characteristic>
+        <characteristic name="Effect" typeId="0bac-89db-b85c-4be1">Roll a D6 and add casters Magic Level.  This is the number of additional warriors that join the unit. New models have the same weapons.</characteristic>
         <characteristic name="Duration" typeId="c6d1-7fec-d74c-e6ac">Instant</characteristic>
       </characteristics>
     </profile>
