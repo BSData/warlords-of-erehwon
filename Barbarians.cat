@@ -138,7 +138,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3be5-eee3-79b0-d97e" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="4c9e-5051-6bfa-8742">
+        <selectionEntryGroup id="3be5-eee3-79b0-d97e" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="4c9e-5051-6bfa-8742">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba87-7092-ad50-6961" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a70-c81d-75e0-935e" type="min"/>
@@ -361,7 +361,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0422-482d-9e16-49be" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="eeee-a520-48d3-8083">
+        <selectionEntryGroup id="0422-482d-9e16-49be" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="eeee-a520-48d3-8083">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c4e-fe3f-8d80-096c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3d-6a11-fefb-b892" type="min"/>
@@ -1719,7 +1719,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7da3-f228-50c3-cf0b" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="06fb-bf64-b884-3546">
+        <selectionEntryGroup id="7da3-f228-50c3-cf0b" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="06fb-bf64-b884-3546">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288f-5dff-b74d-1b7f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad35-3ff8-d3eb-070f" type="min"/>
@@ -1842,7 +1842,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a36d-5bc8-1816-894f" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="3537-d976-7a36-dc8a">
+        <selectionEntryGroup id="a36d-5bc8-1816-894f" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="3537-d976-7a36-dc8a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf07-0d1f-c1de-eb7d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7051-508e-0b84-772c" type="min"/>
@@ -2043,7 +2043,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0457-4648-20bb-eae6" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="da44-2eff-89f1-03b0">
+        <selectionEntryGroup id="0457-4648-20bb-eae6" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="da44-2eff-89f1-03b0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8615-a7ae-5904-0d37" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c29b-106f-3e20-44dc" type="min"/>

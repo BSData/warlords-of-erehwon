@@ -2068,7 +2068,7 @@
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="9036-5662-7d32-5837" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="6fc2-b21d-66c8-1024">
+                <selectionEntryGroup id="9036-5662-7d32-5837" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="6fc2-b21d-66c8-1024">
                               
                     <constraints>
                                     
@@ -2712,7 +2712,7 @@
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="e862-2ec2-6b7b-1ad9" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="4305-93da-2a9f-46be">
+                <selectionEntryGroup id="e862-2ec2-6b7b-1ad9" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="4305-93da-2a9f-46be">
                               
                     <constraints>
                                     
@@ -3696,7 +3696,7 @@
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="8503-fcf3-e0cc-2615" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="d69b-4a22-6a5c-e9a7">
+                <selectionEntryGroup id="8503-fcf3-e0cc-2615" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="d69b-4a22-6a5c-e9a7">
                               
                     <constraints>
                                     
@@ -3910,7 +3910,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="e9d5-6421-0f43-96ed" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="12d0-d9f2-1dcc-02cb">
+                <selectionEntryGroup id="e9d5-6421-0f43-96ed" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="12d0-d9f2-1dcc-02cb">
                               
                     <constraints>
                                     

@@ -58,7 +58,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="b381-37f6-ad7f-417b" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="684a-90a9-5fc1-8251">
+                <selectionEntryGroup id="b381-37f6-ad7f-417b" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="684a-90a9-5fc1-8251">
                               
                     <constraints>
                                     
@@ -690,7 +690,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="655f-b258-4f69-2249" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="47a9-0504-2509-8aff">
+                <selectionEntryGroup id="655f-b258-4f69-2249" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="47a9-0504-2509-8aff">
                               
                     <constraints>
                                     

@@ -4,6 +4,8 @@ Files originally created by the3dwargamer@outlook.com.
 
 Please report any issues here: https://github.com/BSData/warlords-of-erehwon/issues
 
+16/02/20 - Fixed small issues with Reptilians and Monsters. Fixed point propagation issues for Reptilians, Monsters and Dwarves.
+
 12/18/20 - First version of Ratters added.
 
 8/19/19 - Order dice have been added.
@@ -14,7 +16,7 @@ Please report any issues here: https://github.com/BSData/warlords-of-erehwon/iss
 
 2/19/19 - Beta version is complete, all army lists are now available.  For the next few weeks I will be working on bug fixes and format fixes to make the selections better and to add spell selections.  Right now there is just a placeholder for spells to account for the points you spend, but it doesn't actually let you pick the specific spell.
 
-Will upgrade the choice selection and armour selection process for knights/beastmen/olympian.  Those were the first lists I created and I didn't use different profiles for armour selection.
+
 
 #### Contents ####
 

@@ -285,7 +285,7 @@
         <categoryLink id="3bfe-a540-57d2-f394" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5ab7-311b-790d-fd58" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="d16e-16a8-0edd-8623">
+        <selectionEntryGroup id="5ab7-311b-790d-fd58" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="d16e-16a8-0edd-8623">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e08-2c3d-e998-64bc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfe-8fa3-81d9-9680" type="min"/>
@@ -434,7 +434,7 @@
         <categoryLink id="4974-1a8f-32ef-03a6" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0329-295e-cbd8-5d5f" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="306c-5139-16c1-3835">
+        <selectionEntryGroup id="0329-295e-cbd8-5d5f" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="306c-5139-16c1-3835">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="681f-16b5-5e93-1836" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e05d-70ef-5465-a41e" type="min"/>
@@ -649,7 +649,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2aeb-b908-dc90-974c" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="a24a-986e-31f4-9569">
+        <selectionEntryGroup id="2aeb-b908-dc90-974c" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="a24a-986e-31f4-9569">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b882-08c1-340c-86dd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e3d-4005-d435-e29d" type="min"/>
@@ -821,7 +821,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="28c4-f323-2890-40ff" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="65fb-a08b-f524-7462">
+        <selectionEntryGroup id="28c4-f323-2890-40ff" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="65fb-a08b-f524-7462">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d79f-b897-32fc-fa8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="023b-c8e0-b129-d09d" type="min"/>
@@ -1185,7 +1185,7 @@
         <categoryLink id="54d5-4495-464a-0b6c" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4cf7-20d7-03d5-6609" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="a174-1ef7-e6b3-9b0a">
+        <selectionEntryGroup id="4cf7-20d7-03d5-6609" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="a174-1ef7-e6b3-9b0a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f955-2fc0-73e0-f2a2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ee-3b5f-4013-867f" type="max"/>
@@ -1320,7 +1320,7 @@
         <categoryLink id="cf3f-1742-86a5-a843" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d32d-cea8-6c3a-7b90" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="4565-4030-1dcb-bf8f">
+        <selectionEntryGroup id="d32d-cea8-6c3a-7b90" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="4565-4030-1dcb-bf8f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d2-ff0e-53af-39c4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d682-4fc4-a4d8-8d37" type="min"/>
@@ -1451,7 +1451,7 @@
         <categoryLink id="c8a7-85e2-dfc2-da0b" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="65c1-11cc-1b6a-1903" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef22-bdd3-86b7-0263">
+        <selectionEntryGroup id="65c1-11cc-1b6a-1903" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef22-bdd3-86b7-0263">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="044f-7ad3-9443-9031" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8776-e457-504f-3129" type="min"/>
@@ -1767,7 +1767,7 @@
         <categoryLink id="76d4-c070-9e66-38aa" name="New CategoryLink" hidden="false" targetId="warrior command unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e66d-0b0b-ccd8-aa5e" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a76-c90d-7408-88e0">
+        <selectionEntryGroup id="e66d-0b0b-ccd8-aa5e" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a76-c90d-7408-88e0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfee-5101-651e-7d12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba5-0c61-f5fd-b4e6" type="min"/>

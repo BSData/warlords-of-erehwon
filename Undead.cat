@@ -6304,7 +6304,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="1e64-ebf7-5dee-9579" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="dff6-69f4-e342-52d7">
+                <selectionEntryGroup id="1e64-ebf7-5dee-9579" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="dff6-69f4-e342-52d7">
                               
                     <constraints>
                                     
@@ -6956,7 +6956,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="622c-4929-b142-079b" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="b270-7678-584c-da60">
+                <selectionEntryGroup id="622c-4929-b142-079b" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="b270-7678-584c-da60">
                               
                     <constraints>
                                     
@@ -7620,7 +7620,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="325f-9be7-d1a8-328a" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="2550-120a-e665-6a19">
+                <selectionEntryGroup id="325f-9be7-d1a8-328a" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="2550-120a-e665-6a19">
                               
                     <constraints>
                                     
@@ -8796,7 +8796,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="f363-67d6-c8bb-a7a2" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="1f2a-9121-f1cd-0515">
+                <selectionEntryGroup id="f363-67d6-c8bb-a7a2" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="1f2a-9121-f1cd-0515">
                               
                     <constraints>
                                     
@@ -9162,7 +9162,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="3505-e10e-9640-e3c9" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="092c-46fa-3d39-7dbe">
+                <selectionEntryGroup id="3505-e10e-9640-e3c9" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="092c-46fa-3d39-7dbe">
                               
                     <constraints>
                                     

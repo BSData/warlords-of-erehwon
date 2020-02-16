@@ -50,7 +50,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="b581-65f4-62c0-a0b8" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="126c-07a9-8603-c091">
+                <selectionEntryGroup id="b581-65f4-62c0-a0b8" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="126c-07a9-8603-c091">
                               
                     <constraints>
                                     
@@ -608,7 +608,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="1f9a-3a50-4587-73b3" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="7e7e-b509-c357-d130">
+                <selectionEntryGroup id="1f9a-3a50-4587-73b3" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="7e7e-b509-c357-d130">
                               
                     <constraints>
                                     
@@ -2782,7 +2782,7 @@
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="2ff5-47bb-d988-17e1" name="Armour" publicationId="cffa-cd51-pubN65537" hidden="false" collective="false" defaultSelectionEntryId="205b-42e8-7b43-27eb">
+                <selectionEntryGroup id="2ff5-47bb-d988-17e1" name="Choose Armour" publicationId="cffa-cd51-pubN65537" hidden="false" collective="false" defaultSelectionEntryId="205b-42e8-7b43-27eb">
                               
                     <constraints>
                                     
@@ -3238,7 +3238,7 @@
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="c6aa-6f6f-bf0e-91ec" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="b93f-a586-815c-dc11">
+                <selectionEntryGroup id="c6aa-6f6f-bf0e-91ec" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="b93f-a586-815c-dc11">
                               
                     <constraints>
                                     
@@ -3494,7 +3494,7 @@
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="2712-a517-a1ee-031d" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="e3ed-db9d-d9ff-2a0a">
+                <selectionEntryGroup id="2712-a517-a1ee-031d" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="e3ed-db9d-d9ff-2a0a">
                               
                     <constraints>
                                     
@@ -3950,7 +3950,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="ad11-d6e9-b28e-ff1c" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="9ea9-5966-31a4-3960">
+                <selectionEntryGroup id="ad11-d6e9-b28e-ff1c" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="9ea9-5966-31a4-3960">
                               
                     <constraints>
                                     
@@ -4158,7 +4158,7 @@
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="c6df-b2d4-50e1-8c37" name="Armour" hidden="false" collective="false" defaultSelectionEntryId="6ba1-3d4d-39c8-a013">
+                <selectionEntryGroup id="c6df-b2d4-50e1-8c37" name="Choose Armour" hidden="false" collective="false" defaultSelectionEntryId="6ba1-3d4d-39c8-a013">
                               
                     <constraints>
                                     
