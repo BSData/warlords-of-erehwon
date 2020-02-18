@@ -18,7 +18,7 @@
     <entryLink id="7a16-4a6c-08f5-6840" name="Barbarian Stone Thrower" hidden="false" collective="false" import="true" targetId="3dee-6086-f5fc-e1f3" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8cff-0404-da51-b2e6" name="Barbarian Chieftain [96 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8cff-0404-da51-b2e6" name="Barbarian Chieftain" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b82f-fa0b-77f5-3047" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
         <infoLink id="3bfa-84cd-4c8d-e1a7" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
@@ -147,6 +147,9 @@
             <selectionEntry id="4c9e-5051-6bfa-8742" name="Light Armour" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="3d4c-d261-65af-44a4" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e288-42c7-0288-8623" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="e81b-fac8-fe6b-fcfc" name="Barbarian Bodyguard in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -185,6 +188,9 @@
             <selectionEntry id="0144-1450-ec97-ad00" name="Medium Armour" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="8316-ded6-376a-2743" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d80-c74d-902c-33c9" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="79c5-dac7-541e-b332" name="Barbarian Chieftain in Medium Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -254,7 +260,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e97-78f9-80b5-65b0" name="Mounted Barbarian Chieftain [122 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1e97-78f9-80b5-65b0" name="Mounted Barbarian Chieftain" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ec01-f8ca-0c81-bb28" name="Command" hidden="false" targetId="b0ed-8f0b-633c-2f06" type="rule"/>
         <infoLink id="8056-f89e-d82c-fc2e" name="Follow" hidden="false" targetId="83d2-f89c-33a4-258d" type="rule"/>
@@ -370,6 +376,9 @@
             <selectionEntry id="eeee-a520-48d3-8083" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="4e5e-8753-edcf-b511" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="156b-0fe7-6741-aee3" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="e125-d320-9a26-bd52" name="Mounted Barbarian Bodyguard in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -408,6 +417,9 @@
             <selectionEntry id="6e05-b856-da6c-cc21" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="dc5e-67d4-5530-40cc" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d5-e532-2b8d-b264" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="347f-8f49-6fdd-7ca5" name="Mounted Barbarian Chieftain in Medium Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -530,7 +542,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b28-5f08-d158-e945" name="Barbarian Chieftain in Chariot [152 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8b28-5f08-d158-e945" name="Barbarian Chieftain in Chariot" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6a35-d007-9b86-f033" name="Chariot with Chieftain and crew, pulled by horses" hidden="false" targetId="e721-b469-749b-663d" type="profile"/>
         <infoLink id="78ce-b858-5837-04ab" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -715,6 +727,9 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c416-265d-99a5-88ba" name="Choose 1 to 3" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d9-8f22-7155-eb0d" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="69f5-dc45-04df-ad90" name="Crew" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -740,7 +755,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f4f0-85af-cb96-c03e" name="Barbarian Shaman [57 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f4f0-85af-cb96-c03e" name="Barbarian Shaman" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3929-e827-2e24-3265" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
       </infoLinks>
@@ -1236,7 +1251,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4d21-f575-3538-c572" name="Barbarian Hero [81 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4d21-f575-3538-c572" name="Barbarian Hero" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3e23-e8ad-a38e-7681" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
       </infoLinks>
@@ -1470,7 +1485,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="49e7-fbb8-9ff8-91d7" name="Barbarian Hero in Chariot [158 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="49e7-fbb8-9ff8-91d7" name="Barbarian Hero in Chariot" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="628e-5bad-56c5-9913" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
         <infoLink id="3943-7c3d-d3c2-9824" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -1567,6 +1582,9 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7922-2147-f691-2b58" name="Choose 1 to 3" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8096-2a48-f0c2-4879" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="c4cb-58db-0735-41c0" name="Crew" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1644,7 +1662,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ca7-6f0b-7006-5d2c" name="Barbarian Warriors [72 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2ca7-6f0b-7006-5d2c" name="Barbarian Warriors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="131f-3eec-7d74-192b" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
       </infoLinks>
@@ -1728,6 +1746,9 @@
             <selectionEntry id="06fb-bf64-b884-3546" name="Warriors in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="0a95-17a7-3dc6-5528" name="Choose 5 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecca-64ea-efd6-7647" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="fe9c-5d27-f705-9ea7" name="Warrior Leader" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1766,6 +1787,9 @@
             <selectionEntry id="cf71-76a9-b881-ec20" name="Warriors in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="b9fc-0608-7d4f-90ce" name="Choose 5 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a6-9578-f44e-1a3e" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="8795-a27a-14e1-1db2" name="Warrior Leader" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1809,7 +1833,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="35b0-f975-d3b5-955f" name="Barbarian Archers [72 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="35b0-f975-d3b5-955f" name="Barbarian Archers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8839-ebca-bfd9-7ac5" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
         <infoLink id="84a1-3fd0-d6f3-6bf7" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
@@ -1851,6 +1875,9 @@
             <selectionEntry id="3537-d976-7a36-dc8a" name="Archers" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="b375-a1e2-93c0-c0e7" name="Choose 5 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c158-5192-f75b-5e06" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="7559-6407-7155-7195" name="Archer Leader" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1889,6 +1916,9 @@
             <selectionEntry id="946c-598e-41a4-4a02" name="Archers in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="8ad6-32df-1b1e-432d" name="Choose 5 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4310-4225-f455-6ef1" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="d892-b4a1-d23b-f64c" name="Archer Leader in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1932,7 +1962,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eec3-cdab-e67f-de60" name="Barbarian Horsemen [72 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="eec3-cdab-e67f-de60" name="Barbarian Horsemen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="921d-a39d-a05f-e732" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
         <infoLink id="84a8-2eeb-1f72-01e5" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
@@ -1957,7 +1987,7 @@
               <modifiers>
                 <modifier type="increment" field="points" value="6.0">
                   <repeats>
-                    <repeat field="selections" scope="eec3-cdab-e67f-de60" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="eec3-cdab-e67f-de60" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -2052,6 +2082,9 @@
             <selectionEntry id="da44-2eff-89f1-03b0" name="Horsemen in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="8e77-7760-789c-7782" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e427-9734-1541-00e0" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="74e5-d364-62f7-4524" name="Horsemen Leader in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -2090,6 +2123,9 @@
             <selectionEntry id="6157-a47c-ed44-ca25" name="Horsemen in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="2fb6-fd7f-2ce2-718b" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac54-7362-0643-db4e" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="4869-8b3a-d0f6-e7b0" name="Horsemen Leader in Medium Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -2133,7 +2169,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bad-a623-9159-2ff5" name="Barbarian Berserkers [97 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2bad-a623-9159-2ff5" name="Barbarian Berserkers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="4e08-7b0f-6a8a-74ad" name="Berserk" hidden="false" targetId="0b0f-1de6-7017-9097" type="rule"/>
         <infoLink id="1c57-79a1-e038-f61d" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -2201,6 +2237,9 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ce3b-b770-7fbc-22e5" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b08-10a5-ac34-32f8" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="74dd-7d70-75ca-1830" name="Berserker Leader" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -2398,7 +2437,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9642-c436-bb1f-d4e4" name="Warhounds [70 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9642-c436-bb1f-d4e4" name="Warhounds" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="1d06-85f9-4cde-b90e" name="Rapid Sprint" hidden="false" targetId="1e90-54e2-dd77-c4e3" type="rule"/>
         <infoLink id="9e14-8b49-b40e-b889" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -2436,6 +2475,9 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="80d8-5884-d1b1-720f" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77f6-5dc3-2a9b-3907" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="4fcb-b447-53d2-ceb6" name="Warhound" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -2484,12 +2526,15 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1776-7920-1dd9-1241" name="Barbarian Brats [37 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1776-7920-1dd9-1241" name="Barbarian Brats" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="f0d0-a9e4-9b58-4b24" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9cd7-113a-41b8-2cfa" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5921-dd09-0a73-701b" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="5de0-3428-64ad-5210" name="Barbarian Brat Leader" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -2615,7 +2660,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9fa1-66cc-750b-015d" name="Mammoth [156 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9fa1-66cc-750b-015d" name="Mammoth" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="2944-a937-ab43-705b" name="New CategoryLink" hidden="false" targetId="8efa-298b-b165-ef8b" primary="true"/>
       </categoryLinks>
@@ -2639,7 +2684,10 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7d63-30b1-d646-0dcf" name="Crew" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7d63-30b1-d646-0dcf" name="Choose 4 to 8 Crew" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1096-e1a8-d9a9-8f6e" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="a848-0f0e-4f9b-f245" name="Mammoth Crew" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -2728,7 +2776,7 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3dee-6086-f5fc-e1f3" name="Barbarian Stone Thrower [81 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3dee-6086-f5fc-e1f3" name="Barbarian Stone Thrower" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="035c-6222-d008-e79b" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
         <infoLink id="dc69-dc17-59db-e957" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
@@ -2807,6 +2855,9 @@
             <selectionEntry id="39bb-54e1-27cb-8164" name="Crew (no armour)" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="08f1-baab-fac1-b498" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c58-f9f7-207d-d7ef" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="a564-b55e-46b2-ee82" name="Crew" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -2832,6 +2883,9 @@
             <selectionEntry id="175c-effd-2f61-25f1" name="Crew in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="35ac-5d94-a7d2-36d8" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9a-c707-620c-c643" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="addf-5a7b-7b8e-9698" name="Crew in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
