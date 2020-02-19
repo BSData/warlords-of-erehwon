@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="745c-5adf-6444-cac7" name="Halflings" revision="3" battleScribeVersion="2.03" authorName="The3dwargamer &amp; LeadAddict" authorContact="https://github.com/BSData/warlords-of-erehwon/issues" authorUrl="https://github.com/BSData/warlords-of-erehwon" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="745c-5adf-6444-cac7" name="Halflings" revision="4" battleScribeVersion="2.03" authorName="The3dwargamer &amp; LeadAddict" authorContact="https://github.com/BSData/warlords-of-erehwon/issues" authorUrl="https://github.com/BSData/warlords-of-erehwon" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d891-2083-8b78-b275" name="Halfling Chief Cheriff [85 pts]" hidden="false" collective="false" import="true" targetId="c9ff-893e-2ec9-3544" type="selectionEntry"/>
     <entryLink id="748f-2466-4dcf-674f" name="Halfling Chief Sheriff in Cart [130 pts]" hidden="false" collective="false" import="true" targetId="6a05-8937-f0c2-efaa" type="selectionEntry"/>
