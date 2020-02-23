@@ -1318,7 +1318,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d3e8-67f8-8498-d766" name="Choose Packmaster HtH weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb0-f262-3a4b-c9be">
+        <selectionEntryGroup id="d3e8-67f8-8498-d766" name="Choose Packmaster Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb0-f262-3a4b-c9be">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df1f-ec14-a0df-75b3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1346-f8a7-411f-2744" type="max"/>
@@ -1346,7 +1346,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="baea-2b2d-5f90-7ebb" name="Packmaster Bow Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="8e27-5d6a-b89d-d9a2" name="Packmaster Bow Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8e27-5d6a-b89d-d9a2" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd7-70b3-8791-c3a7" type="max"/>
               </constraints>
