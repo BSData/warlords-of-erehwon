@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="152d-3173-80b2-a764" name="Snakemen" revision="4" battleScribeVersion="2.03" authorName="The3DWargamer" authorContact="the3dwargamer@outlook.com" authorUrl="http://www.facebook.com/the3dwargamer" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="152d-3173-80b2-a764" name="Snakemen" revision="5" battleScribeVersion="2.03" authorName="The3DWargamer &amp; LeadAddict" authorContact="https://github.com/BSData/warlords-of-erehwon/issues" authorUrl="https://github.com/BSData/warlords-of-erehwon" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="9fb1-47aa-24d5-0f85" name="Snakeman Monstrosity" hidden="false">
       <constraints>
@@ -25,7 +25,7 @@
     <entryLink id="0d26-f8dc-dc7b-6f1f" name="Giant Horned Saurian" hidden="false" collective="false" import="true" targetId="242e-666d-78d7-0b00" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4f93-772c-1a68-d127" name="Snakeman Serpent Lord [103 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4f93-772c-1a68-d127" name="Snakeman Serpent Lord" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="a580-b659-c3f5-2efc" name="New CategoryLink" hidden="false" targetId="warlord unit" primary="true"/>
         <categoryLink id="1fb4-7485-73d9-6a93" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -39,7 +39,10 @@
           <selectionEntries>
             <selectionEntry id="d7e9-6c59-4a8d-ffba" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="7762-4c8d-6969-cebe" name="Light Armour" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="7762-4c8d-6969-cebe" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c19e-675a-5a81-58e7" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="8601-9a71-1122-8c55" name="Snakeman Serpent Lord" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -79,7 +82,10 @@
             </selectionEntry>
             <selectionEntry id="276b-b7ff-6475-baf0" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="b02d-6dd3-463d-2036" name="Medium Armour" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="b02d-6dd3-463d-2036" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b68b-574c-a800-678a" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="4edc-fb9c-52db-f0df" name="Snakeman Serpent Lord" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -146,11 +152,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="6cf7-9b31-6c65-44ce" name="Venomous Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc5-549a-7531-db5c" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="a4ed-bede-61d5-c0f8" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39d-6e19-4115-1e67" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="747a-88c7-141d-06be" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
@@ -231,7 +237,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2019-dbf1-8aa9-364d" name="Snakeman High-Priest of Hissta [60 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2019-dbf1-8aa9-364d" name="Snakeman High-Priest of Hissta" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="5a11-bfe5-42f8-4422" name="New CategoryLink" hidden="false" targetId="wizard unit" primary="true"/>
         <categoryLink id="198e-9bd8-a312-1917" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
@@ -253,347 +259,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b49d-3c0b-d9b6-cf9f" name="Magic Level" hidden="false" collective="false" import="true" defaultSelectionEntryId="0737-6c8e-4d7a-89c9">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5590-2eae-7702-d37e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac1-c246-2965-7933" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0737-6c8e-4d7a-89c9" name="Magic Level 1" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="7ca3-4d11-64de-2433" name="Magic Level 1" hidden="false" targetId="90e2-5b2c-1fc8-0e8c" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ff02-d2fd-50db-de94" name="Magic Level 2" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="f51c-3b4e-450c-5630" name="Magic Level 2" hidden="false" targetId="4a91-87e6-88c5-5e1d" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f732-8518-f069-ef11" name="Magic Level 3" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="2592-be01-8abc-ab9c" name="Magic Level 3" hidden="false" targetId="2e1b-4169-af1f-71e5" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="50.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="be7d-da0f-2bb2-1052" name="Free Spell Selection" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af29-3005-9290-5a43" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc1-faf3-c93d-2e2f" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6f90-3a69-7e79-bcb1" name="Aura of Courage" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="adf6-0972-b067-f3c0" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c80a-2120-1dc3-2955" name="Aura of Timidity" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="cea2-124b-b82a-0c57" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2e8d-b3c7-f838-1292" name="Fiery Balls" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="4a44-f246-ebde-ea59" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="da07-4691-43f4-2f15" name="Chill Wind" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="f773-810f-9e3c-2761" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a42e-c7b9-18db-3418" name="Peculiar Portal" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="d2a5-c93d-a230-bf7a" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6c78-7df7-e7d6-7d77" name="Endow Strength" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="49e4-d153-a83e-1f71" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6102-3ce3-1747-d9aa" name="Enchanted Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="d0d7-7da0-0e8e-3c7a" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9394-e443-a958-921f" name="Wake the Dead" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="2af6-5f33-68db-b1b9" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2a14-cfa0-fc14-b278" name="Sorcerer&apos;s Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="16c0-d856-a4dd-2e60" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4b00-73b0-0672-83aa" name="Surge" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="aa52-db3f-f6ee-556d" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9fcd-c770-f0b8-2a13" name="Lightning Bolt" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="beb2-abef-a9fd-8e49" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e842-3ef1-89e9-57de" name="Bamboozle Beastie" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="3cb2-7a67-850b-2bcc" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a32c-0e35-e71f-0f74" name="Enfeeble Foe" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="fb3c-5eb3-b7cf-bd62" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4201-22ae-6d01-83bc" name="Sorcerous Battle!" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="2461-3c6e-2737-5459" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="b650-c228-9ebb-3e60" name="Additional Spells" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="c393-57b9-81e3-0594" name="Aura of Courage" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6918-063d-5126-d676" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="34c9-f1dd-bbd6-f62f" name="(Spell) Aura of Courage" hidden="false" targetId="dd16-8e55-111c-118c" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d557-7b9a-4c07-ac2b" name="Aura of Timidity" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a98d-17fa-6fe7-cfc9" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="107e-04a8-f68d-504f" name="(Spell) Aura of Timidity" hidden="false" targetId="dd4e-402d-e03c-f841" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="de1d-ea81-2ccf-8f80" name="Fiery Balls" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="848e-bf77-6781-78ef" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6633-086f-e2be-40de" name="(Spell) Fiery Balls" hidden="false" targetId="dd49-722d-5180-e75d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0107-16ec-14c4-a655" name="Chill Wind" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae10-7565-7de3-5c35" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="10fe-578d-6913-e614" name="(Spell) Chill Wind" hidden="false" targetId="d6c5-70ce-86e8-e635" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e9e1-4630-3953-2e34" name="Peculiar Portal" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35f2-1882-ba34-7405" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="b2a2-9b52-5d34-e4b0" name="(Spell) Peculiar Portal" hidden="false" targetId="096e-2da4-2cdd-6c4d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4041-8992-74f2-534b" name="Endow Strength" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd02-f598-ea1d-9ae5" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7f4c-3f31-d79e-5bd3" name="(Spell) Endow Strength" hidden="false" targetId="a1be-15b4-9c73-9b6f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6c06-bcda-2b07-05b5" name="Enchanted Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb3-65fa-3ef2-a2e2" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="be59-e56d-4655-2e9e" name="(Spell) Enchanted Shield" hidden="false" targetId="29a5-e36b-7b3f-c197" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c72d-5f19-dc88-9797" name="Wake the Dead" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a94-fcdf-adb4-0277" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4af5-a783-a94e-a688" name="(Spell) Wake the Dead" hidden="false" targetId="5cf5-b784-0eca-19aa" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8be2-8b0a-bbe7-5721" name="Sorcerer&apos;s Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56c3-9408-899d-b9d8" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="75d4-a09c-e6cc-71c8" name="(Spell) Sorcerer&apos;s Shield" hidden="false" targetId="ae9d-c50e-6667-48f3" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d5c6-dc8f-e3e2-7567" name="Surge" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2344-a08f-ab0f-055f" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="b82f-2916-5e01-a102" name="(Spell) Surge" hidden="false" targetId="0a25-272c-9462-1696" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="999c-ce3f-be75-176a" name="Lightning Bolt" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d27-d33d-10db-ccad" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="06dd-ee16-24ac-3748" name="(Spell) Lightning Bolt" hidden="false" targetId="4de4-3f21-99b0-3c0d" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1243-d77e-44a0-dd7a" name="Bamboozle Beastie" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3642-52f9-79f8-fa8d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="f5e2-814b-b3db-db75" name="(Spell) Bamboozle Beastie" hidden="false" targetId="b2eb-08fa-19f7-0fe1" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7458-06ea-264b-bf2c" name="Enfeeble Foe" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b00-b5c2-6663-0b9f" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="90e0-5997-3283-4a65" name="(Spell) Enfeeble Foe" hidden="false" targetId="b1eb-7ae0-4936-b755" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c657-e0b2-708f-1b10" name="Sorcerous Battle!" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79e2-03c0-28e5-f9cf" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="fdfa-700c-4668-e2a1" name="(Spell) Sorcerous Battle!" hidden="false" targetId="5528-567d-5eab-533e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="20b3-3aa5-c11e-e1ed" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="eda7-7a13-ddba-14be">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d388-a2d9-8d26-f94c" type="max"/>
@@ -660,7 +325,7 @@
           <selectionEntries>
             <selectionEntry id="58f3-434d-5fcb-9baa" name="Acolytes" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="cf2b-3fe8-fb35-ac1d" name="Acolytes" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="cf2b-3fe8-fb35-ac1d" name="Choose up to 4" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="f392-cdc6-122a-ff55" name="Acolytes" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -684,7 +349,7 @@
             </selectionEntry>
             <selectionEntry id="de00-ff55-111a-81a3" name="Spirits" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="e099-00bf-a460-fdda" name="Spirits" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="e099-00bf-a460-fdda" name="Choose up to 4" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="bfc1-66b6-caec-8cd4" name="Serpentine Spirits" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -710,11 +375,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="beca-33a8-ebcd-ebaa" name="Servants of the Cosmic Sky Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad1-6143-4ec3-ab47" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="acc3-df98-5dba-4370" name="Disciplined" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82aa-c849-b225-4566" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="7b87-b6e0-dc19-5192" name="Disciplined" hidden="false" targetId="0056-a41e-408e-1673" type="rule"/>
               </infoLinks>
@@ -728,13 +393,14 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1242-adba-3c8a-a88e" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="8ef2-e72b-e1c9-23aa" name="Magic User" hidden="false" collective="false" import="true" targetId="fa2b-7444-91ac-3dec" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a5e-d33f-9652-297f" name="Snakeman Cosmic Star Serpent Hero [86 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1a5e-d33f-9652-297f" name="Snakeman Cosmic Star Serpent Hero" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e42f-dd29-ed29-5c70" name="Hero" hidden="false" targetId="566e-a1c6-9f62-3218" type="rule"/>
         <infoLink id="653a-3490-5b89-dbc4" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
@@ -780,7 +446,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="25b0-1af3-0f72-575b" name="HtH Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="25b0-1af3-0f72-575b" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c28-cb6f-c982-fb7d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb3f-d766-5d6d-4f88" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c4f-38e7-23c8-f099" type="min"/>
@@ -877,11 +543,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="49d5-ae4c-05a5-b2c2" name="Poisonous Fangs Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b1b-aa96-f173-1d23" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="716f-e0a2-a5dc-9912" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5356-50ac-99e4-545b" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="4048-94c9-1aee-cef1" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
@@ -893,11 +559,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="1547-fdd8-72aa-4db7" name="Cosmic Destiny Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d45-a75d-6d2b-692c" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="d7d0-8e05-79f2-0430" name="Divine Intervention" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67bb-7188-2c51-dffc" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="7fee-e95d-265e-0f0e" name="Divine Intervention" hidden="false" targetId="a447-d495-b7ab-1477" type="rule"/>
               </infoLinks>
@@ -917,7 +583,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7cba-b245-d058-46af" name="Snakeman Python Guard [82 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7cba-b245-d058-46af" name="Snakeman Python Guard" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4884-24ee-0c18-e5b1" type="max"/>
       </constraints>
@@ -931,9 +597,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac29-23e6-1496-8795" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c08c-990d-c37c-7e8e" name="Python Guard" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c08c-990d-c37c-7e8e" name="Python Guard (no armour)" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="9b10-fe6b-b945-935b" name="Python Guard" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="9b10-fe6b-b945-935b" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80b1-5425-a1fa-431e" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="8a35-2aed-0cc7-d099" name="Snakeman Python Guard Leader" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -972,7 +641,10 @@
             </selectionEntry>
             <selectionEntry id="a112-5b56-ed27-fb46" name="Python Guard in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="095c-b39c-1052-9553" name="Python Guard in Light Armour" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="095c-b39c-1052-9553" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5806-5dc8-db73-2491" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="6e6c-e7f7-f4d6-3343" name="Snakeman Python Guard Leader in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1011,7 +683,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6efe-4c7c-1e62-28c6" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6efe-4c7c-1e62-28c6" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="c34b-5aaf-e17f-daab">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="188f-5fc3-8c4e-cd14" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b42-1859-655f-0abb" type="min"/>
@@ -1047,9 +719,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="d999-43c4-4465-0701" name="Cold-Eyed Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3863-44ab-4386-f1de" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="6cd5-f6eb-1c54-455d" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1059,6 +728,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af8-39e1-5898-eba8" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="c10a-c998-6a57-abc8" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
               </infoLinks>
@@ -1075,7 +747,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37b6-f4e6-0e5d-6d14" name="Snakeman Warriors [72 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="37b6-f4e6-0e5d-6d14" name="Snakeman Warriors" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="e4d3-1c86-8538-a954" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
@@ -1088,7 +760,10 @@
           <selectionEntries>
             <selectionEntry id="21f7-31f2-43af-6537" name="Snakeman Warriors (no armour)" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="2dad-6043-7f1f-ebac" name="Snakeman Warriors" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="2dad-6043-7f1f-ebac" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5713-0aa3-4a18-1116" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="1e6d-6635-cb51-9e37" name="Snakeman Warrior Leader" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1127,7 +802,10 @@
             </selectionEntry>
             <selectionEntry id="3b7a-02b0-e81c-58ba" name="Snakeman Warriors in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="8f6e-461d-0a00-4691" name="Snakeman Warriors in Light Armour" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="8f6e-461d-0a00-4691" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d3f-3574-aa79-4ef4" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="5801-c68a-e08b-4793" name="Snakeman Warrior Leader in Light Armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1166,7 +844,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="27a6-27e3-5650-e61e" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="27a6-27e3-5650-e61e" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="f120-e673-346b-6ff2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5357-e366-d0dd-8f97" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dbd-2556-d6e3-78d3" type="min"/>
@@ -1207,58 +885,13 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9033-ab9b-3a31-06fd" name="Snakeman Viper Warriors [77 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9033-ab9b-3a31-06fd" name="Snakeman Viper Warriors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5a4f-9f38-577e-4fe5" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1d47-a883-db09-12dd" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a1cd-d781-c26d-c7e3" name="Snakeman Viper Warriors" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ba-2bcb-6900-f7f6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c94-76a1-c948-1b07" type="min"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="f7bf-6e6a-c029-7222" name="Snakeman Viper Warriors" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="48e2-b4cf-1239-d2af" name="Snakeman Viper Warrior Leader" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b808-d599-d8d8-2f65" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a013-6014-c838-0d22" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="4924-2ce6-c917-6356" name="Snakeman Viper Warrior Leader" hidden="false" targetId="67c4-4e5d-227d-d26e" type="profile"/>
-                    <infoLink id="5149-d1e3-92df-9d27" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="25.0"/>
-                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="12f5-32fe-e84e-7f77" name="Snakeman Warriors" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e32-d2ac-bbba-7024" type="max"/>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3de-e5ad-0cea-9130" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="9143-8de0-9b31-ee7b" name="Snakeman Viper Warrior" hidden="false" targetId="2ff7-a261-cc2f-1192" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="13.0"/>
-                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" order dice" typeId="orderDice" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9166-ebc7-0d18-c9ba" name="HtH Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a40e-4e95-5e63-f805">
           <constraints>
@@ -1294,16 +927,50 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="75d6-d5ab-3e69-654e" name="Poisonous Arrows Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff32-cbb6-0c0c-1d6b" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="7955-79d2-4db7-c1d6" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2242-6d74-7992-a0a2" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="7135-1f5d-71a8-c19d" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b243-fdfc-a4cb-2054" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67de-9872-9082-a02c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cbce-cefe-b04c-9ac7" name="Snakeman Viper Warrior Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bc8-7f08-f9d3-4b5d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8986-32df-39ca-484d" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e07d-a0f9-2b9b-cb8e" name="Snakeman Viper Warrior Leader" hidden="false" targetId="67c4-4e5d-227d-d26e" type="profile"/>
+                <infoLink id="ce52-e43a-d8c3-0170" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2405-7c61-8f31-e8db" name="Snakeman Warriors" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f389-bcdf-f0c9-8089" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c686-ceee-f0b5-90a8" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1c76-91ac-14ac-5694" name="Snakeman Viper Warrior" hidden="false" targetId="2ff7-a261-cc2f-1192" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="13.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1315,7 +982,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="995b-88e6-92aa-8220" name="Snakeman Cobra Guard [87 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="995b-88e6-92aa-8220" name="Snakeman Cobra Guard" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc2-6757-f7bf-22f1" type="max"/>
       </constraints>
@@ -1327,50 +994,6 @@
       <categoryLinks>
         <categoryLink id="5d1b-e12a-64b5-678a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a4ef-a072-8ce6-4492" name="Snakeman Cobra Guard" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e226-39c9-fe6b-b6f8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff9-70c1-5ed4-3526" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e521-620b-7504-56be" name="Snakeman Cobra Guard" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="193f-6cd5-7553-f929" name="Snakeman Cobra Guard" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3679-6cb3-3e01-7b50" type="max"/>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9762-f1de-4e05-6ce1" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="2e76-a1a6-9460-ea11" name="Snakemen Cobra Guard" hidden="false" targetId="e2cd-774e-9678-6a11" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="14.0"/>
-                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a7d6-16d0-c41d-8576" name="Snakeman Cobra Guard Leader" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b323-5453-bd32-1b57" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d18-4afb-dfad-bfe8" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="b819-f7e4-8da8-dcf8" name="Snakemen Cobra Guard Leader" hidden="false" targetId="0de9-1e2e-92bb-de08" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="31.0"/>
-                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" order dice" typeId="orderDice" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d44a-cdaa-3ad0-e087" name="HtH Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9692-2f72-d29c-cf6e">
           <constraints>
@@ -1406,11 +1029,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="4f07-8793-08a1-600a" name="Poisonous Quarrels Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be4-ad62-d25f-004d" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="fa15-897a-740c-0942" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2bf-5cb4-f6df-5a60" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="0d11-caea-50f8-e347" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
@@ -1422,9 +1045,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="64e3-9941-7932-10f8" name="Stubborn Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c658-f96b-9f65-2db2" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="6c19-9ed5-1a1a-dc7a" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1434,11 +1054,47 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7e3-6ddf-8edf-0b16" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="4742-233c-a02a-26bc" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="26cd-7f7c-6efc-ef34" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92c-89b3-a76c-ed57" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="122e-0a90-8d77-e3e3" name="Snakeman Cobra Guard" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a877-7e9c-a400-5144" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d8-5ae8-f98b-a4cf" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="dea8-7c22-c9d5-d710" name="Snakemen Cobra Guard" hidden="false" targetId="e2cd-774e-9678-6a11" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="14.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="02fe-957c-8faa-d169" name="Snakeman Cobra Guard Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19bf-312f-d42f-dfcf" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="978f-186a-1e16-60d4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a8d4-84c9-5389-ece2" name="Snakemen Cobra Guard Leader" hidden="false" targetId="0de9-1e2e-92bb-de08" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="31.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1450,7 +1106,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="00aa-31c0-56fc-f219" name="Hemata Elder Guardian [41 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="00aa-31c0-56fc-f219" name="Hemata Elder Guardian" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="points" value="5.0"/>
       </modifiers>
@@ -1467,7 +1123,10 @@
         <categoryLink id="9973-af89-79b8-5c63" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ea09-f83c-6b88-0356" name="Hemata Guardians" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ea09-f83c-6b88-0356" name="Choose 1 to 3" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1288-d467-ec3f-ce01" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="d8d7-de9f-9c0b-0740" name="Hemata Guardian" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1510,9 +1169,10 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="73c2-ab60-7aef-87f4" name="Gorgon Elder Serpent [62 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="73c2-ab60-7aef-87f4" name="Gorgon Elder Serpent" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b28-0983-05bd-82b7" type="max"/>
       </constraints>
@@ -1538,11 +1198,11 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="196e-1df6-f721-bac4" name="Baleful Glare Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da4-11c8-62df-84d6" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="8ba4-8e74-e61f-b0bd" name="Baleful Glare (can shoot bow or use glare, but not both at same time)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd3f-82de-88de-83d2" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="324a-190d-139f-952d" name="Baleful Glare" hidden="false" targetId="9855-31c9-3745-714d" type="rule"/>
               </infoLinks>
@@ -1554,11 +1214,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="395e-981a-7ad6-3ba4" name="Poisonous Arrows Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e4c-458b-b110-614e" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="4a5d-3fac-7ff6-0362" name="Venomous (bow hits only)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92d-bfc2-8678-2b62" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="2624-5bcd-40f3-9c58" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
@@ -1601,7 +1261,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1d8-f242-88b4-7ce4" name="Saurian Slithering Beast Pack [94 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c1d8-f242-88b4-7ce4" name="Saurian Slithering Beast Pack" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5b01-0241-b541-562a" name="Rapid Sprint" hidden="false" targetId="1e90-54e2-dd77-c4e3" type="rule"/>
         <infoLink id="e6f9-b473-75c5-9cf8" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
@@ -1656,35 +1316,6 @@
             <cost name=" order dice" typeId="orderDice" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cb1b-c34d-f342-ca3a" name="Saurian Beasts" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="532f-cd8e-9442-1709" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f7-0591-b0af-b0d2" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="b212-b021-2488-2023" name="Saurian Beasts" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="de27-db8e-4766-46e5" name="Saurian Beasts" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="257b-4ea8-8940-1ba1" type="max"/>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="207f-a23e-1704-75b4" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="eee6-65a9-e286-8e0f" name="Saurian Beast" hidden="false" targetId="0ee0-9140-215b-34fb" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="17.0"/>
-                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" order dice" typeId="orderDice" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d3e8-67f8-8498-d766" name="Packmaster HtH weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb0-f262-3a4b-c9be">
@@ -1714,11 +1345,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="baea-2b2d-5f90-7ebb" name="Packmaster Bow Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f65-e834-5322-6619" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="8e27-5d6a-b89d-d9a2" name="Packmaster Bow Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd7-70b3-8791-c3a7" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="d486-105c-2d06-bc9a" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
               </infoLinks>
@@ -1761,13 +1392,33 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="db8f-702b-c5bc-a261" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="345f-fcb9-4c4a-c1a9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="280a-a50f-31ed-8e41" name="Saurian Beasts" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a4-faea-caa8-520d" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c3e-17bb-a12d-383d" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0b36-146b-3731-902c" name="Saurian Beast" hidden="false" targetId="0ee0-9140-215b-34fb" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="17.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="19f9-b7db-3799-e42a" name="Pterosaurs [129 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="19f9-b7db-3799-e42a" name="Pterosaurs" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8756-422d-cf47-3a13" type="max"/>
       </constraints>
@@ -1775,7 +1426,10 @@
         <categoryLink id="d876-4ce4-eccc-f8a6" name="New CategoryLink" hidden="false" targetId="c061-a0f2-e7d4-a23b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a45e-7dca-5859-eaf9" name="Pterosaurs" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b5a-1504-b324-7214">
+        <selectionEntryGroup id="a45e-7dca-5859-eaf9" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b5-f771-9d49-9853" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="7b5a-1504-b324-7214" name="Pterosaurs" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1834,31 +1488,38 @@
         <cost name=" order dice" typeId="orderDice" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c917-12a1-c769-10e1" name="Raptors [93 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c917-12a1-c769-10e1" name="Raptors" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24e2-6e19-ebdd-1b12" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a1e8-455d-2f92-b62f" name="New CategoryLink" hidden="false" targetId="ad3c-fc35-4ea7-7a70" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6c81-4b34-b181-7580" name="Raptors" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9e08-ddac-55cb-fabe" name="Choose 3 to 5" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6418-b5b7-57bf-0850" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7277-835f-7349-5919" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680f-cbfe-6d03-9a81" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="4e05-4a0e-3bfd-ab50" name="Raptors" hidden="false" targetId="f291-ba80-8ec1-53a2" type="profile"/>
-            <infoLink id="5a7f-bbe4-d3f7-655c" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
-            <infoLink id="6bac-a874-ee73-944d" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
-            <infoLink id="3483-d327-1d02-3af9" name="Surly" hidden="false" targetId="8a4d-4dea-f005-ddc5" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="31.0"/>
-            <cost name=" order dice" typeId="orderDice" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+          <selectionEntries>
+            <selectionEntry id="b935-ff4c-6ca9-2643" name="Raptors" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a7-f5ff-27b3-e9bc" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438a-9db2-ec7d-f47e" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2ccf-7041-bf12-7d94" name="Raptors" hidden="false" targetId="f291-ba80-8ec1-53a2" type="profile"/>
+                <infoLink id="9768-1ee5-9351-794a" name="Large" hidden="false" targetId="7f3d-fbf8-9f49-2031" type="rule"/>
+                <infoLink id="8469-3bdc-09d1-1142" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
+                <infoLink id="56fb-256a-5af6-c7b4" name="Surly" hidden="false" targetId="8a4d-4dea-f005-ddc5" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="31.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
