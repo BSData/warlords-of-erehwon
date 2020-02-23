@@ -116,9 +116,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0720-ccfa-3c6b-0d51" name="Berserk Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c237-6ea7-2718-a28e" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="fdfe-2150-523d-1b99" name="Berserk" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -128,6 +125,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9218-b070-4048-85cd" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="2a33-64ba-aa25-5808" name="Berserk" hidden="false" targetId="0b0f-1de6-7017-9097" type="rule"/>
               </infoLinks>
@@ -229,9 +229,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="edf1-f8a6-b323-a0a3" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d29-7475-86a1-9d42" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="414e-1adc-18b1-a0c2" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -241,6 +238,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93f8-dc25-474b-caf9" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="db25-bd04-91aa-d3dc" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -457,7 +457,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5423-f445-0e8d-b72c" name="Warhorse Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="da75-4238-0b55-f7a1">
+        <selectionEntryGroup id="5423-f445-0e8d-b72c" name="Choose Mounts" hidden="false" collective="false" import="true" defaultSelectionEntryId="da75-4238-0b55-f7a1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8167-9d39-a69f-2462" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe88-b4d4-68d5-985f" type="max"/>
@@ -488,9 +488,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="8f6b-328b-f8a5-5de4" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0833-4bec-88cb-f08b" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="0815-62ff-6802-1185" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -500,6 +497,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5db8-c173-2766-053c" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="4e53-c783-e207-bf39" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -511,9 +511,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="1e50-e68d-07fc-ede6" name="Berserk Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc9b-f7b3-9e0a-ea16" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="c854-ad22-7103-526e" name="Berserk" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -523,6 +520,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5258-2919-03aa-f5e7" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="b0be-ef93-e4b5-f752" name="Berserk" hidden="false" targetId="0b0f-1de6-7017-9097" type="rule"/>
               </infoLinks>
@@ -583,7 +583,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a97c-b3ca-13bb-9ed2" name="Warhorse Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="0854-f47a-c05a-4f68">
+        <selectionEntryGroup id="a97c-b3ca-13bb-9ed2" name="Choose Draught Animals" hidden="false" collective="false" import="true" defaultSelectionEntryId="0854-f47a-c05a-4f68">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9339-2f75-f148-9cbf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4e4-3c2e-88be-07f5" type="max"/>
@@ -678,18 +678,18 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="42dd-c31e-372c-f102" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e324-6959-f1a6-d028" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="2758-3562-7007-7d49" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="3">
+                <modifier type="increment" field="points" value="3.0">
                   <repeats>
                     <repeat field="selections" scope="8b28-5f08-d158-e945" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d09-24ca-b326-d9b5" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="a0e4-1943-aec2-60a2" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -807,9 +807,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="05ae-a433-e242-6bba" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d07c-c35f-14c0-31ba" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="a902-298d-5ec1-a9e3" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -819,6 +816,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5372-6a3f-048e-2191" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="1ff5-8d96-a5ef-43ed" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -903,10 +903,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7976-5f39-9ae2-a490" name="Additional Magic Spells" hidden="false" collective="false" import="true" targetId="213c-8ec7-6715-58aa" type="selectionEntryGroup"/>
-        <entryLink id="9a22-079a-6a86-fcf5" name="Free Magic Spell" hidden="false" collective="false" import="true" targetId="adf3-5f05-7784-4f01" type="selectionEntryGroup"/>
-        <entryLink id="bd33-2d91-9052-350b" name="Magic Level" hidden="false" collective="false" import="true" targetId="f802-bb86-3500-a89a" type="selectionEntryGroup"/>
         <entryLink id="719d-b3ec-d9e8-a40c" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="01f7-37f1-0574-4629" name="Magic User" hidden="false" collective="false" import="true" targetId="fa2b-7444-91ac-3dec" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1106,11 +1104,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="6b40-4e25-baf6-2d48" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfb6-de28-0361-0ebd" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="80d1-f8c6-f0ed-7882" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a0-0eb9-55bf-7ebe" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="b269-f6a2-fdff-089d" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -1122,11 +1120,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="049a-985d-22e9-5fb2" name="Berserk Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d1-32e3-6b70-4d28" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="2111-6f80-3ef8-ba01" name="Berserk" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a89-7cf5-0e49-effd" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="b0be-6d21-229a-49e0" name="Berserk" hidden="false" targetId="0b0f-1de6-7017-9097" type="rule"/>
               </infoLinks>
@@ -1176,11 +1174,11 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c427-8f05-fa8e-20f7" name="Chariot Scythes" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a88b-fbf6-4f13-2e14" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="264d-4e24-7b33-2179" name="Chariot Scythes" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a17-af0e-7dca-7ca9" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="a224-2a29-d0c3-2e1c" name="Chariot Scythes" hidden="false" targetId="7723-e7c2-30a5-43ee" type="profile"/>
               </infoLinks>
@@ -1191,7 +1189,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ccb6-5b62-ac33-63a3" name="Warhorse Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="044f-0167-5a04-208c">
+        <selectionEntryGroup id="ccb6-5b62-ac33-63a3" name="Choose Draught Animals" hidden="false" collective="false" import="true" defaultSelectionEntryId="044f-0167-5a04-208c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9e6-1db9-155d-0f88" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13f-459a-8ded-dc74" type="max"/>
@@ -1221,9 +1219,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="5959-ac2e-d39b-93d5" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9fa-014a-400b-5286" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="bd84-104f-684a-1c5b" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1233,6 +1228,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b676-4c75-3979-945b" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="d0a5-23bb-40f5-dd8f" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -1377,9 +1375,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="d0f9-a902-18b3-04ba" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a61-a9fa-6d53-2394" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="9d2d-d21e-2f72-e815" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1389,6 +1384,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f2-7a7e-f237-6100" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="0a58-cc84-8f56-511d" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -1506,9 +1504,6 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5d7c-ad89-2b50-c2b0" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="710e-f164-7dad-1f3d" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="03bd-f118-ca5d-d7d2" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1518,6 +1513,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e16-fd3d-637e-1593" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="eb60-125d-dca1-f290" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -1633,7 +1631,7 @@
         <categoryLink id="e0cf-17ae-207f-11b1" name="New CategoryLink" hidden="false" targetId="mounted unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d39c-c7db-d339-a789" name="Warhorse Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="845a-60e8-e4f7-f3fa">
+        <selectionEntryGroup id="d39c-c7db-d339-a789" name="Choose Mounts" hidden="false" collective="false" import="true" defaultSelectionEntryId="845a-60e8-e4f7-f3fa">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2412-b8ce-ed3e-2463" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10bd-3a2b-2b47-5d21" type="max"/>
@@ -1663,10 +1661,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0b6c-917f-b219-7ffa" name="Bows" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="516c-c50b-741d-0c71" type="max"/>
-          </constraints>
+        <selectionEntryGroup id="0b6c-917f-b219-7ffa" name="Bow Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="94fb-73e3-8999-8861" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1676,6 +1671,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab22-4cd9-346f-50ee" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="591c-9271-5f95-a8e5" name="Bow" hidden="false" targetId="95e1-d9f2-8182-5835" type="profile"/>
               </infoLinks>
@@ -1713,9 +1711,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="fef5-2798-2182-f762" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e11-dc7c-2457-02ea" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="20a1-215f-b464-79a9" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1725,6 +1720,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc5-8629-31a3-6048" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="ba28-b114-5257-f3d7" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -1841,9 +1839,6 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="03ba-b19e-3152-b2ba" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cf5-303f-a3f0-7df3" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="89df-bafb-58a8-f84b" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1853,6 +1848,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcb3-cf41-c0be-15fd" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="26a9-0ca7-5a6e-9e8d" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -1937,7 +1935,7 @@
         <cost name=" order dice" typeId="orderDice" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fed-6557-73b9-a431" name="Barbarian Chariot [91 pts]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0fed-6557-73b9-a431" name="Barbarian Chariot" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="2fa9-25c6-7050-25fd" name="Fast 8" hidden="false" targetId="105b-036d-9a8f-edac" type="rule"/>
         <infoLink id="eea9-1c36-e80c-cdd5" name="Irresistible Charge" hidden="false" targetId="86b2-7051-4b5c-d149" type="rule"/>
@@ -2012,18 +2010,18 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="20bf-434a-5e8f-a38e" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e05-92be-8964-9896" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="fb27-27e7-9c93-2fa1" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="1">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="0fed-6557-73b9-a431" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c72-3dd1-ee37-4613" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="51c9-9670-3e0e-fdf9" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -2061,11 +2059,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7a1d-4c69-6a40-5441" name="Chariot Scythes" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f53e-4811-7924-a588" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="7d4a-f939-e9f7-ce91" name="Chariot Scythes" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d97b-f2bb-ed17-c748" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="4851-78d0-1c6f-5d9f" name="Chariot Scythes" hidden="false" targetId="7723-e7c2-30a5-43ee" type="profile"/>
               </infoLinks>
@@ -2278,11 +2276,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="dadc-3fcf-56d3-9287" name="Deadeye Shot Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c2-9fad-3f70-68a9" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="39ff-31fd-3a0c-5657" name="Deadeye Shot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5575-e635-6f48-4773" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="d198-c533-25c9-2964" name="Deadeye Shot" hidden="false" targetId="d055-98ce-6f28-1600" type="rule"/>
               </infoLinks>
@@ -2294,9 +2292,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2bec-9e55-6b83-ffa9" name="Savage Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f6-10af-6be5-0b8c" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="d2eb-d65d-756c-baf3" name="Savage" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -2306,6 +2301,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6917-c35a-2daf-85ad" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="192e-dee2-2a70-a48d" name="Savage" hidden="false" targetId="c3b6-8870-61d6-7aaf" type="rule"/>
               </infoLinks>
@@ -2508,7 +2506,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="59ec-fe55-4ece-6e22" name="Crew" hidden="false" collective="false" import="true" defaultSelectionEntryId="39bb-54e1-27cb-8164">
+        <selectionEntryGroup id="59ec-fe55-4ece-6e22" name="Choose Crew Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="39bb-54e1-27cb-8164">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="104d-df1d-6768-f009" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b2-6c72-6621-779f" type="min"/>
