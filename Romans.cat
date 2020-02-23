@@ -359,6 +359,7 @@
                               </infoLinks>
                               <costs>
                                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                                <cost name="pts" typeId="points" value="0.0"/>
                               </costs>
                             </selectionEntry>
                           </selectionEntries>
@@ -428,6 +429,7 @@
                       </infoLinks>
                       <costs>
                         <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6ba3-cd70-d27d-7b12" name="Haruspex in Light Armour" hidden="false" collective="false" import="true" type="model">
@@ -469,10 +471,8 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0e48-32d5-b5f8-81e7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
-        <entryLink id="2019-b455-7796-2a2d" name="Free Magic Spell" hidden="false" collective="false" import="true" targetId="adf3-5f05-7784-4f01" type="selectionEntryGroup"/>
-        <entryLink id="fb8a-bb04-fa69-392e" name="Additional Magic Spells" hidden="false" collective="false" import="true" targetId="213c-8ec7-6715-58aa" type="selectionEntryGroup"/>
         <entryLink id="8da3-4fae-81da-668e" name="Upgrade to Tough 2" hidden="false" collective="false" import="true" targetId="9fb8-d4a9-2584-79c0" type="selectionEntryGroup"/>
-        <entryLink id="338e-89b7-71e9-8832" name="Magic Level" hidden="false" collective="false" import="true" targetId="f802-bb86-3500-a89a" type="selectionEntryGroup"/>
+        <entryLink id="fb16-2e13-c370-286f" name="Magic User" hidden="false" collective="false" import="true" targetId="fa2b-7444-91ac-3dec" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="57.0"/>
@@ -1112,7 +1112,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="658c-c774-8bff-f688" name="Choose Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e765-d7df-f6e5-3551">
+        <selectionEntryGroup id="658c-c774-8bff-f688" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="e765-d7df-f6e5-3551">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c36-75b1-b782-73de" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2189-2ce6-395f-f138" type="max"/>
