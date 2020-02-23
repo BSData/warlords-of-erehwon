@@ -193,7 +193,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="16a6-da8b-816e-e246" name="HtH Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ac3-98b9-0509-9f19">
+        <selectionEntryGroup id="16a6-da8b-816e-e246" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ac3-98b9-0509-9f19">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6895-b997-74bb-8e45" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cac6-2732-2d1c-a55c" type="min"/>
@@ -285,7 +285,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="85c6-70e3-2784-81aa" name="HtH Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed10-d05c-b2c3-e68c">
+        <selectionEntryGroup id="85c6-70e3-2784-81aa" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed10-d05c-b2c3-e68c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b20-ee2b-2821-e758" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e441-4d41-cd69-12bc" type="min"/>
@@ -893,7 +893,7 @@
         <categoryLink id="1d47-a883-db09-12dd" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9166-ebc7-0d18-c9ba" name="HtH Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a40e-4e95-5e63-f805">
+        <selectionEntryGroup id="9166-ebc7-0d18-c9ba" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a40e-4e95-5e63-f805">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d9-bf00-f0ef-90ad" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a7-a981-9321-e0f2" type="min"/>
@@ -995,7 +995,7 @@
         <categoryLink id="5d1b-e12a-64b5-678a" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d44a-cdaa-3ad0-e087" name="HtH Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9692-2f72-d29c-cf6e">
+        <selectionEntryGroup id="d44a-cdaa-3ad0-e087" name="Choose Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9692-2f72-d29c-cf6e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ef-7cd6-956c-7222" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e597-1dd3-96ae-0629" type="min"/>
@@ -1318,7 +1318,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d3e8-67f8-8498-d766" name="Packmaster HtH weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb0-f262-3a4b-c9be">
+        <selectionEntryGroup id="d3e8-67f8-8498-d766" name="Choose Packmaster HtH weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb0-f262-3a4b-c9be">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df1f-ec14-a0df-75b3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1346-f8a7-411f-2744" type="max"/>
