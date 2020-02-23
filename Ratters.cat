@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4077-a882-0550-62c4" name="Ratters" revision="1" battleScribeVersion="2.03" authorName="LeadAddict" authorContact="Please use our Github repository to report bugs!" authorUrl="https://github.com/BSData/warlords-of-erehwon" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4077-a882-0550-62c4" name="Ratters" revision="2" battleScribeVersion="2.03" authorName="LeadAddict" authorContact="https://github.com/BSData/warlords-of-erehwon/issues" authorUrl="https://github.com/BSData/warlords-of-erehwon" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="712c-ef38-7af5-e3d9" name="Ratter Broodmaster" hidden="false">
       <constraints>
@@ -40,6 +40,9 @@
             <selectionEntry id="cea0-0f93-eddb-89e7" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="913f-8e74-6c2f-e2f4" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c58-cd17-fd3f-0a48" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="0624-f975-8a71-946a" name="Ratter Bodyguard, medium armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -78,6 +81,9 @@
             <selectionEntry id="9c7f-4de3-3d9a-8d24" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="7ce7-9f92-675c-2fc5" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa6a-2288-3182-9f1d" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="722e-b736-9476-d2ce" name="Ratter Bodyguard, light armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -414,7 +420,8 @@
     <selectionEntry id="ab56-1bac-bc9d-2a19" name="Ratter Broodmaster" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="9ede-bb1d-c42f-472c" name="Ratter Broodmaster" hidden="false" targetId="712c-ef38-7af5-e3d9" primary="false"/>
-        <categoryLink id="3d0b-e673-20e4-c149" name="New CategoryLink" hidden="false" targetId="warrior command unit" primary="true"/>
+        <categoryLink id="c9a7-80d2-1823-617c" name="New CategoryLink" hidden="false" targetId="hero unit" primary="true"/>
+        <categoryLink id="5bf7-b852-89df-951d" name="Warrior Unit" hidden="false" targetId="warrior unit" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b6b6-c305-fd7f-7cb4" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="1350-0835-4a68-cc67">
@@ -544,6 +551,9 @@
             <selectionEntry id="e78f-258e-7305-b023" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="bd82-7b3c-10a0-e995" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="373a-e1f3-0aa9-01b8" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="ade2-f0b0-5953-abf8" name="Ratter Guard Leader in medium armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -582,6 +592,9 @@
             <selectionEntry id="06a3-d19d-fc2a-7fa7" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="d5aa-360e-3354-cafa" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb5-f50a-bbc4-bce9" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="ce1a-3465-4b8d-d711" name="Ratter Guard Leader in light armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -663,7 +676,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="261e-7a88-01b8-f36d" name="Venomous Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="8316-3fbf-e1b4-15db" name="Upgrade to Venomous attacks" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8316-3fbf-e1b4-15db" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d13-6fab-8442-669a" type="max"/>
               </constraints>
@@ -701,6 +714,9 @@
             <selectionEntry id="1359-99dd-72c6-2939" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="3ec9-f434-803e-bd57" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cf1-e0fc-6e2e-efc9" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="b7d1-7a35-1ce0-ff25" name="Ratter Warrior Leader in medium armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -739,6 +755,9 @@
             <selectionEntry id="d5a4-31c2-ea5b-a544" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="e237-d8ec-b74e-4a31" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1b7-1c55-a94e-64bf" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="f29f-9f8c-ce3c-63b4" name="Ratter Warrior Leader in light armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -777,6 +796,9 @@
             <selectionEntry id="e79f-18f5-7a03-b14d" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="da87-c6d7-7ea2-70dc" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbe-7286-9274-e276" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="29a9-459a-3974-a24e" name="Ratter Warrior Leader (no armour)" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -858,7 +880,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="b5dd-03ce-cfe7-6a40" name="Venomous Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="ed1e-bf2e-645b-5f93" name="Upgrade to Venomous attacks" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ed1e-bf2e-645b-5f93" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c07-3378-6be4-6291" type="max"/>
               </constraints>
@@ -898,6 +920,9 @@
             <selectionEntry id="04e9-8471-bffd-f415" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="ecc9-05b8-be7f-8912" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4b-3722-ec46-dba5" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="968f-6bb3-3b44-4027" name="Ratter Blunderbuster Leader" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -936,6 +961,9 @@
             <selectionEntry id="3fa3-591a-3c2a-2997" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="3dc6-c1a9-71df-0e30" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1832-8d07-461f-c40a" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="9fd1-23cc-150c-a590" name="Ratter Blunderbuster Leader in light armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1013,6 +1041,9 @@
             <selectionEntry id="3848-c921-2b98-72ae" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="e1eb-7445-e3f1-e727" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9062-ddc5-16e9-2b6b" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="76e8-b4ee-6cc7-33a6" name="Ratter Slavedriver" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1051,6 +1082,9 @@
             <selectionEntry id="2b39-616f-3170-d652" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="5394-9c24-11a5-1c50" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cec3-0f2a-68d7-cc0e" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="47f6-c545-b148-949a" name="Ratter Slavedriver in light armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1090,7 +1124,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="2c8d-a5e8-8905-b19b" name="Venomous Upgrade" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="f02b-930c-76b1-1871" name="Upgrade attacks to Venomous" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f02b-930c-76b1-1871" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75bd-0dc2-e4ed-e9fd" type="max"/>
               </constraints>
@@ -1189,6 +1223,9 @@
             <selectionEntry id="ca29-4332-efb0-24dc" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="0822-1155-310b-93a5" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ec-8795-151b-b5cb" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="16f8-c28a-1e2a-ae29" name="Ratter Slavedriver" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -1227,6 +1264,9 @@
             <selectionEntry id="f64d-4019-0635-55bb" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="b6c9-8b6a-6f35-41f9" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="846c-b43c-2044-8093" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="c106-05c5-4f79-ed74" name="Ratter Slavedriver in light armour" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -1269,7 +1309,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b8-4e53-a59c-ed54" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3d8f-6e58-52b7-edf1" name="Upgrade attacks to Venomous" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3d8f-6e58-52b7-edf1" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="3fae-981a-7255-590b" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
@@ -1372,6 +1412,9 @@
             <selectionEntry id="18e0-4702-b4fb-8187" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="c074-aeea-785f-41b2" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab91-56b1-9480-9341" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="95e1-475f-e628-730e" name="Ratter Slavedriver" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -1410,6 +1453,9 @@
             <selectionEntry id="002f-e740-d608-4981" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="b007-67f7-4498-4371" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c0-1d28-ab49-4e1d" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="d4c9-0e7e-4ee0-e117" name="Ratter Slavedriver in light armour" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -1520,7 +1566,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95d8-e86c-4f7b-1974" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3332-3fac-1018-65c6" name="Upgrade attacks to Venomous" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3332-3fac-1018-65c6" name="Venomous" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="51f9-40eb-cd6e-5d16" name="Venomous" hidden="false" targetId="53b9-a3e9-0e9f-2d77" type="rule"/>
               </infoLinks>
@@ -1549,6 +1595,9 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="03df-17a0-a288-ac88" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12d1-483a-d9de-4d66" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="9b3f-b854-36a8-37b1" name="Plague Ratter" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1628,6 +1677,9 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6fda-e5df-38ed-7266" name="Choose 1 to 3" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="857c-c9eb-b682-a9d2" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="293a-a92c-0b2c-2116" name="Super Ratter" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1661,7 +1713,6 @@
                 <infoLink id="e15b-e19b-416e-176a" name="Choking" hidden="false" targetId="7ff2-1650-fc0e-5a3a" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1686,6 +1737,9 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="be39-739d-f6b3-eb4e" name="Choose 3 to 5 Giant Rats" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e7-541e-8047-c810" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="6fa0-54dd-088d-bbc1" name="Giant Rats" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1778,6 +1832,9 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="60ec-136b-e75e-81c2" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2688-2b52-5e2b-f91c" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="680e-1cc8-9dc3-82d4" name="Rat Swarm" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -1815,7 +1872,7 @@
         <categoryLink id="5770-80ba-c359-7943" name="New CategoryLink" hidden="false" targetId="art unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="48f5-5a0b-faf5-89b3" name="Choose crew weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1603-a8f9-9d01-e2e6">
+        <selectionEntryGroup id="48f5-5a0b-faf5-89b3" name="Choose Crew Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1603-a8f9-9d01-e2e6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad78-3ccc-bced-4789" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d625-acd4-5ebe-d65d" type="max"/>
@@ -1874,7 +1931,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9660-c692-8ed9-024f" name="Choose crew armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="257a-6b09-753b-d024">
+        <selectionEntryGroup id="9660-c692-8ed9-024f" name="Choose Crew Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="257a-6b09-753b-d024">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b57d-5741-cb68-2ac5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa57-1f2f-d096-6df4" type="max"/>
@@ -1883,6 +1940,9 @@
             <selectionEntry id="a207-ebbf-e043-e080" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="b533-037c-c4ce-b878" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="944a-7c42-0316-ca40" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="8e9b-7955-88d7-be32" name="Ratter Crew in light armour" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1908,6 +1968,9 @@
             <selectionEntry id="257a-6b09-753b-d024" name="No Armour" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="1253-e285-6c64-15df" name="Choose 3 to 5" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ed6-9303-178e-8def" type="min"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="bc08-ab72-e722-ec2f" name="Ratter Crew" hidden="false" collective="false" import="true" type="model">
                       <constraints>
@@ -1994,6 +2057,9 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="e174-0189-ef38-9a2c" name="Choose 4 to 6 Crew" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a931-0e7c-002a-8938" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="7e23-ba14-36b3-9823" name="Crew for Ratattack Cart" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2010,7 +2076,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5571-1953-5538-b9dc" name="Choose Crew weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4c2f-ff50-6df0-4ed3">
+        <selectionEntryGroup id="5571-1953-5538-b9dc" name="Choose Crew Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4c2f-ff50-6df0-4ed3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b17a-7b1b-168a-719b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c6d-d8e1-7e78-f3b2" type="max"/>
@@ -2038,7 +2104,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="c1cc-93b3-d932-141b" name="Upgrade Cart with Tough 1 rule" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="91ac-2878-9101-91b0" name="Tough 1 (re-roll damage chart results)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="91ac-2878-9101-91b0" name="Tough 1" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2171-3015-8fda-e12e" type="max"/>
               </constraints>
