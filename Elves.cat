@@ -64,11 +64,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="8e78-cd6b-0ba2-d03c" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c8-6e1c-d185-0a0d" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="6c5e-eecb-7b3e-f515" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f79e-48cf-8968-3948" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="83c2-e786-8673-a516" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -284,11 +284,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="3394-0961-982a-c7aa" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d9-455b-ad62-d1cb" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="a7a2-6565-3e39-ee30" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decd-fcfb-ae13-c372" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="e83d-54b6-aa49-9466" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -488,11 +488,11 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d43f-4dd0-3858-2409" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f20e-d41f-1857-9c8e" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="806d-4cf4-7848-9ded" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf2e-4963-7ae5-f8ce" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="3f84-b1c4-c431-ca25" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -648,11 +648,11 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f71c-cb13-8036-3e8a" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffb5-ff28-e167-9162" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="d748-92dd-5376-f2b9" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7023-d83e-b67c-482c" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="02cd-5314-0559-edb9" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -952,11 +952,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0129-a7b5-11f8-7846" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0e-37a5-b6c9-527f" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="0af0-e8f9-cb4a-e238" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77ed-be3a-b15d-18f3" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="2a7e-f4b4-f172-3d3a" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -969,10 +969,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8ae6-d52d-3b35-e39f" name="Additional Magic Spells" hidden="false" collective="false" import="true" targetId="213c-8ec7-6715-58aa" type="selectionEntryGroup"/>
-        <entryLink id="8a55-efb0-e406-cc46" name="Free Magic Spell" hidden="false" collective="false" import="true" targetId="adf3-5f05-7784-4f01" type="selectionEntryGroup"/>
-        <entryLink id="1ae7-9da7-a0e0-4bf9" name="Magic Level" hidden="false" collective="false" import="true" targetId="f802-bb86-3500-a89a" type="selectionEntryGroup"/>
         <entryLink id="4343-db42-9340-544e" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
+        <entryLink id="8278-901c-d2a9-9660" name="Magic User" hidden="false" collective="false" import="true" targetId="fa2b-7444-91ac-3dec" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -991,11 +989,11 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a58f-b94c-89b4-355c" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cdf-b59c-d1fe-e6a0" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="cb23-94c2-9e9d-3a4d" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0367-9928-31bb-898f" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="e8e7-fdf6-cdf1-c3c3" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -1033,9 +1031,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="fcd0-2ee9-ed6d-b78a" name="Longbow Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5e6-b9cc-7cae-7396" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="9893-bee3-9992-40e3" name="Longbows" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1045,6 +1040,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38cf-90d5-ccfd-231f" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="5a93-3781-bd42-a8cf" name="Longbow" hidden="false" targetId="d4c8-3ef2-18de-85c0" type="profile"/>
               </infoLinks>
@@ -1195,11 +1193,11 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a4ef-80a1-78aa-528a" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="052f-bd93-6876-002e" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="5bec-5efa-d706-c3c4" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26eb-d183-f83c-2c18" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="53e4-afd7-7276-18a2" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -1260,11 +1258,11 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bb54-84d8-d77d-b7b7" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c8d-72e6-f9ae-6454" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="a177-13f2-380b-10b9" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302e-fd55-8aa7-aef1" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="bae1-c87f-2552-d1ec" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -1383,11 +1381,11 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fac3-a32b-02b4-f631" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff75-946a-a28a-ec1e" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="32db-f77d-d774-ca48" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf25-41dc-a355-660b" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="af64-8aa2-977a-5bfe" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -1504,11 +1502,11 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8623-1369-8be1-779d" name="Haughty Disdain Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4908-d3fc-6de0-e7d4" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="bf9e-453c-974d-4514" name="Haughty Disdain" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41af-d4c3-7dcb-94d0" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="89d9-0eb5-17d3-0c5f" name="Haughty Disdain" hidden="false" targetId="6a8d-ef1b-6f78-e15c" type="rule"/>
               </infoLinks>
@@ -1562,9 +1560,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="867d-6dc0-62b1-eb14" name="Longbow Upgrade" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ac-6e2c-527e-b546" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="402e-ba23-8bf5-eb15" name="Longbows" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -1574,6 +1569,9 @@
                   </repeats>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc7-7ea2-bd76-f144" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="4c60-09f5-3fd8-2ed4" name="Longbow" hidden="false" targetId="d4c8-3ef2-18de-85c0" type="profile"/>
               </infoLinks>
