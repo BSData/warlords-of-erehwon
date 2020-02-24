@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3b46-1dfa-75fc-f98f" name="Dwarfs" revision="5" battleScribeVersion="2.03" authorName="the3dwargamer &amp; LeadAddict" authorContact="http://github.com/BSData/warlords-of-erehwon/issues" authorUrl="http://github.com/BSData/warlords-of-erehwon/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3b46-1dfa-75fc-f98f" name="Dwarfs" revision="6" battleScribeVersion="2.03" authorName="the3dwargamer &amp; LeadAddict" authorContact="http://github.com/BSData/warlords-of-erehwon/issues" authorUrl="http://github.com/BSData/warlords-of-erehwon/" library="false" gameSystemId="cffa-cd51-33d5-b2c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="6dbd-0ad3-a92f-c7f6" name="Dwarf Lord" hidden="false" collective="false" import="true" targetId="c721-3183-d63d-d213" type="selectionEntry"/>
     <entryLink id="68b2-8587-0f02-6bc9" name="Dwarf Runesmith [81 pts]" hidden="false" collective="false" import="true" targetId="c40e-98bb-55a2-ca4c" type="selectionEntry"/>
@@ -73,81 +73,6 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0567-a25f-0005-b574" name="Stubborn Upgrade" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="fd0b-1e1f-9d16-ce88" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="c721-3183-d63d-d213" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6d1-854f-497c-8d7d" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6d71-b533-3114-000b" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5a01-bd30-08ea-1a3f" name="Wounds Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="209f-8982-4045-7b7f">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed2-7409-28ee-fb7b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12df-5792-bf4a-60dd" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="209f-8982-4045-7b7f" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="0279-cc77-242e-b7d1" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="da24-0bc6-b820-f473" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="198a-48b7-be7a-7f9a" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="16.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="81f7-c51c-5dbf-b737" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="0b44-d5d7-1c37-970b">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a6-5234-ab74-04bb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d23-df37-1c10-ef13" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0b44-d5d7-1c37-970b" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="0c5b-dfac-d98d-79a3" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="894d-371e-c5ad-4372" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="3a9f-4c83-13a4-b618" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="ae9e-144d-af12-99c4" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="506d-8280-00d3-d2e7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4615-8a7d-5bbf-e89e" type="max"/>
@@ -155,91 +80,150 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="506d-8280-00d3-d2e7" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="f94c-c68f-a272-c4c2" name="Choose 2 to 4" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b7-77a5-8e66-879c" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="d8e5-2ef6-d241-ce87" name="Dwarf Lord in Medium Armour" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f0-2494-858f-e1e0" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18df-6a20-8a40-9079" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="56fb-d5ba-9b77-55cd" name="Dwarf Lord in Medium Armour" hidden="false" targetId="fb5a-eb49-7967-2110" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="82.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="5989-181d-8651-3f65" name="Dwarf Bodyguard in Medium Armour" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3956-843e-d86e-b16c" type="min"/>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a161-4640-a307-eb01" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="731d-6376-718c-0837" name="Dwarf Bodyguard in Medium Armour" hidden="false" targetId="30e0-c8fa-0417-4639" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="18.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="64.0"/>
+                <modifier type="increment" field="points" value="18.0">
+                  <repeats>
+                    <repeat field="selections" scope="c721-3183-d63d-d213" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69eb-f0a3-1291-6ccf" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4ea7-c768-760c-c675" name="Dwarf Lord in Medium Armour" hidden="false" targetId="fb5a-eb49-7967-2110" type="profile"/>
+                <infoLink id="04a5-40d4-33ef-8288" name="Dwarf Bodyguard in Medium Armour" hidden="false" targetId="30e0-c8fa-0417-4639" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6a71-aabb-c1b4-5401" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="cec2-4c66-f52d-5000" name="Choose 2 to 4" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f861-5a84-bb02-c4e2" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="457e-74e9-3f15-14cf" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry id="d923-b6e7-659e-19d8" name="Dwarf Lord in Heavy Armour" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0a-9f87-e1cd-1c38" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dbd-12de-9f6c-2bae" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8e24-b34a-6c17-65ef" name="Dwarf Lord in Heavy Armour" hidden="false" targetId="64dd-c73a-1a36-f51b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="91.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0476-19e4-21f0-6208" name="Dwarf Bodyguard in Heavy Armour" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="831a-8933-bf9f-c510" type="min"/>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a5e-6e1b-7854-cb8e" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="b435-9035-a740-bb17" name="Dwarf Bodyguard in Heavy Armour" hidden="false" targetId="5811-0613-74b8-06b8" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="19.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="19.0">
+                  <repeats>
+                    <repeat field="selections" scope="c721-3183-d63d-d213" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="points" value="73.0"/>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="b0c4-6c89-eb8c-73fb" name="Dwarf Bodyguard in Heavy Armour" hidden="false" targetId="5811-0613-74b8-06b8" type="profile"/>
+                <infoLink id="9471-7c27-aea2-2b49" name="Dwarf Lord in Heavy Armour" hidden="false" targetId="64dd-c73a-1a36-f51b" type="profile"/>
+                <infoLink id="fc63-9f7a-dfa5-e7ff" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="196b-3e50-5157-315d" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef1-8df8-ac03-c8ce" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c046-74d4-dc72-97da" name="Dwarf Lord in Medium Armour" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bef-4e3e-77e5-6272" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65d8-5a86-d7f7-358b" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0eaa-27f5-c97c-6f9d" name="Dwarf Bodyguards" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04e4-52f0-c9e9-d5fe" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ed-4115-dd37-3cbd" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4344-4286-e518-601b" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="56ea-d93d-4352-c07d" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="75cc-f3d3-7aac-1f01">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e0c-0916-a3f2-d372" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0d-3a6d-b73b-c031" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="75cc-f3d3-7aac-1f01" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="aa1f-8b61-8ed2-59db" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4a1d-2fed-f1c8-cd1e" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="509e-f65c-f5a1-c76a" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7a10-f8ed-a1ef-51ec" name="Stubborn Upgrade" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="f590-fe97-659a-488c" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="points" value="2">
+                      <repeats>
+                        <repeat field="selections" scope="c721-3183-d63d-d213" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="434d-f36c-41af-5a41" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="69f1-210b-4a1e-4efe" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="964d-3b54-5565-9110" name="Wounds Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="eac9-3478-bfc2-672d">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d1d-2a59-0395-bce4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73b5-f302-66ef-931d" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="eac9-3478-bfc2-672d" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="cc05-9d11-11da-3eec" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6866-3ef7-3637-a810" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="581a-4eb1-402b-8d47" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="16.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -274,58 +258,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="135f-cdd7-66e9-9433" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="30a0-084c-fbca-6526">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d3-fae3-e18f-a4f6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f595-815a-2609-bdd4" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="30a0-084c-fbca-6526" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="1e75-08e0-65fe-5c9d" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6817-4901-87fc-f085" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="5ae2-870e-1ee6-23fc" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="16.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="66db-a27b-8a2a-be06" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e8e-29bd-7699-165d">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="596f-6a29-1af9-0b40" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cded-873c-6289-01b6" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1e8e-29bd-7699-165d" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="b1c2-f9c8-4a6a-83bc" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="99c1-8b8d-ac0a-4af9" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="b0ed-9364-cdb6-c828" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="731f-8af9-41c7-6f19" name="Choose up to 4" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="a315-0a3e-9a26-e5f1" name="Apprentice Runesmith" hidden="false" collective="false" import="true" type="model">
@@ -342,28 +274,84 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3e16-591c-1994-f765" name="Stubborn Upgrade" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="686b-f926-7321-f7b5" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="c40e-98bb-55a2-ca4c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
+        <selectionEntryGroup id="7c0d-2f78-46af-df13" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d1af-7553-d3b3-9d2e" name="Stubborn Upgrade" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="c2f2-8ca4-9440-4db2" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="points" value="2">
+                      <repeats>
+                        <repeat field="selections" scope="c40e-98bb-55a2-ca4c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b35-7856-d91a-4174" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="2e01-4d9e-446e-5aaf" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="bb2e-de0f-0777-3fd8" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e45-5549-7d56-19a3">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e7c-6961-bf0f-33d7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6903-468c-250e-3036" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0157-522e-c395-e3ca" type="min"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="4247-b1ad-052c-b2a8" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+              <selectionEntries>
+                <selectionEntry id="1e45-5549-7d56-19a3" name="Tough" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="4df2-2b21-355b-ade9" name="Tough" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d54a-a8b2-eaac-ae7e" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="0c03-34a1-7458-b7f3" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c279-6005-d0c9-5efc" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="9be5-74e1-a2b6-b584">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50c7-b1af-8a04-e30b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa3-360e-99b4-5735" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9be5-74e1-a2b6-b584" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="866d-d44b-652a-7050" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e914-1a41-1d9f-73c9" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="cf09-1a43-5268-b16a" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="16.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -387,115 +375,6 @@
         <categoryLink id="3a8f-6eca-ce88-d29b" name="Hero Unit" hidden="false" targetId="hero unit" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="328e-881e-5c23-9754" name="Stubborn Upgrade" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="3c56-3612-f136-7a5d" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="099e-7023-cabb-d9d1" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="8e49-3079-3b3a-96d3" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="592f-d6d8-9661-7717" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="63e6-0626-588d-38a6">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ef-c9c6-d735-1f98" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c0-ce7a-7c92-5af2" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="63e6-0626-588d-38a6" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="abf7-1e80-0bd0-ac6d" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c138-df81-da8d-a098" name="Tough 3" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="0978-d2b9-6124-0a76" name="Tough 3" hidden="false" targetId="3536-db5c-4e89-87d7" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="eeb6-fb48-dd1a-1e54" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="5fb2-f924-871e-cb9c">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d6c-e992-3ff6-02e1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="199b-40ce-bbdb-42b3" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="5fb2-f924-871e-cb9c" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="cc01-0604-009f-04ac" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3739-8036-7b0e-927a" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="d0bf-8b98-6ac6-5561" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="16.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="aaa7-9443-7dae-5b41" name="Wound 3" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="86f9-3bfe-d7f8-3e3d" name="Wound 3" hidden="false" targetId="2724-2057-e745-23a3" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="32.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d52c-1995-b0c2-582a" name="Vengeful Upgrade" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="f933-d64f-4ff8-6ef5" name="Vengeful" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f1-fca0-c858-edd6" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="faea-0c47-16c2-4993" name="Vengeful" hidden="false" targetId="5e63-c99b-00b4-24eb" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="13cd-e5e9-c7ff-ffd2" name="Mechanical Genius Upgrade" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="26fd-00ed-3132-6abe" name="Mechanical Genius" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2e-ec35-42b0-d737" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="d87b-8399-39e3-64ee" name="Mechanical Genius" hidden="false" targetId="57f2-e9b1-c3c1-7c74" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="4752-dad0-fab8-f0f9" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e8f-d965-bd1b-e548">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ba3-6542-93d7-c141" type="max"/>
@@ -559,6 +438,119 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="fdd2-8b6f-dbb2-0871" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e84f-68b3-cd57-c2d6" name="Tough Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="1d28-dfa9-c7ad-72e2">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9209-4937-bc4b-5c94" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="730d-f732-7ebe-7d91" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1d28-dfa9-c7ad-72e2" name="Tough 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="07fe-7137-1e0d-eba3" name="Tough 2" hidden="false" targetId="487f-dc82-bce1-c0f6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c4de-d92f-5001-b084" name="Tough 3" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="55b8-b568-dbee-3f44" name="Tough 3" hidden="false" targetId="3536-db5c-4e89-87d7" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6e77-bfda-4569-ecd8" name="Stubborn Upgrade" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="3607-82c1-2a1c-726d" name="Stubborn" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39bb-6c0f-9ab1-7171" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="d3aa-c63d-e024-0b5e" name="Stubborn" hidden="false" targetId="4440-376a-8093-35b8" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3874-1f12-8642-896f" name="Vengeful Upgrade" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="c390-eae8-8bd3-c914" name="Vengeful" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48af-f0b9-b6e2-a1e6" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1d3c-7915-b35c-5388" name="Vengeful" hidden="false" targetId="5e63-c99b-00b4-24eb" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="fcd9-d422-3b0b-b363" name="Wound Upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="ad1a-d8bf-a106-caf3">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b723-9162-aabe-e5e1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea40-7b3d-28e8-eac1" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ad1a-d8bf-a106-caf3" name="Wound" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="8bae-ad78-0c2f-4ddd" name="Wound" hidden="false" targetId="8784-9f2f-1a5b-be21" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="403e-3ab0-b554-6eba" name="Wound 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="2316-39e1-be83-66e8" name="Wound 2" hidden="false" targetId="342b-a482-cb16-67e0" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="16.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f0d9-7f6a-36d6-b9a0" name="Wound 3" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="aa97-8990-9601-d757" name="Wound 3" hidden="false" targetId="2724-2057-e745-23a3" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="32.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6c35-1397-ae1e-64c3" name="Mechanical Genius Upgrade" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="f23c-fb2d-c528-11ae" name="Mechanical Genius" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8966-87d7-f17f-f891" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="7d46-9cdd-5e45-5fb5" name="Mechanical Genius" hidden="false" targetId="57f2-e9b1-c3c1-7c74" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="908a-815e-c330-1f33" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="04c0-42c1-8864-cf22" type="selectionEntryGroup"/>
@@ -613,88 +605,68 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d0-e9aa-ae9d-01cd" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7c4f-b564-3d0d-ccdb" name="Dwarf Guard in Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="44ec-8596-1588-3bda" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3272-f1a3-beda-6469" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="694a-8735-f3c1-2d2e" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry id="f490-ede7-d883-adba" name="Dwarf Guard Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0388-08d0-e18a-eaf1" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a5-b7cb-0078-9b4c" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="6a8f-cc94-c85a-9fe3" name="Dwarf Guard Leader in Heavy Armour" hidden="false" targetId="d394-0876-b7d2-77a2" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="32.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4d9c-08b7-f862-57b1" name="Dwarf Guard" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7393-1987-bc6b-fd59" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="565c-a897-3d90-c0b2" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="aaae-e34d-0be1-2aae" name="Dwarf Guard in Heavy Armour" hidden="false" targetId="fe66-a354-abbd-fc42" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="22.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="7c4f-b564-3d0d-ccdb" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="22.0">
+                  <repeats>
+                    <repeat field="selections" scope="3737-797e-c49a-bd2e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="6f06-d236-afb8-1afc" name="Dwarf Guard in Heavy Armour" hidden="false" targetId="fe66-a354-abbd-fc42" type="profile"/>
+                <infoLink id="c122-6fec-5a14-8364" name="Dwarf Guard Leader in Heavy Armour" hidden="false" targetId="d394-0876-b7d2-77a2" type="profile"/>
+                <infoLink id="0bd4-eb4a-1e89-951d" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eac7-0b3a-cf5b-613f" name="Dwarf Guard in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="cd95-1f2c-e360-adf4" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b665-faa3-eabb-983a" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="030b-9fc7-2378-10d5" name="Dwarf Guard Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a5a-78e0-f24f-e143" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b79d-9e13-d658-5040" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="b7ab-94b8-6bad-0291" name="Dwarf Guard Leader in Medium Armour" hidden="false" targetId="4c60-2ba3-398c-0446" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="31.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3be7-e411-54a5-9a80" name="Dwarf Guard" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a03-cb72-0acd-bb61" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc6-9d03-30fa-7221" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="b9d9-4ed6-ee0e-770d" name="Dwarf Guard in Medium Armour" hidden="false" targetId="9d04-e866-f8a2-f421" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="21.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="eac7-0b3a-cf5b-613f" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="21.0">
+                  <repeats>
+                    <repeat field="selections" scope="3737-797e-c49a-bd2e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4b9-9b7d-b76b-c402" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e3ef-1a28-9d62-1ece" name="Dwarf Guard Leader in Medium Armour" hidden="false" targetId="4c60-2ba3-398c-0446" type="profile"/>
+                <infoLink id="bd82-6b51-3892-3fbb" name="Dwarf Guard in Medium Armour" hidden="false" targetId="9d04-e866-f8a2-f421" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b56a-1d3d-a024-2fdf" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ad-eaf7-98f2-cc86" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ceed-b366-47c6-617f" name="Dwarf Guard Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b8f-3e8b-af03-facf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1c8-6ed4-d496-b737" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78a4-065f-f07d-abb0" name="Dwarf Guard" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b3-c486-7090-3bfe" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ac3-3d19-7a9a-07b2" type="max"/>
+              </constraints>
+              <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -721,85 +693,38 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="efa2-f5e5-7a84-6cda" name="Dwarf Warriors in Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="19.0">
+                  <repeats>
+                    <repeat field="selections" scope="0af2-4120-b7ef-ed73" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <infoLinks>
                 <infoLink id="7074-edee-38d4-d31d" name="Heavily Laden" hidden="false" targetId="1a97-76e9-e64e-7701" type="rule"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="983b-eacc-931a-75a1" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc38-c48e-e19a-7e6a" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="c686-5664-ee4d-009a" name="Dwarf Warrior Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38ca-1e70-bf6f-57fe" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2679-e2c0-dbc9-8b3d" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="c97b-39b2-0b6b-7fd7" name="Dwarf Warrior Leader in Heavy Armour" hidden="false" targetId="22a3-6219-8bce-3abf" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="29.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4b27-6479-27fd-2189" name="Dwarf Warrior" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac6-f9cf-9a6e-8e70" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c5-c467-31f6-4901" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="7ed4-a421-f89c-9883" name="Dwarf Warrior in Heavy Armour" hidden="false" targetId="cefc-0f30-f7b9-5b01" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="19.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="683e-3a8b-10c4-b24f" name="Dwarf Warriors in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="7901-8767-67f2-28e1" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033a-8e2f-ebe8-fd9b" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="3615-8968-cf20-2941" name="Dwarf Warrior Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b7b-1675-e393-1ffd" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff0-ed81-7da8-a73b" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="270b-0b5b-d822-7fb0" name="Dwarf Warrior Leader in Medium Armour" hidden="false" targetId="44cd-0e54-6110-001b" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="28.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1243-0fc6-7980-34af" name="Dwarf Warrior" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7cd-f916-6eeb-ccc9" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c61-8f36-1498-3810" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="bf78-7674-88ea-36a9" name="Dwarf Warrior in Medium Armour" hidden="false" targetId="1194-9433-8b26-a3bb" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="18.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="18.0">
+                  <repeats>
+                    <repeat field="selections" scope="0af2-4120-b7ef-ed73" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f212-4483-4e46-6e5f" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="31b4-004c-0014-45b5" name="Dwarf Warrior in Medium Armour" hidden="false" targetId="1194-9433-8b26-a3bb" type="profile"/>
+                <infoLink id="29fd-69bf-d83a-ab3d" name="Dwarf Warrior Leader in Medium Armour" hidden="false" targetId="44cd-0e54-6110-001b" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -879,6 +804,31 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="d1b0-214a-1fbb-6693" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e1-b59d-d839-2e26" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3644-0372-a11f-0ff3" name="Dwarf Warrior Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fa0-609e-3835-1781" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00db-2044-818a-d4c3" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dbab-edcb-f43c-6054" name="Dwarf Warrior" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15a-0ced-748d-98e2" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64cf-7102-7be6-56e7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -901,82 +851,39 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="25eb-f01e-7c5c-9567" name="Dwarf Archers in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="d5de-fca3-f159-a57c" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="174e-0641-3d57-0f37" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="30aa-800f-15a1-e1e9" name="Dwarf Archer Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb3-b026-0be0-f1dc" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="387a-cfcd-93c3-55ba" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="b372-97c8-b30a-e29b" name="Dwarf Archer Leader in Medium Armour" hidden="false" targetId="84ec-289b-c957-ca10" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="30.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a89b-cfbb-18f7-dbb8" name="Dwarf Archer" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee80-4030-5f3b-c7b3" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a23b-c171-9981-ea75" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="9163-ab09-745f-8ecc" name="Dwarf Archer in Medium Armour" hidden="false" targetId="a82c-5bb9-d0e8-f6c1" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="20.0">
+                  <repeats>
+                    <repeat field="selections" scope="0120-dc29-e7a3-7a46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="points" value="12.0"/>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="1e8b-b8b0-352a-ddf0" name="Dwarf Archer Leader in Medium Armour" hidden="false" targetId="84ec-289b-c957-ca10" type="profile"/>
+                <infoLink id="957b-c0ad-7892-2306" name="Dwarf Archer in Medium Armour" hidden="false" targetId="a82c-5bb9-d0e8-f6c1" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a70-2217-86dc-03f0" name="Dwarf Archers in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="ed56-6ecc-54d2-68e6" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6128-f82e-f321-def4" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="9a37-f462-62c3-9346" name="Dwarf Archer Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a1-4282-7df5-93f3" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1396-3078-51b3-9fef" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="e93c-19cf-e52d-334b" name="Dwarf Archer Leader in Light Armour" hidden="false" targetId="d31b-6031-95ac-45ac" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="28.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="159b-b450-bbc9-884e" name="Dwarf Archer" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa06-2427-7f71-ce87" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7f6-f4cc-eaba-30a6" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="d613-d1e1-8874-cee1" name="Dwarf Archer in Light Armour" hidden="false" targetId="9f10-9fc3-4192-9710" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="18.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="18.0">
+                  <repeats>
+                    <repeat field="selections" scope="0120-dc29-e7a3-7a46" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="points" value="10.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38a4-dbe0-aa95-7ad2" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="de18-9175-9fe9-b07d" name="Dwarf Archer Leader in Light Armour" hidden="false" targetId="d31b-6031-95ac-45ac" type="profile"/>
+                <infoLink id="654b-c7e1-1a57-fb37" name="Dwarf Archer in Light Armour" hidden="false" targetId="9f10-9fc3-4192-9710" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -984,7 +891,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9ef2-2b14-e221-3e03" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a68a-5e58-bba0-8787">
+        <selectionEntryGroup id="9ef2-2b14-e221-3e03" name="Choose Ranged Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a68a-5e58-bba0-8787">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fcd-3575-a82b-2879" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deec-2893-f792-4698" type="min"/>
@@ -1018,6 +925,33 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="f829-c2e1-b658-c2e2" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e748-3ed5-a281-a24c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f565-8c63-0216-4ad4" name="Archers" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72b-0944-e375-b2cb" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f88-5b65-c9b6-bdb2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e8ab-bb0a-02c8-593b" name="Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afb-7386-869b-393e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c5a-c7ee-0151-74cc" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1026,10 +960,10 @@
     </selectionEntry>
     <selectionEntry id="8600-3664-2ff7-0154" name="Dwarf Handgunners" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="4201-3261-ac27-eeff" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
-        <infoLink id="b68e-0da9-b61a-5dad" name="Handgun" hidden="false" targetId="c6ac-d307-29c2-4ef1" type="profile"/>
         <infoLink id="d6c8-1f57-4e4a-588d" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
         <infoLink id="69ce-88e4-af12-6624" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="738d-856f-d0f8-3f51" name="Handgun" hidden="false" targetId="c6ac-d307-29c2-4ef1" type="profile"/>
+        <infoLink id="d7db-a7fb-0e31-2abb" name="Sword or Axe" hidden="false" targetId="2447-8f38-dd07-d089" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a764-2034-aa55-fcd7" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
@@ -1042,84 +976,63 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="dbc0-2629-ed4f-0b37" name="Dwarf Handgunners in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="61fe-cea2-b98b-f823" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a1-a477-c39c-2ddf" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="0485-773f-e692-3db8" name="Dwarf Handgunner Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de4d-d0c7-fb76-765e" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a31b-bf10-2d14-6f9a" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="59d4-fdbd-c2c9-f34e" name="Dwarf Handgunner Leader in Medium Armour" hidden="false" targetId="a153-e2b0-2268-9941" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="32.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="09c3-0f1d-0c79-6ffb" name="Dwarf Handgunner" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2684-6364-44ee-6947" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f880-8c87-4bb2-d02a" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="f56a-4f25-1bd3-ca35" name="Dwarf Handgunner in Medium Armour" hidden="false" targetId="e853-c6fd-1af8-eb85" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="22.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="22.0">
+                  <repeats>
+                    <repeat field="selections" scope="8600-3664-2ff7-0154" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="5b30-426f-e54e-03af" name="Dwarf Handgunner in Medium Armour" hidden="false" targetId="e853-c6fd-1af8-eb85" type="profile"/>
+                <infoLink id="d8a1-1a99-e117-9cea" name="Dwarf Handgunner Leader in Medium Armour" hidden="false" targetId="a153-e2b0-2268-9941" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1660-d9da-eeee-93e1" name="Dwarf Handgunners in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="fe00-4583-2424-9b38" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6de2-9c89-98d2-3845" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="1d5b-0a4f-db2a-14c3" name="Dwarf Handgunner Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5689-1efb-4fe6-fe59" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680a-9019-1fda-697d" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="1628-be35-fc0e-d1ba" name="Dwarf Handgunner Leader in Light Armour" hidden="false" targetId="52d2-00d9-227a-48b2" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="30.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="2359-0904-458a-8915" name="Dwarf Handgunner" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad03-0beb-a44f-309a" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d9-f5c0-a0e0-7b02" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="15b0-e926-90bf-ada4" name="Dwarf Handgunner in Light Armour" hidden="false" targetId="0873-fe47-1fe0-44fe" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="20.0">
+                  <repeats>
+                    <repeat field="selections" scope="8600-3664-2ff7-0154" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="d26a-cd77-d5a5-ce27" name="Dwarf Handgunner Leader in Light Armour" hidden="false" targetId="52d2-00d9-227a-48b2" type="profile"/>
+                <infoLink id="8650-2442-bcc4-1111" name="Dwarf Handgunner in Light Armour" hidden="false" targetId="0873-fe47-1fe0-44fe" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f28d-c36f-db4a-a66f" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8456-f2d8-275e-2b9b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f719-7338-1564-dcbf" name="Dwarf Handgunner Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58d-283d-a22b-77d2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c398-346f-877c-b3bf" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3f32-7578-8741-7436" name="Dwarf Handgunner" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd0a-95b5-ea38-ee0a" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f36b-6a99-0882-ed4f" type="max"/>
+              </constraints>
+              <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1147,82 +1060,39 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="9d32-8f9f-1c6e-30e5" name="Dwarf Pony Riders in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="fa5d-9c3c-5c78-d840" name="Choose 2 to 4" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4975-20c1-9fae-ce47" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="6aba-cf6a-2edd-7309" name="Dwarf Pony Rider Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12a7-c3a2-2462-32ea" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a09f-62cc-e2c8-ae74" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="afd6-66a7-61c3-f4b7" name="Dwarf Pony Rider Leader in Light Armour" hidden="false" targetId="d7d3-0dd6-3363-c28c" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="30.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="bc3d-f58e-d8f9-5f05" name="Dwarf Pony Rider" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7c8-f26f-8de9-4c39" type="min"/>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a82-eb64-9e43-ce79" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="d244-2e15-31ec-f689" name="Dwarf Pony Rider in Light Armour" hidden="false" targetId="a822-8fdc-6a29-28a5" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="20.0">
+                  <repeats>
+                    <repeat field="selections" scope="c3c0-1daa-695f-77ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="points" value="10.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0728-8bc3-ba5e-bc90" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0aaa-c751-7c99-bb12" name="Dwarf Pony Rider Leader in Light Armour" hidden="false" targetId="d7d3-0dd6-3363-c28c" type="profile"/>
+                <infoLink id="68dc-1a84-9b44-4459" name="Dwarf Pony Rider in Light Armour" hidden="false" targetId="a822-8fdc-6a29-28a5" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8814-e0ea-0db2-a3bc" name="Dwarf Pony Riders in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9057-2770-6355-c5cb" name="Choose 2 to 4" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b57-2577-b9ab-9955" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="074f-c0f7-01c0-7ec2" name="Dwarf Pony Rider Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9c3-1f23-859b-f038" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb6-7b67-fc56-932e" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="92d1-281f-ce26-ff3b" name="Dwarf Pony Rider Leader in Medium Armour" hidden="false" targetId="b6a2-cf61-3f0b-c8d1" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="32.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1641-820c-099b-fe0d" name="Dwarf Pony Rider" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ef3-b2c7-e549-5eb9" type="min"/>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf52-67a8-56d1-f815" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="e386-71be-512e-2ea4" name="Dwarf Pony Rider in Medium Armour" hidden="false" targetId="f330-85e7-cee4-dc73" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="22.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="10.0"/>
+                <modifier type="increment" field="points" value="22.0">
+                  <repeats>
+                    <repeat field="selections" scope="c3c0-1daa-695f-77ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="2666-251e-2c3c-8fa8" name="Dwarf Pony Rider Leader in Medium Armour" hidden="false" targetId="b6a2-cf61-3f0b-c8d1" type="profile"/>
+                <infoLink id="df9d-fb8a-5b03-31bf" name="Dwarf Pony Rider in Medium Armour" hidden="false" targetId="f330-85e7-cee4-dc73" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1256,6 +1126,31 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="060c-1cdc-1b9a-700b" name="Choose 2 to 4" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7635-d4c8-aaf8-a4c0" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a044-0379-099f-ee04" name="Dwarf Pony Rider Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="148b-3a42-116e-e90e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314b-5dcd-ace9-9977" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="09a5-a839-452f-23c2" name="Dwarf Pony Rider" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="778b-0d82-b0e2-cd8d" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d923-00a2-e75f-9801" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1267,17 +1162,11 @@
         <infoLink id="b625-ac56-05f4-ffe3" name="Vengeful" hidden="false" targetId="5e63-c99b-00b4-24eb" type="rule"/>
         <infoLink id="3935-5ffd-0cd2-f917" name="Fire Order to Shoot" hidden="false" targetId="d2a3-26b0-f825-e454" type="rule"/>
         <infoLink id="4e08-db3b-9535-063e" name="Tough 1" hidden="false" targetId="b9e1-fea5-9095-b1cf" type="rule"/>
+        <infoLink id="afe4-16c7-13d5-6e0d" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1fc1-99e6-f464-e3e7" name="New CategoryLink" hidden="false" targetId="warrior unit" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="33b7-104e-cc45-2166" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="ea0e-2b94-0b86-0fcd" name="Crossbow" hidden="false" targetId="d39c-4b92-3b2f-a1dc" type="profile"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9514-036d-256f-f4b3" name="Choose Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e77-d307-2416-a4bf">
           <constraints>
@@ -1286,82 +1175,39 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="1cf4-06d1-ccc0-6c1c" name="Dwarf Rangers in Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="a225-685b-18be-94ca" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d171-4779-1418-d55b" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="4d8c-d179-20b5-d943" name="Dwarf Ranger Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f98c-d77b-d142-50b2" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d087-5aa3-5b38-d1ce" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="7495-0b19-d3ec-91f4" name="Dwarf Ranger Leader in Medium Armour" hidden="false" targetId="e512-a6cd-04f8-99cb" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="34.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="479b-2011-1673-9b12" name="Dwarf Ranger" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a8-78e4-1ab8-eeca" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f473-1bbb-5eaa-4af8" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="c5d7-fc8b-f409-bdf4" name="Dwarf Ranger in Medium Armour" hidden="false" targetId="3ba4-96b5-8386-a3bf" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="22.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="12.0"/>
+                <modifier type="increment" field="points" value="22.0">
+                  <repeats>
+                    <repeat field="selections" scope="3ce6-e262-f72d-7f94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="cc6b-9cc8-b201-258b" name="Dwarf Ranger in Medium Armour" hidden="false" targetId="3ba4-96b5-8386-a3bf" type="profile"/>
+                <infoLink id="2aee-7fe6-4e66-3611" name="Dwarf Ranger Leader in Medium Armour" hidden="false" targetId="e512-a6cd-04f8-99cb" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e77-d307-2416-a4bf" name="Dwarf Rangers in Light Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e5af-d35b-79c5-ba84" name="Choose 4 to 9" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="842a-bed3-172d-96ca" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="f315-c22b-e80e-e201" name="Dwarf Ranger Leader" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6a5-f11c-1262-f52e" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd32-92d9-a419-b9f0" type="min"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="6477-cf51-d0f1-add1" name="Dwarf Ranger Leader in Light Armour" hidden="false" targetId="cff9-1410-0464-6da8" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="32.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ae9d-7ca4-16a9-b011" name="Dwarf Ranger" hidden="false" collective="false" import="true" type="model">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b0b-fd94-b7e7-418d" type="min"/>
-                        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7e-a302-6cdb-051e" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="efc9-cfa4-47b2-c17a" name="Dwarf Ranger in Light Armour" hidden="false" targetId="2b9b-9704-0eef-8867" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
-                        <cost name=" order dice" typeId="orderDice" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" field="points" value="12.0"/>
+                <modifier type="increment" field="points" value="20.0">
+                  <repeats>
+                    <repeat field="selections" scope="3ce6-e262-f72d-7f94" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e71-2e6d-bb9e-f71c" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="16f3-fb71-bc47-a3fd" name="Dwarf Ranger Leader in Light Armour" hidden="false" targetId="cff9-1410-0464-6da8" type="profile"/>
+                <infoLink id="8221-8082-3f14-597a" name="Dwarf Ranger in Light Armour" hidden="false" targetId="2b9b-9704-0eef-8867" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
@@ -1421,6 +1267,31 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d0d3-d2df-4506-25dc" name="Choose 4 to 9" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b129-4d59-676a-7581" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f7fa-7998-5b3f-3374" name="Dwarf Ranger Leader" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8173-3866-08bf-7129" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4543-04fb-3d2b-074b" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" order dice" typeId="orderDice" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="27fc-a706-26e9-db0b" name="Dwarf Ranger" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c83-879d-5e26-9bfa" type="min"/>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ff-3a5a-f6ce-db43" type="max"/>
+              </constraints>
+              <costs>
                 <cost name=" order dice" typeId="orderDice" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1853,47 +1724,51 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="83b9-fa6f-1780-b376" name="Bouncing Bombs" hidden="false" collective="false" import="true" defaultSelectionEntryId="f930-f93d-c612-99b8">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ce2-937d-dd2f-4964" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5db-fb0f-cf00-013b" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="8c4c-030f-82c5-b5d0" name="Bouncing Bombs" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="4b3c-fd90-9e23-f652" name="Bouncing Bomb" hidden="false" targetId="fa92-51ea-e2be-fc20" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f930-f93d-c612-99b8" name="Bombs" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="7cff-725a-ee9f-e62e" name="Bomb" hidden="false" targetId="8a33-4972-aa2d-d058" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="eb05-c4b3-b798-544c" name="Mechanical Genius Upgrade" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="472f-d004-0097-c333" name="Mechanical Genius" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntryGroup id="d12a-e22f-2b4d-2e0f" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a6ce-1db0-4282-b403" name="Mechanical Genius Upgrade" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="7dcf-68e2-518d-32eb" name="Mechanical Genius" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b8b-e84b-ccab-1a1e" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a059-7aa3-7aa6-94f4" name="Mechanical Genius" hidden="false" targetId="57f2-e9b1-c3c1-7c74" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="59af-004a-211b-266e" name="Bouncing Bombs" hidden="false" collective="false" import="true" defaultSelectionEntryId="a031-7c70-ef55-d81d">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4209-b97c-fa52-6fab" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7178-90c5-2d42-3805" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44a1-98e4-c27b-7140" type="min"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="5c14-bd41-e148-f15f" name="Mechanical Genius" hidden="false" targetId="57f2-e9b1-c3c1-7c74" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" order dice" typeId="orderDice" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+              <selectionEntries>
+                <selectionEntry id="fcbe-17f4-298e-28dd" name="Bouncing Bombs" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="61e2-e068-5109-a6ed" name="Bouncing Bomb" hidden="false" targetId="fa92-51ea-e2be-fc20" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a031-7c70-ef55-d81d" name="Bombs" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="b8cd-41c3-1dd1-370e" name="Bomb" hidden="false" targetId="8a33-4972-aa2d-d058" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" order dice" typeId="orderDice" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
